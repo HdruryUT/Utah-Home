@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-07",
+ "updated": "2026-11-08",
  "plan": {
   "closing_cost_pct": 0.03,
   "mortgage_rate": 0.0718,
@@ -368,7 +368,7 @@
    "cash_ok": true,
    "status": "pending",
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-08",
    "price_history": [
     {
      "date": "2026-11-07",
@@ -450,7 +450,7 @@
    "cash_ok": true,
    "status": "active",
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-08",
    "price_history": [
     {
      "date": "2026-11-07",
@@ -1003,7 +1003,7 @@
    "cash_ok": true,
    "status": "active",
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-08",
    "price_history": [
     {
      "date": "2026-11-07",
@@ -1405,7 +1405,7 @@
    "cash_ok": true,
    "status": "pending",
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-08",
    "price_history": [
     {
      "date": "2026-11-07",
@@ -1638,7 +1638,7 @@
    "cash_ok": true,
    "status": "active",
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-08",
    "price_history": [
     {
      "date": "2026-11-07",
@@ -1722,6 +1722,84 @@
     {
      "date": "2026-11-07",
      "price": 379500
+    }
+   ],
+   "price_drop": 0
+  },
+  {
+   "id": "410-n-main-st-e-payson",
+   "address": "410 N Main St E",
+   "city": "Payson",
+   "region": "South",
+   "price": 375000,
+   "beds": 4,
+   "baths": 3,
+   "sqft": 1570,
+   "price_per_sqft": 239,
+   "lot_acres": 0.27,
+   "year_built": 1896,
+   "garage": false,
+   "hoa_monthly": 0,
+   "days_on_market": null,
+   "url": "https://www.coldwellbankerhomes.com/ut/payson/410-n-main-st-e/pid_74183443/",
+   "photo": "https://images-listings.century21.com/SL/21/90/20/3/_P/2190203_P00.jpg?format=webp&quality=70&width=800",
+   "photo_count": 22,
+   "description": "Charming 1896 Rambler/Ranch on a 0.27-acre corner lot. Over $30,000 in upgrades: fresh paint, new LVP flooring, updated kitchen, newer roof. Four bedrooms, mudroom/laundry, fenced yard, shed. Unfinished basement.",
+   "mls": "2190203",
+   "source": "Coldwell Banker",
+   "stretch": false,
+   "fit_score": 55,
+   "score_breakdown": {
+    "profit": 9.2,
+    "affordability": 10.3,
+    "resale_layout": 15.0,
+    "value_vs_market": 4.7,
+    "condition": 10.0,
+    "price": 0.7,
+    "lot_garage": 2.5,
+    "hoa": 3.0,
+    "days_on_market": 0
+   },
+   "pros": [
+    "Big lot: 0.27 ac",
+    "Offer $366k or less to clear ~$40k profit",
+    "Dated but livable: room to add value with cosmetic updates",
+    "3+ bed / 2 bath: the layout most buyers want when you sell"
+   ],
+   "cons": [
+    "No garage",
+    "Built 1896: check for lead paint, the electrical, and the sewer line",
+    "Payment ~$2,640/mo: doable but tight"
+   ],
+   "rehab_tier": "medium",
+   "market_value": 359530,
+   "arv": 437800,
+   "rehab_cost": 39250,
+   "selling_costs": 26268,
+   "buy_hold_costs": 11250,
+   "flip_profit": -13968,
+   "flip_roi_pct": -3.3,
+   "live_in_years": 3,
+   "live_in_value": 485397,
+   "live_in_gain": 30773,
+   "live_in_roi_pct": 34,
+   "max_offer": 366000,
+   "buy_closing": 11250,
+   "sale_costs": 29124,
+   "target_profit": 40000,
+   "monthly_payment": 2640,
+   "payment_level": "tight",
+   "down_pct": 0.105,
+   "pmi_monthly": 106,
+   "cash_needed": 89875,
+   "cash_ok": true,
+   "status": "active",
+   "first_seen": "2026-11-08",
+   "last_seen": "2026-11-08",
+   "price_history": [
+    {
+     "date": "2026-11-08",
+     "price": 375000
     }
    ],
    "price_drop": 0
@@ -1952,7 +2030,7 @@
    "cash_ok": true,
    "status": "pending",
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-08",
    "price_history": [
     {
      "date": "2026-11-07",
@@ -2420,7 +2498,7 @@
    "cash_ok": true,
    "status": "active",
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-08",
    "price_history": [
     {
      "date": "2026-11-07",
@@ -3152,6 +3230,87 @@
    "price_drop": 0
   },
   {
+   "id": "387-e-200-s-payson",
+   "address": "387 E 200 S",
+   "city": "Payson",
+   "region": "South",
+   "price": 340000,
+   "beds": 4,
+   "baths": 1,
+   "sqft": 1189,
+   "price_per_sqft": 286,
+   "lot_acres": 0.15,
+   "year_built": 1923,
+   "garage": false,
+   "hoa_monthly": 0,
+   "days_on_market": 36,
+   "url": "https://www.coldwellbankerhomes.com/ut/payson/387-e-200-s/pid_74071171/",
+   "photo": "https://images-listings.century21.com/SL/21/88/87/4/_P/2188874_P00.jpg?format=webp&quality=70&width=800",
+   "photo_count": 24,
+   "description": "Single-family home in central Payson near shops and restaurants. New furnace, roof redone about five years ago, upgraded meter and breaker box with solar, sprinkler system mostly finished. Some repairs still underway before closing.",
+   "mls": "2188874",
+   "source": "Coldwell Banker",
+   "stretch": false,
+   "fit_score": 44,
+   "score_breakdown": {
+    "profit": 1.4,
+    "affordability": 15.0,
+    "resale_layout": 12.8,
+    "value_vs_market": 2.5,
+    "condition": 4.5,
+    "price": 1.9,
+    "lot_garage": 1.5,
+    "hoa": 3.0,
+    "days_on_market": 1.0
+   },
+   "pros": [
+    "Solar panels",
+    "Offer $306k or less to clear ~$40k profit",
+    "Payment ~$2,151/mo: comfortable for your budget",
+    "Trim the fix-up by ~$2k to reach 20% down and drop PMI entirely"
+   ],
+   "cons": [
+    "$286/sqft is above the ~$256 Payson median",
+    "Only 1 bathroom: adding a second is a common value-add",
+    "No garage",
+    "Built 1923: check for lead paint, the electrical, and the sewer line",
+    "Thin profit: only ~$5k after fixing up and selling in 3 yrs",
+    "Already updated: little left for you to add value"
+   ],
+   "rehab_tier": "light",
+   "market_value": 304384,
+   "arv": 351890,
+   "rehab_cost": 11890,
+   "selling_costs": 21113,
+   "buy_hold_costs": 10200,
+   "flip_profit": -31313,
+   "flip_roi_pct": -8.6,
+   "live_in_years": 3,
+   "live_in_value": 390147,
+   "live_in_gain": 4648,
+   "live_in_roi_pct": 5,
+   "max_offer": 306000,
+   "buy_closing": 10200,
+   "sale_costs": 23409,
+   "target_profit": 40000,
+   "monthly_payment": 2151,
+   "payment_level": "comfortable",
+   "down_pct": 0.195,
+   "pmi_monthly": 50,
+   "cash_needed": 88390,
+   "cash_ok": true,
+   "status": "active",
+   "first_seen": "2026-11-08",
+   "last_seen": "2026-11-08",
+   "price_history": [
+    {
+     "date": "2026-11-08",
+     "price": 340000
+    }
+   ],
+   "price_drop": 0
+  },
+  {
    "id": "268-n-300-w-provo",
    "address": "268 N 300 W",
    "city": "Provo",
@@ -3219,7 +3378,7 @@
    "cash_ok": true,
    "status": "active",
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-08",
    "price_history": [
     {
      "date": "2026-11-07",
@@ -3299,7 +3458,7 @@
    "cash_ok": true,
    "status": "active",
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-08",
    "price_history": [
     {
      "date": "2026-11-07",

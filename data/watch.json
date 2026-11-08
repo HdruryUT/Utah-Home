@@ -136,5 +136,95 @@
   "city": "Provo",
   "price": 439900,
   "first_seen": "2026-11-07"
+ },
+ "/ut/spanish-fork/13-n-710-w/pid_74248625/": {
+  "address": "13 N 710 W",
+  "city": "Spanish Fork",
+  "price": 417900,
+  "first_seen": "2026-11-08"
+ },
+ "/ut/spanish-fork/582-n-1120-e/pid_74246961/": {
+  "address": "582 N 1120 E",
+  "city": "Spanish Fork",
+  "price": 405000,
+  "first_seen": "2026-11-08"
+ },
+ "/ut/orem/690-n-120-e/pid_74143117/": {
+  "address": "690 N 120 E",
+  "city": "Orem",
+  "price": 399000,
+  "first_seen": "2026-11-08"
+ },
+ "/ut/provo/881-w-200-s/pid_74143105/": {
+  "address": "881 W 200 S",
+  "city": "Provo",
+  "price": 405000,
+  "first_seen": "2026-11-08"
+ },
+ "/ut/provo/981-w-900-n/pid_73823330/": {
+  "address": "981 W 900 N",
+  "city": "Provo",
+  "price": 400000,
+  "first_seen": "2026-11-08"
+ },
+ "/ut/lehi/153-e-600-n/pid_74092069/": {
+  "address": "153 E 600 N",
+  "city": "Lehi",
+  "price": 415000,
+  "first_seen": "2026-11-08"
+ },
+ "/ut/pleasant-grove/125-n-100-w/pid_74092062/": {
+  "address": "125 N 100 W",
+  "city": "Pleasant Grove",
+  "price": 400000,
+  "first_seen": "2026-11-08"
+ },
+ "/ut/eagle-mountain/7269-n-escalante-dr/pid_74183461/": {
+  "address": "7269 N Escalante Dr",
+  "city": "Eagle Mountain",
+  "price": 419900,
+  "first_seen": "2026-11-08"
+ },
+ "/ut/eagle-mountain/3702-n-tumwater-dr-w/pid_74110999/": {
+  "address": "3702 N Tumwater Dr W",
+  "city": "Eagle Mountain",
+  "price": 420000,
+  "first_seen": "2026-11-08"
+ },
+ "/ut/eagle-mountain/557-e-hearth-ln/pid_74116221/": {
+  "address": "557 E Hearth Ln",
+  "city": "Eagle Mountain",
+  "price": 419000,
+  "first_seen": "2026-11-08"
+ },
+ "/ut/saratoga-springs/56-e-brushy-canyon-st-512/pid_74155166/": {
+  "address": "56 E Brushy Canyon St #512",
+  "city": "Saratoga Springs",
+  "price": 439000,
+  "first_seen": "2026-11-08"
+ },
+ "/ut/saratoga-springs/97-e-polaris-dr/pid_74018910/": {
+  "address": "97 E Polaris Dr",
+  "city": "Saratoga Springs",
+  "price": 439900,
+  "first_seen": "2026-11-08"
+ },
+ "/ut/mapleton/1245-w-1600-n/pid_74069545/": {
+  "address": "1245 W 1600 N",
+  "city": "Mapleton",
+  "price": 440000,
+  "first_seen": "2026-11-08"
+ },
+ "/ut/spanish-fork/491-e-600-n/pid_73847321/": {
+  "address": "491 E 600 N",
+  "city": "Spanish Fork",
+  "price": 439400,
+  "first_seen": "2026-11-08"
+ },
+ "/ut/lehi/4209-w-1960-n/pid_74131710/": {
+  "address": "4209 W 1960 N",
+  "city": "Lehi",
+  "price": 444900,
+  "first_seen": "2026-11-08"
  }
 }

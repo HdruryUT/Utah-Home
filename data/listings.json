@@ -119,7 +119,7 @@
     "year_built": 2000
    },
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-08",
    "price_history": [
     {
      "date": "2026-11-07",
@@ -151,7 +151,7 @@
     "year_built": 1941
    },
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-08",
    "price_history": [
     {
      "date": "2026-11-07",
@@ -233,7 +233,7 @@
     "url": "https://www.century21.com/homes/detail/ut/springville/146-w-200-n/lid-P00800000HHosrUNwx7uNJp8PFckMmP1EnPueSyo"
    },
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-08",
    "price_history": [
     {
      "date": "2026-11-07",
@@ -470,7 +470,7 @@
     "url": "https://www.century21.com/homes/detail/ut/provo/1820-w-150-n/lid-P00800000HInHOPjA8nNI2um7tGJRMJjM1RXXIsl"
    },
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-08",
    "price_history": [
     {
      "date": "2026-11-07",
@@ -654,7 +654,7 @@
     "year_built": 1906
    },
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-08",
    "price_history": [
     {
      "date": "2026-11-07",
@@ -808,7 +808,7 @@
     "year_built": 1986
    },
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-08",
    "price_history": [
     {
      "date": "2026-11-07",
@@ -931,6 +931,38 @@
    ],
    "status": "active"
   },
+  "387-e-200-s-payson": {
+   "data": {
+    "address": "387 E 200 S",
+    "baths": 1,
+    "beds": 4,
+    "cb_url": "https://www.coldwellbankerhomes.com/ut/payson/387-e-200-s/pid_74071171/",
+    "city": "Payson",
+    "days_on_market": 36,
+    "description": "Single-family home in central Payson near shops and restaurants. New furnace, roof redone about five years ago, upgraded meter and breaker box with solar, sprinkler system mostly finished. Some repairs still underway before closing.",
+    "garage": false,
+    "lot_acres": 0.15,
+    "mls": "2188874",
+    "photo": "https://images-listings.century21.com/SL/21/88/87/4/_P/2188874_P00.jpg?format=webp&quality=70&width=800",
+    "photo_count": 24,
+    "price": 340000,
+    "property_type": "single_family",
+    "source": "Coldwell Banker",
+    "sqft": 1189,
+    "status": "active",
+    "url": "https://www.coldwellbankerhomes.com/ut/payson/387-e-200-s/pid_74071171/",
+    "year_built": 1923
+   },
+   "first_seen": "2026-11-08",
+   "last_seen": "2026-11-08",
+   "price_history": [
+    {
+     "date": "2026-11-08",
+     "price": 340000
+    }
+   ],
+   "status": "active"
+  },
   "393-n-900-e-payson": {
    "data": {
     "address": "393 N 900 E",
@@ -992,6 +1024,37 @@
     {
      "date": "2026-11-07",
      "price": 310000
+    }
+   ],
+   "status": "active"
+  },
+  "410-n-main-st-e-payson": {
+   "data": {
+    "address": "410 N Main St E",
+    "baths": 3,
+    "beds": 4,
+    "cb_url": "https://www.coldwellbankerhomes.com/ut/payson/410-n-main-st-e/pid_74183443/",
+    "city": "Payson",
+    "description": "Charming 1896 Rambler/Ranch on a 0.27-acre corner lot. Over $30,000 in upgrades: fresh paint, new LVP flooring, updated kitchen, newer roof. Four bedrooms, mudroom/laundry, fenced yard, shed. Unfinished basement.",
+    "garage": false,
+    "lot_acres": 0.27,
+    "mls": "2190203",
+    "photo": "https://images-listings.century21.com/SL/21/90/20/3/_P/2190203_P00.jpg?format=webp&quality=70&width=800",
+    "photo_count": 22,
+    "price": 375000,
+    "property_type": "single_family",
+    "source": "Coldwell Banker",
+    "sqft": 1570,
+    "status": "active",
+    "url": "https://www.coldwellbankerhomes.com/ut/payson/410-n-main-st-e/pid_74183443/",
+    "year_built": 1896
+   },
+   "first_seen": "2026-11-08",
+   "last_seen": "2026-11-08",
+   "price_history": [
+    {
+     "date": "2026-11-08",
+     "price": 375000
     }
    ],
    "status": "active"
@@ -1087,7 +1150,7 @@
     "url": "https://www.century21.com/homes/detail/ut/provo/456-e-400-s/lid-P00800000HIdvJTPxeeudV06zue6Ajwazrjl6wj9"
    },
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-08",
    "price_history": [
     {
      "date": "2026-11-07",
@@ -1150,7 +1213,7 @@
     "year_built": 1944
    },
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-08",
    "price_history": [
     {
      "date": "2026-11-07",
@@ -1288,7 +1351,7 @@
     "year_built": 1931
    },
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-08",
    "price_history": [
     {
      "date": "2026-11-07",
@@ -1578,5 +1641,5 @@
    "status": "active"
   }
  },
- "updated": "2026-11-07"
+ "updated": "2026-11-08"
 }
