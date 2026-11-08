@@ -6,36 +6,90 @@ Today's date in America/Denver is `TODAY` (YYYY-MM-DD) below.
 
 ## 1. Collect listings
 
-Use WebFetch (not curl, and never spoof a browser user agent) on Century21's per-city single-family pages:
+Use WebFetch for all web access (never curl with a spoofed browser user agent). City-level pages miss homes, because
+Century21 renders only about 150 cards per page and its city pages leave out part of each zip. So scan **by zip code**.
+
+### 1a. Century21 zip pages (every zip, every day)
 
 ```
-https://www.century21.com/homes/list/city/ut/<city-slug>/single-family-homes
+https://www.century21.com/homes/list/zip/ut/<zip>/single-family-homes
 ```
 
-City slugs: provo, orem, spanish-fork, springville, payson, santaquin, salem, mapleton, goshen,
-american-fork, pleasant-grove, lehi, saratoga-springs, eagle-mountain, lindon, vineyard,
-elk-ridge, genola, woodland-hills, cedar-hills, highland, alpine.
+Prompt: *"First line: the results header exactly (e.g. "46 of 46 results displayed") and whether the content was
+truncated. Then ONLY listings priced at or below $395,000 as lines: "address, city | price | beds | baths | sqft |
+status | url path | photo img src". If none, say NONE."*
 
-Prompt for each page: *"Return ONLY listings priced at or below $395,000 as a table: address, city,
-price, beds, baths, sqft, status, URL path. Report how many listings were visible vs the total stated."*
+| Zip | Area | Notes |
+|---|---|---|
+| 84601, 84604, 84606 | Provo | |
+| 84057, 84058, 84097 | Orem | |
+| 84059 | Vineyard | |
+| 84042 | Lindon | |
+| 84062 | Pleasant Grove, Cedar Hills | |
+| 84004 | Alpine | |
+| 84013 | Cedar Fort, Fairfield, west Eagle Mountain | |
+| 84651 | Payson, Elk Ridge | |
+| 84655 | Santaquin, Genola | |
+| 84633 | Goshen | |
+| 84626 | Elberta | |
+| 84663 | Springville | |
+| 84664 | Mapleton | |
+| 84660 | Spanish Fork | **big**: also do 1b |
+| 84653 | Salem, Woodland Hills | **big**: also do 1b |
+| 84003 | American Fork, Highland | **big**: also do 1b |
+| 84043 | Lehi | **big**: also do 1b |
+| 84045 | Saratoga Springs | **big**: also do 1b |
+| 84005 | Eagle Mountain | **big**: also do 1b |
 
-- Big cities (Provo, Orem, Lehi, Saratoga Springs, Eagle Mountain, Spanish Fork, Salem) get truncated.
-  Fetch them again with `offset` 30000 and 60000 to read further.
-- In the same call, ask for each card's photo: *"…, URL path, exact photo img src URL"*. Photo URLs look like
-  `https://images-listings.century21.com/SL/21/92/98/2/_P/2192982_P00.jpg?format=webp&quality=70&width=600`.
-  Swap `width=600` for `width=800`. If a fetch refuses to give image URLs, build one from the MLS number:
-  `SL/<m[0:2]>/<m[2:4]>/<m[4:6]>/<m[6]>/_P/<m>_P00.jpg`. Usually that matches, and the site hides broken photos.
-- Cross-check other sources. Zillow, Homes.com, Redfin, Realtor.com, UtahRealEstate.com and KSL Classifieds
-  block direct fetches, so use WebSearch with `allowed_domains`:
-  - `["zillow.com"]`: `Utah County UT single family house for sale under $380,000`
-  - `["homes.com"]`: `Utah County UT house for sale under $380k`
-  - `["utahrealestate.com","ksl.com","bestutahrealestate.com"]`: `<city> UT single family home for sale under $380,000`
-    (KSL also carries for-sale-by-owner homes, which never appear on Century21)
-  Search snippets are often months old. Only add an address after confirming it is **currently active** on a page you
-  can fetch: the Century21 detail page (search `"<address>" <city> UT century21`), Coldwell Banker, BHGRE,
-  or a KSL listing page. Set `source` to where you confirmed it.
-- Completeness check: `https://bestutahrealestate.com/search-results?county[]=Utah&maxPrice=395000&type=Single+Family`
-  reports a total count. If you found far fewer homes than that total, keep searching.
+If a zip not marked big reports a total over ~140, or says it was truncated, treat it as big today and do 1b for it too.
+
+Prefer photo URLs from the page. They look like
+`https://images-listings.century21.com/SL/21/92/98/2/_P/2192982_P00.jpg?format=webp&quality=70&width=600`;
+store them with `width=800`.
+
+### 1b. Coldwell Banker pages for big zips
+
+Coldwell Banker shows **every** listing (all property types) 20 per page, **newest first**:
+
+```
+https://www.coldwellbankerhomes.com/ut/<city-slug>/            (page 1)
+https://www.coldwellbankerhomes.com/ut/<city-slug>/p_<n>/      (page n)
+```
+
+City slugs: spanish-fork, salem, woodland-hills, american-fork, highland, lehi, saratoga-springs, eagle-mountain.
+Each page's text runs past 100,000 characters, so read every page **twice**: once normally and once with
+`offset: 100000`. Prompt: *"Return ONLY listings priced at or below $395,000 (any type) as lines: "address | price |
+beds | baths | sqft | type | status | url path". If none, say NONE. Also give the total results count and the
+highest page number linked."* Keep only `Single Family` rows.
+
+- **Full sweep** (every page) when `data/sweep.json`'s `last_full_sweep` is missing or 7+ days old. Then set it to TODAY.
+- **Otherwise**, read pages 1–3 only. That catches every new listing, since pages are newest first.
+
+Coldwell Banker detail pages (`https://www.coldwellbankerhomes.com/<url path>`) give the same fields as Century21
+detail pages. Use them for homes found here. For the photo, search `"<address>" <city> UT century21` to find the
+Century21 detail page and take its photo URL. If there's none, leave `photo` out.
+
+### 1c. Re-check known listings you didn't see today
+
+For every listing that is `active` or `pending` in `data/listings.json` but did not appear in today's 1a/1b results,
+open its stored `url` (or its Coldwell Banker page). If it is still active or pending, include it in today's raw file
+with the current price and status. If it says sold, off market, or the page is gone, leave it out. The scorer marks
+it gone after 3 days. Without this step, homes deeper in the big-zip pages would wrongly drop off the dashboard.
+
+### 1d. Cross-check other sources
+
+Zillow, Homes.com, Redfin, Realtor.com, UtahRealEstate.com and KSL Classifieds block direct fetches, so use
+WebSearch with `allowed_domains`:
+- `["zillow.com"]`: `Utah County UT single family house for sale under $380,000`
+- `["homes.com"]`: `Utah County UT house for sale under $380k`
+- `["utahrealestate.com","ksl.com","bestutahrealestate.com"]`: `<city> UT single family home for sale under $380,000`
+  (KSL also carries for-sale-by-owner homes, which never appear on Century21 or Coldwell Banker)
+
+Search snippets are often months old. Only add an address after confirming it is **currently active** on a page you
+can fetch: Century21, Coldwell Banker, BHGRE, or a KSL listing page. Set `source` to where you confirmed it.
+
+**Completeness check:** `https://bestutahrealestate.com/search-results?county[]=Utah&maxPrice=395000&type=Single+Family`
+reports a total count. If you found far fewer single-family homes than that total, say so in the summary.
 
 ## 2. Get details for each active candidate
 
