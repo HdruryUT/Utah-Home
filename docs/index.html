@@ -128,6 +128,55 @@
   @media (max-width: 34rem) { details.method dl { grid-template-columns: 1fr; } details.method dd { margin-bottom: 8px; } .count { margin-left: 0; } }
   .err { background: var(--warn-soft); color: var(--warn); padding: 12px 14px; border-radius: var(--r); }
 
+  .addr-link { all: unset; cursor: pointer; font: inherit; color: inherit; overflow-wrap: anywhere; text-decoration: underline; text-decoration-color: var(--line); text-underline-offset: 4px; text-decoration-thickness: 2px; }
+  .addr-link:hover { text-decoration-color: var(--accent); }
+  .addr-link:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; border-radius: 2px; }
+  .more { all: unset; cursor: pointer; font-size: 13px; font-weight: 600; color: var(--accent); align-self: flex-start; margin-top: auto; }
+  .more:hover { text-decoration: underline; text-underline-offset: 3px; }
+  .more:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+
+  .pane-backdrop { position: fixed; inset: 0; z-index: 40; background: rgba(10, 14, 12, .5); }
+  .pane { position: fixed; top: 0; right: 0; bottom: 0; z-index: 41; width: min(760px, 100%); background: var(--panel); box-shadow: -8px 0 32px rgba(0,0,0,.25); display: flex; flex-direction: column; }
+  @media (prefers-reduced-motion: no-preference) { .pane:not([hidden]) { animation: slidein .22s ease-out; } @keyframes slidein { from { transform: translateX(40px); opacity: 0; } to { transform: none; opacity: 1; } } }
+  .pane-head { display: flex; align-items: flex-start; justify-content: space-between; gap: 12px; padding: max(16px, env(safe-area-inset-top, 0px)) max(20px, env(safe-area-inset-right, 0px)) 12px 20px; border-bottom: 1px solid var(--line); }
+  .pane-titles { min-width: 0; }
+  .pane-head h2 { font-size: 1.6rem; overflow-wrap: anywhere; }
+  .pane-sub { margin: 2px 0 0; font-size: 13px; color: var(--muted); }
+  .pane-close { flex: none; width: 40px; height: 40px; border-radius: 50%; border: 1px solid var(--line); background: var(--bg); color: var(--ink); font-size: 22px; cursor: pointer; }
+  .pane-body { overflow-y: auto; padding: 16px max(20px, env(safe-area-inset-right, 0px)) max(32px, env(safe-area-inset-bottom, 0px)) 20px; display: flex; flex-direction: column; gap: 14px; overscroll-behavior: contain; }
+  .pv { position: relative; aspect-ratio: 3 / 2; max-width: 100%; background: var(--accent-soft); border-radius: 8px; overflow: hidden; touch-action: pan-y; user-select: none; flex: none; }
+  .pv.none { display: flex; align-items: center; justify-content: center; color: var(--muted); font-size: 14px; }
+  .pv img { width: 100%; height: 100%; object-fit: cover; display: block; cursor: zoom-in; }
+  .thumbs { display: flex; gap: 6px; overflow-x: auto; padding-bottom: 4px; flex: none; scrollbar-width: thin; }
+  .thumb { all: unset; flex: none; width: 88px; aspect-ratio: 3 / 2; border-radius: 6px; overflow: hidden; cursor: pointer; opacity: .6; outline: 2px solid transparent; outline-offset: -2px; background: var(--accent-soft); }
+  .thumb img { width: 100%; height: 100%; object-fit: cover; display: block; }
+  .thumb.on { opacity: 1; outline-color: var(--accent); }
+  .thumb:hover { opacity: .9; }
+  .thumb:focus-visible { outline-color: var(--accent); opacity: 1; }
+  .pane-price { display: flex; align-items: baseline; gap: 12px; flex-wrap: wrap; }
+  .pane-price b { font-family: var(--display); font-weight: 400; font-size: 2.2rem; line-height: 1; }
+  .pane-price span { color: var(--muted); font-size: 14px; }
+  .pane-sec { border-top: 1px solid var(--line); padding-top: 14px; display: flex; flex-direction: column; gap: 8px; }
+  .pane-sec h3 { margin: 0; font-size: 12px; font-weight: 600; text-transform: uppercase; letter-spacing: .08em; color: var(--muted); }
+  .factgrid { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 150px), 1fr)); gap: 10px 16px; margin: 0; }
+  .factgrid dt { font-size: 12px; color: var(--muted); }
+  .factgrid dd { margin: 0 0 2px; font-weight: 500; }
+  .factgrid dt, .factgrid dd { min-width: 0; }
+  .desc { margin: 0; max-width: 68ch; }
+  .hist { margin: 0; padding-left: 18px; font-size: 14px; }
+  dl.calc { display: grid; grid-template-columns: 1fr auto; gap: 4px 12px; margin: 0; font-size: 14px; }
+  dl.calc dt { color: var(--muted); } dl.calc dd { margin: 0; text-align: right; }
+  dl.calc .total { border-top: 1px solid var(--line); padding-top: 4px; color: var(--ink); font-weight: 600; }
+  dl.calc .gap { height: 6px; grid-column: 1 / -1; }
+  .bars { display: flex; flex-direction: column; gap: 6px; font-size: 13px; }
+  .barrow { display: grid; grid-template-columns: minmax(0, 13rem) 1fr 4.5rem; gap: 10px; align-items: center; }
+  .barrow .bl { color: var(--muted); }
+  .barrow .bv { text-align: right; }
+  .track { height: 8px; background: var(--bg); border-radius: 4px; overflow: hidden; }
+  .fill { display: block; height: 100%; background: var(--accent); border-radius: 4px; }
+  .fill.neg { background: var(--bad); }
+  @media (max-width: 30rem) { .barrow { grid-template-columns: 1fr 3.5rem; } .barrow .track { grid-column: 1 / -1; grid-row: 2; } }
+
   .lightbox { position: fixed; inset: 0; z-index: 50; background: var(--scrim); display: flex; flex-direction: column; align-items: center; justify-content: center; padding: max(16px, env(safe-area-inset-top, 0px)) max(16px, env(safe-area-inset-right, 0px)) max(16px, env(safe-area-inset-bottom, 0px)) max(16px, env(safe-area-inset-left, 0px)); touch-action: pan-y; }
   .lightbox img { max-width: 100%; max-height: calc(100% - 64px); object-fit: contain; border-radius: 6px; user-select: none; }
   .lightbox .cap { color: #e7ebe8; font-size: 14px; margin-top: 12px; text-align: center; }
@@ -161,7 +210,7 @@
 
   <section>
     <h2>Listings</h2>
-    <p class="sub">Ranked by fit score (0–100). The score weighs 3-year profit most, then whether it fits your budget, a layout buyers want when you sell, price vs the city's going rate, and condition. Dated-but-livable homes score best on condition. Click a photo to see it full size, or use the arrows to go through all the photos.</p>
+    <p class="sub">Ranked by fit score (0–100). The score weighs 3-year profit most, then whether it fits your budget, a layout buyers want when you sell, price vs the city's going rate, and condition. Dated-but-livable homes score best on condition. Click an address to open every photo and all the details.</p>
     <div class="bar">
       <label for="f-city">City<select id="f-city"><option value="">All cities</option></select></label>
       <label for="f-sort">Sort by<select id="f-sort">
@@ -205,6 +254,15 @@
     </dl>
   </details>
 </div>
+
+<div class="pane-backdrop" id="pane-backdrop" hidden></div>
+<aside class="pane" id="pane" hidden role="dialog" aria-modal="true" aria-labelledby="pane-title">
+  <div class="pane-head">
+    <div class="pane-titles"><h2 id="pane-title">—</h2><p class="pane-sub" id="pane-sub"></p></div>
+    <button class="pane-close" id="pane-close" type="button" aria-label="Close details">×</button>
+  </div>
+  <div class="pane-body" id="pane-body"></div>
+</aside>
 
 <div class="lightbox" id="lightbox" hidden role="dialog" aria-modal="true" aria-label="Photo viewer">
   <button class="close" id="lb-close" aria-label="Close photos">×</button>
@@ -294,7 +352,7 @@
     if (n > 1) { const pre = new Image(); pre.src = photoUrl(r, (lb.i + 1) % n, 1600); }
   }
   function lbOpen(r, i) { lb.r = r; lb.i = i; $('lightbox').hidden = false; document.body.style.overflow = 'hidden'; lbShow(); $('lb-close').focus(); }
-  function lbClose() { $('lightbox').hidden = true; document.body.style.overflow = ''; $('lb-img').removeAttribute('src'); if (lb.onClose) lb.onClose(lb.i); }
+  function lbClose() { $('lightbox').hidden = true; document.body.style.overflow = $('pane').hidden ? '' : 'hidden'; $('lb-img').removeAttribute('src'); if (lb.onClose) lb.onClose(lb.i); }
   function lbStep(d) { const n = lb.r.photo_count || 1; lb.i = (lb.i + d + n) % n; lbShow(); }
   $('lb-close').addEventListener('click', lbClose);
   $('lb-prev').addEventListener('click', () => lbStep(-1));
@@ -305,6 +363,8 @@
     if (e.key === 'Escape') lbClose();
     else if (e.key === 'ArrowLeft') lbStep(-1);
     else if (e.key === 'ArrowRight') lbStep(1);
+    else return;
+    e.stopImmediatePropagation();
   });
   const swipe = (node, onStep) => {
     let x0 = null;
@@ -344,61 +404,47 @@
     return ph;
   }
 
-  function card(r, weekAgo) {
-    const c = el('article', 'card' + (r.status !== 'active' ? ' pending' : ''));
-    const ph = gallery(r);
-    const band = r.fit_score >= 60 ? 'good' : r.fit_score >= 45 ? 'mid' : 'low';
-    const sc = el('div', 'score ' + band); sc.append(el('b', null, String(r.fit_score)), el('span', null, 'fit'));
-    ph.append(sc, el('div', 'price-tag', fmtK(r.price)));
-    c.append(ph);
-
-    const b = el('div', 'body');
-    const addr = el('div', 'addr'); addr.append(el('h3', null, r.address), el('p', null, r.city + ' · ' + r.region + ' Utah County'));
-    b.append(addr);
-
+  // ---------- Shared pieces (card + detail pane) ----------
+  const tierName = (t) => ({ light: 'already updated', medium: 'dated, cosmetic', heavy: 'heavy fixer' }[t] || t);
+  const scoreBadge = (r) => { const band = r.fit_score >= 60 ? 'good' : r.fit_score >= 45 ? 'mid' : 'low'; const sc = el('div', 'score ' + band); sc.append(el('b', null, String(r.fit_score)), el('span', null, 'fit')); return sc; };
+  function moneyBlock(r) {
     const money = el('div', 'money');
     const cell = (label, value, cls) => { const d = el('div'); d.append(el('span', null, label), el('b', cls || null, value)); money.append(d); };
     cell(r.live_in_years + '-yr profit at asking', fmtK(r.live_in_gain), r.live_in_gain == null ? null : r.live_in_gain >= 0 ? 'pos' : 'neg');
     cell('Monthly payment', r.monthly_payment ? fmt$(r.monthly_payment) : '—', r.payment_level === 'high' ? 'neg' : null);
     cell('Cash to buy + fix', fmtK(r.cash_needed), r.cash_ok === false ? 'neg' : null);
-    b.append(money);
-    if (r.max_offer != null) {
-      const o = el('div', 'offer');
-      const goal = fmtK(r.target_profit || plan.target_profit);
-      if (r.max_offer >= r.price) o.append('Clears ', el('b', null, goal), ' profit even at asking price.');
-      else {
-        const off = (r.price - r.max_offer) / r.price;
-        o.append('To clear ', el('b', null, goal), ' profit, offer ', el('b', null, fmt$(r.max_offer)), ' or less (' + Math.round(off * 100) + '% under asking).');
-      }
-      b.append(o);
-    }
-
+    return money;
+  }
+  function offerLine(r) {
+    if (r.max_offer == null) return null;
+    const o = el('div', 'offer');
+    const goal = fmtK(r.target_profit || plan.target_profit);
+    if (r.max_offer >= r.price) o.append('Clears ', el('b', null, goal), ' profit even at asking price.');
+    else o.append('To clear ', el('b', null, goal), ' profit, offer ', el('b', null, fmt$(r.max_offer)), ' or less (' + Math.round((r.price - r.max_offer) / r.price * 100) + '% under asking).');
+    return o;
+  }
+  function chipsFor(r, weekAgo) {
     const chips = el('div', 'chips');
     if (r.status !== 'active') chips.append(el('span', 'chip warn', 'Pending sale'));
     if (!fitsBudget(r)) chips.append(el('span', 'chip warn', 'Over budget'));
     if (r.first_seen >= weekAgo) chips.append(el('span', 'chip ok', 'New this week'));
     if (r.price_drop > 0) chips.append(el('span', 'chip ok', 'Price cut ' + fmtK(r.price_drop)));
     if (r.days_on_market != null) chips.append(el('span', 'chip', r.days_on_market + ' days on market'));
-    if (chips.childElementCount) b.append(chips);
-    const facts = [r.beds != null && r.beds + ' bd', r.baths != null && r.baths + ' ba', r.sqft && r.sqft.toLocaleString('en-US') + ' sqft',
-      r.lot_acres && Number(r.lot_acres).toFixed(2) + ' ac', r.year_built && 'built ' + r.year_built,
-      r.garage === true ? 'garage' : r.garage === false ? 'no garage' : null, r.price_per_sqft && '$' + r.price_per_sqft + '/sqft'].filter(Boolean).join(' · ');
-    b.append(el('div', 'facts', facts));
-
+    return chips.childElementCount ? chips : null;
+  }
+  function prosConsBlock(r) {
     const pc = el('div', 'pc');
     const mk = (cls, title, items, empty) => { const d = el('div', cls); d.append(el('h4', null, title)); const ul = el('ul'); (items && items.length ? items : [empty]).forEach((t) => ul.append(el('li', null, t))); d.append(ul); return d; };
     pc.append(mk('pros', 'Pros', r.pros, 'Nothing stands out yet'), mk('cons', 'Cons', r.cons, r.year_built ? 'None flagged' : 'Not enough detail yet: check the listing'));
-    b.append(pc);
-
-    const det = el('details', 'ret');
-    det.append(el('summary', null, 'How the profit is figured'));
-    const dl = el('dl');
+    return pc;
+  }
+  function profitList(r) {
+    const dl = el('dl', 'calc');
     const row = (k, v, cls) => { dl.append(el('dt', cls || null, k), el('dd', cls || null, v)); };
-    const tierName = { light: 'already updated', medium: 'dated, cosmetic', heavy: 'heavy fixer' }[r.rehab_tier] || r.rehab_tier;
     row('Value after fix-up', fmt$(r.arv));
     row('Value in ' + r.live_in_years + ' yrs (+3.5%/yr)', fmt$(r.live_in_value));
     row('− Purchase price', fmt$(r.price));
-    row('− Fix-up budget (' + tierName + ')', fmt$(r.rehab_cost));
+    row('− Fix-up budget (' + tierName(r.rehab_tier) + ')', fmt$(r.rehab_cost));
     row('− Buying closing costs', fmt$(r.buy_closing));
     row('− Selling costs', fmt$(r.sale_costs));
     row('Profit after ' + r.live_in_years + ' yrs', fmt$(r.live_in_gain), 'total ' + (r.live_in_gain >= 0 ? 'pos' : 'neg'));
@@ -407,17 +453,172 @@
     row('Return on your cash', r.live_in_roi_pct == null ? '—' : r.live_in_roi_pct + '%');
     row('Payment for your budget', { comfortable: 'Comfortable', tight: 'Tight', high: 'Too high' }[r.payment_level] || '—');
     row('Quick flip, no living there (for reference)', fmt$(r.flip_profit));
-    det.append(dl); b.append(det);
-
+    return dl;
+  }
+  function linksFor(r) {
     const links = el('div', 'links');
-    if (r.url && /^https:\/\//.test(r.url)) { const a = el('a', null, 'Listing ↗'); a.href = r.url; a.target = '_blank'; a.rel = 'noopener'; links.append(a); }
+    const ext = (text, href) => { const a = el('a', null, text); a.href = href; a.target = '_blank'; a.rel = 'noopener'; links.append(a); };
+    if (r.url && /^https:\/\//.test(r.url)) ext('Listing on ' + (r.source || 'source site') + ' ↗', r.url);
     const q = encodeURIComponent((r.address + ' ' + r.city + ' UT').replace(/#/g, ''));
-    const z = el('a', null, 'Zillow ↗'); z.href = 'https://www.zillow.com/homes/' + q + '_rb/'; z.target = '_blank'; z.rel = 'noopener'; links.append(z);
-    const m = el('a', null, 'Map ↗'); m.href = 'https://www.google.com/maps/search/?api=1&query=' + q; m.target = '_blank'; m.rel = 'noopener'; links.append(m);
-    b.append(links);
+    ext('Zillow ↗', 'https://www.zillow.com/homes/' + q + '_rb/');
+    ext('Map ↗', 'https://www.google.com/maps/search/?api=1&query=' + q);
+    return links;
+  }
+  const factsLine = (r) => [r.beds != null && r.beds + ' bd', r.baths != null && r.baths + ' ba', r.sqft && r.sqft.toLocaleString('en-US') + ' sqft',
+    r.lot_acres && Number(r.lot_acres).toFixed(2) + ' ac', r.year_built && 'built ' + r.year_built,
+    r.garage === true ? 'garage' : r.garage === false ? 'no garage' : null, r.price_per_sqft && '$' + r.price_per_sqft + '/sqft'].filter(Boolean).join(' · ');
+
+  function card(r, weekAgo) {
+    const c = el('article', 'card' + (r.status !== 'active' ? ' pending' : ''));
+    const ph = gallery(r);
+    ph.append(scoreBadge(r), el('div', 'price-tag', fmtK(r.price)));
+    c.append(ph);
+
+    const b = el('div', 'body');
+    const addr = el('div', 'addr');
+    const h = el('h3');
+    const open = el('button', 'addr-link', r.address); open.type = 'button';
+    open.setAttribute('aria-label', 'Open details for ' + r.address + ', ' + r.city);
+    open.addEventListener('click', () => openPane(r));
+    h.append(open);
+    addr.append(h, el('p', null, r.city + ' · ' + r.region + ' Utah County'));
+    b.append(addr, moneyBlock(r));
+    const o = offerLine(r); if (o) b.append(o);
+    const ch = chipsFor(r, weekAgo); if (ch) b.append(ch);
+    b.append(el('div', 'facts', factsLine(r)), prosConsBlock(r));
+    const more = el('button', 'more', 'See all photos and details →'); more.type = 'button';
+    more.addEventListener('click', () => openPane(r));
+    b.append(more, linksFor(r));
     c.append(b);
     return c;
   }
+
+  // ---------- Detail pane ----------
+  const SCORE_LABELS = { profit: 'Profit after hold', affordability: 'Fits your budget', resale_layout: 'Resale layout (beds/baths)', value_vs_market: 'Price vs city going rate', condition: 'Condition (dated = best)', price: 'Price', lot_garage: 'Lot and garage', hoa: 'No HOA', days_on_market: 'Time on market', dealbreakers: 'Dealbreakers' };
+  let paneReturnFocus = null;
+  function openPane(r) {
+    paneReturnFocus = document.activeElement;
+    const body = $('pane-body'); body.replaceChildren();
+    $('pane-title').textContent = r.address;
+    $('pane-sub').textContent = r.city + ' · ' + r.region + ' Utah County' + (r.mls ? ' · MLS ' + r.mls : '');
+
+    // Photo viewer + thumbnails
+    const n = Math.max(1, r.photo_count || 1);
+    if (r.photo && /^https:\/\//.test(r.photo)) {
+      let i = 0;
+      const viewer = el('div', 'pv');
+      const big = new Image(); big.decoding = 'async'; big.referrerPolicy = 'no-referrer';
+      const counter = el('div', 'counter');
+      const thumbs = el('div', 'thumbs');
+      const tbtns = [];
+      const show = (j) => {
+        i = (j + n) % n;
+        big.src = photoUrl(r, i, 1200); big.alt = 'Photo ' + (i + 1) + ' of ' + r.address;
+        counter.textContent = (i + 1) + ' / ' + n;
+        tbtns.forEach((t, k) => t.classList.toggle('on', k === i));
+        if (tbtns[i]) tbtns[i].scrollIntoView({ block: 'nearest', inline: 'center' });
+        if (n > 1) { const pre = new Image(); pre.src = photoUrl(r, (i + 1) % n, 1200); }
+      };
+      big.addEventListener('click', () => { if (viewer.dataset.swiped) return; lb.onClose = (j) => show(j); lbOpen(r, i); });
+      viewer.append(big, scoreBadge(r));
+      if (n > 1) {
+        const prev = el('button', 'nav prev', '‹'); prev.type = 'button'; prev.setAttribute('aria-label', 'Previous photo');
+        const next = el('button', 'nav next', '›'); next.type = 'button'; next.setAttribute('aria-label', 'Next photo');
+        prev.addEventListener('click', () => show(i - 1)); next.addEventListener('click', () => show(i + 1));
+        viewer.append(prev, next, counter);
+        swipe(viewer, (d) => show(i + d));
+        for (let k = 0; k < n; k++) {
+          const t = el('button', 'thumb'); t.type = 'button'; t.setAttribute('aria-label', 'Show photo ' + (k + 1));
+          const ti = new Image(); ti.loading = 'lazy'; ti.decoding = 'async'; ti.referrerPolicy = 'no-referrer'; ti.alt = ''; ti.src = photoUrl(r, k, 240);
+          ti.onerror = () => { t.hidden = true; };
+          t.append(ti); t.addEventListener('click', () => show(k));
+          tbtns.push(t); thumbs.append(t);
+        }
+      }
+      body.append(viewer);
+      if (n > 1) body.append(thumbs);
+      paneKeys = (e) => { if (e.key === 'ArrowLeft') show(i - 1); else if (e.key === 'ArrowRight') show(i + 1); };
+      show(0);
+    } else { body.append(el('div', 'pv none', 'No photos available')); paneKeys = null; }
+
+    // Headline
+    const head = el('div', 'pane-price');
+    head.append(el('b', null, fmt$(r.price)));
+    if (r.price_per_sqft) head.append(el('span', null, '$' + r.price_per_sqft + '/sqft'));
+    body.append(head);
+    const ch = chipsFor(r, daysBefore(latest, 7)); if (ch) body.append(ch);
+    body.append(moneyBlock(r));
+    const o = offerLine(r); if (o) body.append(o);
+
+    // Facts
+    const sec = (title) => { const s = el('section', 'pane-sec'); s.append(el('h3', null, title)); body.append(s); return s; };
+    const facts = el('dl', 'factgrid');
+    const f = (k, v) => { if (v == null || v === '') return; facts.append(el('dt', null, k), el('dd', null, String(v))); };
+    f('Bedrooms', r.beds); f('Bathrooms', r.baths);
+    f('Square feet', r.sqft ? r.sqft.toLocaleString('en-US') : null);
+    f('Lot', r.lot_acres ? Number(r.lot_acres).toFixed(2) + ' acres' : null);
+    f('Year built', r.year_built);
+    f('Garage', r.garage === true ? 'Yes' : r.garage === false ? 'No' : null);
+    f('HOA', r.hoa_monthly ? '$' + r.hoa_monthly + '/mo' : 'None listed');
+    f('Days on market', r.days_on_market);
+    f('Condition', tierName(r.rehab_tier));
+    f('Status', r.status === 'active' ? 'For sale' : 'Pending sale');
+    f('First seen by the scan', r.first_seen ? new Date(r.first_seen + 'T12:00:00Z').toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric', timeZone: 'UTC' }) : null);
+    f('MLS #', r.mls);
+    sec('Details').append(facts);
+
+    if (r.description) { const s = sec('From the listing'); s.append(el('p', 'desc', r.description)); }
+
+    const hist = Array.isArray(r.price_history) ? r.price_history : [];
+    if (hist.length > 1) {
+      const s = sec('Price history'); const ul = el('ul', 'hist');
+      hist.forEach((h) => ul.append(el('li', null, new Date(h.date + 'T12:00:00Z').toLocaleDateString('en-US', { month: 'short', day: 'numeric', timeZone: 'UTC' }) + ': ' + fmt$(h.price))));
+      s.append(ul);
+    }
+
+    sec('Pros and cons').append(prosConsBlock(r));
+    sec('How the ' + r.live_in_years + '-year profit is figured').append(profitList(r));
+
+    // Score breakdown
+    const sb = r.score_breakdown || {};
+    const weights = plan.weights || {};
+    const bars = el('div', 'bars');
+    Object.keys(sb).forEach((k) => {
+      const v = sb[k], max = weights[k];
+      const row = el('div', 'barrow');
+      row.append(el('span', 'bl', SCORE_LABELS[k] || k));
+      const track = el('span', 'track'); const fill = el('span', 'fill' + (v < 0 ? ' neg' : ''));
+      fill.style.width = max ? Math.max(0, Math.min(100, v / max * 100)) + '%' : (v < 0 ? Math.min(100, -v * 4) + '%' : '0%');
+      track.append(fill); row.append(track);
+      row.append(el('span', 'bv', (v < 0 ? '−' + Math.abs(v) : v) + (max ? ' / ' + max : '')));
+      bars.append(row);
+    });
+    const ss = sec('Fit score: ' + r.fit_score + ' / 100'); ss.append(bars);
+
+    body.append(linksFor(r));
+
+    $('pane-backdrop').hidden = false; $('pane').hidden = false;
+    document.body.style.overflow = 'hidden';
+    $('pane').scrollTop = 0; body.scrollTop = 0;
+    try { history.replaceState(null, '', '#' + r.id); } catch (e) {}
+    $('pane-close').focus();
+  }
+  let paneKeys = null;
+  function closePane() {
+    $('pane').hidden = true; $('pane-backdrop').hidden = true;
+    document.body.style.overflow = '';
+    paneKeys = null;
+    try { history.replaceState(null, '', location.pathname + location.search); } catch (e) {}
+    if (paneReturnFocus && paneReturnFocus.focus) paneReturnFocus.focus();
+  }
+  $('pane-close').addEventListener('click', closePane);
+  $('pane-backdrop').addEventListener('click', closePane);
+  document.addEventListener('keydown', (e) => {
+    if (!$('lightbox').hidden || $('pane').hidden) return;
+    if (e.key === 'Escape') closePane();
+    else if (paneKeys && (e.key === 'ArrowLeft' || e.key === 'ArrowRight') && !/^(INPUT|SELECT|TEXTAREA)$/.test(document.activeElement.tagName)) paneKeys(e);
+  });
+  const openFromHash = () => { const id = decodeURIComponent(location.hash.slice(1)); const r = id && rows.find((x) => x.id === id); if (r) openPane(r); };
 
   function chart(list) {
     const box = $('chart'); box.replaceChildren();
@@ -486,7 +687,7 @@
 
   fetch('dashboard.json', { cache: 'no-cache' })
     .then((r) => { if (!r.ok) throw new Error('HTTP ' + r.status); return r.json(); })
-    .then((d) => { rows = d.rows || []; latest = d.updated || ''; plan = d.plan || {}; header(); render(); })
+    .then((d) => { rows = d.rows || []; latest = d.updated || ''; plan = d.plan || {}; header(); render(); openFromHash(); })
     .catch((e) => { $('cards').replaceChildren(el('p', 'err', "Couldn't load today's listings (" + e.message + '). Refresh the page in a minute.')); $('top-line').textContent = ''; });
 })();
 </script>

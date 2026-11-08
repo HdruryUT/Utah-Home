@@ -364,6 +364,8 @@ def score_listing(listing, c):
         "url": listing.get("url"),
         "photo": listing.get("photo"),
         "photo_count": listing.get("photo_count"),
+        "description": listing.get("description") or None,
+        "mls": listing.get("mls"),
         "source": listing.get("source"),
         "stretch": listing["price"] > c["budget"]["target_max"],
         "fit_score": score,
@@ -465,6 +467,7 @@ def main():
     by = c["buyer"]
     plan = {k: by[k] for k in ("down_payment_pct", "closing_cost_pct", "mortgage_rate", "mortgage_rate_as_of")}
     plan["comfortable_price"] = comfortable_price(c)
+    plan["weights"] = {**c["weights"], "dealbreakers": 0}
     plan.update({"hold_years": c["live_in"]["years"], "appreciation": c["live_in"]["annual_appreciation"],
                  "target_profit": c["live_in"]["target_profit"], "selling_cost_pct": c["flip"]["selling_cost_pct"],
                  "rehab_per_sqft": c["flip"]["rehab_per_sqft"], "target_max": c["budget"]["target_max"]})
