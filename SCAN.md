@@ -6,75 +6,61 @@ Today's date in America/Denver is `TODAY` (YYYY-MM-DD) below.
 
 ## 1. Collect listings
 
-Use WebFetch for all web access (never curl with a spoofed browser user agent). City-level pages miss homes, because
-Century21 renders only about 150 cards per page and its city pages leave out part of each zip. So scan **by zip code**.
+Use WebFetch for all web access. Never use curl with a spoofed browser user agent, and never try to get around a
+site that blocks you. Century21 returns HTTP 403 to the cloud scan, so **Coldwell Banker is the main source**. It
+carries every Utah County MLS listing and works from the cloud.
 
-### 1a. Century21 zip pages (every zip, every day)
-
-```
-https://www.century21.com/homes/list/zip/ut/<zip>/single-family-homes
-```
-
-Prompt: *"First line: the results header exactly (e.g. "46 of 46 results displayed") and whether the content was
-truncated. Then ONLY listings priced at or below $395,000 as lines: "address, city | price | beds | baths | sqft |
-status | url path | photo img src". If none, say NONE."*
-
-| Zip | Area | Notes |
-|---|---|---|
-| 84601, 84604, 84606 | Provo | |
-| 84057, 84058, 84097 | Orem | |
-| 84059 | Vineyard | |
-| 84042 | Lindon | |
-| 84062 | Pleasant Grove, Cedar Hills | |
-| 84004 | Alpine | |
-| 84013 | Cedar Fort, Fairfield, west Eagle Mountain | |
-| 84651 | Payson, Elk Ridge | |
-| 84655 | Santaquin, Genola | |
-| 84633 | Goshen | |
-| 84626 | Elberta | |
-| 84663 | Springville | |
-| 84664 | Mapleton | |
-| 84660 | Spanish Fork | **big**: also do 1b |
-| 84653 | Salem, Woodland Hills | **big**: also do 1b |
-| 84003 | American Fork, Highland | **big**: also do 1b |
-| 84043 | Lehi | **big**: also do 1b |
-| 84045 | Saratoga Springs | **big**: also do 1b |
-| 84005 | Eagle Mountain | **big**: also do 1b |
-
-If a zip not marked big reports a total over ~140, or says it was truncated, treat it as big today and do 1b for it too.
-
-Prefer photo URLs from the page. They look like
-`https://images-listings.century21.com/SL/21/92/98/2/_P/2192982_P00.jpg?format=webp&quality=70&width=600`;
-store them with `width=800`.
-
-### 1b. Coldwell Banker pages for big zips
-
-Coldwell Banker shows **every** listing (all property types) 20 per page, **newest first**:
+### 1a. New listings: Coldwell Banker county pages, newest first (every day)
 
 ```
-https://www.coldwellbankerhomes.com/ut/<city-slug>/            (page 1)
-https://www.coldwellbankerhomes.com/ut/<city-slug>/p_<n>/      (page n)
+https://www.coldwellbankerhomes.com/ut/utah-county/            (page 1)
+https://www.coldwellbankerhomes.com/ut/utah-county/p_<n>/      (page n)
 ```
 
-City slugs: spanish-fork, salem, woodland-hills, american-fork, highland, lehi, saratoga-springs, eagle-mountain.
-Each page's text runs past 100,000 characters, so read every page **twice**: once normally and once with
-`offset: 100000`. Prompt: *"Return ONLY listings priced at or below $395,000 (any type) as lines: "address | price |
-beds | baths | sqft | type | status | url path". If none, say NONE. Also give the total results count and the
-highest page number linked."* Keep only `Single Family` rows.
+About 4,000 listings, 20 per page, **newest first**. Each listing's URL ends in `pid_<number>`, and pid numbers only
+go up, so a higher pid means a newer listing. Each page's text runs past 100,000 characters, so read every page
+**twice**: once normally and once with `offset: 100000`.
 
-- **Full sweep** (every page) when `data/sweep.json`'s `last_full_sweep` is missing or 7+ days old. Then set it to TODAY.
-- **Otherwise**, read pages 1–3 only. That catches every new listing, since pages are newest first.
+Prompt: *"Return ONLY Single Family listings priced at or below $450,000 as lines: "address, city | price | beds |
+baths | sqft | status | url path". Then on a last line: the lowest and highest pid_ numbers of ALL listings on the
+page (any type, any price), and the highest page number linked."*
 
-Coldwell Banker detail pages (`https://www.coldwellbankerhomes.com/<url path>`) give the same fields as Century21
-detail pages. Use them for homes found here. For the photo, search `"<address>" <city> UT century21` to find the
-Century21 detail page and take its photo URL. If there's none, leave `photo` out.
+Start at page 1 and keep going until a page's **highest** pid is at or below `max_pid_seen` in `data/sweep.json`
+(nothing newer is left). Read at least 3 pages. Then set `max_pid_seen` to the highest pid you saw.
 
-### 1c. Re-check known listings you didn't see today
+- Homes **at or under $395,000** are candidates: get their details (step 2).
+- Homes **$395,001–$450,000** go on the watch list in `data/watch.json` as
+  `{"<url path>": {"address", "city", "price", "first_seen"}}`. Price cuts often bring these into range. Step 1b
+  rechecks them.
 
-For every listing that is `active` or `pending` in `data/listings.json` but did not appear in today's 1a/1b results,
-open its stored `url` (or its Coldwell Banker page). If it is still active or pending, include it in today's raw file
-with the current price and status. If it says sold, off market, or the page is gone, leave it out. The scorer marks
-it gone after 3 days. Without this step, homes deeper in the big-zip pages would wrongly drop off the dashboard.
+### 1b. Rolling sweep: older listings and price cuts (every day)
+
+Also read **30 more pages**, starting at `rolling_page` in `data/sweep.json`. Use the same prompt, both halves of each
+page. Treat what you find the same way: candidates at or under $395k, watch list for $395k–$450k. Then advance
+`rolling_page` by 30, and wrap back to 1 once you pass the highest page number. That covers the whole county about
+once a week and catches older listings and price cuts into range.
+
+Once a week (Mondays), open the detail page of every watch-list home and record its current price and status.
+Homes cut to $395k or less become candidates. Remove sold or off-market homes from the watch list.
+
+### 1c. Re-check known listings
+
+For each listing that is `active` or `pending` in `data/listings.json` but wasn't seen in 1a or 1b today **and**
+hasn't been seen for 3+ days, open its page and check that it's still for sale. Prefer its Coldwell Banker URL
+(`cb_url` field); if it has none, find one with WebSearch: `"<address>" <city> UT coldwellbankerhomes`.
+- Still for sale: add it to today's raw file with the current price and status, plus `cb_url`.
+- Sold, off market, or the page is gone: add `{"address", "city", "status": "gone"}`, which drops it right away.
+
+The scorer keeps a listing up to `scan.gone_after_days` (10) days without a sighting, so a home isn't dropped just
+because a partial scan didn't reach it.
+
+### 1c-alt. Century21 zip pages (only if they load)
+
+If `https://www.century21.com/homes/list/zip/ut/84606/single-family-homes` returns a page instead of 403, also read
+the Century21 zip pages for 84601, 84604, 84606, 84057, 84058, 84097, 84059, 84042, 84062, 84004, 84013, 84651,
+84655, 84633, 84626, 84663 and 84664. They're a quick completeness check. Prompt: *"First line: the results header
+exactly and whether the content was truncated. Then ONLY listings priced at or below $395,000 as lines: "address,
+city | price | beds | baths | sqft | status | url path | photo img src". If none, say NONE."* If they 403, skip them.
 
 ### 1d. Cross-check other sources
 
@@ -94,10 +80,16 @@ reports a total count. If you found far fewer single-family homes than that tota
 ## 2. Get details for each active candidate
 
 Only fetch details for listings that are **new** (not in `data/listings.json`) or whose **price changed**. For the others, copy their data forward from `data/listings.json` and update only price and status.
-For each listing you do fetch, open the detail URL with the prompt:
+For each listing you do fetch, open its Coldwell Banker detail page (`https://www.coldwellbankerhomes.com<url path>`)
+and store that URL as both `url` and `cb_url`, with `"source": "Coldwell Banker"`. Use the prompt:
 *"Return JSON only: {address, city, price, status, beds, baths, sqft, lot_acres, year_built,
 property_type (exact text), style, garage (present, spaces), hoa_monthly, days_on_market, mls_number,
 description (first 400 chars, paraphrase ok)}."*
+
+**Photo:** Coldwell Banker's page doesn't expose usable photo links, but the MLS number gives the Century21 photo
+URL, which viewers' browsers can load:
+`https://images-listings.century21.com/SL/<m[0:2]>/<m[2:4]>/<m[4:6]>/<m[6]>/_P/<m>_P00.jpg?format=webp&quality=70&width=800`
+(m = the 7-digit MLS number). The site hides a photo that doesn't load.
 
 Write one object per listing to `data/raw/TODAY.json`. Use this shape (see `data/raw/2026-11-07.json`):
 

@@ -392,17 +392,21 @@
   function gallery(r) {
     const ph = el('div', 'photo');
     if (!r.photo || !/^https:\/\//.test(r.photo)) { ph.append(el('div', 'none', 'No photo')); return ph; }
-    const n = Math.max(1, r.photo_count || 1);
+    const known = r.photo_count != null && r.photo_count > 0;
+    let n = known ? r.photo_count : 40;
     let i = 0;
     const img = new Image(); img.loading = 'lazy'; img.decoding = 'async'; img.referrerPolicy = 'no-referrer';
     const counter = el('div', 'counter');
     const show = () => {
       img.src = photoUrl(r, i, 800);
       img.alt = 'Photo ' + (i + 1) + ' of ' + r.address + ', ' + r.city;
-      counter.textContent = (i + 1) + ' / ' + n;
+      counter.textContent = known ? (i + 1) + ' / ' + n : 'Photo ' + (i + 1);
       if (n > 1) { const pre = new Image(); pre.src = photoUrl(r, (i + 1) % n, 800); }
     };
-    img.onerror = () => { if (i === 0) { img.remove(); ph.prepend(el('div', 'none', 'Photo unavailable')); } };
+    img.onerror = () => {
+      if (i === 0) { img.remove(); ph.prepend(el('div', 'none', 'Photo unavailable')); }
+      else if (!known) { n = i; r.photo_count = i; i = 0; show(); }
+    };
     const step = (d) => { i = (i + d + n) % n; show(); };
     img.addEventListener('click', () => { if (ph.dataset.swiped) return; lb.onClose = (j) => { i = j; show(); }; lbOpen(r, i); });
     ph.append(img);
@@ -584,7 +588,8 @@
     $('pane-sub').textContent = r.city + ' · ' + r.region + ' Utah County' + (r.mls ? ' · MLS ' + r.mls : '');
 
     // Photo viewer + thumbnails
-    const n = Math.max(1, r.photo_count || 1);
+    const knownN = r.photo_count != null && r.photo_count > 0;
+    let n = knownN ? r.photo_count : 40;
     if (r.photo && /^https:\/\//.test(r.photo)) {
       let i = 0;
       const viewer = el('div', 'pv');
@@ -595,11 +600,12 @@
       const show = (j) => {
         i = (j + n) % n;
         big.src = photoUrl(r, i, 1200); big.alt = 'Photo ' + (i + 1) + ' of ' + r.address;
-        counter.textContent = (i + 1) + ' / ' + n;
+        counter.textContent = knownN ? (i + 1) + ' / ' + n : 'Photo ' + (i + 1);
         tbtns.forEach((t, k) => t.classList.toggle('on', k === i));
         if (tbtns[i]) tbtns[i].scrollIntoView({ block: 'nearest', inline: 'center' });
         if (n > 1) { const pre = new Image(); pre.src = photoUrl(r, (i + 1) % n, 1200); }
       };
+      big.onerror = () => { if (!knownN && i > 0) { n = i; r.photo_count = i; tbtns.slice(i).forEach((t) => { t.hidden = true; }); show(0); } };
       big.addEventListener('click', () => { if (viewer.dataset.swiped) return; lb.onClose = (j) => show(j); lbOpen(r, i); });
       viewer.append(big, scoreBadge(r));
       if (n > 1) {

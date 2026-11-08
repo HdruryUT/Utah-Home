@@ -123,6 +123,14 @@ class History(unittest.TestCase):
         rows = score.dashboard_rows(db, C)
         self.assertEqual(rows[0]["price_drop"], 10000)
         score.merge_history(db, [], "2026-11-06", C)
+        self.assertEqual(len(score.dashboard_rows(db, C)), 1)  # still within gone_after_days
+        score.merge_history(db, [], "2026-11-20", C)
+        self.assertEqual(score.dashboard_rows(db, C), [])
+
+    def test_confirmed_gone(self):
+        db = {"listings": {}}
+        score.merge_history(db, [house()], "2026-11-01", C)
+        score.merge_history(db, [house(status="sold")], "2026-11-02", C)
         self.assertEqual(score.dashboard_rows(db, C), [])
 
 

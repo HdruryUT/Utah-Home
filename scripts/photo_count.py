@@ -15,13 +15,21 @@ import urllib.request
 MAX = 60
 
 
+class Unreachable(Exception):
+    pass
+
+
 def exists(url):
     req = urllib.request.Request(url, method="HEAD")
     try:
         with urllib.request.urlopen(req, timeout=10) as r:
             return r.status == 200
-    except (urllib.error.HTTPError, urllib.error.URLError, TimeoutError):
-        return False
+    except urllib.error.HTTPError as e:
+        if e.code == 404:
+            return False
+        raise Unreachable(f"HTTP {e.code}")
+    except (urllib.error.URLError, TimeoutError) as e:
+        raise Unreachable(str(e))
 
 
 def url_for(photo, n):
@@ -49,7 +57,13 @@ def main():
     rows = json.load(open(path))
     for r in rows:
         if r.get("photo") and (force or not r.get("photo_count")):
-            r["photo_count"] = count_photos(r["photo"])
+            try:
+                r["photo_count"] = count_photos(r["photo"])
+            except Unreachable as e:
+                # Can't reach the photo server from here (e.g. blocked in the cloud): leave the count unknown.
+                # The site then lets you click through until a photo is missing.
+                print(f"Photo server unreachable ({e}); leaving photo counts unknown.")
+                break
             print(f"{r['address']}, {r['city']}: {r['photo_count']} photos")
     json.dump(rows, open(path, "w"), indent=1)
 

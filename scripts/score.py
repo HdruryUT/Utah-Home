@@ -401,8 +401,13 @@ def merge_history(db, raw, today, c):
     rejected = []
     listings = db.setdefault("listings", {})
     for item in raw:
-        ok, reason = passes_filters(item, c)
         lid = listing_id(item)
+        if (item.get("status") or "").lower() in ("gone", "sold", "off market", "withdrawn"):
+            if lid in listings:
+                listings[lid]["status"] = "gone"
+                listings[lid]["last_seen"] = today
+            continue
+        ok, reason = passes_filters(item, c)
         if not ok:
             rejected.append({"id": lid, "reason": reason})
             continue
@@ -420,7 +425,7 @@ def merge_history(db, raw, today, c):
     for lid, rec in listings.items():
         if lid not in seen_today and rec.get("status") != "gone":
             last = dt.date.fromisoformat(rec["last_seen"])
-            if (dt.date.fromisoformat(today) - last).days >= 3:
+            if (dt.date.fromisoformat(today) - last).days >= c.get("scan", {}).get("gone_after_days", 10):
                 rec["status"] = "gone"
     db["updated"] = today
     return rejected

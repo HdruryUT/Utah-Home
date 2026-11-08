@@ -344,5 +344,9 @@
     "_note": "A GitHub Action opens an issue (GitHub emails you) when a scan adds homes at or above min_fit_score, or cuts the price on one.",
     "min_fit_score": 50,
     "notify": "HdruryUT"
+  },
+  "scan": {
+    "gone_after_days": 10,
+    "_note": "Listings not seen for this many days are dropped; a raw entry with status 'gone' drops one immediately."
   }
 }
