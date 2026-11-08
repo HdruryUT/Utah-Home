@@ -9,11 +9,12 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,400;6..72,500&family=IBM+Plex+Sans:wght@400;500;600&display=swap">
 <style>
-  /* Layout: header + summary strip, filter bar, photo-led card grid, one chart, method notes. */
+  /* Layout: header + plan strip + summary tiles, filter bar, photo-gallery card grid, profit chart, method notes. */
   :root {
     --bg: #f3f4f1; --panel: #ffffff; --ink: #1d2422; --muted: #5d6763; --line: #dde1dc;
     --accent: #2f6b55; --accent-soft: #e2eee8; --warn: #a2560f; --warn-soft: #f6eadf; --bad: #b3261e;
     --north: #2f6b55; --central: #4a5fa8; --south: #b0721b; --other: #777;
+    --scrim: rgba(10, 14, 12, .92);
     --display: "Newsreader", Georgia, "Times New Roman", serif;
     --body: "IBM Plex Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
     --r: 10px;
@@ -40,9 +41,14 @@
   h1, h2 { font-family: var(--display); font-weight: 400; margin: 0; text-wrap: balance; }
   h1 { font-size: clamp(2rem, 4.5vw, 3rem); line-height: 1.05; letter-spacing: -0.01em; }
   h2 { font-size: 1.5rem; }
-  .lede { margin: 8px 0 0; color: var(--muted); max-width: 68ch; }
+  .lede { margin: 8px 0 0; color: var(--muted); max-width: 70ch; }
   .lede b { color: var(--ink); font-weight: 600; }
   .stamp { margin: 6px 0 0; font-size: 13px; color: var(--muted); }
+
+  .plan { background: var(--accent-soft); border-radius: var(--r); padding: 14px 18px; display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 170px), 1fr)); gap: 10px 20px; }
+  .plan div { display: flex; flex-direction: column; min-width: 0; }
+  .plan span { font-size: 12px; color: var(--muted); }
+  .plan b { font-weight: 600; font-size: 15px; }
 
   .tiles { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 150px), 1fr)); gap: 12px; }
   .tile { background: var(--panel); border: 1px solid var(--line); border-radius: var(--r); padding: 14px 16px; display: flex; flex-direction: column; gap: 2px; }
@@ -55,22 +61,32 @@
   .bar .chk { flex-direction: row; align-items: center; gap: 8px; font-size: 14px; color: var(--ink); padding-bottom: 8px; }
   .bar .chk input { width: 16px; height: 16px; accent-color: var(--accent); }
   .count { margin-left: auto; font-size: 13px; color: var(--muted); padding-bottom: 8px; }
-  select:focus-visible, input:focus-visible, a:focus-visible, summary:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+  select:focus-visible, input:focus-visible, a:focus-visible, summary:focus-visible, button:focus-visible, .photo:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
 
   .cards { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 340px), 1fr)); gap: 18px; }
   .card { background: var(--panel); border: 1px solid var(--line); border-radius: var(--r); overflow: hidden; display: flex; flex-direction: column; min-width: 0; }
   .card.pending { opacity: .7; }
-  .photo { position: relative; aspect-ratio: 3 / 2; max-width: 100%; background: var(--accent-soft); overflow: hidden; }
-  .photo img { width: 100%; height: 100%; object-fit: cover; display: block; }
+  .photo { position: relative; aspect-ratio: 3 / 2; max-width: 100%; background: var(--accent-soft); overflow: hidden; touch-action: pan-y; user-select: none; }
+  .photo img { width: 100%; height: 100%; object-fit: cover; display: block; cursor: zoom-in; }
   .photo .none { position: absolute; inset: 0; display: flex; align-items: center; justify-content: center; color: var(--muted); font-size: 13px; }
+  .nav { position: absolute; top: 50%; transform: translateY(-50%); width: 36px; height: 36px; border-radius: 50%; border: 0; background: rgba(255,255,255,.88); color: #1d2422; font-size: 20px; line-height: 1; cursor: pointer; display: flex; align-items: center; justify-content: center; box-shadow: 0 1px 6px rgba(0,0,0,.25); opacity: .9; }
+  .nav:hover { opacity: 1; }
+  .nav.prev { left: 10px; } .nav.next { right: 10px; }
+  .counter { position: absolute; left: 50%; transform: translateX(-50%); bottom: 12px; background: rgba(0,0,0,.55); color: #fff; font-size: 12px; border-radius: 999px; padding: 2px 9px; }
   .score { position: absolute; left: 12px; top: 12px; width: 56px; height: 56px; border-radius: 50%; background: var(--panel); border: 2px solid currentColor; display: flex; flex-direction: column; align-items: center; justify-content: center; line-height: 1; box-shadow: 0 2px 8px rgba(0,0,0,.18); }
   .score b { font-family: var(--display); font-weight: 500; font-size: 1.45rem; }
   .score span { font-size: 9px; letter-spacing: .1em; text-transform: uppercase; margin-top: 2px; }
   .score.good { color: var(--accent); } .score.mid { color: var(--warn); } .score.low { color: var(--muted); }
-  .price-tag { position: absolute; right: 12px; bottom: 12px; background: var(--panel); color: var(--ink); border-radius: 8px; padding: 4px 10px; font-family: var(--display); font-size: 1.35rem; box-shadow: 0 2px 8px rgba(0,0,0,.18); }
+  .price-tag { position: absolute; right: 12px; top: 12px; background: var(--panel); color: var(--ink); border-radius: 8px; padding: 4px 10px; font-family: var(--display); font-size: 1.35rem; box-shadow: 0 2px 8px rgba(0,0,0,.18); }
   .body { padding: 14px 16px 16px; display: flex; flex-direction: column; gap: 10px; flex: 1; }
   .addr h3 { margin: 0; font-size: 17px; font-weight: 600; overflow-wrap: anywhere; }
   .addr p { margin: 1px 0 0; font-size: 13px; color: var(--muted); }
+  .money { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 8px; background: var(--bg); border-radius: 8px; padding: 10px 12px; }
+  .money div { display: flex; flex-direction: column; min-width: 0; }
+  .money span { font-size: 11px; color: var(--muted); line-height: 1.3; }
+  .money b { font-size: 16px; font-weight: 600; }
+  .offer { font-size: 13px; }
+  .offer b { font-weight: 600; }
   .chips { display: flex; flex-wrap: wrap; gap: 6px; }
   .chip { font-size: 12px; border-radius: 999px; padding: 2px 9px; background: var(--bg); color: var(--muted); border: 1px solid var(--line); }
   .chip.warn { background: var(--warn-soft); color: var(--warn); border-color: transparent; }
@@ -84,17 +100,18 @@
   .pc li::before { content: ""; position: absolute; left: 0; top: .55em; width: 6px; height: 6px; border-radius: 50%; }
   .pros li::before { background: var(--accent); } .cons li::before { background: var(--warn); }
   details.ret { border-top: 1px solid var(--line); padding-top: 10px; font-size: 13px; margin-top: auto; }
-  details.ret summary { cursor: pointer; display: flex; justify-content: space-between; gap: 8px; }
-  details.ret summary span:first-child { color: var(--muted); }
+  details.ret summary { cursor: pointer; color: var(--muted); }
   details.ret dl { display: grid; grid-template-columns: 1fr auto; gap: 4px 12px; margin: 10px 0 0; }
   details.ret dt { color: var(--muted); } details.ret dd { margin: 0; text-align: right; }
-  .pos { color: var(--accent); font-weight: 600; } .neg { color: var(--bad); font-weight: 600; }
+  details.ret .total { border-top: 1px solid var(--line); padding-top: 4px; color: var(--ink); font-weight: 600; }
+  details.ret .gap { height: 6px; grid-column: 1 / -1; }
+  .pos { color: var(--accent); } .neg { color: var(--bad); }
   .links { display: flex; flex-wrap: wrap; gap: 14px; font-size: 13px; }
   .links a { color: var(--ink); text-underline-offset: 3px; }
   .empty { grid-column: 1 / -1; color: var(--muted); padding: 24px 0; }
 
   .chart-card { background: var(--panel); border: 1px solid var(--line); border-radius: var(--r); padding: 18px; }
-  .sub { margin: 4px 0 12px; font-size: 13px; color: var(--muted); }
+  .sub { margin: 4px 0 12px; font-size: 13px; color: var(--muted); max-width: 80ch; }
   .chart { position: relative; }
   .chart svg { width: 100%; height: auto; display: block; }
   .chart text { fill: var(--muted); font-size: 12px; font-family: var(--body); }
@@ -106,44 +123,59 @@
   details.method { font-size: 14px; color: var(--muted); }
   details.method summary { cursor: pointer; color: var(--ink); font-weight: 500; }
   details.method dl { display: grid; grid-template-columns: minmax(9rem, max-content) 1fr; gap: 8px 24px; max-width: 64rem; margin-top: 12px; }
-  details.method dt { color: var(--ink); font-weight: 500; } details.method dd { margin: 0; max-width: 70ch; }
+  details.method dt { color: var(--ink); font-weight: 500; } details.method dd { margin: 0; max-width: 72ch; }
   @media (max-width: 34rem) { details.method dl { grid-template-columns: 1fr; } details.method dd { margin-bottom: 8px; } .count { margin-left: 0; } }
   .err { background: var(--warn-soft); color: var(--warn); padding: 12px 14px; border-radius: var(--r); }
+
+  .lightbox { position: fixed; inset: 0; z-index: 50; background: var(--scrim); display: flex; flex-direction: column; align-items: center; justify-content: center; padding: max(16px, env(safe-area-inset-top, 0px)) max(16px, env(safe-area-inset-right, 0px)) max(16px, env(safe-area-inset-bottom, 0px)) max(16px, env(safe-area-inset-left, 0px)); touch-action: pan-y; }
+  .lightbox img { max-width: 100%; max-height: calc(100% - 64px); object-fit: contain; border-radius: 6px; user-select: none; }
+  .lightbox .cap { color: #e7ebe8; font-size: 14px; margin-top: 12px; text-align: center; }
+  .lightbox .nav { width: 48px; height: 48px; font-size: 26px; }
+  .lightbox .close { position: absolute; top: max(16px, env(safe-area-inset-top, 0px)); right: max(16px, env(safe-area-inset-right, 0px)); width: 44px; height: 44px; border-radius: 50%; border: 0; background: rgba(255,255,255,.9); color: #1d2422; font-size: 24px; cursor: pointer; }
 </style>
 </head>
 <body>
 <div class="wrap">
   <header>
     <h1>Utah County Starter Homes</h1>
-    <p class="lede">Detached houses with 2+ bedrooms, up to $395k, anywhere in Utah County. <span id="top-line">Loading today's scan…</span></p>
+    <p class="lede">Houses to buy, fix up while you live there, and sell in about 2 years for a profit you put toward your long-term home. <span id="top-line">Loading today's scan…</span></p>
     <p class="stamp" id="stamp"></p>
   </header>
 
+  <section class="plan" aria-label="Your plan" id="plan">
+    <div><span>Comfortable price</span><b id="p-price">—</b></div>
+    <div><span>Down payment + closing</span><b id="p-down">—</b></div>
+    <div><span>Mortgage rate</span><b id="p-rate">—</b></div>
+    <div><span>Hold before selling</span><b id="p-hold">—</b></div>
+    <div><span>Profit goal</span><b id="p-goal">—</b></div>
+  </section>
+
   <section class="tiles" aria-label="Summary">
     <div class="tile"><span>Active homes</span><b id="t-active">—</b></div>
-    <div class="tile"><span>At or under $380k</span><b id="t-under">—</b></div>
-    <div class="tile"><span>Median asking</span><b id="t-median">—</b></div>
+    <div class="tile"><span>Fit your budget</span><b id="t-afford">—</b></div>
+    <div class="tile"><span>Can hit profit goal</span><b id="t-goal">—</b></div>
     <div class="tile"><span>New this week</span><b id="t-new">—</b></div>
     <div class="tile"><span>Price drops</span><b id="t-drops">—</b></div>
   </section>
 
   <section>
     <h2>Listings</h2>
-    <p class="sub">Ranked by fit score (0–100): price, value vs the city's going rate, size, lot, condition and return upside. Tap "Return estimate" on any card for the numbers.</p>
+    <p class="sub">Ranked by fit score (0–100). The score weighs 2-year profit most, then whether it fits your budget, a layout buyers want when you sell, price vs the city's going rate, and condition. Dated-but-livable homes score best on condition. Click a photo to see it full size, or use the arrows to go through all the photos.</p>
     <div class="bar">
       <label for="f-city">City<select id="f-city"><option value="">All cities</option></select></label>
       <label for="f-sort">Sort by<select id="f-sort">
         <option value="fit">Best fit</option>
+        <option value="profit">Biggest 2-year profit</option>
+        <option value="offer">Smallest discount needed</option>
+        <option value="payment">Lowest payment</option>
         <option value="price">Lowest price</option>
-        <option value="live">Best 5-year return</option>
-        <option value="flip">Best quick flip</option>
         <option value="newest">Newest found</option>
       </select></label>
       <label for="f-show">Show<select id="f-show">
         <option value="active">For sale now</option>
         <option value="all">Include pending sales</option>
       </select></label>
-      <label class="chk" for="f-stretch"><input type="checkbox" id="f-stretch" checked> Include stretch ($380k–$395k)</label>
+      <label class="chk" for="f-afford"><input type="checkbox" id="f-afford"> Only homes that fit my budget</label>
       <span class="count" id="count"></span>
     </div>
   </section>
@@ -151,100 +183,170 @@
   <div class="cards" id="cards"></div>
 
   <section class="chart-card">
-    <h2>Price vs fit</h2>
-    <p class="sub">Each dot is a listing shown above. Up and to the left is better: a higher fit for less money. The dashed line is your $380k target.</p>
+    <h2>Price vs 2-year profit</h2>
+    <p class="sub">Each dot is a listing shown above, valued at asking price. Higher is better. The dashed line marks your profit goal. Most homes cross it only if you negotiate below asking, and each card shows the offer that gets there.</p>
     <div class="chart" id="chart"></div>
   </section>
 
   <details class="method">
     <summary>How the scores and estimates work</summary>
     <dl>
-      <dt>Where listings come from</dt><dd>A scan every morning reads Century21's public single-family pages, which carry the local MLS listings, for each Utah County city. It then opens each new listing to confirm its type, lot, year built and description. Zillow, Homes.com, UtahRealEstate.com and KSL are searched as cross-checks. A brand-new listing can take a day to appear, so always confirm details on the listing link.</dd>
-      <dt>What's filtered out</dt><dd>Townhomes, condos, twin homes, homes on lots under 0.05 acres (attached homes labeled single family), land leases, 55+ communities, auctions, fewer than 2 bedrooms, and anything over $395k.</dd>
-      <dt>Fit score</dt><dd>Price vs budget (20), price per sqft vs the city's going rate (25), beds and baths (15), lot and garage (10), condition (10), return upside (15), no HOA (3), time on market (2). Dealbreakers subtract points: cash offers only (−15), short sale (−6), under contract (−5), may not qualify for FHA (−4).</dd>
-      <dt>After-repair value</dt><dd>The higher of (a) size × the city's median closed $/sqft for homes under $500k, scaled up for smaller-than-typical homes, plus 12% for a renovated condition, and (b) asking price + rehab cost × a return multiple (1.6 heavy, 1.3 medium, 1.0 light). Capped at 1.6× asking price.</dd>
-      <dt>Rehab estimate</dt><dd>Light $15/sqft (paint, flooring), medium $35/sqft (kitchen, bath, systems), heavy $60/sqft (as-is or fixer). The tier comes from the listing's wording and year built.</dd>
-      <dt>Quick flip</dt><dd>After-repair value − price − rehab − 7% selling costs − 3% buying and holding costs.</dd>
-      <dt>Fix up and live 5 years</dt><dd>After-repair value grown 3.5% a year for 5 years, minus price, rehab, and 7% selling costs at the end. Mortgage interest and the rent you'd otherwise pay aren't counted.</dd>
-      <dt>Treat these as estimates</dt><dd>These are ballpark figures to help you compare homes. Get an inspection and a contractor's bid before relying on any of them. Photos and listing details belong to the listing brokers.</dd>
+      <dt>The plan</dt><dd>Buy a dated but livable house, do mostly cosmetic updates while you live there, and sell after about 2 years. If you own and live in it for 2 of the 5 years before selling, up to $250,000 of profit is federal-tax-free (IRS Section 121). Sell sooner and the profit is taxable.</dd>
+      <dt>Where listings come from</dt><dd>A scan every morning reads Century21's public single-family pages, which carry the local MLS listings, for each Utah County city. It then opens each new listing to confirm its type, lot, year built, description and photos. Zillow, Homes.com, UtahRealEstate.com and KSL are searched as cross-checks. Always confirm details on the listing link.</dd>
+      <dt>What's filtered out</dt><dd>Townhomes, condos, twin homes, homes on lots under 0.05 acres, land leases, 55+ communities, auctions, fewer than 2 bedrooms, and anything over $395k.</dd>
+      <dt>Fit score</dt><dd>2-year profit (30), fits your budget (15), resale layout: 3+ bed and 2 bath sell best (15), price per sqft vs the city's going rate (15), condition (10: dated-but-livable is best, already-remodeled has little upside, heavy fixers are hard to live in), price (5), lot and garage (5), no HOA (3), time on market (2). Dealbreakers subtract points: cash offers only (−15), short sale (−6), under contract (−5), may not qualify for FHA (−4).</dd>
+      <dt>Value after fix-up</dt><dd>The higher of (a) size × the city's median closed $/sqft for homes under $500k, scaled for home size, plus 12% for updated condition, and (b) asking price + fix-up cost × a return multiple (1.6 cosmetic, 1.5 heavy, 1.0 already updated). Capped at 1.6× asking.</dd>
+      <dt>Fix-up budget</dt><dd>Assumes you do much of the cosmetic work yourself: already updated $10/sqft, dated $25/sqft (paint, floors, fixtures, kitchen refresh), heavy fixer $55/sqft. Hiring out everything costs roughly 40–60% more.</dd>
+      <dt>2-year profit</dt><dd>Value after fix-up, grown 3.5% a year for 2 years, minus price, fix-up, 3% buying closing costs and 6% selling costs. Mortgage interest isn't subtracted, since it roughly replaces the rent you'd pay anyway, but property tax and insurance are part of your monthly payment.</dd>
+      <dt>Offer to hit your goal</dt><dd>The highest price that still clears your profit goal, holding the home's value fixed. Use it as a negotiating target, not an appraisal.</dd>
+      <dt>Monthly payment</dt><dd>Principal and interest at the current 30-year rate, plus property tax (~0.46% of price for a primary residence), insurance and PMI (because the down payment is under 20%), plus any HOA. "Comfortable" and "tight" are measured against your own budget limits.</dd>
+      <dt>Treat these as estimates</dt><dd>These are ballpark figures to help you compare homes. Get an inspection, a contractor's bid and a lender pre-approval before relying on them. Photos and listing details belong to the listing brokers.</dd>
     </dl>
   </details>
 </div>
 
+<div class="lightbox" id="lightbox" hidden role="dialog" aria-modal="true" aria-label="Photo viewer">
+  <button class="close" id="lb-close" aria-label="Close photos">×</button>
+  <button class="nav prev" id="lb-prev" aria-label="Previous photo">‹</button>
+  <img id="lb-img" alt="">
+  <button class="nav next" id="lb-next" aria-label="Next photo">›</button>
+  <div class="cap" id="lb-cap"></div>
+</div>
+
 <script>
 (function () {
-  const TARGET = 380000;
   const $ = (id) => document.getElementById(id);
   const fmt$ = (v) => (v == null || isNaN(v)) ? '—' : (v < 0 ? '−$' : '$') + Math.abs(Math.round(v)).toLocaleString('en-US');
   const fmtK = (v) => (v == null || isNaN(v)) ? '—' : (v < 0 ? '−$' : '$') + Math.round(Math.abs(v) / 1000) + 'k';
+  const pct = (v, d = 0) => (v == null || isNaN(v)) ? '—' : (v * 100).toFixed(d) + '%';
   const el = (tag, cls, text) => { const e = document.createElement(tag); if (cls) e.className = cls; if (text != null) e.textContent = text; return e; };
   const store = {
     get(k) { try { return localStorage.getItem('uh-' + k); } catch (e) { return null; } },
     set(k, v) { try { localStorage.setItem('uh-' + k, v); } catch (e) {} },
   };
   const REGION_COLOR = { North: 'var(--north)', Central: 'var(--central)', South: 'var(--south)', Other: 'var(--other)' };
-  let rows = [], latest = '';
+  const photoUrl = (r, i, w) => r.photo.replace(/_P\d{2}\.jpg/, '_P' + String(i).padStart(2, '0') + '.jpg').replace(/width=\d+/, 'width=' + w);
+  let rows = [], latest = '', plan = {};
 
   const state = {
-    city: store.get('city') || '', sort: store.get('sort') || 'fit',
-    show: store.get('show') || 'active', stretch: store.get('stretch') !== 'false',
+    city: store.get('city') || '', sort: store.get('sort2') || 'fit',
+    show: store.get('show') || 'active', afford: store.get('afford') === 'true',
   };
-  $('f-sort').value = state.sort; $('f-show').value = state.show; $('f-stretch').checked = state.stretch;
-  const bind = (id, key, read) => $(id).addEventListener('change', (e) => { state[key] = read(e.target); store.set(key, String(state[key])); render(); });
-  bind('f-city', 'city', (t) => t.value); bind('f-sort', 'sort', (t) => t.value);
-  bind('f-show', 'show', (t) => t.value); bind('f-stretch', 'stretch', (t) => t.checked);
+  $('f-sort').value = state.sort; $('f-show').value = state.show; $('f-afford').checked = state.afford;
+  const bind = (id, key, read, skey) => $(id).addEventListener('change', (e) => { state[key] = read(e.target); store.set(skey || key, String(state[key])); render(); });
+  bind('f-city', 'city', (t) => t.value); bind('f-sort', 'sort', (t) => t.value, 'sort2');
+  bind('f-show', 'show', (t) => t.value); bind('f-afford', 'afford', (t) => t.checked);
 
   const daysBefore = (iso, n) => new Date(Date.parse(iso + 'T12:00:00Z') - n * 864e5).toISOString().slice(0, 10);
+  const fitsBudget = (r) => r.cash_ok && r.payment_level !== 'high';
 
   function filtered() {
     let r = rows.filter((x) => state.show === 'all' ? x.status !== 'gone' : x.status === 'active');
-    if (!state.stretch) r = r.filter((x) => x.price <= TARGET);
+    if (state.afford) r = r.filter(fitsBudget);
     if (state.city) r = r.filter((x) => x.city === state.city);
     const n = (v) => (v == null ? -1e9 : v);
     const by = {
       fit: (a, b) => b.fit_score - a.fit_score,
+      profit: (a, b) => n(b.live_in_gain) - n(a.live_in_gain),
+      offer: (a, b) => (a.price - n(a.max_offer)) / a.price - (b.price - n(b.max_offer)) / b.price,
+      payment: (a, b) => a.monthly_payment - b.monthly_payment,
       price: (a, b) => a.price - b.price,
-      live: (a, b) => n(b.live_in_gain) - n(a.live_in_gain),
-      flip: (a, b) => n(b.flip_profit) - n(a.flip_profit),
       newest: (a, b) => (b.first_seen > a.first_seen ? 1 : b.first_seen < a.first_seen ? -1 : b.fit_score - a.fit_score),
     }[state.sort] || ((a, b) => b.fit_score - a.fit_score);
     return r.slice().sort(by);
   }
 
-  function summary() {
+  function header() {
     const active = rows.filter((r) => r.status === 'active');
-    const prices = active.map((r) => r.price).sort((a, b) => a - b);
-    const mid = prices.length ? (prices.length % 2 ? prices[(prices.length - 1) / 2] : (prices[prices.length / 2 - 1] + prices[prices.length / 2]) / 2) : null;
     const weekAgo = daysBefore(latest, 7);
     $('t-active').textContent = active.length;
-    $('t-under').textContent = active.filter((r) => r.price <= TARGET).length;
-    $('t-median').textContent = fmtK(mid);
+    $('t-afford').textContent = active.filter(fitsBudget).length;
+    $('t-goal').textContent = active.filter((r) => r.max_offer != null && r.max_offer >= r.price * 0.92).length;
     $('t-new').textContent = active.filter((r) => r.first_seen >= weekAgo).length;
     $('t-drops').textContent = active.filter((r) => r.price_drop > 0).length;
-    const top = active.slice().sort((a, b) => b.fit_score - a.fit_score)[0];
+
+    $('p-price').textContent = plan.comfortable_price ? 'Up to ~' + fmtK(plan.comfortable_price) : '—';
+    $('p-down').textContent = plan.down_payment_pct ? pct(plan.down_payment_pct) + ' + ' + pct(plan.closing_cost_pct) + ' of price' : '—';
+    $('p-rate').textContent = plan.mortgage_rate ? pct(plan.mortgage_rate, 2) + (plan.mortgage_rate_as_of ? ' (' + new Date(plan.mortgage_rate_as_of + 'T12:00:00Z').toLocaleDateString('en-US', { month: 'short', day: 'numeric', timeZone: 'UTC' }) + ')' : '') : '—';
+    $('p-hold').textContent = plan.hold_years ? plan.hold_years + ' years (tax-free)' : '—';
+    $('p-goal').textContent = plan.target_profit ? fmtK(plan.target_profit) + '+' : '—';
+
+    const pick = active.filter(fitsBudget).sort((a, b) => b.fit_score - a.fit_score)[0];
     const line = $('top-line'); line.replaceChildren();
-    if (top) {
-      line.append('Best fit right now: ', el('b', null, top.address + ', ' + top.city), ' at ', el('b', null, fmt$(top.price)), ', fit score ', el('b', null, String(top.fit_score)), '.');
-    } else line.textContent = 'No active listings in the latest scan.';
+    if (pick) line.append('Best fit within your budget right now: ', el('b', null, pick.address + ', ' + pick.city), ' at ', el('b', null, fmt$(pick.price)), '.');
     $('stamp').textContent = latest ? 'Scanned ' + new Date(latest + 'T12:00:00Z').toLocaleDateString('en-US', { weekday: 'long', month: 'long', day: 'numeric', year: 'numeric', timeZone: 'UTC' }) + '. A new scan runs every morning.' : '';
-    const cities = Array.from(new Set(rows.filter((r) => r.status !== 'gone').map((r) => r.city))).sort();
+
+    const cities = Array.from(new Set(rows.filter((x) => x.status !== 'gone').map((x) => x.city))).sort();
     const sel = $('f-city');
     sel.replaceChildren(new Option('All cities', ''), ...cities.map((c) => new Option(c, c)));
     sel.value = cities.includes(state.city) ? state.city : '';
     state.city = sel.value;
   }
 
+  // ---------- Photo gallery (card) + full-screen viewer ----------
+  const lb = { r: null, i: 0 };
+  function lbShow() {
+    const r = lb.r, n = r.photo_count || 1;
+    $('lb-img').src = photoUrl(r, lb.i, 1600);
+    $('lb-img').alt = 'Photo ' + (lb.i + 1) + ' of ' + r.address;
+    $('lb-cap').textContent = r.address + ', ' + r.city + ' · ' + (lb.i + 1) + ' / ' + n;
+    if (n > 1) { const pre = new Image(); pre.src = photoUrl(r, (lb.i + 1) % n, 1600); }
+  }
+  function lbOpen(r, i) { lb.r = r; lb.i = i; $('lightbox').hidden = false; document.body.style.overflow = 'hidden'; lbShow(); $('lb-close').focus(); }
+  function lbClose() { $('lightbox').hidden = true; document.body.style.overflow = ''; $('lb-img').removeAttribute('src'); if (lb.onClose) lb.onClose(lb.i); }
+  function lbStep(d) { const n = lb.r.photo_count || 1; lb.i = (lb.i + d + n) % n; lbShow(); }
+  $('lb-close').addEventListener('click', lbClose);
+  $('lb-prev').addEventListener('click', () => lbStep(-1));
+  $('lb-next').addEventListener('click', () => lbStep(1));
+  $('lightbox').addEventListener('click', (e) => { if (e.target.id === 'lightbox') lbClose(); });
+  document.addEventListener('keydown', (e) => {
+    if ($('lightbox').hidden) return;
+    if (e.key === 'Escape') lbClose();
+    else if (e.key === 'ArrowLeft') lbStep(-1);
+    else if (e.key === 'ArrowRight') lbStep(1);
+  });
+  const swipe = (node, onStep) => {
+    let x0 = null;
+    node.addEventListener('pointerdown', (e) => { x0 = e.clientX; });
+    node.addEventListener('pointerup', (e) => { if (x0 == null) return; const dx = e.clientX - x0; x0 = null; if (Math.abs(dx) > 40) { onStep(dx < 0 ? 1 : -1); e.preventDefault(); node.dataset.swiped = '1'; setTimeout(() => { node.dataset.swiped = ''; }, 50); } });
+  };
+  swipe($('lightbox'), lbStep);
+
+  function gallery(r) {
+    const ph = el('div', 'photo');
+    if (!r.photo || !/^https:\/\//.test(r.photo)) { ph.append(el('div', 'none', 'No photo')); return ph; }
+    const n = Math.max(1, r.photo_count || 1);
+    let i = 0;
+    const img = new Image(); img.loading = 'lazy'; img.decoding = 'async'; img.referrerPolicy = 'no-referrer';
+    const counter = el('div', 'counter');
+    const show = () => {
+      img.src = photoUrl(r, i, 800);
+      img.alt = 'Photo ' + (i + 1) + ' of ' + r.address + ', ' + r.city;
+      counter.textContent = (i + 1) + ' / ' + n;
+      if (n > 1) { const pre = new Image(); pre.src = photoUrl(r, (i + 1) % n, 800); }
+    };
+    img.onerror = () => { if (i === 0) { img.remove(); ph.prepend(el('div', 'none', 'Photo unavailable')); } };
+    const step = (d) => { i = (i + d + n) % n; show(); };
+    img.addEventListener('click', () => { if (ph.dataset.swiped) return; lb.onClose = (j) => { i = j; show(); }; lbOpen(r, i); });
+    ph.append(img);
+    if (n > 1) {
+      const prev = el('button', 'nav prev', '‹'); prev.type = 'button'; prev.setAttribute('aria-label', 'Previous photo');
+      const next = el('button', 'nav next', '›'); next.type = 'button'; next.setAttribute('aria-label', 'Next photo');
+      prev.addEventListener('click', (e) => { e.stopPropagation(); step(-1); });
+      next.addEventListener('click', (e) => { e.stopPropagation(); step(1); });
+      ph.append(prev, next, counter);
+      ph.tabIndex = 0; ph.setAttribute('aria-label', 'Photos of ' + r.address + '. Use left and right arrow keys.');
+      ph.addEventListener('keydown', (e) => { if (e.key === 'ArrowLeft') step(-1); else if (e.key === 'ArrowRight') step(1); });
+      swipe(ph, step);
+    }
+    show();
+    return ph;
+  }
+
   function card(r, weekAgo) {
     const c = el('article', 'card' + (r.status !== 'active' ? ' pending' : ''));
-    const ph = el('div', 'photo');
-    const none = el('div', 'none', 'No photo');
-    if (r.photo && /^https:\/\//.test(r.photo)) {
-      const img = new Image(); img.loading = 'lazy'; img.decoding = 'async'; img.alt = 'Photo of ' + r.address + ', ' + r.city;
-      img.referrerPolicy = 'no-referrer';
-      img.onerror = () => { img.remove(); ph.prepend(none); };
-      img.src = r.photo; ph.append(img);
-    } else ph.append(none);
-    const band = r.fit_score >= 65 ? 'good' : r.fit_score >= 45 ? 'mid' : 'low';
+    const ph = gallery(r);
+    const band = r.fit_score >= 60 ? 'good' : r.fit_score >= 45 ? 'mid' : 'low';
     const sc = el('div', 'score ' + band); sc.append(el('b', null, String(r.fit_score)), el('span', null, 'fit'));
     ph.append(sc, el('div', 'price-tag', fmtK(r.price)));
     c.append(ph);
@@ -252,9 +354,27 @@
     const b = el('div', 'body');
     const addr = el('div', 'addr'); addr.append(el('h3', null, r.address), el('p', null, r.city + ' · ' + r.region + ' Utah County'));
     b.append(addr);
+
+    const money = el('div', 'money');
+    const cell = (label, value, cls) => { const d = el('div'); d.append(el('span', null, label), el('b', cls || null, value)); money.append(d); };
+    cell('2-yr profit at asking', fmtK(r.live_in_gain), r.live_in_gain == null ? null : r.live_in_gain >= 0 ? 'pos' : 'neg');
+    cell('Monthly payment', r.monthly_payment ? fmt$(r.monthly_payment) : '—', r.payment_level === 'high' ? 'neg' : null);
+    cell('Cash to buy + fix', fmtK(r.cash_needed), r.cash_ok === false ? 'neg' : null);
+    b.append(money);
+    if (r.max_offer != null) {
+      const o = el('div', 'offer');
+      const goal = fmtK(r.target_profit || plan.target_profit);
+      if (r.max_offer >= r.price) o.append('Clears ', el('b', null, goal), ' profit even at asking price.');
+      else {
+        const off = (r.price - r.max_offer) / r.price;
+        o.append('To clear ', el('b', null, goal), ' profit, offer ', el('b', null, fmt$(r.max_offer)), ' or less (' + Math.round(off * 100) + '% under asking).');
+      }
+      b.append(o);
+    }
+
     const chips = el('div', 'chips');
     if (r.status !== 'active') chips.append(el('span', 'chip warn', 'Pending sale'));
-    if (r.stretch) chips.append(el('span', 'chip warn', 'Stretch'));
+    if (!fitsBudget(r)) chips.append(el('span', 'chip warn', 'Over budget'));
     if (r.first_seen >= weekAgo) chips.append(el('span', 'chip ok', 'New this week'));
     if (r.price_drop > 0) chips.append(el('span', 'chip ok', 'Price cut ' + fmtK(r.price_drop)));
     if (r.days_on_market != null) chips.append(el('span', 'chip', r.days_on_market + ' days on market'));
@@ -270,20 +390,22 @@
     b.append(pc);
 
     const det = el('details', 'ret');
-    const sum = el('summary');
-    const live = r.live_in_gain;
-    const s1 = el('span', null, 'Return estimate · fix up & live ' + r.live_in_years + ' yrs');
-    const s2 = el('span', live == null ? null : live >= 0 ? 'pos' : 'neg', fmtK(live));
-    sum.append(s1, s2); det.append(sum);
+    det.append(el('summary', null, 'How the profit is figured'));
     const dl = el('dl');
-    const row = (k, v, cls) => { dl.append(el('dt', null, k), el('dd', cls || null, v)); };
-    row('After-repair value', fmt$(r.arv));
-    row('Rehab estimate (' + r.rehab_tier + ')', fmt$(r.rehab_cost));
-    row('Selling + buying costs', fmt$((r.selling_costs || 0) + (r.buy_hold_costs || 0)));
-    row('Quick flip net', fmt$(r.flip_profit), r.flip_profit == null ? null : r.flip_profit >= 0 ? 'pos' : 'neg');
-    row('Quick flip ROI', r.flip_roi_pct == null ? '—' : r.flip_roi_pct + '%');
-    row('Value in ' + r.live_in_years + ' yrs', fmt$(r.live_in_value));
-    row('Gain if you fix up, live there, then sell', fmt$(live), live == null ? null : live >= 0 ? 'pos' : 'neg');
+    const row = (k, v, cls) => { dl.append(el('dt', cls || null, k), el('dd', cls || null, v)); };
+    const tierName = { light: 'already updated', medium: 'dated, cosmetic', heavy: 'heavy fixer' }[r.rehab_tier] || r.rehab_tier;
+    row('Value after fix-up', fmt$(r.arv));
+    row('Value in ' + r.live_in_years + ' yrs (+3.5%/yr)', fmt$(r.live_in_value));
+    row('− Purchase price', fmt$(r.price));
+    row('− Fix-up budget (' + tierName + ')', fmt$(r.rehab_cost));
+    row('− Buying closing costs', fmt$(r.buy_closing));
+    row('− Selling costs', fmt$(r.sale_costs));
+    row('Profit after ' + r.live_in_years + ' yrs', fmt$(r.live_in_gain), 'total ' + (r.live_in_gain >= 0 ? 'pos' : 'neg'));
+    dl.append(el('div', 'gap'));
+    row('Cash needed (down + closing + fix-up)', fmt$(r.cash_needed));
+    row('Return on your cash', r.live_in_roi_pct == null ? '—' : r.live_in_roi_pct + '%');
+    row('Payment for your budget', { comfortable: 'Comfortable', tight: 'Tight', high: 'Too high' }[r.payment_level] || '—');
+    row('Quick flip, no living there (for reference)', fmt$(r.flip_profit));
     det.append(dl); b.append(det);
 
     const links = el('div', 'links');
@@ -298,39 +420,45 @@
 
   function chart(list) {
     const box = $('chart'); box.replaceChildren();
-    const pts = list.filter((r) => r.price && r.fit_score != null);
+    const pts = list.filter((r) => r.price && r.live_in_gain != null);
     if (!pts.length) { box.append(el('p', 'sub', 'No listings to plot with these filters.')); return; }
     const NS = 'http://www.w3.org/2000/svg';
     const W = Math.max(300, box.clientWidth || 800), H = 300;
-    const m = { top: 16, right: 30, bottom: 34, left: 40 };
-    let lo = Math.min(...pts.map((r) => r.price)), hi = Math.max(400000, ...pts.map((r) => r.price));
-    lo = Math.floor(lo * 0.97 / 25000) * 25000; hi = Math.ceil(hi / 25000) * 25000;
+    const goal = plan.target_profit || 40000;
+    let lo = Math.min(...pts.map((r) => r.price)), hi = Math.max(...pts.map((r) => r.price));
+    lo = Math.floor(lo * 0.97 / 25000) * 25000; hi = Math.ceil(hi * 1.01 / 25000) * 25000;
+    let ylo = Math.min(0, ...pts.map((r) => r.live_in_gain)), yhi = Math.max(goal * 1.25, ...pts.map((r) => r.live_in_gain));
+    ylo = Math.floor(ylo / 20000) * 20000; yhi = Math.ceil(yhi / 20000) * 20000;
+    const yfmt = (v) => fmtK(v);
+    const probe = document.createElementNS(NS, 'svg'); probe.style.position = 'absolute'; probe.style.visibility = 'hidden'; box.append(probe);
+    const tw = (t) => { const n = document.createElementNS(NS, 'text'); n.textContent = t; probe.append(n); const w = n.getComputedTextLength(); n.remove(); return w; };
+    const m = { top: 16, right: tw('$' + Math.round(hi / 1000) + 'k') / 2 + 6, bottom: 34, left: Math.max(tw(yfmt(ylo)), tw(yfmt(yhi))) + 12 };
+    probe.remove();
     const x = (v) => m.left + (v - lo) / (hi - lo) * (W - m.left - m.right);
-    const y = (v) => H - m.bottom - v / 100 * (H - m.top - m.bottom);
+    const y = (v) => H - m.bottom - (v - ylo) / (yhi - ylo) * (H - m.top - m.bottom);
     const svg = document.createElementNS(NS, 'svg');
-    svg.setAttribute('viewBox', `0 0 ${W} ${H}`); svg.setAttribute('role', 'img'); svg.setAttribute('aria-label', 'Price versus fit score');
+    svg.setAttribute('viewBox', `0 0 ${W} ${H}`); svg.setAttribute('role', 'img'); svg.setAttribute('aria-label', 'Price versus estimated 2-year profit');
     const add = (tag, attrs, text) => { const n = document.createElementNS(NS, tag); for (const k in attrs) n.setAttribute(k, attrs[k]); if (text != null) n.textContent = text; svg.append(n); return n; };
-    for (let v = 0; v <= 100; v += 25) {
-      add('line', { x1: m.left, x2: W - m.right, y1: y(v), y2: y(v), stroke: 'var(--line)' });
-      add('text', { x: m.left - 8, y: y(v) + 4, 'text-anchor': 'end' }, String(v));
+    for (let v = ylo; v <= yhi; v += 20000) {
+      add('line', { x1: m.left, x2: W - m.right, y1: y(v), y2: y(v), stroke: v === 0 ? 'var(--muted)' : 'var(--line)' });
+      add('text', { x: m.left - 8, y: y(v) + 4, 'text-anchor': 'end' }, yfmt(v));
     }
     const step = (hi - lo) / (W < 500 ? 3 : 6);
     const nice = step <= 25000 ? 25000 : step <= 50000 ? 50000 : 100000;
     for (let v = Math.ceil(lo / nice) * nice; v <= hi; v += nice) add('text', { x: x(v), y: H - m.bottom + 20, 'text-anchor': 'middle' }, '$' + Math.round(v / 1000) + 'k');
-    add('line', { x1: m.left, x2: W - m.right, y1: H - m.bottom, y2: H - m.bottom, stroke: 'var(--muted)' });
-    if (TARGET > lo && TARGET < hi) add('line', { x1: x(TARGET), x2: x(TARGET), y1: m.top, y2: H - m.bottom, stroke: 'var(--muted)', 'stroke-dasharray': '4 3' });
+    add('line', { x1: m.left, x2: W - m.right, y1: y(goal), y2: y(goal), stroke: 'var(--accent)', 'stroke-dasharray': '5 4' });
     const tip = el('div', 'tip');
     pts.forEach((r) => {
-      const dot = add('circle', { cx: x(r.price), cy: y(r.fit_score), r: 6, fill: REGION_COLOR[r.region] || 'var(--other)', 'fill-opacity': r.status === 'active' ? 0.9 : 0.35, stroke: 'var(--panel)', 'stroke-width': 1.5, tabindex: 0 });
+      const dot = add('circle', { cx: x(r.price), cy: y(r.live_in_gain), r: 6, fill: REGION_COLOR[r.region] || 'var(--other)', 'fill-opacity': r.status === 'active' ? 0.9 : 0.35, stroke: 'var(--panel)', 'stroke-width': 1.5, tabindex: 0 });
       dot.style.cursor = 'pointer';
       const show = () => {
         dot.setAttribute('r', 8);
-        tip.replaceChildren(el('div', 't', r.address + ', ' + r.city), el('div', null, fmt$(r.price) + ' · fit ' + r.fit_score + (r.status !== 'active' ? ' · pending' : '')));
+        tip.replaceChildren(el('div', 't', r.address + ', ' + r.city), el('div', null, fmt$(r.price) + ' · 2-yr profit ' + fmtK(r.live_in_gain) + (r.status !== 'active' ? ' · pending' : '')));
         const scale = box.clientWidth / W;
         tip.style.opacity = 1;
-        const tw = tip.offsetWidth;
-        tip.style.left = Math.min(Math.max(0, x(r.price) * scale - tw / 2), box.clientWidth - tw) + 'px';
-        tip.style.top = Math.max(0, y(r.fit_score) * scale - 54) + 'px';
+        const w = tip.offsetWidth;
+        tip.style.left = Math.min(Math.max(0, x(r.price) * scale - w / 2), box.clientWidth - w) + 'px';
+        tip.style.top = Math.max(0, y(r.live_in_gain) * scale - 54) + 'px';
       };
       const hide = () => { dot.setAttribute('r', 6); tip.style.opacity = 0; };
       dot.addEventListener('mouseenter', show); dot.addEventListener('focus', show);
@@ -339,7 +467,7 @@
     box.append(svg, tip);
     const leg = el('div', 'legend');
     ['North', 'Central', 'South'].filter((g) => pts.some((r) => r.region === g)).forEach((g) => { const s = el('span'); const i = el('i'); i.style.background = REGION_COLOR[g]; s.append(i, g + ' county'); leg.append(s); });
-    leg.append(el('span', null, 'Faded dots are pending sales'));
+    leg.append(el('span', null, 'Dashed line: ' + fmtK(goal) + ' profit goal'), el('span', null, 'Faded dots are pending sales'));
     box.append(leg);
   }
 
@@ -348,7 +476,7 @@
     $('count').textContent = list.length + (list.length === 1 ? ' home' : ' homes');
     const weekAgo = daysBefore(latest, 7);
     const cards = $('cards'); cards.replaceChildren();
-    if (!list.length) cards.append(el('p', 'empty', 'No homes match these filters. Try another city or include pending sales.'));
+    if (!list.length) cards.append(el('p', 'empty', 'No homes match these filters. Try another city, include pending sales, or turn off "Only homes that fit my budget".'));
     list.forEach((r) => cards.append(card(r, weekAgo)));
     chart(list);
   }
@@ -357,7 +485,7 @@
 
   fetch('dashboard.json', { cache: 'no-cache' })
     .then((r) => { if (!r.ok) throw new Error('HTTP ' + r.status); return r.json(); })
-    .then((d) => { rows = d.rows || []; latest = d.updated || ''; summary(); render(); })
+    .then((d) => { rows = d.rows || []; latest = d.updated || ''; plan = d.plan || {}; header(); render(); })
     .catch((e) => { $('cards').replaceChildren(el('p', 'err', "Couldn't load today's listings (" + e.message + '). Refresh the page in a minute.')); $('top-line').textContent = ''; });
 })();
 </script>

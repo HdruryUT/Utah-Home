@@ -53,9 +53,9 @@ class Flip(unittest.TestCase):
         self.assertEqual(f["tier"], "medium")
         m = C["city_market"]["Provo"]
         ppsf = round(m["ppsf"] * (1000 / m["typical_sqft"]) ** -C["flip"]["size_adjust_exponent"])
-        rehab = 1000 * 35
-        arv = max(1000 * ppsf * C["flip"]["arv_premium_over_median"], 250000 + rehab * 1.3)
-        net = arv - 250000 - rehab - arv * 0.07 - 250000 * 0.03
+        rehab = 1000 * 25
+        arv = max(1000 * ppsf * C["flip"]["arv_premium_over_median"], 250000 + rehab * 1.6)
+        net = arv - 250000 - rehab - arv * 0.06 - 250000 * 0.03
         self.assertEqual(f["arv"], round(arv))
         self.assertEqual(f["net_profit"], round(net))
 
@@ -81,6 +81,38 @@ class Scoring(unittest.TestCase):
         r = score.score_listing(house(price=389000), C)
         self.assertTrue(r["stretch"])
         self.assertTrue(any("Stretch" in c for c in r["cons"]))
+
+
+class LiveInFlip(unittest.TestCase):
+    def test_payment_math(self):
+        # $350k, 10% down, 7.18% 30-yr: P&I on $315k is about $2,134
+        a = score.affordability(house(price=350000, hoa_monthly=0), score.flip_estimate(house(price=350000), C), C)
+        by = C["buyer"]
+        loan = 315000
+        r = by["mortgage_rate"] / 12
+        pi = loan * r / (1 - (1 + r) ** -360)
+        expected = pi + 350000 * by["property_tax_rate"] / 12 + by["insurance_annual"] / 12 + loan * by["pmi_rate"] / 12
+        self.assertEqual(a["monthly"], round(expected))
+        self.assertIn(a["payment_level"], ("comfortable", "tight", "high"))
+        self.assertAlmostEqual(pi, 2134, delta=5)
+
+    def test_cash_needed_includes_rehab(self):
+        h = house(price=300000)
+        f = score.flip_estimate(h, C)
+        a = score.affordability(h, f, C)
+        self.assertEqual(a["cash_needed"], round(300000 * 0.13 + f["rehab"]))
+
+    def test_two_year_gain(self):
+        h = house(price=300000)
+        f = score.flip_estimate(h, C)
+        live = score.live_in_estimate(h, f, C)
+        fut = f["arv"] * 1.035 ** 2
+        self.assertEqual(live["equity_gain"], round(fut - 300000 - f["rehab"] - 300000 * 0.03 - fut * 0.06))
+
+    def test_dated_beats_already_remodeled_on_condition(self):
+        dated = score.fit_score(house(description="needs updates"), score.flip_estimate(house(description="needs updates"), C), C)[1]
+        done = score.fit_score(house(description="fully remodeled"), score.flip_estimate(house(description="fully remodeled"), C), C)[1]
+        self.assertGreater(dated["condition"], done["condition"])
 
 
 class History(unittest.TestCase):

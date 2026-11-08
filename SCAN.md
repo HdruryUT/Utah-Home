@@ -63,7 +63,18 @@ Rules:
 - Include pending listings, which can be summary data only. Leave sold listings out.
 - Never invent a field. Leave it out if the page doesn't show it.
 
+Then count each listing's photos (the site's photo gallery uses this; it only checks listings missing a count):
+
+```
+python3 scripts/photo_count.py data/raw/TODAY.json
+```
+
+Copy `photo_count` forward from `data/listings.json` for unchanged listings, as with every other field.
+
 ## 3. Score
+
+Weekly (first scan on or after each Thursday): update `buyer.mortgage_rate` and `buyer.mortgage_rate_as_of`
+in `criteria.json` with the latest Freddie Mac 30-year fixed average (WebSearch: `Freddie Mac 30-year mortgage rate this week`).
 
 ```
 python3 scripts/score.py --raw data/raw/TODAY.json --today TODAY

@@ -145,22 +145,72 @@ def flip_estimate(listing, c):
 
 
 def live_in_estimate(listing, flip, c):
-    """Fix it up, live there N years, then sell: gain after rehab and selling costs."""
-    li = c["live_in"]
+    """Live-in flip: buy, fix up while living there for N years, then sell.
+    Profit = value after N years - price - rehab - buying closing costs - selling costs.
+    Mortgage interest is left out: it roughly replaces the rent you'd pay anyway."""
+    li, by = c["live_in"], c["buyer"]
     price = listing["price"]
     base = flip.get("arv") or price
     rehab = flip.get("rehab") or 0
     future = base * (1 + li["annual_appreciation"]) ** li["years"]
-    gain = future - price - rehab - future * c["flip"]["selling_cost_pct"]
-    return {"years": li["years"], "future_value": round(future), "equity_gain": round(gain)}
+    buy_closing = price * by["closing_cost_pct"]
+    gain = future - price - rehab - buy_closing - future * c["flip"]["selling_cost_pct"]
+    # Highest purchase price that still clears target_profit, holding the home's value fixed.
+    target = li.get("target_profit", 40000)
+    max_offer = (future * (1 - c["flip"]["selling_cost_pct"]) - rehab - target) / (1 + by["closing_cost_pct"])
+    return {"years": li["years"], "future_value": round(future), "equity_gain": round(gain),
+            "target_profit": target, "max_offer": round(max_offer / 1000) * 1000}
+
+
+def affordability(listing, flip, c):
+    by = c["buyer"]
+    price = listing["price"]
+    loan = price * (1 - by["down_payment_pct"])
+    r = by["mortgage_rate"] / 12
+    n = by["term_years"] * 12
+    pi = loan * r / (1 - (1 + r) ** -n)
+    tax = price * by["property_tax_rate"] / 12
+    ins = by["insurance_annual"] / 12
+    pmi = loan * by["pmi_rate"] / 12 if by["down_payment_pct"] < 0.2 else 0
+    hoa = listing.get("hoa_monthly") or 0
+    monthly = pi + tax + ins + pmi + hoa
+    level = ("comfortable" if monthly <= by["comfortable_monthly_payment"]
+             else "tight" if monthly <= by["max_monthly_payment"] else "high")
+    cash = price * (by["down_payment_pct"] + by["closing_cost_pct"]) + (flip.get("rehab") or 0)
+    return {"monthly": round(monthly), "payment_level": level, "cash_needed": round(cash),
+            "cash_ok": cash <= by["cash_available"]}
+
+
+def comfortable_price(c):
+    """Highest price whose payment (no HOA) stays at the comfortable level, rounded down to $5k."""
+    lo, hi = 50000, 1000000
+    while hi - lo > 1000:
+        mid = (lo + hi) / 2
+        a = affordability({"price": mid}, {}, c)
+        lo, hi = (mid, hi) if a["payment_level"] == "comfortable" else (lo, mid)
+    return int(lo // 5000 * 5000)
 
 
 def fit_score(listing, flip, c):
     w = c["weights"]
     b = c["budget"]
+    by = c["buyer"]
     price = listing["price"]
     pts = {}
-    pts["price"] = w["price"] * clamp((b["stretch_max"] - price) / (b["stretch_max"] - b["price_floor_for_scoring"]))
+    live = live_in_estimate(listing, flip, c)
+    aff = affordability(listing, flip, c)
+
+    pts["profit"] = w["profit"] * clamp(live["equity_gain"] / c["flip"]["full_points_live_in_gain"])
+
+    over = by["max_monthly_payment"] * 1.08
+    pay = clamp((over - aff["monthly"]) / (over - by["comfortable_monthly_payment"]))
+    pts["affordability"] = w["affordability"] * (0.6 * pay + 0.4 * (1.0 if aff["cash_ok"] else 0.0))
+
+    beds = listing.get("beds") or 0
+    baths = listing.get("baths") or 0
+    layout = {2: 0.35, 3: 0.75}.get(beds, 0.85 if beds >= 4 else 0)
+    layout += 0.25 if baths >= 2 else (0.15 if baths >= 1.5 else 0)
+    pts["resale_layout"] = w["resale_layout"] * clamp(layout)
 
     sqft = listing.get("sqft")
     if sqft:
@@ -169,23 +219,12 @@ def fit_score(listing, flip, c):
     else:
         pts["value_vs_market"] = w["value_vs_market"] * 0.3
 
-    beds = listing.get("beds") or 0
-    baths = listing.get("baths") or 0
-    bb = {2: 0.45, 3: 0.75}.get(beds, 0.85 if beds >= 4 else 0)
-    bb += 0.15 if baths >= 2 else (0.08 if baths >= 1.5 else 0)
-    pts["beds_baths"] = w["beds_baths"] * clamp(bb)
+    pts["condition"] = w["condition"] * c["condition_scores"][flip["tier"]]
+    pts["price"] = w["price"] * clamp((b["stretch_max"] - price) / (b["stretch_max"] - b["price_floor_for_scoring"]))
 
     lot = listing.get("lot_acres") or 0
     lg = (0.5 if listing.get("garage") else 0) + (0.5 if lot >= 0.2 else 0.3 if lot >= 0.12 else 0)
     pts["lot_garage"] = w["lot_garage"] * lg
-
-    pts["condition"] = w["condition"] * {"light": 1.0, "medium": 0.6, "heavy": 0.3}[flip["tier"]]
-
-    profit = flip.get("net_profit") or 0
-    live_gain = live_in_estimate(listing, flip, c)["equity_gain"]
-    pts["flip_upside"] = w["flip_upside"] * max(
-        clamp(profit / c["flip"]["full_points_profit"]),
-        clamp(live_gain / c["flip"]["full_points_live_in_gain"]))
 
     hoa = listing.get("hoa_monthly") or 0
     pts["hoa"] = w["hoa"] * (1.0 if hoa == 0 else 0.5 if hoa <= 50 else 0)
@@ -210,11 +249,7 @@ def pros_cons(listing, flip, c):
     b = c["budget"]
     price = listing["price"]
     under = b["target_max"] - price
-    if under >= 20000:
-        pros.append(f"{money(under)} under your $380k budget")
-    elif under >= 0:
-        pros.append("Within budget")
-    else:
+    if under < 0:
         cons.append(f"Stretch: {money(-under)} over your $380k target")
 
     sqft = listing.get("sqft")
@@ -233,12 +268,8 @@ def pros_cons(listing, flip, c):
         cons.append("Square footage not listed")
 
     beds, baths = listing.get("beds") or 0, listing.get("baths") or 0
-    if beds >= 3:
-        pros.append(f"{beds} bedrooms: room for an office or guests, and better resale")
-    if baths and baths < 1.5:
-        cons.append("Only 1 bathroom")
-    elif baths >= 2:
-        pros.append(f"{baths:g} bathrooms")
+    if baths and baths < 1.5 and beds != 2:
+        cons.append("Only 1 bathroom: adding a second is a common value-add")
 
     lot = listing.get("lot_acres")
     if lot and lot >= 0.2:
@@ -258,9 +289,7 @@ def pros_cons(listing, flip, c):
 
     tier = flip["tier"]
     if tier == "heavy":
-        cons.append("Listed as needing work: budget for a thorough inspection")
-    elif tier == "light" and (not yb or yb < 2005):
-        pros.append("Updates mentioned in the listing")
+        cons.append("Heavy fixer: may be hard to live in or finance while you work on it")
 
     hoa = listing.get("hoa_monthly") or 0
     if hoa:
@@ -277,15 +306,36 @@ def pros_cons(listing, flip, c):
             if kw in blob and msg not in out:
                 out.append(msg)
 
-    profit = flip.get("net_profit")
-    if profit is not None:
-        if profit >= 40000:
-            pros.append(f"Strong flip upside: ~{money(profit)} estimated net")
-        elif profit < 0:
-            cons.append("A quick flip would likely lose money after fees; it works better as a live-in")
-    live_gain = live_in_estimate(listing, flip, c)["equity_gain"]
-    if live_gain >= 80000:
-        pros.append(f"Fix up and live {c['live_in']['years']} yrs: ~{money(live_gain)} estimated gain")
+    live = live_in_estimate(listing, flip, c)
+    yrs = live["years"]
+    if live["equity_gain"] >= 60000:
+        pros.append(f"Strong profit potential: ~{money(live['equity_gain'])} after fixing up and selling in {yrs} yrs")
+    elif live["equity_gain"] < 20000:
+        cons.append(f"Thin profit: only ~{money(live['equity_gain'])} after fixing up and selling in {yrs} yrs")
+    if live["max_offer"] >= price:
+        pros.append(f"Clears ~{money(live['target_profit'])} profit even at asking price")
+    elif live["max_offer"] >= price * 0.9:
+        pros.append(f"Offer {money(live['max_offer'])} or less to clear ~{money(live['target_profit'])} profit")
+    if tier == "medium":
+        pros.append("Dated but livable: room to add value with cosmetic updates")
+    elif tier == "light" and (not yb or yb < 2005):
+        cons.append("Already updated: little left for you to add value")
+
+    aff = affordability(listing, flip, c)
+    by = c["buyer"]
+    if aff["payment_level"] == "comfortable":
+        pros.append(f"Payment ~${aff['monthly']:,}/mo: comfortable for your budget")
+    elif aff["payment_level"] == "tight":
+        cons.append(f"Payment ~${aff['monthly']:,}/mo: doable but tight")
+    else:
+        cons.append(f"Payment ~${aff['monthly']:,}/mo: likely more than you'd want to carry")
+    if not aff["cash_ok"]:
+        cons.append(f"Needs ~{money(aff['cash_needed'])} cash to buy and fix: more than your cash budget")
+
+    if beds == 2 and baths < 1.5:
+        cons.append("2 bed / 1 bath: fewer buyers when you sell")
+    elif beds >= 3 and baths >= 2:
+        pros.append("3+ bed / 2 bath: the layout most buyers want when you sell")
     return pros, cons
 
 
@@ -294,6 +344,7 @@ def score_listing(listing, c):
     score, breakdown = fit_score(listing, flip, c)
     pros, cons = pros_cons(listing, flip, c)
     live = live_in_estimate(listing, flip, c)
+    aff = affordability(listing, flip, c)
     sqft = listing.get("sqft")
     return {
         "id": listing_id(listing),
@@ -312,6 +363,7 @@ def score_listing(listing, c):
         "days_on_market": listing.get("days_on_market"),
         "url": listing.get("url"),
         "photo": listing.get("photo"),
+        "photo_count": listing.get("photo_count"),
         "source": listing.get("source"),
         "stretch": listing["price"] > c["budget"]["target_max"],
         "fit_score": score,
@@ -329,6 +381,15 @@ def score_listing(listing, c):
         "live_in_years": live["years"],
         "live_in_value": live["future_value"],
         "live_in_gain": live["equity_gain"],
+        "live_in_roi_pct": round(100 * live["equity_gain"] / aff["cash_needed"]) if aff["cash_needed"] else None,
+        "max_offer": live["max_offer"],
+        "buy_closing": round(listing["price"] * c["buyer"]["closing_cost_pct"]),
+        "sale_costs": round(live["future_value"] * c["flip"]["selling_cost_pct"]),
+        "target_profit": live["target_profit"],
+        "monthly_payment": aff["monthly"],
+        "payment_level": aff["payment_level"],
+        "cash_needed": aff["cash_needed"],
+        "cash_ok": aff["cash_ok"],
     }
 
 
@@ -401,7 +462,13 @@ def main():
 
     db_path.parent.mkdir(parents=True, exist_ok=True)
     db_path.write_text(json.dumps(db, indent=1, sort_keys=True))
-    Path(args.out).write_text(json.dumps({"updated": args.today, "rows": rows}, indent=1))
+    by = c["buyer"]
+    plan = {k: by[k] for k in ("down_payment_pct", "closing_cost_pct", "mortgage_rate", "mortgage_rate_as_of")}
+    plan["comfortable_price"] = comfortable_price(c)
+    plan.update({"hold_years": c["live_in"]["years"], "appreciation": c["live_in"]["annual_appreciation"],
+                 "target_profit": c["live_in"]["target_profit"], "selling_cost_pct": c["flip"]["selling_cost_pct"],
+                 "rehab_per_sqft": c["flip"]["rehab_per_sqft"], "target_max": c["budget"]["target_max"]})
+    Path(args.out).write_text(json.dumps({"updated": args.today, "plan": plan, "rows": rows}, indent=1))
     print(f"kept {len(raw) - len(rejected)} of {len(raw)} scanned; {len(rows)} on dashboard")
     for r in rejected:
         print(f"  rejected {r['id']}: {r['reason']}")
