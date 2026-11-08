@@ -341,22 +341,22 @@
       ],
       [
         0.15,
-        0.003
+        0.0022
       ],
       [
         0.1,
-        0.005
+        0.0038
       ],
       [
         0.05,
-        0.0065
+        0.005
       ],
       [
         0.0,
-        0.0085
+        0.0065
       ]
     ],
-    "_pmi_note": "Typical conventional PMI (annual % of loan) for ~720-760 credit, by down payment. Varies by lender and credit.",
+    "_pmi_note": "Typical conventional PMI (annual % of loan) for strong credit (740-759 tier), by down payment. Get a real quote from your lender.",
     "comfortable_price_fixup": 35000
   },
   "condition_scores": {
