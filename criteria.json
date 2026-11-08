@@ -332,7 +332,7 @@
     "pmi_rate": 0.0055,
     "comfortable_monthly_payment": 2250,
     "max_monthly_payment": 2775,
-    "cash_available": 85000
+    "cash_available": 90000
   },
   "condition_scores": {
     "medium": 1.0,

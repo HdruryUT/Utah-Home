@@ -4,6 +4,16 @@ Goal: find every **detached single-family home** for sale in **Utah County, UT**
 
 Today's date in America/Denver is `TODAY` (YYYY-MM-DD) below.
 
+## Every run does every step
+
+Steps 1a, 1b, 1c, 1d, 2, 3 and 5 are **all required on every run**, even if 1a finds nothing new, and even if
+today's raw file already exists (merge into it). The rolling sweep (1b) and re-checks (1c) find things 1a can't:
+older listings, price cuts, and homes that sold. Don't stop early. Read both halves of every page (normal plus
+`offset: 100000`). Always commit and push the updated `data/sweep.json`, even when no listings changed.
+
+The summary must list: pages read in 1a, the page range swept in 1b, how many listings 1c re-checked, and which
+sources were blocked.
+
 ## 1. Collect listings
 
 Use WebFetch for all web access. Never use curl with a spoofed browser user agent, and never try to get around a
@@ -26,7 +36,7 @@ baths | sqft | status | url path". Then on a last line: the lowest and highest p
 page (any type, any price), and the highest page number linked."*
 
 Start at page 1 and keep going until a page's **highest** pid is at or below `max_pid_seen` in `data/sweep.json`
-(nothing newer is left). Read at least 3 pages. Then set `max_pid_seen` to the highest pid you saw.
+(nothing newer is left). Read at least 3 pages, even if page 1 has nothing new. Then set `max_pid_seen` to the highest pid you saw.
 
 - Homes **at or under $395,000** are candidates: get their details (step 2).
 - Homes **$395,001–$450,000** go on the watch list in `data/watch.json` as
