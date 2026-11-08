@@ -1,0 +1,365 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="robots" content="noindex, nofollow">
+<title>Utah County Starter Homes</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,400;6..72,500&family=IBM+Plex+Sans:wght@400;500;600&display=swap">
+<style>
+  /* Layout: header + summary strip, filter bar, photo-led card grid, one chart, method notes. */
+  :root {
+    --bg: #f3f4f1; --panel: #ffffff; --ink: #1d2422; --muted: #5d6763; --line: #dde1dc;
+    --accent: #2f6b55; --accent-soft: #e2eee8; --warn: #a2560f; --warn-soft: #f6eadf; --bad: #b3261e;
+    --north: #2f6b55; --central: #4a5fa8; --south: #b0721b; --other: #777;
+    --display: "Newsreader", Georgia, "Times New Roman", serif;
+    --body: "IBM Plex Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
+    --r: 10px;
+    color-scheme: light;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --bg: #121614; --panel: #1b201e; --ink: #e7ebe8; --muted: #9aa49f; --line: #2c3330;
+      --accent: #7cc4a5; --accent-soft: #1f3129; --warn: #e3a35f; --warn-soft: #33271b; --bad: #f2827a;
+      --north: #7cc4a5; --central: #95a6ef; --south: #e3a35f; --other: #aaa;
+      color-scheme: dark;
+    }
+  }
+  :root[data-theme="dark"] {
+    --bg: #121614; --panel: #1b201e; --ink: #e7ebe8; --muted: #9aa49f; --line: #2c3330;
+    --accent: #7cc4a5; --accent-soft: #1f3129; --warn: #e3a35f; --warn-soft: #33271b; --bad: #f2827a;
+    --north: #7cc4a5; --central: #95a6ef; --south: #e3a35f; --other: #aaa;
+    color-scheme: dark;
+  }
+  * { box-sizing: border-box; }
+  html { padding-top: env(safe-area-inset-top, 0px); padding-bottom: env(safe-area-inset-bottom, 0px); }
+  body { margin: 0; background: var(--bg); color: var(--ink); font: 15px/1.5 var(--body); font-variant-numeric: tabular-nums; }
+  .wrap { max-width: 1240px; margin: 0 auto; padding-block: 28px 64px; padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); display: flex; flex-direction: column; gap: 28px; }
+  h1, h2 { font-family: var(--display); font-weight: 400; margin: 0; text-wrap: balance; }
+  h1 { font-size: clamp(2rem, 4.5vw, 3rem); line-height: 1.05; letter-spacing: -0.01em; }
+  h2 { font-size: 1.5rem; }
+  .lede { margin: 8px 0 0; color: var(--muted); max-width: 68ch; }
+  .lede b { color: var(--ink); font-weight: 600; }
+  .stamp { margin: 6px 0 0; font-size: 13px; color: var(--muted); }
+
+  .tiles { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 150px), 1fr)); gap: 12px; }
+  .tile { background: var(--panel); border: 1px solid var(--line); border-radius: var(--r); padding: 14px 16px; display: flex; flex-direction: column; gap: 2px; }
+  .tile span { font-size: 12px; color: var(--muted); text-transform: uppercase; letter-spacing: .06em; }
+  .tile b { font-family: var(--display); font-weight: 400; font-size: 2rem; line-height: 1.1; }
+
+  .bar { display: flex; flex-wrap: wrap; gap: 12px 16px; align-items: end; position: sticky; top: env(safe-area-inset-top, 0px); z-index: 5; background: var(--bg); padding-block: 10px; border-bottom: 1px solid var(--line); }
+  .bar label { display: flex; flex-direction: column; gap: 4px; font-size: 12px; color: var(--muted); }
+  .bar select { font: inherit; font-size: 14px; color: var(--ink); background: var(--panel); border: 1px solid var(--line); border-radius: 8px; padding: 7px 10px; min-width: 9rem; }
+  .bar .chk { flex-direction: row; align-items: center; gap: 8px; font-size: 14px; color: var(--ink); padding-bottom: 8px; }
+  .bar .chk input { width: 16px; height: 16px; accent-color: var(--accent); }
+  .count { margin-left: auto; font-size: 13px; color: var(--muted); padding-bottom: 8px; }
+  select:focus-visible, input:focus-visible, a:focus-visible, summary:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+
+  .cards { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 340px), 1fr)); gap: 18px; }
+  .card { background: var(--panel); border: 1px solid var(--line); border-radius: var(--r); overflow: hidden; display: flex; flex-direction: column; min-width: 0; }
+  .card.pending { opacity: .7; }
+  .photo { position: relative; aspect-ratio: 3 / 2; max-width: 100%; background: var(--accent-soft); overflow: hidden; }
+  .photo img { width: 100%; height: 100%; object-fit: cover; display: block; }
+  .photo .none { position: absolute; inset: 0; display: flex; align-items: center; justify-content: center; color: var(--muted); font-size: 13px; }
+  .score { position: absolute; left: 12px; top: 12px; width: 56px; height: 56px; border-radius: 50%; background: var(--panel); border: 2px solid currentColor; display: flex; flex-direction: column; align-items: center; justify-content: center; line-height: 1; box-shadow: 0 2px 8px rgba(0,0,0,.18); }
+  .score b { font-family: var(--display); font-weight: 500; font-size: 1.45rem; }
+  .score span { font-size: 9px; letter-spacing: .1em; text-transform: uppercase; margin-top: 2px; }
+  .score.good { color: var(--accent); } .score.mid { color: var(--warn); } .score.low { color: var(--muted); }
+  .price-tag { position: absolute; right: 12px; bottom: 12px; background: var(--panel); color: var(--ink); border-radius: 8px; padding: 4px 10px; font-family: var(--display); font-size: 1.35rem; box-shadow: 0 2px 8px rgba(0,0,0,.18); }
+  .body { padding: 14px 16px 16px; display: flex; flex-direction: column; gap: 10px; flex: 1; }
+  .addr h3 { margin: 0; font-size: 17px; font-weight: 600; overflow-wrap: anywhere; }
+  .addr p { margin: 1px 0 0; font-size: 13px; color: var(--muted); }
+  .chips { display: flex; flex-wrap: wrap; gap: 6px; }
+  .chip { font-size: 12px; border-radius: 999px; padding: 2px 9px; background: var(--bg); color: var(--muted); border: 1px solid var(--line); }
+  .chip.warn { background: var(--warn-soft); color: var(--warn); border-color: transparent; }
+  .chip.ok { background: var(--accent-soft); color: var(--accent); border-color: transparent; }
+  .facts { font-size: 14px; }
+  .pc { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 140px), 1fr)); gap: 12px; }
+  .pc h4 { margin: 0 0 4px; font-size: 11px; font-weight: 600; text-transform: uppercase; letter-spacing: .08em; }
+  .pros h4 { color: var(--accent); } .cons h4 { color: var(--warn); }
+  .pc ul { margin: 0; padding: 0; list-style: none; display: flex; flex-direction: column; gap: 4px; font-size: 13px; }
+  .pc li { padding-left: 13px; position: relative; }
+  .pc li::before { content: ""; position: absolute; left: 0; top: .55em; width: 6px; height: 6px; border-radius: 50%; }
+  .pros li::before { background: var(--accent); } .cons li::before { background: var(--warn); }
+  details.ret { border-top: 1px solid var(--line); padding-top: 10px; font-size: 13px; margin-top: auto; }
+  details.ret summary { cursor: pointer; display: flex; justify-content: space-between; gap: 8px; }
+  details.ret summary span:first-child { color: var(--muted); }
+  details.ret dl { display: grid; grid-template-columns: 1fr auto; gap: 4px 12px; margin: 10px 0 0; }
+  details.ret dt { color: var(--muted); } details.ret dd { margin: 0; text-align: right; }
+  .pos { color: var(--accent); font-weight: 600; } .neg { color: var(--bad); font-weight: 600; }
+  .links { display: flex; flex-wrap: wrap; gap: 14px; font-size: 13px; }
+  .links a { color: var(--ink); text-underline-offset: 3px; }
+  .empty { grid-column: 1 / -1; color: var(--muted); padding: 24px 0; }
+
+  .chart-card { background: var(--panel); border: 1px solid var(--line); border-radius: var(--r); padding: 18px; }
+  .sub { margin: 4px 0 12px; font-size: 13px; color: var(--muted); }
+  .chart { position: relative; }
+  .chart svg { width: 100%; height: auto; display: block; }
+  .chart text { fill: var(--muted); font-size: 12px; font-family: var(--body); }
+  .tip { position: absolute; pointer-events: none; background: var(--panel); border: 1px solid var(--line); border-radius: 8px; padding: 6px 10px; font-size: 12px; box-shadow: 0 4px 14px rgba(0,0,0,.15); white-space: nowrap; opacity: 0; }
+  .tip .t { color: var(--muted); }
+  .legend { display: flex; flex-wrap: wrap; gap: 14px; font-size: 12px; color: var(--muted); margin-top: 8px; }
+  .legend i { display: inline-block; width: 9px; height: 9px; border-radius: 50%; margin-right: 6px; vertical-align: -1px; }
+
+  details.method { font-size: 14px; color: var(--muted); }
+  details.method summary { cursor: pointer; color: var(--ink); font-weight: 500; }
+  details.method dl { display: grid; grid-template-columns: minmax(9rem, max-content) 1fr; gap: 8px 24px; max-width: 64rem; margin-top: 12px; }
+  details.method dt { color: var(--ink); font-weight: 500; } details.method dd { margin: 0; max-width: 70ch; }
+  @media (max-width: 34rem) { details.method dl { grid-template-columns: 1fr; } details.method dd { margin-bottom: 8px; } .count { margin-left: 0; } }
+  .err { background: var(--warn-soft); color: var(--warn); padding: 12px 14px; border-radius: var(--r); }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <h1>Utah County Starter Homes</h1>
+    <p class="lede">Detached houses with 2+ bedrooms, up to $395k, anywhere in Utah County. <span id="top-line">Loading today's scan…</span></p>
+    <p class="stamp" id="stamp"></p>
+  </header>
+
+  <section class="tiles" aria-label="Summary">
+    <div class="tile"><span>Active homes</span><b id="t-active">—</b></div>
+    <div class="tile"><span>At or under $380k</span><b id="t-under">—</b></div>
+    <div class="tile"><span>Median asking</span><b id="t-median">—</b></div>
+    <div class="tile"><span>New this week</span><b id="t-new">—</b></div>
+    <div class="tile"><span>Price drops</span><b id="t-drops">—</b></div>
+  </section>
+
+  <section>
+    <h2>Listings</h2>
+    <p class="sub">Ranked by fit score (0–100): price, value vs the city's going rate, size, lot, condition and return upside. Tap "Return estimate" on any card for the numbers.</p>
+    <div class="bar">
+      <label for="f-city">City<select id="f-city"><option value="">All cities</option></select></label>
+      <label for="f-sort">Sort by<select id="f-sort">
+        <option value="fit">Best fit</option>
+        <option value="price">Lowest price</option>
+        <option value="live">Best 5-year return</option>
+        <option value="flip">Best quick flip</option>
+        <option value="newest">Newest found</option>
+      </select></label>
+      <label for="f-show">Show<select id="f-show">
+        <option value="active">For sale now</option>
+        <option value="all">Include pending sales</option>
+      </select></label>
+      <label class="chk" for="f-stretch"><input type="checkbox" id="f-stretch" checked> Include stretch ($380k–$395k)</label>
+      <span class="count" id="count"></span>
+    </div>
+  </section>
+
+  <div class="cards" id="cards"></div>
+
+  <section class="chart-card">
+    <h2>Price vs fit</h2>
+    <p class="sub">Each dot is a listing shown above. Up and to the left is better: a higher fit for less money. The dashed line is your $380k target.</p>
+    <div class="chart" id="chart"></div>
+  </section>
+
+  <details class="method">
+    <summary>How the scores and estimates work</summary>
+    <dl>
+      <dt>Where listings come from</dt><dd>A scan every morning reads Century21's public single-family pages, which carry the local MLS listings, for each Utah County city. It then opens each new listing to confirm its type, lot, year built and description. Zillow, Homes.com, UtahRealEstate.com and KSL are searched as cross-checks. A brand-new listing can take a day to appear, so always confirm details on the listing link.</dd>
+      <dt>What's filtered out</dt><dd>Townhomes, condos, twin homes, homes on lots under 0.05 acres (attached homes labeled single family), land leases, 55+ communities, auctions, fewer than 2 bedrooms, and anything over $395k.</dd>
+      <dt>Fit score</dt><dd>Price vs budget (20), price per sqft vs the city's going rate (25), beds and baths (15), lot and garage (10), condition (10), return upside (15), no HOA (3), time on market (2). Dealbreakers subtract points: cash offers only (−15), short sale (−6), under contract (−5), may not qualify for FHA (−4).</dd>
+      <dt>After-repair value</dt><dd>The higher of (a) size × the city's median closed $/sqft for homes under $500k, scaled up for smaller-than-typical homes, plus 12% for a renovated condition, and (b) asking price + rehab cost × a return multiple (1.6 heavy, 1.3 medium, 1.0 light). Capped at 1.6× asking price.</dd>
+      <dt>Rehab estimate</dt><dd>Light $15/sqft (paint, flooring), medium $35/sqft (kitchen, bath, systems), heavy $60/sqft (as-is or fixer). The tier comes from the listing's wording and year built.</dd>
+      <dt>Quick flip</dt><dd>After-repair value − price − rehab − 7% selling costs − 3% buying and holding costs.</dd>
+      <dt>Fix up and live 5 years</dt><dd>After-repair value grown 3.5% a year for 5 years, minus price, rehab, and 7% selling costs at the end. Mortgage interest and the rent you'd otherwise pay aren't counted.</dd>
+      <dt>Treat these as estimates</dt><dd>These are ballpark figures to help you compare homes. Get an inspection and a contractor's bid before relying on any of them. Photos and listing details belong to the listing brokers.</dd>
+    </dl>
+  </details>
+</div>
+
+<script>
+(function () {
+  const TARGET = 380000;
+  const $ = (id) => document.getElementById(id);
+  const fmt$ = (v) => (v == null || isNaN(v)) ? '—' : (v < 0 ? '−$' : '$') + Math.abs(Math.round(v)).toLocaleString('en-US');
+  const fmtK = (v) => (v == null || isNaN(v)) ? '—' : (v < 0 ? '−$' : '$') + Math.round(Math.abs(v) / 1000) + 'k';
+  const el = (tag, cls, text) => { const e = document.createElement(tag); if (cls) e.className = cls; if (text != null) e.textContent = text; return e; };
+  const store = {
+    get(k) { try { return localStorage.getItem('uh-' + k); } catch (e) { return null; } },
+    set(k, v) { try { localStorage.setItem('uh-' + k, v); } catch (e) {} },
+  };
+  const REGION_COLOR = { North: 'var(--north)', Central: 'var(--central)', South: 'var(--south)', Other: 'var(--other)' };
+  let rows = [], latest = '';
+
+  const state = {
+    city: store.get('city') || '', sort: store.get('sort') || 'fit',
+    show: store.get('show') || 'active', stretch: store.get('stretch') !== 'false',
+  };
+  $('f-sort').value = state.sort; $('f-show').value = state.show; $('f-stretch').checked = state.stretch;
+  const bind = (id, key, read) => $(id).addEventListener('change', (e) => { state[key] = read(e.target); store.set(key, String(state[key])); render(); });
+  bind('f-city', 'city', (t) => t.value); bind('f-sort', 'sort', (t) => t.value);
+  bind('f-show', 'show', (t) => t.value); bind('f-stretch', 'stretch', (t) => t.checked);
+
+  const daysBefore = (iso, n) => new Date(Date.parse(iso + 'T12:00:00Z') - n * 864e5).toISOString().slice(0, 10);
+
+  function filtered() {
+    let r = rows.filter((x) => state.show === 'all' ? x.status !== 'gone' : x.status === 'active');
+    if (!state.stretch) r = r.filter((x) => x.price <= TARGET);
+    if (state.city) r = r.filter((x) => x.city === state.city);
+    const n = (v) => (v == null ? -1e9 : v);
+    const by = {
+      fit: (a, b) => b.fit_score - a.fit_score,
+      price: (a, b) => a.price - b.price,
+      live: (a, b) => n(b.live_in_gain) - n(a.live_in_gain),
+      flip: (a, b) => n(b.flip_profit) - n(a.flip_profit),
+      newest: (a, b) => (b.first_seen > a.first_seen ? 1 : b.first_seen < a.first_seen ? -1 : b.fit_score - a.fit_score),
+    }[state.sort] || ((a, b) => b.fit_score - a.fit_score);
+    return r.slice().sort(by);
+  }
+
+  function summary() {
+    const active = rows.filter((r) => r.status === 'active');
+    const prices = active.map((r) => r.price).sort((a, b) => a - b);
+    const mid = prices.length ? (prices.length % 2 ? prices[(prices.length - 1) / 2] : (prices[prices.length / 2 - 1] + prices[prices.length / 2]) / 2) : null;
+    const weekAgo = daysBefore(latest, 7);
+    $('t-active').textContent = active.length;
+    $('t-under').textContent = active.filter((r) => r.price <= TARGET).length;
+    $('t-median').textContent = fmtK(mid);
+    $('t-new').textContent = active.filter((r) => r.first_seen >= weekAgo).length;
+    $('t-drops').textContent = active.filter((r) => r.price_drop > 0).length;
+    const top = active.slice().sort((a, b) => b.fit_score - a.fit_score)[0];
+    const line = $('top-line'); line.replaceChildren();
+    if (top) {
+      line.append('Best fit right now: ', el('b', null, top.address + ', ' + top.city), ' at ', el('b', null, fmt$(top.price)), ', fit score ', el('b', null, String(top.fit_score)), '.');
+    } else line.textContent = 'No active listings in the latest scan.';
+    $('stamp').textContent = latest ? 'Scanned ' + new Date(latest + 'T12:00:00Z').toLocaleDateString('en-US', { weekday: 'long', month: 'long', day: 'numeric', year: 'numeric', timeZone: 'UTC' }) + '. A new scan runs every morning.' : '';
+    const cities = Array.from(new Set(rows.filter((r) => r.status !== 'gone').map((r) => r.city))).sort();
+    const sel = $('f-city');
+    sel.replaceChildren(new Option('All cities', ''), ...cities.map((c) => new Option(c, c)));
+    sel.value = cities.includes(state.city) ? state.city : '';
+    state.city = sel.value;
+  }
+
+  function card(r, weekAgo) {
+    const c = el('article', 'card' + (r.status !== 'active' ? ' pending' : ''));
+    const ph = el('div', 'photo');
+    const none = el('div', 'none', 'No photo');
+    if (r.photo && /^https:\/\//.test(r.photo)) {
+      const img = new Image(); img.loading = 'lazy'; img.decoding = 'async'; img.alt = 'Photo of ' + r.address + ', ' + r.city;
+      img.referrerPolicy = 'no-referrer';
+      img.onerror = () => { img.remove(); ph.prepend(none); };
+      img.src = r.photo; ph.append(img);
+    } else ph.append(none);
+    const band = r.fit_score >= 65 ? 'good' : r.fit_score >= 45 ? 'mid' : 'low';
+    const sc = el('div', 'score ' + band); sc.append(el('b', null, String(r.fit_score)), el('span', null, 'fit'));
+    ph.append(sc, el('div', 'price-tag', fmtK(r.price)));
+    c.append(ph);
+
+    const b = el('div', 'body');
+    const addr = el('div', 'addr'); addr.append(el('h3', null, r.address), el('p', null, r.city + ' · ' + r.region + ' Utah County'));
+    b.append(addr);
+    const chips = el('div', 'chips');
+    if (r.status !== 'active') chips.append(el('span', 'chip warn', 'Pending sale'));
+    if (r.stretch) chips.append(el('span', 'chip warn', 'Stretch'));
+    if (r.first_seen >= weekAgo) chips.append(el('span', 'chip ok', 'New this week'));
+    if (r.price_drop > 0) chips.append(el('span', 'chip ok', 'Price cut ' + fmtK(r.price_drop)));
+    if (r.days_on_market != null) chips.append(el('span', 'chip', r.days_on_market + ' days on market'));
+    if (chips.childElementCount) b.append(chips);
+    const facts = [r.beds != null && r.beds + ' bd', r.baths != null && r.baths + ' ba', r.sqft && r.sqft.toLocaleString('en-US') + ' sqft',
+      r.lot_acres && Number(r.lot_acres).toFixed(2) + ' ac', r.year_built && 'built ' + r.year_built,
+      r.garage === true ? 'garage' : r.garage === false ? 'no garage' : null, r.price_per_sqft && '$' + r.price_per_sqft + '/sqft'].filter(Boolean).join(' · ');
+    b.append(el('div', 'facts', facts));
+
+    const pc = el('div', 'pc');
+    const mk = (cls, title, items, empty) => { const d = el('div', cls); d.append(el('h4', null, title)); const ul = el('ul'); (items && items.length ? items : [empty]).forEach((t) => ul.append(el('li', null, t))); d.append(ul); return d; };
+    pc.append(mk('pros', 'Pros', r.pros, 'Nothing stands out yet'), mk('cons', 'Cons', r.cons, r.year_built ? 'None flagged' : 'Not enough detail yet: check the listing'));
+    b.append(pc);
+
+    const det = el('details', 'ret');
+    const sum = el('summary');
+    const live = r.live_in_gain;
+    const s1 = el('span', null, 'Return estimate · fix up & live ' + r.live_in_years + ' yrs');
+    const s2 = el('span', live == null ? null : live >= 0 ? 'pos' : 'neg', fmtK(live));
+    sum.append(s1, s2); det.append(sum);
+    const dl = el('dl');
+    const row = (k, v, cls) => { dl.append(el('dt', null, k), el('dd', cls || null, v)); };
+    row('After-repair value', fmt$(r.arv));
+    row('Rehab estimate (' + r.rehab_tier + ')', fmt$(r.rehab_cost));
+    row('Selling + buying costs', fmt$((r.selling_costs || 0) + (r.buy_hold_costs || 0)));
+    row('Quick flip net', fmt$(r.flip_profit), r.flip_profit == null ? null : r.flip_profit >= 0 ? 'pos' : 'neg');
+    row('Quick flip ROI', r.flip_roi_pct == null ? '—' : r.flip_roi_pct + '%');
+    row('Value in ' + r.live_in_years + ' yrs', fmt$(r.live_in_value));
+    row('Gain if you fix up, live there, then sell', fmt$(live), live == null ? null : live >= 0 ? 'pos' : 'neg');
+    det.append(dl); b.append(det);
+
+    const links = el('div', 'links');
+    if (r.url && /^https:\/\//.test(r.url)) { const a = el('a', null, 'Listing ↗'); a.href = r.url; a.target = '_blank'; a.rel = 'noopener'; links.append(a); }
+    const q = encodeURIComponent((r.address + ' ' + r.city + ' UT').replace(/#/g, ''));
+    const z = el('a', null, 'Zillow ↗'); z.href = 'https://www.zillow.com/homes/' + q + '_rb/'; z.target = '_blank'; z.rel = 'noopener'; links.append(z);
+    const m = el('a', null, 'Map ↗'); m.href = 'https://www.google.com/maps/search/?api=1&query=' + q; m.target = '_blank'; m.rel = 'noopener'; links.append(m);
+    b.append(links);
+    c.append(b);
+    return c;
+  }
+
+  function chart(list) {
+    const box = $('chart'); box.replaceChildren();
+    const pts = list.filter((r) => r.price && r.fit_score != null);
+    if (!pts.length) { box.append(el('p', 'sub', 'No listings to plot with these filters.')); return; }
+    const NS = 'http://www.w3.org/2000/svg';
+    const W = Math.max(300, box.clientWidth || 800), H = 300;
+    const m = { top: 16, right: 30, bottom: 34, left: 40 };
+    let lo = Math.min(...pts.map((r) => r.price)), hi = Math.max(400000, ...pts.map((r) => r.price));
+    lo = Math.floor(lo * 0.97 / 25000) * 25000; hi = Math.ceil(hi / 25000) * 25000;
+    const x = (v) => m.left + (v - lo) / (hi - lo) * (W - m.left - m.right);
+    const y = (v) => H - m.bottom - v / 100 * (H - m.top - m.bottom);
+    const svg = document.createElementNS(NS, 'svg');
+    svg.setAttribute('viewBox', `0 0 ${W} ${H}`); svg.setAttribute('role', 'img'); svg.setAttribute('aria-label', 'Price versus fit score');
+    const add = (tag, attrs, text) => { const n = document.createElementNS(NS, tag); for (const k in attrs) n.setAttribute(k, attrs[k]); if (text != null) n.textContent = text; svg.append(n); return n; };
+    for (let v = 0; v <= 100; v += 25) {
+      add('line', { x1: m.left, x2: W - m.right, y1: y(v), y2: y(v), stroke: 'var(--line)' });
+      add('text', { x: m.left - 8, y: y(v) + 4, 'text-anchor': 'end' }, String(v));
+    }
+    const step = (hi - lo) / (W < 500 ? 3 : 6);
+    const nice = step <= 25000 ? 25000 : step <= 50000 ? 50000 : 100000;
+    for (let v = Math.ceil(lo / nice) * nice; v <= hi; v += nice) add('text', { x: x(v), y: H - m.bottom + 20, 'text-anchor': 'middle' }, '$' + Math.round(v / 1000) + 'k');
+    add('line', { x1: m.left, x2: W - m.right, y1: H - m.bottom, y2: H - m.bottom, stroke: 'var(--muted)' });
+    if (TARGET > lo && TARGET < hi) add('line', { x1: x(TARGET), x2: x(TARGET), y1: m.top, y2: H - m.bottom, stroke: 'var(--muted)', 'stroke-dasharray': '4 3' });
+    const tip = el('div', 'tip');
+    pts.forEach((r) => {
+      const dot = add('circle', { cx: x(r.price), cy: y(r.fit_score), r: 6, fill: REGION_COLOR[r.region] || 'var(--other)', 'fill-opacity': r.status === 'active' ? 0.9 : 0.35, stroke: 'var(--panel)', 'stroke-width': 1.5, tabindex: 0 });
+      dot.style.cursor = 'pointer';
+      const show = () => {
+        dot.setAttribute('r', 8);
+        tip.replaceChildren(el('div', 't', r.address + ', ' + r.city), el('div', null, fmt$(r.price) + ' · fit ' + r.fit_score + (r.status !== 'active' ? ' · pending' : '')));
+        const scale = box.clientWidth / W;
+        tip.style.opacity = 1;
+        const tw = tip.offsetWidth;
+        tip.style.left = Math.min(Math.max(0, x(r.price) * scale - tw / 2), box.clientWidth - tw) + 'px';
+        tip.style.top = Math.max(0, y(r.fit_score) * scale - 54) + 'px';
+      };
+      const hide = () => { dot.setAttribute('r', 6); tip.style.opacity = 0; };
+      dot.addEventListener('mouseenter', show); dot.addEventListener('focus', show);
+      dot.addEventListener('mouseleave', hide); dot.addEventListener('blur', hide);
+    });
+    box.append(svg, tip);
+    const leg = el('div', 'legend');
+    ['North', 'Central', 'South'].filter((g) => pts.some((r) => r.region === g)).forEach((g) => { const s = el('span'); const i = el('i'); i.style.background = REGION_COLOR[g]; s.append(i, g + ' county'); leg.append(s); });
+    leg.append(el('span', null, 'Faded dots are pending sales'));
+    box.append(leg);
+  }
+
+  function render() {
+    const list = filtered();
+    $('count').textContent = list.length + (list.length === 1 ? ' home' : ' homes');
+    const weekAgo = daysBefore(latest, 7);
+    const cards = $('cards'); cards.replaceChildren();
+    if (!list.length) cards.append(el('p', 'empty', 'No homes match these filters. Try another city or include pending sales.'));
+    list.forEach((r) => cards.append(card(r, weekAgo)));
+    chart(list);
+  }
+
+  let rt; window.addEventListener('resize', () => { clearTimeout(rt); rt = setTimeout(() => chart(filtered()), 150); });
+
+  fetch('dashboard.json', { cache: 'no-cache' })
+    .then((r) => { if (!r.ok) throw new Error('HTTP ' + r.status); return r.json(); })
+    .then((d) => { rows = d.rows || []; latest = d.updated || ''; summary(); render(); })
+    .catch((e) => { $('cards').replaceChildren(el('p', 'err', "Couldn't load today's listings (" + e.message + '). Refresh the page in a minute.')); $('top-line').textContent = ''; });
+})();
+</script>
+</body>
+</html>

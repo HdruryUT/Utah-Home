@@ -1,0 +1,926 @@
+{
+ "listings": {
+  "1226-e-570-n-spanish-fork": {
+   "data": {
+    "address": "1226 E 570 N",
+    "baths": 2,
+    "beds": 3,
+    "city": "Spanish Fork",
+    "days_on_market": 29,
+    "description": "Recent upgrades: A/C and furnace replaced about a year ago, water softener. Covered patio, near Rees Elementary. Move-in ready.",
+    "garage": true,
+    "hoa_monthly": 76,
+    "lot_acres": 0.11,
+    "mls": "2190213",
+    "photo": "https://images-listings.century21.com/SL/21/90/21/3/_P/2190213_P00.jpg?format=webp&quality=70&width=800",
+    "price": 365000,
+    "property_type": "single_family",
+    "source": "Century21",
+    "sqft": 1560,
+    "status": "active",
+    "url": "https://www.century21.com/homes/detail/ut/spanish-fork/1226-e-570-n/lid-P00800000HIYK6A25JHAuhiJOlQchOeMage3qSNj",
+    "year_built": 2000
+   },
+   "first_seen": "2026-11-07",
+   "last_seen": "2026-11-07",
+   "price_history": [
+    {
+     "date": "2026-11-07",
+     "price": 365000
+    }
+   ],
+   "status": "active"
+  },
+  "1453-n-250-e-springville": {
+   "data": {
+    "address": "1453 N 250 E",
+    "baths": 3,
+    "beds": 3,
+    "city": "Springville",
+    "photo": "https://images-listings.century21.com/SL/21/79/75/8/_P/2179758_P00.jpg?format=webp&quality=70&width=800",
+    "price": 375000,
+    "property_type": "single_family",
+    "source": "Century21",
+    "sqft": 1888,
+    "status": "pending",
+    "url": "https://www.century21.com/homes/detail/ut/springville/1453-n-250-e/lid-P00800000HFxGC70xbSEf67Ns4FDEh1j51NelEp5"
+   },
+   "first_seen": "2026-11-07",
+   "last_seen": "2026-11-07",
+   "price_history": [
+    {
+     "date": "2026-11-07",
+     "price": 375000
+    }
+   ],
+   "status": "pending"
+  },
+  "146-w-200-n-springville": {
+   "data": {
+    "address": "146 W 200 N",
+    "baths": 1,
+    "beds": 4,
+    "city": "Springville",
+    "photo": "https://images-listings.century21.com/SL/21/87/26/2/_P/2187262_P00.jpg?format=webp&quality=70&width=800",
+    "price": 385000,
+    "property_type": "single_family",
+    "source": "Century21",
+    "sqft": 1842,
+    "status": "pending",
+    "url": "https://www.century21.com/homes/detail/ut/springville/146-w-200-n/lid-P00800000HHosrUNwx7uNJp8PFckMmP1EnPueSyo"
+   },
+   "first_seen": "2026-11-07",
+   "last_seen": "2026-11-07",
+   "price_history": [
+    {
+     "date": "2026-11-07",
+     "price": 385000
+    }
+   ],
+   "status": "pending"
+  },
+  "1716-n-1230-e-payson": {
+   "data": {
+    "address": "1716 N 1230 E",
+    "baths": 3,
+    "beds": 3,
+    "city": "Payson",
+    "days_on_market": 52,
+    "description": "Accepting backup offers. Seller offers up to $11,500 toward closing costs or rate buydown. Modern 3 bed with quartz counters, mountain views.",
+    "garage": true,
+    "hoa_monthly": 100,
+    "lot_acres": 0.06,
+    "mls": "2185470",
+    "photo": "https://images-listings.century21.com/SL/21/85/47/0/_P/2185470_P00.jpg?format=webp&quality=70&width=800",
+    "price": 379490,
+    "property_type": "single_family",
+    "source": "Century21",
+    "sqft": 1554,
+    "status": "pending",
+    "url": "https://www.century21.com/homes/detail/ut/payson/1716-n-1230/lid-P00800000HHMoBYdctOrD7wdufUT9oD1WGRk8BtB",
+    "year_built": 2021
+   },
+   "first_seen": "2026-11-07",
+   "last_seen": "2026-11-07",
+   "price_history": [
+    {
+     "date": "2026-11-07",
+     "price": 379490
+    }
+   ],
+   "status": "pending"
+  },
+  "1757-n-1600-w-mapleton": {
+   "data": {
+    "address": "1757 N 1600 W",
+    "baths": 1,
+    "beds": 3,
+    "city": "Mapleton",
+    "days_on_market": 123,
+    "description": "Price recently reduced significantly. Fenced 0.43-acre lot, RV parking. Updated kitchen with gas range, remodeled bathroom. Needs some repairs and updating.",
+    "garage": false,
+    "hoa_monthly": 0,
+    "lot_acres": 0.43,
+    "mls": "2170010",
+    "photo": "https://images-listings.century21.com/SL/21/70/01/0/_P/2170010_P00.jpg?format=webp&quality=70&width=800",
+    "price": 389900,
+    "property_type": "single_family",
+    "source": "Century21",
+    "sqft": 1227,
+    "status": "active",
+    "url": "https://www.century21.com/homes/detail/ut/mapleton/1757-n-1600-w/lid-P00800000HDhFUJxrJbxADdPHFRXyAf39cPhPI70",
+    "year_built": 1914
+   },
+   "first_seen": "2026-11-07",
+   "last_seen": "2026-11-07",
+   "price_history": [
+    {
+     "date": "2026-11-07",
+     "price": 389900
+    }
+   ],
+   "status": "active"
+  },
+  "178-s-300-e-american-fork": {
+   "data": {
+    "address": "178 S 300 E",
+    "baths": 2,
+    "beds": 3,
+    "city": "American Fork",
+    "photo": "https://images-listings.century21.com/SL/21/81/85/8/_P/2181858_P00.jpg?format=webp&quality=70&width=800",
+    "price": 340000,
+    "property_type": "single_family",
+    "source": "Century21",
+    "sqft": 1612,
+    "status": "pending",
+    "url": "https://www.century21.com/homes/detail/ut/american-fork/178-s-300-e/lid-P00800000HGQ1WgzCNZLuqNF42EPcOnMA4JF1k0J"
+   },
+   "first_seen": "2026-11-07",
+   "last_seen": "2026-11-07",
+   "price_history": [
+    {
+     "date": "2026-11-07",
+     "price": 340000
+    }
+   ],
+   "status": "pending"
+  },
+  "1820-w-150-n-provo": {
+   "data": {
+    "address": "1820 W 150 N",
+    "baths": 2,
+    "beds": 3,
+    "city": "Provo",
+    "photo": "https://images-listings.century21.com/SL/21/90/84/7/_P/2190847_P00.jpg?format=webp&quality=70&width=800",
+    "price": 315000,
+    "property_type": "single_family",
+    "source": "Century21",
+    "sqft": 1487,
+    "status": "pending",
+    "url": "https://www.century21.com/homes/detail/ut/provo/1820-w-150-n/lid-P00800000HInHOPjA8nNI2um7tGJRMJjM1RXXIsl"
+   },
+   "first_seen": "2026-11-07",
+   "last_seen": "2026-11-07",
+   "price_history": [
+    {
+     "date": "2026-11-07",
+     "price": 315000
+    }
+   ],
+   "status": "pending"
+  },
+  "230-e-700-n-american-fork": {
+   "data": {
+    "address": "230 E 700 N",
+    "baths": 2,
+    "beds": 5,
+    "city": "American Fork",
+    "days_on_market": 1,
+    "description": "Fix-and-flip / handyman property. Cash offers only, sold as-is, new roof 2024. Occupied, showings by appointment.",
+    "garage": true,
+    "hoa_monthly": 0,
+    "lot_acres": 0.25,
+    "mls": "2194607",
+    "photo": "https://images-listings.century21.com/SL/21/94/60/7/_P/2194607_P00.jpg?format=webp&quality=70&width=800",
+    "price": 340000,
+    "property_type": "single_family",
+    "source": "Century21",
+    "sqft": 2236,
+    "status": "active",
+    "url": "https://www.century21.com/homes/detail/ut/american-fork/230-e-700-n/lid-P00800000HJz2d0WcRwZMOHxl9eTVEFkL9X8VPFc",
+    "year_built": 1973
+   },
+   "first_seen": "2026-11-07",
+   "last_seen": "2026-11-07",
+   "price_history": [
+    {
+     "date": "2026-11-07",
+     "price": 340000
+    }
+   ],
+   "status": "active"
+  },
+  "257-s-200-w-payson": {
+   "data": {
+    "address": "257 S 200 W",
+    "baths": 2,
+    "beds": 4,
+    "city": "Payson",
+    "days_on_market": 68,
+    "description": "Sold as-is, suited to investor or renovator. Fenced yard, covered deck, detached 1-car garage.",
+    "garage": true,
+    "hoa_monthly": 0,
+    "lot_acres": 0.21,
+    "mls": "2180919",
+    "photo": "https://images-listings.century21.com/SL/21/80/91/9/_P/2180919_P00.jpg?format=webp&quality=70&width=800",
+    "price": 300000,
+    "property_type": "single_family",
+    "source": "Century21",
+    "sqft": 1574,
+    "status": "pending",
+    "url": "https://www.century21.com/homes/detail/ut/payson/257-s-200/lid-P00800000HGEWriwvOTRVyslT2wntlWfQvogh5az",
+    "year_built": 1941
+   },
+   "first_seen": "2026-11-07",
+   "last_seen": "2026-11-07",
+   "price_history": [
+    {
+     "date": "2026-11-07",
+     "price": 300000
+    }
+   ],
+   "status": "pending"
+  },
+  "262-w-400-s-springville": {
+   "data": {
+    "address": "262 W 400 S",
+    "baths": 1,
+    "beds": 3,
+    "city": "Springville",
+    "days_on_market": 132,
+    "description": "Back on market. 1909 home needs updates, sold as-is, may not qualify for FHA. 0.38-acre lot with room to expand, shed, RV parking.",
+    "hoa_monthly": 0,
+    "lot_acres": 0.38,
+    "mls": "2168388",
+    "photo": "https://images-listings.century21.com/SL/21/68/38/8/_P/2168388_P00.jpg?format=webp&quality=70&width=800",
+    "price": 299500,
+    "property_type": "single_family",
+    "source": "Century21",
+    "sqft": 1138,
+    "status": "active",
+    "url": "https://www.century21.com/homes/detail/ut/springville/262-w-400-s/lid-P00800000HDCev7CAGjBBzT4LoeoBNlsRbKPQr0T",
+    "year_built": 1909
+   },
+   "first_seen": "2026-11-07",
+   "last_seen": "2026-11-07",
+   "price_history": [
+    {
+     "date": "2026-11-07",
+     "price": 299500
+    }
+   ],
+   "status": "active"
+  },
+  "268-n-300-w-provo": {
+   "data": {
+    "address": "268 N 300 W",
+    "baths": 1,
+    "beds": 2,
+    "city": "Provo",
+    "days_on_market": 39,
+    "description": "Walkable to BYU, UVU, hospital, downtown. Provo owner-occupancy deed restriction: no leasing for first 12 months, no short-term rentals.",
+    "hoa_monthly": 0,
+    "lot_acres": 0.12,
+    "mls": "2187950",
+    "photo": "https://images-listings.century21.com/SL/21/87/95/0/_P/2187950_P00.jpg?format=webp&quality=70&width=800",
+    "price": 374900,
+    "property_type": "single_family",
+    "source": "Century21",
+    "sqft": 1271,
+    "status": "active",
+    "url": "https://www.century21.com/homes/detail/ut/provo/268-n-300-w/lid-P00800000HI2NjOuG73TgnT2YPR08kRyZtaG0oXM",
+    "year_built": 1906
+   },
+   "first_seen": "2026-11-07",
+   "last_seen": "2026-11-07",
+   "price_history": [
+    {
+     "date": "2026-11-07",
+     "price": 374900
+    }
+   ],
+   "status": "active"
+  },
+  "2775-w-1390-n-provo": {
+   "data": {
+    "address": "2775 W 1390 N",
+    "baths": 1,
+    "beds": 2,
+    "city": "Provo",
+    "photo": "https://images-listings.century21.com/SL/21/72/98/8/_P/2172988_P00.jpg?format=webp&quality=70&width=800",
+    "price": 389900,
+    "property_type": "single_family",
+    "source": "Century21",
+    "sqft": 1408,
+    "status": "pending",
+    "url": "https://www.century21.com/homes/detail/ut/provo/2775-w-1390/lid-P00800000HF6fPENYgxoxs863S6xp3PZj9ZHl3o7"
+   },
+   "first_seen": "2026-11-07",
+   "last_seen": "2026-11-07",
+   "price_history": [
+    {
+     "date": "2026-11-07",
+     "price": 389900
+    }
+   ],
+   "status": "pending"
+  },
+  "287-n-200-w-spanish-fork": {
+   "data": {
+    "address": "287 N 200 W",
+    "baths": 1,
+    "beds": 3,
+    "city": "Spanish Fork",
+    "days_on_market": 18,
+    "description": "1906 home on a 0.34-acre corner lot. Sold as-is, ready for a full renovation. Room for gardening or possible future development.",
+    "garage": false,
+    "hoa_monthly": 0,
+    "lot_acres": 0.34,
+    "mls": "2191821",
+    "photo": "https://images-listings.century21.com/SL/21/91/82/1/_P/2191821_P00.jpg?format=webp&quality=70&width=800",
+    "price": 389900,
+    "property_type": "single_family",
+    "source": "Century21",
+    "sqft": 1321,
+    "status": "active",
+    "url": "https://www.century21.com/homes/detail/ut/spanish-fork/287-w-200-n/lid-P00800000HJ6f3t3hS2vcVxaJ7xd1agilTmK1Ss6",
+    "year_built": 1906
+   },
+   "first_seen": "2026-11-07",
+   "last_seen": "2026-11-07",
+   "price_history": [
+    {
+     "date": "2026-11-07",
+     "price": 389900
+    }
+   ],
+   "status": "active"
+  },
+  "289-s-500-e-payson": {
+   "data": {
+    "address": "289 S 500 E",
+    "baths": 1,
+    "beds": 2,
+    "city": "Payson",
+    "days_on_market": 53,
+    "description": "Remodeled in 2023: new flooring, paint, cabinets, furnace and central air, stainless appliances, granite. Walk-in closet, shed, large mature yard.",
+    "garage": false,
+    "hoa_monthly": 0,
+    "lot_acres": 0.16,
+    "mls": "2179920",
+    "photo": "https://images-listings.century21.com/SL/21/79/92/0/_P/2179920_P00.jpg?format=webp&quality=70&width=800",
+    "price": 394900,
+    "property_type": "single_family",
+    "source": "Century21",
+    "sqft": 970,
+    "status": "active",
+    "url": "https://www.century21.com/homes/detail/ut/payson/289-s-500-e/lid-P00800000HFyLyIewV0op7yOfa94RHvMTttXfo3Q",
+    "year_built": 1930
+   },
+   "first_seen": "2026-11-07",
+   "last_seen": "2026-11-07",
+   "price_history": [
+    {
+     "date": "2026-11-07",
+     "price": 394900
+    }
+   ],
+   "status": "active"
+  },
+  "311-w-1610-s-provo": {
+   "data": {
+    "address": "311 W 1610 S",
+    "baths": 1,
+    "beds": 3,
+    "city": "Provo",
+    "days_on_market": 33,
+    "description": "Open-concept 3 bed on a quiet cul-de-sac near freeways, shopping, parks and schools.",
+    "garage": false,
+    "hoa_monthly": 0,
+    "lot_acres": 0.19,
+    "mls": "2189237",
+    "photo": "https://images-listings.century21.com/SL/21/89/23/7/_P/2189237_P00.jpg?format=webp&quality=70&width=800",
+    "price": 374999,
+    "property_type": "single_family",
+    "source": "Century21",
+    "sqft": 1181,
+    "status": "active",
+    "url": "https://www.century21.com/homes/detail/ut/provo/311-w-1610-s/lid-P00800000HILk5gd7DkcCIhaaV5kvY5aAP7Lh9c2",
+    "year_built": 1986
+   },
+   "first_seen": "2026-11-07",
+   "last_seen": "2026-11-07",
+   "price_history": [
+    {
+     "date": "2026-11-07",
+     "price": 374999
+    }
+   ],
+   "status": "active"
+  },
+  "314-n-100-w-payson": {
+   "data": {
+    "address": "314 N 100 W",
+    "baths": 2,
+    "beds": 3,
+    "city": "Payson",
+    "days_on_market": 59,
+    "description": "Remodeled 1913 home on a corner lot in central Payson. Updated kitchen, carport, storage sheds, full landscaping, near schools and shopping.",
+    "garage": false,
+    "hoa_monthly": 0,
+    "lot_acres": 0.27,
+    "mls": "2183978",
+    "photo": "https://images-listings.century21.com/SL/21/83/97/8/_P/2183978_P00.jpg?format=webp&quality=70&width=800",
+    "price": 379500,
+    "property_type": "single_family",
+    "source": "Century21",
+    "sqft": 1546,
+    "status": "active",
+    "url": "https://www.century21.com/homes/detail/ut/payson/314-n-100-w/lid-P00800000HGzyNTcwPx6juLT41pLP8lERlmVm2Am",
+    "year_built": 1913
+   },
+   "first_seen": "2026-11-07",
+   "last_seen": "2026-11-07",
+   "price_history": [
+    {
+     "date": "2026-11-07",
+     "price": 379500
+    }
+   ],
+   "status": "active"
+  },
+  "341-e-200-s-provo": {
+   "data": {
+    "address": "341 E 200 S",
+    "baths": 1,
+    "beds": 2,
+    "city": "Provo",
+    "photo": "https://images-listings.century21.com/SL/21/89/07/8/_P/2189078_P00.jpg?format=webp&quality=70&width=800",
+    "price": 329900,
+    "property_type": "single_family",
+    "source": "Century21",
+    "sqft": 1261,
+    "status": "pending",
+    "url": "https://www.century21.com/homes/detail/ut/provo/341-e-200-s/lid-P00800000HIF4yl7LlfqsqLjYEOeh079eGwPtBZ2"
+   },
+   "first_seen": "2026-11-07",
+   "last_seen": "2026-11-07",
+   "price_history": [
+    {
+     "date": "2026-11-07",
+     "price": 329900
+    }
+   ],
+   "status": "pending"
+  },
+  "368-s-1000-w-payson": {
+   "data": {
+    "address": "368 S 1000 W",
+    "baths": 2,
+    "beds": 5,
+    "city": "Payson",
+    "photo": "https://images-listings.century21.com/SL/21/41/67/2/_P/2141672_P00.jpg?format=webp&quality=70&width=800",
+    "price": 364000,
+    "property_type": "single_family",
+    "source": "Century21",
+    "sqft": 1956,
+    "status": "pending",
+    "url": "https://www.century21.com/homes/detail/ut/payson/368-s-1000-w/lid-P00800000H7NbbykKe3MFZOnS2zqXyYafLZQQB2V"
+   },
+   "first_seen": "2026-11-07",
+   "last_seen": "2026-11-07",
+   "price_history": [
+    {
+     "date": "2026-11-07",
+     "price": 364000
+    }
+   ],
+   "status": "pending"
+  },
+  "380-e-200-s-spanish-fork": {
+   "data": {
+    "address": "380 E 200 S",
+    "baths": 2,
+    "beds": 3,
+    "city": "Spanish Fork",
+    "days_on_market": 3,
+    "description": "Central Spanish Fork near downtown. Basement entrance could work as a mother-in-law apartment. Oversized 2-car garage with workshop, sprinklers. Possible seller financing.",
+    "garage": true,
+    "hoa_monthly": 0,
+    "lot_acres": 0.13,
+    "mls": "2194322",
+    "photo": "https://images-listings.century21.com/SL/21/94/32/2/_P/2194322_P00.jpg?format=webp&quality=70&width=800",
+    "price": 385000,
+    "property_type": "single_family",
+    "source": "Century21",
+    "sqft": 1844,
+    "status": "active",
+    "url": "https://www.century21.com/homes/detail/ut/spanish-fork/380-e-200-s/lid-P00800000HJsctdZmy372sYkE8i1Ek1EXPHAqTwV",
+    "year_built": 1951
+   },
+   "first_seen": "2026-11-07",
+   "last_seen": "2026-11-07",
+   "price_history": [
+    {
+     "date": "2026-11-07",
+     "price": 385000
+    }
+   ],
+   "status": "active"
+  },
+  "395-w-400-n-orem": {
+   "data": {
+    "address": "395 W 400 N",
+    "baths": 1,
+    "beds": 2,
+    "city": "Orem",
+    "days_on_market": 71,
+    "description": "",
+    "garage": true,
+    "hoa_monthly": 0,
+    "lot_acres": 0.12,
+    "mls": "2181196",
+    "photo": "https://images-listings.century21.com/SL/21/81/19/6/_P/2181196_P00.jpg?format=webp&quality=70&width=800",
+    "price": 310000,
+    "property_type": "single_family",
+    "source": "Century21",
+    "sqft": 718,
+    "status": "active",
+    "url": "https://www.century21.com/homes/detail/ut/orem/395-w-400-n/lid-P00800000HGJc59q3IE2lDjcJRn8annCkYVbZPIC",
+    "year_built": 1942
+   },
+   "first_seen": "2026-11-07",
+   "last_seen": "2026-11-07",
+   "price_history": [
+    {
+     "date": "2026-11-07",
+     "price": 310000
+    }
+   ],
+   "status": "active"
+  },
+  "433-e-200-s-payson": {
+   "data": {
+    "address": "433 E 200 S",
+    "baths": 1,
+    "beds": 2,
+    "city": "Payson",
+    "photo": "https://images-listings.century21.com/SL/21/82/94/1/_P/2182941_P00.jpg?format=webp&quality=70&width=800",
+    "price": 350000,
+    "property_type": "single_family",
+    "source": "Century21",
+    "sqft": 861,
+    "status": "pending",
+    "url": "https://www.century21.com/homes/detail/ut/payson/433-e-200-s/lid-P00800000HGj8OrD9lqdInLtZumdDE9qX1mzZiA5"
+   },
+   "first_seen": "2026-11-07",
+   "last_seen": "2026-11-07",
+   "price_history": [
+    {
+     "date": "2026-11-07",
+     "price": 350000
+    }
+   ],
+   "status": "pending"
+  },
+  "45-n-330-e-american-fork": {
+   "data": {
+    "address": "45 N 330 E",
+    "baths": 2,
+    "beds": 2,
+    "city": "American Fork",
+    "photo": "https://images-listings.century21.com/SL/21/76/26/1/_P/2176261_P00.jpg?format=webp&quality=70&width=800",
+    "price": 345000,
+    "property_type": "single_family",
+    "source": "Century21",
+    "sqft": 1096,
+    "status": "pending",
+    "url": "https://www.century21.com/homes/detail/ut/american-fork/45-n-330-e-st/lid-P00800000HF8mVwP3ADs8RFH0H5GnwnOnvh6ngaV"
+   },
+   "first_seen": "2026-11-07",
+   "last_seen": "2026-11-07",
+   "price_history": [
+    {
+     "date": "2026-11-07",
+     "price": 345000
+    }
+   ],
+   "status": "pending"
+  },
+  "453-e-100-n-salem": {
+   "data": {
+    "address": "453 E 100 N",
+    "baths": 1,
+    "beds": 2,
+    "city": "Salem",
+    "photo": "https://images-listings.century21.com/SL/21/77/41/4/_P/2177414_P00.jpg?format=webp&quality=70&width=800",
+    "price": 389999,
+    "property_type": "single_family",
+    "source": "Century21",
+    "sqft": 1347,
+    "status": "pending",
+    "url": "https://www.century21.com/homes/detail/ut/salem/453-e-100-n/lid-P00800000HFYZlMou9Cmx4N9DV8F4X4GWTovLllB"
+   },
+   "first_seen": "2026-11-07",
+   "last_seen": "2026-11-07",
+   "price_history": [
+    {
+     "date": "2026-11-07",
+     "price": 389999
+    }
+   ],
+   "status": "pending"
+  },
+  "456-e-400-s-provo": {
+   "data": {
+    "address": "456 E 400 S",
+    "baths": 1,
+    "beds": 2,
+    "city": "Provo",
+    "photo": "https://images-listings.century21.com/SL/21/90/53/6/_P/2190536_P00.jpg?format=webp&quality=70&width=800",
+    "price": 305000,
+    "property_type": "single_family",
+    "source": "Century21",
+    "sqft": 1218,
+    "status": "pending",
+    "url": "https://www.century21.com/homes/detail/ut/provo/456-e-400-s/lid-P00800000HIdvJTPxeeudV06zue6Ajwazrjl6wj9"
+   },
+   "first_seen": "2026-11-07",
+   "last_seen": "2026-11-07",
+   "price_history": [
+    {
+     "date": "2026-11-07",
+     "price": 305000
+    }
+   ],
+   "status": "pending"
+  },
+  "47-e-100-s-goshen": {
+   "data": {
+    "address": "47 E 100 S",
+    "baths": 1,
+    "beds": 3,
+    "city": "Goshen",
+    "days_on_market": 22,
+    "description": "1916 bungalow on a half-acre lot. No description provided.",
+    "hoa_monthly": 0,
+    "lot_acres": 0.5,
+    "mls": "2192787",
+    "photo": "https://images-listings.century21.com/SL/21/91/44/2/_P/2191442_P00.jpg?format=webp&quality=70&width=800",
+    "price": 275000,
+    "property_type": "single_family",
+    "source": "Century21",
+    "sqft": 1776,
+    "status": "active",
+    "url": "https://www.century21.com/homes/detail/ut/goshen/47-e-100-s/lid-P00800000HIucyQuAS9S5OzAkT2LzqBk5MfTA0dy",
+    "year_built": 1916
+   },
+   "first_seen": "2026-11-07",
+   "last_seen": "2026-11-07",
+   "price_history": [
+    {
+     "date": "2026-11-07",
+     "price": 275000
+    }
+   ],
+   "status": "active"
+  },
+  "486-e-1000-s-springville": {
+   "data": {
+    "address": "486 E 1000 S",
+    "baths": 1,
+    "beds": 2,
+    "city": "Springville",
+    "days_on_market": 27,
+    "description": "Large fully fenced backyard. Fridge, washer and dryer included. Make the home your own.",
+    "garage": true,
+    "hoa_monthly": 0,
+    "lot_acres": 0.28,
+    "mls": "2190507",
+    "photo": "https://images-listings.century21.com/SL/21/90/50/7/_P/2190507_P00.jpg?format=webp&quality=70&width=800",
+    "price": 375000,
+    "property_type": "single_family",
+    "source": "Century21",
+    "sqft": 1088,
+    "status": "active",
+    "url": "https://www.century21.com/homes/detail/ut/springville/486-e-1000-s/lid-P00800000HIdOZnDwamV5NjbJGc4ExffTdaEIHQh",
+    "year_built": 1944
+   },
+   "first_seen": "2026-11-07",
+   "last_seen": "2026-11-07",
+   "price_history": [
+    {
+     "date": "2026-11-07",
+     "price": 375000
+    }
+   ],
+   "status": "active"
+  },
+  "530-e-900-n-spanish-fork": {
+   "data": {
+    "address": "530 E 900 N",
+    "baths": 2,
+    "beds": 4,
+    "city": "Spanish Fork",
+    "price": 320000,
+    "property_type": "single_family",
+    "source": "Century21",
+    "sqft": 1944,
+    "status": "pending",
+    "url": "https://www.century21.com/homes/detail/ut/spanish-fork/530-e-900-n/lid-P00800000HJ6nHyyemCLyvXYFLwc5rwO8KpDpj4g"
+   },
+   "first_seen": "2026-11-07",
+   "last_seen": "2026-11-07",
+   "price_history": [
+    {
+     "date": "2026-11-07",
+     "price": 320000
+    }
+   ],
+   "status": "pending"
+  },
+  "544-s-500-e-payson": {
+   "data": {
+    "address": "544 S 500 E",
+    "baths": 1,
+    "beds": 2,
+    "city": "Payson",
+    "days_on_market": 79,
+    "description": "Spacious kitchen, family room with fireplace, finished basement with second family room and den. Roof replaced ~2020, solar paid off at closing, large powered shed. Seller offers up to $9,000 rate buydown.",
+    "garage": false,
+    "hoa_monthly": 0,
+    "lot_acres": 0.14,
+    "mls": "2179881",
+    "photo": "https://images-listings.century21.com/SL/21/79/88/1/_P/2179881_P00.jpg?format=webp&quality=70&width=800",
+    "price": 379900,
+    "property_type": "single_family",
+    "source": "Century21",
+    "sqft": 1352,
+    "status": "active",
+    "url": "https://www.century21.com/homes/detail/ut/payson/544-e-500-s/lid-P00800000HFxp8cus6UAI9TbfC0WxF4oii2bhnTM",
+    "year_built": 1947
+   },
+   "first_seen": "2026-11-07",
+   "last_seen": "2026-11-07",
+   "price_history": [
+    {
+     "date": "2026-11-07",
+     "price": 379900
+    }
+   ],
+   "status": "active"
+  },
+  "562-w-utah-ave-payson": {
+   "data": {
+    "address": "562 W Utah Ave",
+    "baths": 1,
+    "beds": 4,
+    "city": "Payson",
+    "photo": "https://images-listings.century21.com/SL/21/81/94/7/_P/2181947_P00.jpg?format=webp&quality=70&width=800",
+    "price": 325000,
+    "property_type": "single_family",
+    "source": "Century21",
+    "sqft": 2338,
+    "status": "pending",
+    "url": "https://www.century21.com/homes/detail/ut/payson/562-w-utah-ave/lid-P00800000HGzRS61ltZMnRot5VCzCeJmtf6YJofb"
+   },
+   "first_seen": "2026-11-07",
+   "last_seen": "2026-11-07",
+   "price_history": [
+    {
+     "date": "2026-11-07",
+     "price": 325000
+    }
+   ],
+   "status": "pending"
+  },
+  "688-e-300-s-spanish-fork": {
+   "data": {
+    "address": "688 E 300 S",
+    "baths": 1,
+    "beds": 3,
+    "city": "Spanish Fork",
+    "days_on_market": 14,
+    "description": "Brick home in central Spanish Fork, large yard, 2-car garage and RV parking. Affordable with strong potential.",
+    "garage": true,
+    "hoa_monthly": 0,
+    "lot_acres": 0.26,
+    "mls": "2192982",
+    "photo": "https://images-listings.century21.com/SL/21/92/98/2/_P/2192982_P00.jpg?format=webp&quality=70&width=800",
+    "price": 369900,
+    "property_type": "single_family",
+    "source": "Century21",
+    "sqft": 1800,
+    "status": "active",
+    "url": "https://www.century21.com/homes/detail/ut/spanish-fork/688-e-300-s/lid-P00800000HJKpAyxEaMkeLjpLAr2mm1YwQ4s7NHF",
+    "year_built": 1903
+   },
+   "first_seen": "2026-11-07",
+   "last_seen": "2026-11-07",
+   "price_history": [
+    {
+     "date": "2026-11-07",
+     "price": 369900
+    }
+   ],
+   "status": "active"
+  },
+  "742-w-400-s-payson": {
+   "data": {
+    "address": "742 W 400 S",
+    "baths": 2,
+    "beds": 4,
+    "city": "Payson",
+    "days_on_market": 262,
+    "description": "Single-level ranch, 4 bed 2 bath on main plus finished basement. Evaporative cooling, fenced yard, patio, shed. Short sale requiring third-party approval, sold as is.",
+    "garage": true,
+    "hoa_monthly": 0,
+    "lot_acres": 0.18,
+    "mls": "2137675",
+    "photo": "https://images-listings.century21.com/SL/21/37/67/5/_P/2137675_P00.jpg?format=webp&quality=70&width=800",
+    "price": 375000,
+    "property_type": "single_family",
+    "source": "Century21",
+    "sqft": 1966,
+    "status": "active",
+    "url": "https://www.century21.com/homes/detail/ut/payson/742-w-400-s/lid-P00800000H6UfcjVt46o8c4klGs6Dc8ifryLfzTy",
+    "year_built": 1940
+   },
+   "first_seen": "2026-11-07",
+   "last_seen": "2026-11-07",
+   "price_history": [
+    {
+     "date": "2026-11-07",
+     "price": 375000
+    }
+   ],
+   "status": "active"
+  },
+  "864-e-100-s-payson": {
+   "data": {
+    "address": "864 E 100 S",
+    "baths": 2,
+    "beds": 3,
+    "city": "Payson",
+    "photo": "https://images-listings.century21.com/SL/21/73/16/1/_P/2173161_P00.jpg?format=webp&quality=70&width=800",
+    "price": 387500,
+    "property_type": "single_family",
+    "source": "Century21",
+    "sqft": 1690,
+    "status": "pending",
+    "url": "https://www.century21.com/homes/detail/ut/payson/864-e-100-s/lid-P00800000HEPk9XbtRpMe0YYSvRMmhSKVeK0REBL"
+   },
+   "first_seen": "2026-11-07",
+   "last_seen": "2026-11-07",
+   "price_history": [
+    {
+     "date": "2026-11-07",
+     "price": 387500
+    }
+   ],
+   "status": "pending"
+  },
+  "950-w-500-n-provo": {
+   "data": {
+    "address": "950 W 500 N",
+    "baths": 1,
+    "beds": 2,
+    "city": "Provo",
+    "days_on_market": 58,
+    "description": "Recently price-reduced 1918 bungalow with updates. Landscaped lot, large backyard, storage shed, covered carport, crawl space.",
+    "garage": false,
+    "hoa_monthly": 0,
+    "lot_acres": 0.15,
+    "mls": "2184216",
+    "photo": "https://images-listings.century21.com/SL/21/84/21/6/_P/2184216_P00.jpg?format=webp&quality=70&width=800",
+    "price": 320000,
+    "property_type": "single_family",
+    "source": "Century21",
+    "sqft": 753,
+    "status": "active",
+    "url": "https://www.century21.com/homes/detail/ut/provo/950-w-500-n/lid-P00800000HH32easCKoVM213wlvB96TDkN5AH6GU",
+    "year_built": 1918
+   },
+   "first_seen": "2026-11-07",
+   "last_seen": "2026-11-07",
+   "price_history": [
+    {
+     "date": "2026-11-07",
+     "price": 320000
+    }
+   ],
+   "status": "active"
+  }
+ },
+ "updated": "2026-11-07"
+}

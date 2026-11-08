@@ -1,0 +1,313 @@
+{
+  "_note": "Edit these to change what the daily scan keeps and how it scores. Money in USD, area in sqft.",
+  "budget": {
+    "target_max": 380000,
+    "stretch_max": 395000,
+    "price_floor_for_scoring": 250000
+  },
+  "requirements": {
+    "min_beds": 2,
+    "property_types_allowed": [
+      "single_family"
+    ],
+    "reject_keywords": [
+      "land lease",
+      "leased land",
+      "lot rent",
+      "space rent",
+      "55+",
+      "senior community",
+      "auction",
+      "timeshare",
+      "townhome",
+      "townhouse",
+      "condo",
+      "twin home",
+      "twinhome",
+      "duplex unit",
+      "twin-home",
+      "half of a duplex"
+    ],
+    "min_lot_acres": 0.05
+  },
+  "weights": {
+    "price": 20,
+    "value_vs_market": 25,
+    "beds_baths": 15,
+    "lot_garage": 10,
+    "condition": 10,
+    "flip_upside": 15,
+    "hoa": 3,
+    "days_on_market": 2
+  },
+  "flip": {
+    "rehab_per_sqft": {
+      "light": 15,
+      "medium": 35,
+      "heavy": 60
+    },
+    "arv_premium_over_median": 1.12,
+    "arv_max_multiple_of_price": 1.6,
+    "selling_cost_pct": 0.07,
+    "buy_and_hold_cost_pct": 0.03,
+    "full_points_profit": 60000,
+    "size_adjust_exponent": 0.4,
+    "size_adjust_range": [
+      0.8,
+      1.5
+    ],
+    "rehab_value_multiple": {
+      "light": 1.0,
+      "medium": 1.3,
+      "heavy": 1.6
+    },
+    "_arv_note": "ARV = max(sqft x size-adjusted city $/sqft x premium, price + rehab x rehab_value_multiple), capped at price x arv_max_multiple_of_price.",
+    "full_points_live_in_gain": 120000
+  },
+  "live_in": {
+    "years": 5,
+    "annual_appreciation": 0.035
+  },
+  "condition_keywords": {
+    "heavy": [
+      "as-is",
+      "as is",
+      "investor",
+      "fixer",
+      "tlc",
+      "needs work",
+      "handyman",
+      "cash only",
+      "cash offers",
+      "foundation",
+      "fire damage",
+      "water damage",
+      "mold",
+      "bring your tools",
+      "sweat equity",
+      "contractor special",
+      "full renovation",
+      "needs a full",
+      "gut job"
+    ],
+    "light": [
+      "updated",
+      "remodeled",
+      "renovated",
+      "new roof",
+      "new furnace",
+      "new hvac",
+      "new windows",
+      "new flooring",
+      "new carpet",
+      "new paint",
+      "move-in ready",
+      "move in ready",
+      "turnkey"
+    ],
+    "medium": [
+      "needs some repairs",
+      "needs updates",
+      "needs updating",
+      "make it your own",
+      "make the home your own",
+      "potential",
+      "dated"
+    ]
+  },
+  "regions": {
+    "North": [
+      "Alpine",
+      "American Fork",
+      "Cedar Fort",
+      "Cedar Hills",
+      "Eagle Mountain",
+      "Fairfield",
+      "Highland",
+      "Lehi",
+      "Lindon",
+      "Pleasant Grove",
+      "Saratoga Springs"
+    ],
+    "Central": [
+      "Orem",
+      "Provo",
+      "Vineyard"
+    ],
+    "South": [
+      "Elberta",
+      "Elk Ridge",
+      "Genola",
+      "Goshen",
+      "Mapleton",
+      "Payson",
+      "Salem",
+      "Santaquin",
+      "Spanish Fork",
+      "Springville",
+      "Woodland Hills"
+    ]
+  },
+  "flag_keywords": {
+    "cons": {
+      "cash offers only": "Cash offers only: you can't use a mortgage",
+      "cash only": "Cash offers only: you can't use a mortgage",
+      "short sale": "Short sale: needs bank approval, which can take months",
+      "not qualify for fha": "May not qualify for FHA financing",
+      "backup offers": "Already under contract (accepting backup offers)",
+      "owner-occupancy": "Deed restriction: you must live there (no renting at first)",
+      "deed restriction": "Deed restriction: you must live there (no renting at first)"
+    },
+    "pros": {
+      "seller financing": "Seller may offer financing",
+      "rate buydown": "Seller is offering a rate buydown",
+      "closing cost": "Seller is offering closing-cost help",
+      "mother-in-law": "Basement could become a rental or mother-in-law unit",
+      "rv parking": "RV parking",
+      "solar": "Solar panels",
+      "new roof": "Newer roof",
+      "central air": "Has central A/C"
+    }
+  },
+  "_city_market_note": "Median closed-sale $/sqft and typical size for homes under $500k, per city. 'measured' = from bestutahrealestate.com city pages; 'estimate' = filled in by hand. The scan refreshes these monthly.",
+  "city_market_last_refreshed": "2026-11-07",
+  "city_market": {
+    "Payson": {
+      "ppsf": 215,
+      "typical_sqft": 1832,
+      "source": "measured"
+    },
+    "Provo": {
+      "ppsf": 271,
+      "typical_sqft": 1271,
+      "source": "measured"
+    },
+    "Orem": {
+      "ppsf": 244,
+      "typical_sqft": 1445,
+      "source": "measured"
+    },
+    "Spanish Fork": {
+      "ppsf": 232,
+      "typical_sqft": 1668,
+      "source": "measured"
+    },
+    "Springville": {
+      "ppsf": 246,
+      "typical_sqft": 1343,
+      "source": "measured"
+    },
+    "American Fork": {
+      "ppsf": 242,
+      "typical_sqft": 1827,
+      "source": "measured"
+    },
+    "Mapleton": {
+      "ppsf": 201,
+      "typical_sqft": 2280,
+      "source": "measured"
+    },
+    "Salem": {
+      "ppsf": 198,
+      "typical_sqft": 1827,
+      "source": "measured"
+    },
+    "Santaquin": {
+      "ppsf": 197,
+      "typical_sqft": 2197,
+      "source": "measured"
+    },
+    "Eagle Mountain": {
+      "ppsf": 181,
+      "typical_sqft": 2279,
+      "source": "measured"
+    },
+    "Pleasant Grove": {
+      "ppsf": 252,
+      "typical_sqft": 1262,
+      "source": "measured"
+    },
+    "Lehi": {
+      "ppsf": 247,
+      "typical_sqft": 1526,
+      "source": "measured"
+    },
+    "Goshen": {
+      "ppsf": 180,
+      "typical_sqft": 1700,
+      "source": "estimate"
+    },
+    "Elk Ridge": {
+      "ppsf": 210,
+      "typical_sqft": 2200,
+      "source": "estimate"
+    },
+    "Saratoga Springs": {
+      "ppsf": 215,
+      "typical_sqft": 2000,
+      "source": "estimate"
+    },
+    "Vineyard": {
+      "ppsf": 250,
+      "typical_sqft": 1600,
+      "source": "estimate"
+    },
+    "Lindon": {
+      "ppsf": 260,
+      "typical_sqft": 1800,
+      "source": "estimate"
+    },
+    "Highland": {
+      "ppsf": 270,
+      "typical_sqft": 2400,
+      "source": "estimate"
+    },
+    "Alpine": {
+      "ppsf": 280,
+      "typical_sqft": 2600,
+      "source": "estimate"
+    },
+    "Cedar Hills": {
+      "ppsf": 250,
+      "typical_sqft": 2000,
+      "source": "estimate"
+    },
+    "Genola": {
+      "ppsf": 190,
+      "typical_sqft": 1900,
+      "source": "estimate"
+    },
+    "Elberta": {
+      "ppsf": 170,
+      "typical_sqft": 1700,
+      "source": "estimate"
+    },
+    "Woodland Hills": {
+      "ppsf": 220,
+      "typical_sqft": 2200,
+      "source": "estimate"
+    },
+    "Cedar Fort": {
+      "ppsf": 180,
+      "typical_sqft": 1800,
+      "source": "estimate"
+    },
+    "Fairfield": {
+      "ppsf": 180,
+      "typical_sqft": 1800,
+      "source": "estimate"
+    },
+    "_default": {
+      "ppsf": 225,
+      "typical_sqft": 1700,
+      "source": "estimate"
+    }
+  },
+  "flag_penalties": {
+    "cash offers only": 15,
+    "cash only": 15,
+    "short sale": 6,
+    "backup offers": 5,
+    "not qualify for fha": 4
+  }
+}
