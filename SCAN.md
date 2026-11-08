@@ -6,7 +6,7 @@ Today's date in America/Denver is `TODAY` (YYYY-MM-DD) below.
 
 ## Every run does every step
 
-Steps 1a, 1b, 1c, 1d, 2, 3 and 5 are **all required on every run**, even if 1a finds nothing new, and even if
+Steps 1a, 1b, 1c, 1d (the Zillow, Homes.com and KSL searches), 2, 3 and 5 are **all required on every run**, even if 1a finds nothing new, and even if
 today's raw file already exists (merge into it). The rolling sweep (1b) and re-checks (1c) find things 1a can't:
 older listings, price cuts, and homes that sold. Don't stop early. Read both halves of every page (normal plus
 `offset: 100000`). Always commit and push the updated `data/sweep.json`, even when no listings changed.
@@ -31,9 +31,11 @@ About 4,000 listings, 20 per page, **newest first**. Each listing's URL ends in 
 go up, so a higher pid means a newer listing. Each page's text runs past 100,000 characters, so read every page
 **twice**: once normally and once with `offset: 100000`.
 
-Prompt: *"Return ONLY Single Family listings priced at or below $450,000 as lines: "address, city | price | beds |
-baths | sqft | status | url path". Then on a last line: the lowest and highest pid_ numbers of ALL listings on the
-page (any type, any price), and the highest page number linked."*
+Prompt, phrased as a question. WebFetch's reader sometimes mistakes an imperative prompt for text injected into the
+page and refuses it: *"Which listings on this page are Single Family homes priced at $450,000 or less? For each one,
+what are its address, city, price, beds, baths, sqft, status and url path? Also, what are the lowest and highest
+pid_ numbers among all listings shown (any type or price), and what is the highest page number linked?"* If a reply
+refuses or answers something else, ask again once with the same question.
 
 Start at page 1 and keep going until a page's **highest** pid is at or below `max_pid_seen` in `data/sweep.json`
 (nothing newer is left). Read at least 3 pages, even if page 1 has nothing new. Then set `max_pid_seen` to the highest pid you saw.
@@ -72,7 +74,7 @@ the Century21 zip pages for 84601, 84604, 84606, 84057, 84058, 84097, 84059, 840
 exactly and whether the content was truncated. Then ONLY listings priced at or below $395,000 as lines: "address,
 city | price | beds | baths | sqft | status | url path | photo img src". If none, say NONE."* If they 403, skip them.
 
-### 1d. Cross-check other sources
+### 1d. Cross-check other sources (required every run)
 
 Zillow, Homes.com, Redfin, Realtor.com, UtahRealEstate.com and KSL Classifieds block direct fetches, so use
 WebSearch with `allowed_domains`:
