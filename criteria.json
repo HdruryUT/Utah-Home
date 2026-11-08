@@ -67,7 +67,7 @@
     "_rehab_note": "Assumes you do much of the cosmetic work yourself (paint, flooring, fixtures, landscaping) and hire out the rest. Contractor-only would be roughly light $15 / medium $35 / heavy $60 per sqft."
   },
   "live_in": {
-    "years": 2,
+    "years": 3,
     "annual_appreciation": 0.035,
     "target_profit": 40000
   },

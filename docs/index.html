@@ -139,7 +139,7 @@
 <div class="wrap">
   <header>
     <h1>Utah County Starter Homes</h1>
-    <p class="lede">Houses to buy, fix up while you live there, and sell in about 2 years for a profit you put toward your long-term home. <span id="top-line">Loading today's scan…</span></p>
+    <p class="lede">Houses to buy, fix up while you live there, and sell in about 3 years for a profit you put toward your long-term home. <span id="top-line">Loading today's scan…</span></p>
     <p class="stamp" id="stamp"></p>
   </header>
 
@@ -161,12 +161,12 @@
 
   <section>
     <h2>Listings</h2>
-    <p class="sub">Ranked by fit score (0–100). The score weighs 2-year profit most, then whether it fits your budget, a layout buyers want when you sell, price vs the city's going rate, and condition. Dated-but-livable homes score best on condition. Click a photo to see it full size, or use the arrows to go through all the photos.</p>
+    <p class="sub">Ranked by fit score (0–100). The score weighs 3-year profit most, then whether it fits your budget, a layout buyers want when you sell, price vs the city's going rate, and condition. Dated-but-livable homes score best on condition. Click a photo to see it full size, or use the arrows to go through all the photos.</p>
     <div class="bar">
       <label for="f-city">City<select id="f-city"><option value="">All cities</option></select></label>
       <label for="f-sort">Sort by<select id="f-sort">
         <option value="fit">Best fit</option>
-        <option value="profit">Biggest 2-year profit</option>
+        <option value="profit">Biggest 3-year profit</option>
         <option value="offer">Smallest discount needed</option>
         <option value="payment">Lowest payment</option>
         <option value="price">Lowest price</option>
@@ -184,7 +184,7 @@
   <div class="cards" id="cards"></div>
 
   <section class="chart-card">
-    <h2>Price vs 2-year profit</h2>
+    <h2>Price vs 3-year profit</h2>
     <p class="sub">Each dot is a listing shown above, valued at asking price. Higher is better. The dashed line marks your profit goal. Most homes cross it only if you negotiate below asking, and each card shows the offer that gets there.</p>
     <div class="chart" id="chart"></div>
   </section>
@@ -192,13 +192,13 @@
   <details class="method">
     <summary>How the scores and estimates work</summary>
     <dl>
-      <dt>The plan</dt><dd>Buy a dated but livable house, do mostly cosmetic updates while you live there, and sell after about 2 years. If you own and live in it for 2 of the 5 years before selling, up to $250,000 of profit is federal-tax-free (IRS Section 121). Sell sooner and the profit is taxable.</dd>
+      <dt>The plan</dt><dd>Buy a dated but livable house, do mostly cosmetic updates while you live there, and sell after about 3 years. If you own and live in it for 2 of the 5 years before selling, up to $250,000 of profit is federal-tax-free (IRS Section 121). Sell sooner and the profit is taxable.</dd>
       <dt>Where listings come from</dt><dd>A scan every morning reads Century21's public single-family pages, which carry the local MLS listings, for each Utah County city. It then opens each new listing to confirm its type, lot, year built, description and photos. Zillow, Homes.com, UtahRealEstate.com and KSL are searched as cross-checks. Always confirm details on the listing link.</dd>
       <dt>What's filtered out</dt><dd>Townhomes, condos, twin homes, homes on lots under 0.05 acres, land leases, 55+ communities, auctions, fewer than 2 bedrooms, and anything over $395k.</dd>
-      <dt>Fit score</dt><dd>2-year profit (30), fits your budget (15), resale layout: 3+ bed and 2 bath sell best (15), price per sqft vs the city's going rate (15), condition (10: dated-but-livable is best, already-remodeled has little upside, heavy fixers are hard to live in), price (5), lot and garage (5), no HOA (3), time on market (2). Dealbreakers subtract points: cash offers only (−15), short sale (−6), under contract (−5), may not qualify for FHA (−4).</dd>
+      <dt>Fit score</dt><dd>3-year profit (30), fits your budget (15), resale layout: 3+ bed and 2 bath sell best (15), price per sqft vs the city's going rate (15), condition (10: dated-but-livable is best, already-remodeled has little upside, heavy fixers are hard to live in), price (5), lot and garage (5), no HOA (3), time on market (2). Dealbreakers subtract points: cash offers only (−15), short sale (−6), under contract (−5), may not qualify for FHA (−4).</dd>
       <dt>Value after fix-up</dt><dd>The higher of (a) size × the city's median closed $/sqft for homes under $500k, scaled for home size, plus 12% for updated condition, and (b) asking price + fix-up cost × a return multiple (1.6 cosmetic, 1.5 heavy, 1.0 already updated). Capped at 1.6× asking.</dd>
       <dt>Fix-up budget</dt><dd>Assumes you do much of the cosmetic work yourself: already updated $10/sqft, dated $25/sqft (paint, floors, fixtures, kitchen refresh), heavy fixer $55/sqft. Hiring out everything costs roughly 40–60% more.</dd>
-      <dt>2-year profit</dt><dd>Value after fix-up, grown 3.5% a year for 2 years, minus price, fix-up, 3% buying closing costs and 6% selling costs. Mortgage interest isn't subtracted, since it roughly replaces the rent you'd pay anyway, but property tax and insurance are part of your monthly payment.</dd>
+      <dt>3-year profit</dt><dd>Value after fix-up, grown 3.5% a year for 3 years, minus price, fix-up, 3% buying closing costs and 6% selling costs. Mortgage interest isn't subtracted, since it roughly replaces the rent you'd pay anyway, but property tax and insurance are part of your monthly payment.</dd>
       <dt>Offer to hit your goal</dt><dd>The highest price that still clears your profit goal, holding the home's value fixed. Use it as a negotiating target, not an appraisal.</dd>
       <dt>Monthly payment</dt><dd>Principal and interest at the current 30-year rate, plus property tax (~0.46% of price for a primary residence), insurance and PMI (because the down payment is under 20%), plus any HOA. "Comfortable" and "tight" are measured against your own budget limits.</dd>
       <dt>Treat these as estimates</dt><dd>These are ballpark figures to help you compare homes. Get an inspection, a contractor's bid and a lender pre-approval before relying on them. Photos and listing details belong to the listing brokers.</dd>
@@ -269,7 +269,7 @@
     $('p-price').textContent = plan.comfortable_price ? 'Up to ~' + fmtK(plan.comfortable_price) : '—';
     $('p-down').textContent = plan.down_payment_pct ? pct(plan.down_payment_pct) + ' + ' + pct(plan.closing_cost_pct) + ' of price' : '—';
     $('p-rate').textContent = plan.mortgage_rate ? pct(plan.mortgage_rate, 2) + (plan.mortgage_rate_as_of ? ' (' + new Date(plan.mortgage_rate_as_of + 'T12:00:00Z').toLocaleDateString('en-US', { month: 'short', day: 'numeric', timeZone: 'UTC' }) + ')' : '') : '—';
-    $('p-hold').textContent = plan.hold_years ? plan.hold_years + ' years (tax-free)' : '—';
+    $('p-hold').textContent = plan.hold_years ? plan.hold_years + ' years' + (plan.hold_years >= 2 ? ' (tax-free)' : ' (taxable)') : '—';
     $('p-goal').textContent = plan.target_profit ? fmtK(plan.target_profit) + '+' : '—';
 
     const pick = active.filter(fitsBudget).sort((a, b) => b.fit_score - a.fit_score)[0];
@@ -358,7 +358,7 @@
 
     const money = el('div', 'money');
     const cell = (label, value, cls) => { const d = el('div'); d.append(el('span', null, label), el('b', cls || null, value)); money.append(d); };
-    cell('2-yr profit at asking', fmtK(r.live_in_gain), r.live_in_gain == null ? null : r.live_in_gain >= 0 ? 'pos' : 'neg');
+    cell(r.live_in_years + '-yr profit at asking', fmtK(r.live_in_gain), r.live_in_gain == null ? null : r.live_in_gain >= 0 ? 'pos' : 'neg');
     cell('Monthly payment', r.monthly_payment ? fmt$(r.monthly_payment) : '—', r.payment_level === 'high' ? 'neg' : null);
     cell('Cash to buy + fix', fmtK(r.cash_needed), r.cash_ok === false ? 'neg' : null);
     b.append(money);
@@ -438,7 +438,7 @@
     const x = (v) => m.left + (v - lo) / (hi - lo) * (W - m.left - m.right);
     const y = (v) => H - m.bottom - (v - ylo) / (yhi - ylo) * (H - m.top - m.bottom);
     const svg = document.createElementNS(NS, 'svg');
-    svg.setAttribute('viewBox', `0 0 ${W} ${H}`); svg.setAttribute('role', 'img'); svg.setAttribute('aria-label', 'Price versus estimated 2-year profit');
+    svg.setAttribute('viewBox', `0 0 ${W} ${H}`); svg.setAttribute('role', 'img'); svg.setAttribute('aria-label', 'Price versus estimated ' + (plan.hold_years || 3) + '-year profit');
     const add = (tag, attrs, text) => { const n = document.createElementNS(NS, tag); for (const k in attrs) n.setAttribute(k, attrs[k]); if (text != null) n.textContent = text; svg.append(n); return n; };
     for (let v = ylo; v <= yhi; v += 20000) {
       add('line', { x1: m.left, x2: W - m.right, y1: y(v), y2: y(v), stroke: v === 0 ? 'var(--muted)' : 'var(--line)' });
@@ -454,7 +454,7 @@
       dot.style.cursor = 'pointer';
       const show = () => {
         dot.setAttribute('r', 8);
-        tip.replaceChildren(el('div', 't', r.address + ', ' + r.city), el('div', null, fmt$(r.price) + ' · 2-yr profit ' + fmtK(r.live_in_gain) + (r.status !== 'active' ? ' · pending' : '')));
+        tip.replaceChildren(el('div', 't', r.address + ', ' + r.city), el('div', null, fmt$(r.price) + ' · ' + r.live_in_years + '-yr profit ' + fmtK(r.live_in_gain) + (r.status !== 'active' ? ' · pending' : '')));
         const scale = box.clientWidth / W;
         tip.style.opacity = 1;
         const w = tip.offsetWidth;

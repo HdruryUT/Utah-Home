@@ -102,11 +102,11 @@ class LiveInFlip(unittest.TestCase):
         a = score.affordability(h, f, C)
         self.assertEqual(a["cash_needed"], round(300000 * 0.13 + f["rehab"]))
 
-    def test_two_year_gain(self):
+    def test_hold_period_gain(self):
         h = house(price=300000)
         f = score.flip_estimate(h, C)
         live = score.live_in_estimate(h, f, C)
-        fut = f["arv"] * 1.035 ** 2
+        fut = f["arv"] * (1 + C["live_in"]["annual_appreciation"]) ** C["live_in"]["years"]
         self.assertEqual(live["equity_gain"], round(fut - 300000 - f["rehab"] - 300000 * 0.03 - fut * 0.06))
 
     def test_dated_beats_already_remodeled_on_condition(self):
