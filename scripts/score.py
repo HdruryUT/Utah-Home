@@ -468,6 +468,10 @@ def main():
     plan = {k: by[k] for k in ("down_payment_pct", "closing_cost_pct", "mortgage_rate", "mortgage_rate_as_of")}
     plan["comfortable_price"] = comfortable_price(c)
     plan["weights"] = {**c["weights"], "dealbreakers": 0}
+    plan.update({k: by[k] for k in ("property_tax_rate", "insurance_annual", "pmi_rate", "term_years",
+                                    "comfortable_monthly_payment", "max_monthly_payment", "cash_available")})
+    plan["rehab_value_multiple"] = c["flip"]["rehab_value_multiple"]
+    plan["arv_max_multiple_of_price"] = c["flip"]["arv_max_multiple_of_price"]
     plan.update({"hold_years": c["live_in"]["years"], "appreciation": c["live_in"]["annual_appreciation"],
                  "target_profit": c["live_in"]["target_profit"], "selling_cost_pct": c["flip"]["selling_cost_pct"],
                  "rehab_per_sqft": c["flip"]["rehab_per_sqft"], "target_max": c["budget"]["target_max"]})

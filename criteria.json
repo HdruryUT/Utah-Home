@@ -333,5 +333,10 @@
     "light": 0.45,
     "heavy": 0.35,
     "_note": "medium = dated but livable (the sweet spot); light = already updated, little left to add; heavy = may be unlivable or unfinanceable while you fix it"
+  },
+  "alerts": {
+    "_note": "A GitHub Action opens an issue (GitHub emails you) when a scan adds homes at or above min_fit_score, or cuts the price on one.",
+    "min_fit_score": 50,
+    "notify": "HdruryUT"
   }
 }

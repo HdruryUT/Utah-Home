@@ -18,6 +18,19 @@
    "days_on_market": 2,
    "dealbreakers": 0
   },
+  "property_tax_rate": 0.0046,
+  "insurance_annual": 1400,
+  "pmi_rate": 0.0055,
+  "term_years": 30,
+  "comfortable_monthly_payment": 2250,
+  "max_monthly_payment": 2775,
+  "cash_available": 85000,
+  "rehab_value_multiple": {
+   "light": 1.0,
+   "medium": 1.6,
+   "heavy": 1.5
+  },
+  "arv_max_multiple_of_price": 1.6,
   "hold_years": 3,
   "appreciation": 0.035,
   "target_profit": 40000,

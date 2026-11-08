@@ -1,0 +1,35 @@
+name: New listing alerts
+
+# Runs when a scan pushes new results. Opens a GitHub issue (which GitHub emails you about)
+# when strong new homes show up or a strong home's price drops.
+on:
+  push:
+    branches: [main]
+    paths: [docs/dashboard.json]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  issues: write
+
+jobs:
+  alert:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 2
+
+      - name: Compare with the previous scan
+        run: |
+          git show HEAD~1:docs/dashboard.json > before.json 2>/dev/null || echo '{}' > before.json
+          python3 scripts/alerts.py --before before.json --after docs/dashboard.json --out alert.md
+
+      - name: Open an issue
+        if: hashFiles('alert.md') != ''
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh label create listing-alert --color 2f6b55 --description "New homes or price cuts from the daily scan" 2>/dev/null || true
+          tail -n +2 alert.md > body.md
+          gh issue create --title "$(head -n 1 alert.md)" --body-file body.md --label listing-alert

@@ -17,6 +17,16 @@ publishes them to a shared dashboard:
 | `data/listings.json` | History of every listing: first/last seen, status, price changes |
 | `docs/index.html` | The dashboard page (GitHub Pages) |
 | `docs/dashboard.json` | Scored rows the page reads, rewritten by each scan |
+| `scripts/photo_count.py` | Counts each listing's photos for the gallery |
+| `scripts/alerts.py` + `.github/workflows/alerts.yml` | Opens a GitHub issue (GitHub emails you) for strong new homes and price cuts |
+
+## Alerts
+
+After each scan pushes new results, a GitHub Action compares them with the previous scan. If any active home
+scoring at least `alerts.min_fit_score` (in `criteria.json`) is new, or has a price cut, it opens an issue
+labeled `listing-alert` and @mentions `alerts.notify`. GitHub then emails that account.
+
+Anyone else with a GitHub account can get the same emails: open the repo → **Watch** → **Custom** → **Issues**.
 
 ## Changing what you're looking for
 

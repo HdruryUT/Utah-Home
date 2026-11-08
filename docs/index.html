@@ -177,6 +177,22 @@
   .fill.neg { background: var(--bad); }
   @media (max-width: 30rem) { .barrow { grid-template-columns: 1fr 3.5rem; } .barrow .track { grid-column: 1 / -1; grid-row: 2; } }
 
+  .whatif { gap: 12px; }
+  .wi-controls { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 220px), 1fr)); gap: 12px 20px; }
+  .wi-field { display: flex; flex-direction: column; gap: 4px; min-width: 0; }
+  .wi-top { display: flex; justify-content: space-between; gap: 8px; font-size: 13px; }
+  .wi-top label { color: var(--muted); }
+  .wi-val { font-weight: 600; text-align: right; }
+  .wi-field input[type=range] { width: 100%; accent-color: var(--accent); margin: 0; }
+  .wi-out { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 140px), 1fr)); gap: 10px; background: var(--accent-soft); border-radius: 8px; padding: 12px 14px; }
+  .wi-out div { display: flex; flex-direction: column; min-width: 0; }
+  .wi-out span { font-size: 12px; color: var(--muted); }
+  .wi-out b { font-size: 18px; font-weight: 600; }
+  .wi-note { margin: 0; font-size: 12px; color: var(--muted); }
+  .wi-note:empty { display: none; }
+  .wi-reset { all: unset; cursor: pointer; font-size: 13px; color: var(--accent); font-weight: 600; align-self: flex-start; }
+  .wi-reset:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+
   .lightbox { position: fixed; inset: 0; z-index: 50; background: var(--scrim); display: flex; flex-direction: column; align-items: center; justify-content: center; padding: max(16px, env(safe-area-inset-top, 0px)) max(16px, env(safe-area-inset-right, 0px)) max(16px, env(safe-area-inset-bottom, 0px)) max(16px, env(safe-area-inset-left, 0px)); touch-action: pan-y; }
   .lightbox img { max-width: 100%; max-height: calc(100% - 64px); object-fit: contain; border-radius: 6px; user-select: none; }
   .lightbox .cap { color: #e7ebe8; font-size: 14px; margin-top: 12px; text-align: center; }
@@ -493,6 +509,71 @@
     return c;
   }
 
+
+  // ---------- What-if calculator ----------
+  // Same math as scripts/score.py: value after fix-up shifts with the fix-up budget at the tier's return multiple;
+  // profit = value grown for the hold - offer - fix-up - buying closing - selling costs.
+  function whatIf(r) {
+    const wrap = el('section', 'pane-sec whatif');
+    wrap.append(el('h3', null, 'What-if calculator'));
+    if (r.arv == null || r.rehab_cost == null) { wrap.append(el('p', 'sub', 'Not enough detail on this listing to run the numbers yet.')); return wrap; }
+    const P = plan;
+    const mult = (P.rehab_value_multiple || {})[r.rehab_tier] || 1;
+    const st = { offer: r.price, rehab: r.rehab_cost, years: r.live_in_years || P.hold_years || 3, down: P.down_payment_pct || 0.1, rate: P.mortgage_rate || 0.07, appr: P.appreciation || 0.035 };
+    const controls = el('div', 'wi-controls');
+    const out = el('div', 'wi-out');
+    const fields = [];
+    const field = (key, label, min, max, step, fmt) => {
+      const id = 'wi-' + key;
+      const box = el('div', 'wi-field');
+      const lab = el('label', null, label); lab.htmlFor = id;
+      const val = el('output', 'wi-val'); val.htmlFor = id;
+      const top = el('div', 'wi-top'); top.append(lab, val);
+      const inp = el('input'); inp.type = 'range'; inp.id = id; inp.min = min; inp.max = max; inp.step = step; inp.value = st[key];
+      inp.addEventListener('input', () => { st[key] = Number(inp.value); calc(); });
+      box.append(top, inp); controls.append(box);
+      fields.push({ key, inp, val, fmt, init: st[key] });
+    };
+    const roundTo = (v, s) => Math.round(v / s) * s;
+    field('offer', 'Offer price', roundTo(r.price * 0.75, 1000), roundTo(r.price * 1.05, 1000), 1000, (v) => fmt$(v) + (v !== r.price ? ' (' + (v < r.price ? '−' : '+') + Math.abs(Math.round((v - r.price) / r.price * 100)) + '%)' : ' (asking)'));
+    field('rehab', 'Fix-up budget', 0, Math.max(roundTo(r.rehab_cost * 2.5, 1000), 60000), 1000, fmt$);
+    field('years', 'Years before selling', 1, 7, 1, (v) => v + (v === 1 ? ' year' : ' years'));
+    field('down', 'Down payment', 0.035, 0.25, 0.005, (v) => (v * 100).toFixed(1).replace(/\.0$/, '') + '%');
+    field('rate', 'Interest rate', 0.05, 0.085, 0.00125, (v) => (v * 100).toFixed(2) + '%');
+    field('appr', 'Home value growth per year', 0, 0.07, 0.005, (v) => (v * 100).toFixed(1).replace(/\.0$/, '') + '%');
+    const reset = el('button', 'wi-reset', 'Reset to listing'); reset.type = 'button';
+    reset.addEventListener('click', () => { fields.forEach((f) => { st[f.key] = f.init; f.inp.value = f.init; }); calc(); });
+
+    const stat = (label) => { const d = el('div'); const b = el('b'); d.append(el('span', null, label), b); out.append(d); return b; };
+    const oProfit = stat('Profit when you sell'), oCash = stat('Cash needed'), oRoi = stat('Return on your cash'), oPay = stat('Monthly payment');
+    const note = el('p', 'wi-note');
+
+    function calc() {
+      fields.forEach((f) => { f.val.textContent = f.fmt(st[f.key]); });
+      const cap = r.price * (P.arv_max_multiple_of_price || 1.6);
+      const arv = Math.min(cap, Math.max(0, r.arv + (st.rehab - r.rehab_cost) * mult));
+      const future = arv * Math.pow(1 + st.appr, st.years);
+      const closing = st.offer * (P.closing_cost_pct || 0.03);
+      const profit = future - st.offer - st.rehab - closing - future * (P.selling_cost_pct || 0.06);
+      const cash = st.offer * (st.down + (P.closing_cost_pct || 0.03)) + st.rehab;
+      const loan = st.offer * (1 - st.down), mr = st.rate / 12, n = (P.term_years || 30) * 12;
+      const pay = loan * mr / (1 - Math.pow(1 + mr, -n)) + st.offer * (P.property_tax_rate || 0.0046) / 12 + (P.insurance_annual || 1400) / 12 + (st.down < 0.2 ? loan * (P.pmi_rate || 0.0055) / 12 : 0) + (r.hoa_monthly || 0);
+      oProfit.textContent = fmt$(profit); oProfit.className = profit >= 0 ? 'pos' : 'neg';
+      oCash.textContent = fmt$(cash); oCash.className = P.cash_available && cash > P.cash_available ? 'neg' : '';
+      oRoi.textContent = cash > 0 ? Math.round(profit / cash * 100) + '%' : '—';
+      const level = pay <= (P.comfortable_monthly_payment || Infinity) ? 'comfortable' : pay <= (P.max_monthly_payment || Infinity) ? 'tight' : 'too high';
+      oPay.textContent = fmt$(pay) + ' · ' + level; oPay.className = level === 'too high' ? 'neg' : '';
+      const notes = [];
+      if (st.years < 2) notes.push('Selling before 2 years means the profit is taxable (no Section 121 exclusion).');
+      if (P.cash_available && cash > P.cash_available) notes.push('Cash needed is more than your cash budget.');
+      if (st.down < 0.2) notes.push('Includes PMI, since the down payment is under 20%.');
+      note.textContent = notes.join(' ');
+    }
+    wrap.append(controls, out, note, reset);
+    calc();
+    return wrap;
+  }
+
   // ---------- Detail pane ----------
   const SCORE_LABELS = { profit: 'Profit after hold', affordability: 'Fits your budget', resale_layout: 'Resale layout (beds/baths)', value_vs_market: 'Price vs city going rate', condition: 'Condition (dated = best)', price: 'Price', lot_garage: 'Lot and garage', hoa: 'No HOA', days_on_market: 'Time on market', dealbreakers: 'Dealbreakers' };
   let paneReturnFocus = null;
@@ -549,6 +630,9 @@
     const ch = chipsFor(r, daysBefore(latest, 7)); if (ch) body.append(ch);
     body.append(moneyBlock(r));
     const o = offerLine(r); if (o) body.append(o);
+
+    // What-if calculator
+    body.append(whatIf(r));
 
     // Facts
     const sec = (title) => { const s = el('section', 'pane-sec'); s.append(el('h3', null, title)); body.append(s); return s; };
