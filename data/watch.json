@@ -1,1 +1,140 @@
-{}
+{
+ "/ut/santaquin/834-s-brubaker-way/pid_74656337/": {
+  "address": "834 S Brubaker Way",
+  "city": "Santaquin",
+  "price": 424999,
+  "first_seen": "2026-11-07"
+ },
+ "/ut/orem/837-w-500-n/pid_74644208/": {
+  "address": "837 W 500 N",
+  "city": "Orem",
+  "price": 399000,
+  "first_seen": "2026-11-07"
+ },
+ "/ut/american-fork/296-w-500-n/pid_74358890/": {
+  "address": "296 W 500 N",
+  "city": "American Fork",
+  "price": 399800,
+  "first_seen": "2026-11-07"
+ },
+ "/ut/provo/964-e-300-n/pid_74419466/": {
+  "address": "964 E 300 N",
+  "city": "Provo",
+  "price": 398900,
+  "first_seen": "2026-11-07"
+ },
+ "/ut/eagle-mountain/4027-o-fallons-way/pid_74407367/": {
+  "address": "4027 O Fallons Way",
+  "city": "Eagle Mountain",
+  "price": 399000,
+  "first_seen": "2026-11-07"
+ },
+ "/ut/spanish-fork/136-e-900-n/pid_74390622/": {
+  "address": "136 E 900 N",
+  "city": "Spanish Fork",
+  "price": 399000,
+  "first_seen": "2026-11-07"
+ },
+ "/ut/saratoga-springs/163-e-hamilton-row/pid_74461263/": {
+  "address": "163 E Hamilton Row",
+  "city": "Saratoga Springs",
+  "price": 399900,
+  "first_seen": "2026-11-07"
+ },
+ "/ut/spanish-fork/241-w-300-s/pid_74421896/": {
+  "address": "241 W 300 S",
+  "city": "Spanish Fork",
+  "price": 400000,
+  "first_seen": "2026-11-07"
+ },
+ "/ut/springville/1233-e-center-st/pid_74439764/": {
+  "address": "1233 E Center St",
+  "city": "Springville",
+  "price": 400000,
+  "first_seen": "2026-11-07"
+ },
+ "/ut/eagle-mountain/2135-e-white-pine-rd/pid_74321808/": {
+  "address": "2135 E White Pine Rd",
+  "city": "Eagle Mountain",
+  "price": 399900,
+  "first_seen": "2026-11-07"
+ },
+ "/ut/lindon/364-w-lakeview-rd-n/pid_74461259/": {
+  "address": "364 W Lakeview Rd N",
+  "city": "Lindon",
+  "price": 424900,
+  "first_seen": "2026-11-07"
+ },
+ "/ut/provo/1051-e-620-n/pid_74599226/": {
+  "address": "1051 E 620 N",
+  "city": "Provo",
+  "price": 410000,
+  "first_seen": "2026-11-07"
+ },
+ "/ut/orem/670-n-800-w/pid_74624948/": {
+  "address": "670 N 800 W",
+  "city": "Orem",
+  "price": 414900,
+  "first_seen": "2026-11-07"
+ },
+ "/ut/saratoga-springs/117-n-riverside-dr/pid_74612271/": {
+  "address": "117 N Riverside Dr",
+  "city": "Saratoga Springs",
+  "price": 415000,
+  "first_seen": "2026-11-07"
+ },
+ "/ut/orem/853-n-235-e/pid_74554996/": {
+  "address": "853 N 235 E",
+  "city": "Orem",
+  "price": 415000,
+  "first_seen": "2026-11-07"
+ },
+ "/ut/eagle-mountain/2369-e-prairie-ln/pid_74503985/": {
+  "address": "2369 E Prairie Ln",
+  "city": "Eagle Mountain",
+  "price": 419900,
+  "first_seen": "2026-11-07"
+ },
+ "/ut/santaquin/798-s-brubaker-way/pid_74480983/": {
+  "address": "798 S Brubaker Way",
+  "city": "Santaquin",
+  "price": 420000,
+  "first_seen": "2026-11-07"
+ },
+ "/ut/american-fork/665-n-250-w/pid_74444290/": {
+  "address": "665 N 250 W",
+  "city": "American Fork",
+  "price": 420000,
+  "first_seen": "2026-11-07"
+ },
+ "/ut/orem/907-w-20-n/pid_74590606/": {
+  "address": "907 W 20 N",
+  "city": "Orem",
+  "price": 425000,
+  "first_seen": "2026-11-07"
+ },
+ "/ut/santaquin/731-n-280-w/pid_74458771/": {
+  "address": "731 N 280 W",
+  "city": "Santaquin",
+  "price": 430000,
+  "first_seen": "2026-11-07"
+ },
+ "/ut/american-fork/290-s-200-e/pid_74419471/": {
+  "address": "290 S 300 E",
+  "city": "American Fork",
+  "price": 435000,
+  "first_seen": "2026-11-07"
+ },
+ "/ut/spanish-fork/540-e-400-n/pid_74390638/": {
+  "address": "540 E 400 N",
+  "city": "Spanish Fork",
+  "price": 434900,
+  "first_seen": "2026-11-07"
+ },
+ "/ut/provo/140-s-800-w/pid_74590565/": {
+  "address": "140 S 800 W",
+  "city": "Provo",
+  "price": 439900,
+  "first_seen": "2026-11-07"
+ }
+}
