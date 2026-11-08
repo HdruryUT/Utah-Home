@@ -85,22 +85,33 @@ class Scoring(unittest.TestCase):
 
 class LiveInFlip(unittest.TestCase):
     def test_payment_math(self):
-        # $350k, 10% down, 7.18% 30-yr: P&I on $315k is about $2,134
-        a = score.affordability(house(price=350000, hoa_monthly=0), score.flip_estimate(house(price=350000), C), C)
+        h = house(price=350000, hoa_monthly=0)
+        f = score.flip_estimate(h, C)
+        a = score.affordability(h, f, C)
         by = C["buyer"]
-        loan = 315000
+        dp = a["down_pct"]
+        loan = 350000 * (1 - dp)
         r = by["mortgage_rate"] / 12
         pi = loan * r / (1 - (1 + r) ** -360)
-        expected = pi + 350000 * by["property_tax_rate"] / 12 + by["insurance_annual"] / 12 + loan * by["pmi_rate"] / 12
+        expected = pi + 350000 * by["property_tax_rate"] / 12 + by["insurance_annual"] / 12 + loan * score.pmi_rate(dp, by) / 12
         self.assertEqual(a["monthly"], round(expected))
         self.assertIn(a["payment_level"], ("comfortable", "tight", "high"))
-        self.assertAlmostEqual(pi, 2134, delta=5)
+
+    def test_down_payment_uses_leftover_cash(self):
+        by = C["buyer"]
+        # Light fix-up on a cheap house: capped at 20%, no PMI
+        self.assertEqual(score.suggested_down(250000, 10000, by), by["max_down_pct"])
+        self.assertEqual(score.pmi_rate(0.20, by), 0)
+        # Big fix-up: down payment shrinks so fix-up + closing still fit the cash budget
+        dp = score.suggested_down(350000, 40000, by)
+        self.assertLessEqual(350000 * (dp + by["closing_cost_pct"]) + 40000, by["cash_available"])
+        self.assertLess(dp, 0.20)
 
     def test_cash_needed_includes_rehab(self):
         h = house(price=300000)
         f = score.flip_estimate(h, C)
         a = score.affordability(h, f, C)
-        self.assertEqual(a["cash_needed"], round(300000 * 0.13 + f["rehab"]))
+        self.assertEqual(a["cash_needed"], round(300000 * (a["down_pct"] + 0.03) + f["rehab"]))
 
     def test_hold_period_gain(self):
         h = house(price=300000)

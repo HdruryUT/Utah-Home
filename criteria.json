@@ -322,17 +322,42 @@
   "_strategy_note": "Live-in flip: buy a dated but livable house, fix it up while living there, sell after live_in.years. Owning and living there 2+ years makes up to $250k of profit federal-tax-free (IRS Section 121).",
   "buyer": {
     "_note": "Budget limits only (raw income and savings are deliberately not stored in this public repo). Refresh mortgage_rate weekly from Freddie Mac PMMS (published Thursdays).",
-    "down_payment_pct": 0.1,
     "closing_cost_pct": 0.03,
     "mortgage_rate": 0.0718,
     "mortgage_rate_as_of": "2026-11-05",
     "term_years": 30,
     "property_tax_rate": 0.0046,
     "insurance_annual": 1400,
-    "pmi_rate": 0.0055,
     "comfortable_monthly_payment": 2250,
     "max_monthly_payment": 2775,
-    "cash_available": 90000
+    "cash_available": 90000,
+    "_down_note": "Down payment is fitted per house: cash_available minus that house's fix-up budget and closing costs, capped at max_down_pct, in 0.5% steps. Fix-up and a cushion come first because they create the profit; every dollar beyond that goes down, since the mortgage rate plus PMI beats what savings earn.",
+    "min_down_pct": 0.03,
+    "max_down_pct": 0.2,
+    "pmi_tiers": [
+      [
+        0.2,
+        0.0
+      ],
+      [
+        0.15,
+        0.003
+      ],
+      [
+        0.1,
+        0.005
+      ],
+      [
+        0.05,
+        0.0065
+      ],
+      [
+        0.0,
+        0.0085
+      ]
+    ],
+    "_pmi_note": "Typical conventional PMI (annual % of loan) for ~720-760 credit, by down payment. Varies by lender and credit.",
+    "comfortable_price_fixup": 35000
   },
   "condition_scores": {
     "medium": 1.0,

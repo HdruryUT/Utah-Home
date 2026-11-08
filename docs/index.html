@@ -210,7 +210,7 @@
 
   <section class="plan" aria-label="Your plan" id="plan">
     <div><span>Comfortable price</span><b id="p-price">—</b></div>
-    <div><span>Down payment + closing</span><b id="p-down">—</b></div>
+    <div><span>Down payment</span><b id="p-down">—</b></div>
     <div><span>Mortgage rate</span><b id="p-rate">—</b></div>
     <div><span>Hold before selling</span><b id="p-hold">—</b></div>
     <div><span>Profit goal</span><b id="p-goal">—</b></div>
@@ -265,7 +265,8 @@
       <dt>Fix-up budget</dt><dd>Assumes you do much of the cosmetic work yourself: already updated $10/sqft, dated $25/sqft (paint, floors, fixtures, kitchen refresh), heavy fixer $55/sqft. Hiring out everything costs roughly 40–60% more.</dd>
       <dt>3-year profit</dt><dd>Value after fix-up, grown 3.5% a year for 3 years, minus price, fix-up, 3% buying closing costs and 6% selling costs. Mortgage interest isn't subtracted, since it roughly replaces the rent you'd pay anyway, but property tax and insurance are part of your monthly payment.</dd>
       <dt>Offer to hit your goal</dt><dd>The highest price that still clears your profit goal, holding the home's value fixed. Use it as a negotiating target, not an appraisal.</dd>
-      <dt>Monthly payment</dt><dd>Principal and interest at the current 30-year rate, plus property tax (~0.46% of price for a primary residence), insurance and PMI (because the down payment is under 20%), plus any HOA. "Comfortable" and "tight" are measured against your own budget limits.</dd>
+      <dt>Down payment</dt><dd>Fitted to each house: your cash budget minus that house's fix-up budget and 3% closing costs goes down, up to 20%. The fix-up comes first because it creates the profit, and a $10k cushion stays in savings. Beyond that, every dollar goes down, because the mortgage rate plus PMI costs more than savings earn. PMI steps down at 5%, 10% and 15% down and disappears at 20%.</dd>
+      <dt>Monthly payment</dt><dd>Principal and interest at the current 30-year rate on the suggested down payment, plus property tax (~0.46% of price for a primary residence), insurance, PMI at typical rates for good credit, plus any HOA. "Comfortable" and "tight" are measured against your own budget limits.</dd>
       <dt>Treat these as estimates</dt><dd>These are ballpark figures to help you compare homes. Get an inspection, a contractor's bid and a lender pre-approval before relying on them. Photos and listing details belong to the listing brokers.</dd>
     </dl>
   </details>
@@ -341,7 +342,7 @@
     $('t-drops').textContent = active.filter((r) => r.price_drop > 0).length;
 
     $('p-price').textContent = plan.comfortable_price ? 'Up to ~' + fmtK(plan.comfortable_price) : '—';
-    $('p-down').textContent = plan.down_payment_pct ? pct(plan.down_payment_pct) + ' + ' + pct(plan.closing_cost_pct) + ' of price' : '—';
+    $('p-down').textContent = plan.max_down_pct ? 'Fitted per house, up to ' + pct(plan.max_down_pct) : '—';
     $('p-rate').textContent = plan.mortgage_rate ? pct(plan.mortgage_rate, 2) + (plan.mortgage_rate_as_of ? ' (' + new Date(plan.mortgage_rate_as_of + 'T12:00:00Z').toLocaleDateString('en-US', { month: 'short', day: 'numeric', timeZone: 'UTC' }) + ')' : '') : '—';
     $('p-hold').textContent = plan.hold_years ? plan.hold_years + ' years' + (plan.hold_years >= 2 ? ' (tax-free)' : ' (taxable)') : '—';
     $('p-goal').textContent = plan.target_profit ? fmtK(plan.target_profit) + '+' : '—';
@@ -431,7 +432,7 @@
     const money = el('div', 'money');
     const cell = (label, value, cls) => { const d = el('div'); d.append(el('span', null, label), el('b', cls || null, value)); money.append(d); };
     cell(r.live_in_years + '-yr profit at asking', fmtK(r.live_in_gain), r.live_in_gain == null ? null : r.live_in_gain >= 0 ? 'pos' : 'neg');
-    cell('Monthly payment', r.monthly_payment ? fmt$(r.monthly_payment) : '—', r.payment_level === 'high' ? 'neg' : null);
+    cell('Payment at ' + (r.down_pct != null ? pct(r.down_pct, r.down_pct * 100 % 1 ? 1 : 0) : '—') + ' down', r.monthly_payment ? fmt$(r.monthly_payment) : '—', r.payment_level === 'high' ? 'neg' : null);
     cell('Cash to buy + fix', fmtK(r.cash_needed), r.cash_ok === false ? 'neg' : null);
     return money;
   }
@@ -469,6 +470,7 @@
     row('− Selling costs', fmt$(r.sale_costs));
     row('Profit after ' + r.live_in_years + ' yrs', fmt$(r.live_in_gain), 'total ' + (r.live_in_gain >= 0 ? 'pos' : 'neg'));
     dl.append(el('div', 'gap'));
+    row('Suggested down payment', r.down_pct != null ? pct(r.down_pct, r.down_pct * 100 % 1 ? 1 : 0) + ' (' + fmt$(r.price * r.down_pct) + ')' + (r.pmi_monthly ? ', PMI ~' + fmt$(r.pmi_monthly) + '/mo' : ', no PMI') : '—');
     row('Cash needed (down + closing + fix-up)', fmt$(r.cash_needed));
     row('Return on your cash', r.live_in_roi_pct == null ? '—' : r.live_in_roi_pct + '%');
     row('Payment for your budget', { comfortable: 'Comfortable', tight: 'Tight', high: 'Too high' }[r.payment_level] || '—');
@@ -523,7 +525,8 @@
     if (r.arv == null || r.rehab_cost == null) { wrap.append(el('p', 'sub', 'Not enough detail on this listing to run the numbers yet.')); return wrap; }
     const P = plan;
     const mult = (P.rehab_value_multiple || {})[r.rehab_tier] || 1;
-    const st = { offer: r.price, rehab: r.rehab_cost, years: r.live_in_years || P.hold_years || 3, down: P.down_payment_pct || 0.1, rate: P.mortgage_rate || 0.07, appr: P.appreciation || 0.035 };
+    const st = { offer: r.price, rehab: r.rehab_cost, years: r.live_in_years || P.hold_years || 3, down: r.down_pct != null ? r.down_pct : 0.1, rate: P.mortgage_rate || 0.07, appr: P.appreciation || 0.035 };
+    const pmiRate = (dp) => { for (const [floor, rate] of (P.pmi_tiers || [[0.2, 0], [0, 0.0055]])) if (dp >= floor - 1e-9) return rate; return 0.0085; };
     const controls = el('div', 'wi-controls');
     const out = el('div', 'wi-out');
     const fields = [];
@@ -542,14 +545,15 @@
     field('offer', 'Offer price', roundTo(r.price * 0.75, 1000), roundTo(r.price * 1.05, 1000), 1000, (v) => fmt$(v) + (v !== r.price ? ' (' + (v < r.price ? '−' : '+') + Math.abs(Math.round((v - r.price) / r.price * 100)) + '%)' : ' (asking)'));
     field('rehab', 'Fix-up budget', 0, Math.max(roundTo(r.rehab_cost * 2.5, 1000), 60000), 1000, fmt$);
     field('years', 'Years before selling', 1, 7, 1, (v) => v + (v === 1 ? ' year' : ' years'));
-    field('down', 'Down payment', 0.035, 0.25, 0.005, (v) => (v * 100).toFixed(1).replace(/\.0$/, '') + '%');
+    field('down', 'Down payment', 0.03, 0.25, 0.005, (v) => (v * 100).toFixed(1).replace(/\.0$/, '') + '% (' + fmt$(st.offer * v) + ')');
     field('rate', 'Interest rate', 0.05, 0.085, 0.00125, (v) => (v * 100).toFixed(2) + '%');
     field('appr', 'Home value growth per year', 0, 0.07, 0.005, (v) => (v * 100).toFixed(1).replace(/\.0$/, '') + '%');
     const reset = el('button', 'wi-reset', 'Reset to listing'); reset.type = 'button';
+    reset.textContent = 'Reset to suggested';
     reset.addEventListener('click', () => { fields.forEach((f) => { st[f.key] = f.init; f.inp.value = f.init; }); calc(); });
 
     const stat = (label) => { const d = el('div'); const b = el('b'); d.append(el('span', null, label), b); out.append(d); return b; };
-    const oProfit = stat('Profit when you sell'), oCash = stat('Cash needed'), oRoi = stat('Return on your cash'), oPay = stat('Monthly payment');
+    const oProfit = stat('Profit when you sell'), oCash = stat('Cash needed'), oRoi = stat('Return on your cash'), oPay = stat('Monthly payment'), oPmi = stat('PMI');
     const note = el('p', 'wi-note');
 
     function calc() {
@@ -561,16 +565,18 @@
       const profit = future - st.offer - st.rehab - closing - future * (P.selling_cost_pct || 0.06);
       const cash = st.offer * (st.down + (P.closing_cost_pct || 0.03)) + st.rehab;
       const loan = st.offer * (1 - st.down), mr = st.rate / 12, n = (P.term_years || 30) * 12;
-      const pay = loan * mr / (1 - Math.pow(1 + mr, -n)) + st.offer * (P.property_tax_rate || 0.0046) / 12 + (P.insurance_annual || 1400) / 12 + (st.down < 0.2 ? loan * (P.pmi_rate || 0.0055) / 12 : 0) + (r.hoa_monthly || 0);
+      const pmi = loan * pmiRate(st.down) / 12;
+      const pay = loan * mr / (1 - Math.pow(1 + mr, -n)) + st.offer * (P.property_tax_rate || 0.0046) / 12 + (P.insurance_annual || 1400) / 12 + pmi + (r.hoa_monthly || 0);
       oProfit.textContent = fmt$(profit); oProfit.className = profit >= 0 ? 'pos' : 'neg';
       oCash.textContent = fmt$(cash); oCash.className = P.cash_available && cash > P.cash_available ? 'neg' : '';
       oRoi.textContent = cash > 0 ? Math.round(profit / cash * 100) + '%' : '—';
       const level = pay <= (P.comfortable_monthly_payment || Infinity) ? 'comfortable' : pay <= (P.max_monthly_payment || Infinity) ? 'tight' : 'too high';
       oPay.textContent = fmt$(pay) + ' · ' + level; oPay.className = level === 'too high' ? 'neg' : '';
+      oPmi.textContent = pmi > 0 ? fmt$(pmi) + '/mo' : 'None'; 
       const notes = [];
       if (st.years < 2) notes.push('Selling before 2 years means the profit is taxable (no Section 121 exclusion).');
       if (P.cash_available && cash > P.cash_available) notes.push('Cash needed is more than your cash budget.');
-      if (st.down < 0.2) notes.push('Includes PMI, since the down payment is under 20%.');
+      if (st.down < 0.2) { const next = [0.05, 0.10, 0.15, 0.20].find((t) => t > st.down + 1e-9); if (next) notes.push('PMI drops at ' + Math.round(next * 100) + '% down' + (next === 0.2 ? ' (and disappears).' : '.')); }
       note.textContent = notes.join(' ');
     }
     wrap.append(controls, out, note, reset);

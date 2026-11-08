@@ -14,6 +14,7 @@ No third-party dependencies.
 import argparse
 import datetime as dt
 import json
+import math
 import re
 from pathlib import Path
 
@@ -162,23 +163,42 @@ def live_in_estimate(listing, flip, c):
             "target_profit": target, "max_offer": round(max_offer / 1000) * 1000}
 
 
-def affordability(listing, flip, c):
-    by = c["buyer"]
-    price = listing["price"]
-    loan = price * (1 - by["down_payment_pct"])
+def pmi_rate(dp, by):
+    for floor, rate in by["pmi_tiers"]:
+        if dp >= floor - 1e-9:
+            return rate
+    return by["pmi_tiers"][-1][1]
+
+
+def suggested_down(price, rehab, by):
+    """Fix-up and closing come out of the cash budget first; the rest goes down, up to max_down_pct (0.5% steps)."""
+    dp = (by["cash_available"] - rehab) / price - by["closing_cost_pct"]
+    dp = math.floor(min(dp, by["max_down_pct"]) * 200 + 1e-9) / 200
+    return dp
+
+
+def payment(price, dp, by, hoa=0):
+    loan = price * (1 - dp)
     r = by["mortgage_rate"] / 12
     n = by["term_years"] * 12
     pi = loan * r / (1 - (1 + r) ** -n)
-    tax = price * by["property_tax_rate"] / 12
-    ins = by["insurance_annual"] / 12
-    pmi = loan * by["pmi_rate"] / 12 if by["down_payment_pct"] < 0.2 else 0
-    hoa = listing.get("hoa_monthly") or 0
-    monthly = pi + tax + ins + pmi + hoa
+    return pi + price * by["property_tax_rate"] / 12 + by["insurance_annual"] / 12 + loan * pmi_rate(dp, by) / 12 + hoa
+
+
+def affordability(listing, flip, c):
+    by = c["buyer"]
+    price = listing["price"]
+    rehab = flip.get("rehab") or 0
+    dp = suggested_down(price, rehab, by)
+    fits = dp >= by["min_down_pct"]
+    if not fits:
+        dp = by["min_down_pct"]
+    monthly = payment(price, dp, by, listing.get("hoa_monthly") or 0)
     level = ("comfortable" if monthly <= by["comfortable_monthly_payment"]
              else "tight" if monthly <= by["max_monthly_payment"] else "high")
-    cash = price * (by["down_payment_pct"] + by["closing_cost_pct"]) + (flip.get("rehab") or 0)
+    cash = price * (dp + by["closing_cost_pct"]) + rehab
     return {"monthly": round(monthly), "payment_level": level, "cash_needed": round(cash),
-            "cash_ok": cash <= by["cash_available"]}
+            "cash_ok": fits, "down_pct": round(dp, 3), "pmi_monthly": round(price * (1 - dp) * pmi_rate(dp, by) / 12)}
 
 
 def comfortable_price(c):
@@ -186,7 +206,7 @@ def comfortable_price(c):
     lo, hi = 50000, 1000000
     while hi - lo > 1000:
         mid = (lo + hi) / 2
-        a = affordability({"price": mid}, {}, c)
+        a = affordability({"price": mid}, {"rehab": c["buyer"].get("comfortable_price_fixup", 0)}, c)
         lo, hi = (mid, hi) if a["payment_level"] == "comfortable" else (lo, mid)
     return int(lo // 5000 * 5000)
 
@@ -331,6 +351,13 @@ def pros_cons(listing, flip, c):
         cons.append(f"Payment ~${aff['monthly']:,}/mo: likely more than you'd want to carry")
     if not aff["cash_ok"]:
         cons.append(f"Needs ~{money(aff['cash_needed'])} cash to buy and fix: more than your cash budget")
+    else:
+        dp = aff["down_pct"]
+        nxt = next((t for t, _ in sorted(by["pmi_tiers"]) if t > dp + 1e-9 and t <= by["max_down_pct"]), None)
+        if nxt and nxt - dp <= 0.02:
+            trim = (nxt - dp) * price
+            pros.append(f"Trim the fix-up by ~{money(trim)} to reach {nxt * 100:.0f}% down and "
+                        + ("drop PMI entirely" if nxt >= 0.2 else "lower PMI"))
 
     if beds == 2 and baths < 1.5:
         cons.append("2 bed / 1 bath: fewer buyers when you sell")
@@ -390,6 +417,8 @@ def score_listing(listing, c):
         "target_profit": live["target_profit"],
         "monthly_payment": aff["monthly"],
         "payment_level": aff["payment_level"],
+        "down_pct": aff["down_pct"],
+        "pmi_monthly": aff["pmi_monthly"],
         "cash_needed": aff["cash_needed"],
         "cash_ok": aff["cash_ok"],
     }
@@ -470,10 +499,10 @@ def main():
     db_path.parent.mkdir(parents=True, exist_ok=True)
     db_path.write_text(json.dumps(db, indent=1, sort_keys=True))
     by = c["buyer"]
-    plan = {k: by[k] for k in ("down_payment_pct", "closing_cost_pct", "mortgage_rate", "mortgage_rate_as_of")}
+    plan = {k: by[k] for k in ("closing_cost_pct", "mortgage_rate", "mortgage_rate_as_of", "min_down_pct", "max_down_pct", "pmi_tiers")}
     plan["comfortable_price"] = comfortable_price(c)
     plan["weights"] = {**c["weights"], "dealbreakers": 0}
-    plan.update({k: by[k] for k in ("property_tax_rate", "insurance_annual", "pmi_rate", "term_years",
+    plan.update({k: by[k] for k in ("property_tax_rate", "insurance_annual", "term_years",
                                     "comfortable_monthly_payment", "max_monthly_payment", "cash_available")})
     plan["rehab_value_multiple"] = c["flip"]["rehab_value_multiple"]
     plan["arv_max_multiple_of_price"] = c["flip"]["arv_max_multiple_of_price"]
