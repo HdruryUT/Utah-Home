@@ -1,5 +1,69 @@
 {
  "listings": {
+  "1064-e-400-s-springville": {
+   "data": {
+    "address": "1064 E 400 S",
+    "baths": 1,
+    "beds": 3,
+    "city": "Springville",
+    "days_on_market": 2,
+    "description": "1909 home on 0.27 acres near Hobble Creek. Loft, big front and back yards, patio. Recent upgrades: insulation, new breaker panel, partial sewer work, new fence, carport roof, fresh paint.",
+    "garage": false,
+    "hoa_monthly": 0,
+    "lot_acres": 0.27,
+    "mls": "2194727",
+    "photo": "https://images-listings.century21.com/SL/21/94/72/7/_P/2194727_P00.jpg?format=webp&quality=70&width=800",
+    "photo_count": 22,
+    "price": 390000,
+    "property_type": "single_family",
+    "source": "Century21",
+    "sqft": 1444,
+    "status": "active",
+    "url": "https://www.century21.com/homes/detail/ut/springville/1064-e-400/lid-P00800000HJxJTvKYA48Tzt55XSzuzIpd8YKxq9m",
+    "year_built": 1909
+   },
+   "first_seen": "2026-11-07",
+   "last_seen": "2026-11-07",
+   "price_history": [
+    {
+     "date": "2026-11-07",
+     "price": 390000
+    }
+   ],
+   "status": "active"
+  },
+  "1205-hillcrest-dr-springville": {
+   "data": {
+    "address": "1205 Hillcrest Dr",
+    "baths": 2,
+    "beds": 5,
+    "city": "Springville",
+    "days_on_market": 7,
+    "description": "As-is 1961 brick home needing a full renovation. $150K is a starting price; offers due November 18 at 5 PM, multiple offers expected. Finished basement with separate entrance, corner lot, mountain views.",
+    "garage": true,
+    "hoa_monthly": 0,
+    "lot_acres": 0.26,
+    "mls": "2193900",
+    "photo": "https://images-listings.century21.com/SL/21/93/90/0/_P/2193900_P00.jpg?format=webp&quality=70&width=800",
+    "photo_count": 26,
+    "price": 150000,
+    "property_type": "single_family",
+    "source": "Century21",
+    "sqft": 3456,
+    "status": "active",
+    "url": "https://www.century21.com/homes/detail/ut/springville/1205-hillcrest-dr/lid-P00800000HJgDhUbyYq9YVjq2LG4rMpEnHJBvRpD",
+    "year_built": 1961
+   },
+   "first_seen": "2026-11-07",
+   "last_seen": "2026-11-07",
+   "price_history": [
+    {
+     "date": "2026-11-07",
+     "price": 150000
+    }
+   ],
+   "status": "active"
+  },
   "1226-e-570-n-spanish-fork": {
    "data": {
     "address": "1226 E 570 N",
@@ -32,6 +96,38 @@
    ],
    "status": "active"
   },
+  "130-w-600-n-spanish-fork": {
+   "data": {
+    "address": "130 W 600 N",
+    "baths": 1,
+    "beds": 4,
+    "city": "Spanish Fork",
+    "days_on_market": 45,
+    "description": "Price reduced. Near freeway, schools, shopping and parks. Four roomy bedrooms and one full bath, with room to add a second bath in the basement. A/C replaced 2021; roof and siding updated 2017.",
+    "garage": true,
+    "hoa_monthly": 0,
+    "lot_acres": 0.11,
+    "mls": "2186884",
+    "photo": "https://images-listings.century21.com/SL/21/86/88/4/_P/2186884_P00.jpg?format=webp&quality=70&width=800",
+    "photo_count": 26,
+    "price": 345000,
+    "property_type": "single_family",
+    "source": "Coldwell Banker",
+    "sqft": 1768,
+    "status": "active",
+    "url": "https://www.coldwellbankerhomes.com/ut/spanish-fork/130-w-600-n/pid_73874594/",
+    "year_built": 1941
+   },
+   "first_seen": "2026-11-07",
+   "last_seen": "2026-11-07",
+   "price_history": [
+    {
+     "date": "2026-11-07",
+     "price": 345000
+    }
+   ],
+   "status": "active"
+  },
   "1453-n-250-e-springville": {
    "data": {
     "address": "1453 N 250 E",
@@ -57,6 +153,38 @@
    ],
    "status": "pending"
   },
+  "146-n-100-w-springville": {
+   "data": {
+    "address": "146 N 100 W",
+    "baths": 1,
+    "beds": 3,
+    "city": "Springville",
+    "days_on_market": 2,
+    "description": "Central Springville near downtown. 3-bed, 1-bath with attached garage and carport; room for the buyer's own updates.",
+    "garage": true,
+    "hoa_monthly": 0,
+    "lot_acres": 0.14,
+    "mls": "2194539",
+    "photo": "https://images-listings.century21.com/SL/21/94/53/9/_P/2194539_P00.jpg?format=webp&quality=70&width=800",
+    "photo_count": 26,
+    "price": 387500,
+    "property_type": "single_family",
+    "source": "Century21",
+    "sqft": 1346,
+    "status": "active",
+    "url": "https://www.century21.com/homes/detail/ut/springville/146-n-100-w/lid-P00800000HJw6KrThvDPrqWOLTT0Wxs3T2QxevGe",
+    "year_built": 1938
+   },
+   "first_seen": "2026-11-07",
+   "last_seen": "2026-11-07",
+   "price_history": [
+    {
+     "date": "2026-11-07",
+     "price": 387500
+    }
+   ],
+   "status": "active"
+  },
   "146-w-200-n-springville": {
    "data": {
     "address": "146 W 200 N",
@@ -78,6 +206,32 @@
     {
      "date": "2026-11-07",
      "price": 385000
+    }
+   ],
+   "status": "pending"
+  },
+  "1563-s-600-e-springville": {
+   "data": {
+    "address": "1563 S 600 E",
+    "baths": 2,
+    "beds": 4,
+    "city": "Springville",
+    "mls": "2169785",
+    "photo": "https://images-listings.century21.com/SL/21/69/78/5/_P/2169785_P00.jpg?format=webp&quality=70&width=800",
+    "photo_count": 30,
+    "price": 384900,
+    "property_type": "single_family",
+    "source": "Century21",
+    "sqft": 2190,
+    "status": "pending",
+    "url": "https://www.century21.com/homes/detail/ut/springville/1563-s-600-e/lid-P00800000HDfm7TlKLUg8dmVFsUTecCPsYWzrzXh"
+   },
+   "first_seen": "2026-11-07",
+   "last_seen": "2026-11-07",
+   "price_history": [
+    {
+     "date": "2026-11-07",
+     "price": 384900
     }
    ],
    "status": "pending"
@@ -113,6 +267,37 @@
     }
    ],
    "status": "pending"
+  },
+  "175-n-700-e-springville": {
+   "data": {
+    "address": "175 N 700 E",
+    "baths": 2,
+    "beds": 3,
+    "city": "Springville",
+    "days_on_market": 129,
+    "description": "Well-kept 3-bed, 2-bath rambler, fenced yard, mature shade tree, rear lounge area. Kitchen updated with new countertops.",
+    "hoa_monthly": 0,
+    "lot_acres": 0.16,
+    "mls": "2168758",
+    "photo": "https://images-listings.century21.com/SL/21/68/75/8/_P/2168758_P00.jpg?format=webp&quality=70&width=800",
+    "photo_count": 32,
+    "price": 389900,
+    "property_type": "single_family",
+    "source": "Century21",
+    "sqft": 1165,
+    "status": "active",
+    "url": "https://www.century21.com/homes/detail/ut/springville/175-e-700-n/lid-P00800000HDMfhZ7uNhgEjkJF4ieoBpJUUWvyMQe",
+    "year_built": 1957
+   },
+   "first_seen": "2026-11-07",
+   "last_seen": "2026-11-07",
+   "price_history": [
+    {
+     "date": "2026-11-07",
+     "price": 389900
+    }
+   ],
+   "status": "active"
   },
   "1757-n-1600-w-mapleton": {
    "data": {
@@ -195,6 +380,64 @@
     }
    ],
    "status": "pending"
+  },
+  "18534-wilson-ave-eagle-mountain": {
+   "data": {
+    "address": "18534 Wilson Ave",
+    "baths": 3,
+    "beds": 3,
+    "city": "Eagle Mountain",
+    "mls": "2191682",
+    "photo": "https://images-listings.century21.com/SL/21/91/68/2/_P/2191682_P00.jpg?format=webp&quality=70&width=800",
+    "photo_count": 30,
+    "price": 369900,
+    "property_type": "single_family",
+    "source": "Century21",
+    "sqft": 1824,
+    "status": "pending",
+    "url": "https://www.century21.com/homes/detail/ut/eagle-mountain/18534-wilson-ave/lid-P00800000HIxycfhqgTzkVVM2E5zctrN4k6QFNSU"
+   },
+   "first_seen": "2026-11-07",
+   "last_seen": "2026-11-07",
+   "price_history": [
+    {
+     "date": "2026-11-07",
+     "price": 369900
+    }
+   ],
+   "status": "pending"
+  },
+  "191-w-100-s-spanish-fork": {
+   "data": {
+    "address": "191 W 100 S",
+    "baths": 1,
+    "beds": 3,
+    "city": "Spanish Fork",
+    "days_on_market": 50,
+    "description": "Back on market after buyer fell through. Updated: new plumbing, electrical, furnace, A/C, water heater, softener and roof, 2023 flooring and remodeled bath. Appliances included. Walkable to library, sports park and shopping. Terms: cash, conventional, FHA.",
+    "garage": true,
+    "hoa_monthly": 0,
+    "lot_acres": 0.15,
+    "mls": "2186218",
+    "photo": "https://images-listings.century21.com/SL/21/86/21/8/_P/2186218_P00.jpg?format=webp&quality=70&width=800",
+    "photo_count": 25,
+    "price": 375000,
+    "property_type": "single_family",
+    "source": "Coldwell Banker",
+    "sqft": 1792,
+    "status": "active",
+    "url": "https://www.coldwellbankerhomes.com/ut/spanish-fork/191-w-100-s/pid_73812969/",
+    "year_built": 1942
+   },
+   "first_seen": "2026-11-07",
+   "last_seen": "2026-11-07",
+   "price_history": [
+    {
+     "date": "2026-11-07",
+     "price": 375000
+    }
+   ],
+   "status": "active"
   },
   "230-e-700-n-american-fork": {
    "data": {
@@ -775,6 +1018,32 @@
    ],
    "status": "pending"
   },
+  "542-e-3400-n-provo": {
+   "data": {
+    "address": "542 E 3400 N",
+    "baths": 2,
+    "beds": 3,
+    "city": "Provo",
+    "mls": "2170906",
+    "photo": "https://images-listings.century21.com/SL/21/70/90/6/_P/2170906_P00.jpg?format=webp&quality=70&width=800",
+    "photo_count": 39,
+    "price": 389900,
+    "property_type": "single_family",
+    "source": "Century21",
+    "sqft": 1012,
+    "status": "pending",
+    "url": "https://www.century21.com/homes/detail/ut/provo/542-e-3400/lid-P00800000HDqSzlOU08PfHrOKUGxTqIlP0X8Zjwq"
+   },
+   "first_seen": "2026-11-07",
+   "last_seen": "2026-11-07",
+   "price_history": [
+    {
+     "date": "2026-11-07",
+     "price": 389900
+    }
+   ],
+   "status": "pending"
+  },
   "544-s-500-e-payson": {
    "data": {
     "address": "544 S 500 E",
@@ -828,6 +1097,67 @@
     {
      "date": "2026-11-07",
      "price": 325000
+    }
+   ],
+   "status": "pending"
+  },
+  "575-e-400-n-spanish-fork": {
+   "data": {
+    "address": "575 E 400 N",
+    "baths": 1,
+    "beds": 4,
+    "city": "Spanish Fork",
+    "days_on_market": 46,
+    "description": "Investor fixer-upper needing sweat equity. Main-level floors and a new electrical panel done. Wood-burning stove, large backyard, covered deck, carport. Upstairs flooring, kitchen cabinets, countertops, paint and curb appeal still need work. Terms: cash, conventional.",
+    "garage": false,
+    "hoa_monthly": 0,
+    "lot_acres": 0.14,
+    "mls": "2186863",
+    "photo": "https://images-listings.century21.com/SL/21/86/86/3/_P/2186863_P00.jpg?format=webp&quality=70&width=800",
+    "photo_count": 10,
+    "price": 290000,
+    "property_type": "single_family",
+    "source": "Coldwell Banker",
+    "sqft": 1210,
+    "status": "active",
+    "url": "https://www.coldwellbankerhomes.com/ut/spanish-fork/575-e-400-n/pid_73873162/",
+    "year_built": 1931
+   },
+   "first_seen": "2026-11-07",
+   "last_seen": "2026-11-07",
+   "price_history": [
+    {
+     "date": "2026-11-07",
+     "price": 290000
+    }
+   ],
+   "status": "active"
+  },
+  "609-e-100-n-spanish-fork": {
+   "data": {
+    "address": "609 E 100 N",
+    "baths": 2,
+    "beds": 4,
+    "city": "Spanish Fork",
+    "description": "Historic 1882 two-story across from Park Elementary, corner lot. Restore and personalize. Under contract.",
+    "lot_acres": 0.14,
+    "mls": "2186244",
+    "photo": "https://images-listings.century21.com/SL/21/86/24/4/_P/2186244_P00.jpg?format=webp&quality=70&width=800",
+    "photo_count": 15,
+    "price": 329000,
+    "property_type": "single_family",
+    "source": "Coldwell Banker",
+    "sqft": 1418,
+    "status": "pending",
+    "url": "https://www.coldwellbankerhomes.com/ut/spanish-fork/609-e-100-n/pid_73814997/",
+    "year_built": 1882
+   },
+   "first_seen": "2026-11-07",
+   "last_seen": "2026-11-07",
+   "price_history": [
+    {
+     "date": "2026-11-07",
+     "price": 329000
     }
    ],
    "status": "pending"
@@ -949,6 +1279,70 @@
     {
      "date": "2026-11-07",
      "price": 320000
+    }
+   ],
+   "status": "active"
+  },
+  "960-w-100-s-orem": {
+   "data": {
+    "address": "960 W 100 S",
+    "baths": 2,
+    "beds": 3,
+    "city": "Orem",
+    "days_on_market": 134,
+    "description": "Relisted. New carpet, bonus loft (office or extra bedroom), large fenced yard, home warranty included. Seller-reported updates to water heater, furnace, A/C and roof. Near I-15, schools and shopping.",
+    "garage": true,
+    "hoa_monthly": 0,
+    "lot_acres": 0.18,
+    "mls": "2167794",
+    "photo": "https://images-listings.century21.com/SL/21/67/79/4/_P/2167794_P00.jpg?format=webp&quality=70&width=800",
+    "photo_count": 28,
+    "price": 394900,
+    "property_type": "single_family",
+    "source": "Century21",
+    "sqft": 1568,
+    "status": "active",
+    "url": "https://www.century21.com/homes/detail/ut/orem/960-w-100-s/lid-P00800000HD6dqbXQjKE6qTItRXqwcOma4r2OwLR",
+    "year_built": 1949
+   },
+   "first_seen": "2026-11-07",
+   "last_seen": "2026-11-07",
+   "price_history": [
+    {
+     "date": "2026-11-07",
+     "price": 394900
+    }
+   ],
+   "status": "active"
+  },
+  "964-e-200-n-provo": {
+   "data": {
+    "address": "964 E 200 N",
+    "baths": 1,
+    "beds": 3,
+    "city": "Provo",
+    "days_on_market": 147,
+    "description": "Single-level Provo rental with tenants in place through March 2027. 3-bed, 1-bath rambler with attached garage, covered patio, workshop area, landscaped yard. Near BYU and UVU; suits investors or owner-occupants.",
+    "garage": true,
+    "hoa_monthly": 0,
+    "lot_acres": 0.16,
+    "mls": "2165159",
+    "photo": "https://images-listings.century21.com/SL/21/65/15/9/_P/2165159_P00.jpg?format=webp&quality=70&width=800",
+    "photo_count": 18,
+    "price": 350000,
+    "property_type": "single_family",
+    "source": "Century21",
+    "sqft": 1000,
+    "status": "active",
+    "url": "https://www.century21.com/homes/detail/ut/provo/964-e-200-n/lid-P00800000HCRsRhiOvxp0a4fxPmL3DjuAceLqymZ",
+    "year_built": 1943
+   },
+   "first_seen": "2026-11-07",
+   "last_seen": "2026-11-07",
+   "price_history": [
+    {
+     "date": "2026-11-07",
+     "price": 350000
     }
    ],
    "status": "active"

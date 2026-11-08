@@ -159,7 +159,10 @@
       "not qualify for fha": "May not qualify for FHA financing",
       "backup offers": "Already under contract (accepting backup offers)",
       "owner-occupancy": "Deed restriction: you must live there (no renting at first)",
-      "deed restriction": "Deed restriction: you must live there (no renting at first)"
+      "deed restriction": "Deed restriction: you must live there (no renting at first)",
+      "starting price": "Listed at a starting price with an offer deadline: expect it to sell well above list",
+      "multiple offers": "Multiple offers expected: likely to sell above asking",
+      "tenants in place": "Tenants in place: you may not be able to move in right away"
     },
     "pros": {
       "seller financing": "Seller may offer financing",
@@ -169,7 +172,8 @@
       "rv parking": "RV parking",
       "solar": "Solar panels",
       "new roof": "Newer roof",
-      "central air": "Has central A/C"
+      "central air": "Has central A/C",
+      "add a second bath": "Room to add a second bathroom: a strong value-add"
     }
   },
   "_city_market_note": "Median closed-sale $/sqft and typical size for homes under $500k, per city. 'measured' = from bestutahrealestate.com city pages; 'estimate' = filled in by hand. The scan refreshes these monthly.",
@@ -311,7 +315,9 @@
     "cash only": 15,
     "short sale": 6,
     "backup offers": 5,
-    "not qualify for fha": 4
+    "not qualify for fha": 4,
+    "starting price": 20,
+    "tenants in place": 5
   },
   "_strategy_note": "Live-in flip: buy a dated but livable house, fix it up while living there, sell after live_in.years. Owning and living there 2+ years makes up to $250k of profit federal-tax-free (IRS Section 121).",
   "buyer": {
