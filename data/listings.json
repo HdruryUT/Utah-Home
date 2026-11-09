@@ -291,7 +291,7 @@
     "year_built": 2021
    },
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "price_history": [
     {
      "date": "2026-11-07",
@@ -505,6 +505,39 @@
    ],
    "status": "pending"
   },
+  "190-w-600-n-lehi": {
+   "data": {
+    "address": "190 W 600 N",
+    "baths": 1,
+    "beds": 4,
+    "cb_url": "https://www.coldwellbankerhomes.com/ut/lehi/190-w-600-n/pid_73615098/",
+    "city": "Lehi",
+    "days_on_market": 60,
+    "description": "Vacant 1934 bungalow on a 0.16-acre corner lot. Original-cabinet kitchen, basement with laundry and storage. Sold as-is, suited to renovation or investment.",
+    "garage": false,
+    "hoa_monthly": 0,
+    "lot_acres": 0.16,
+    "mls": "2184190",
+    "photo": "https://images-listings.century21.com/SL/21/84/19/0/_P/2184190_P00.jpg?format=webp&quality=70&width=800",
+    "photo_count": 29,
+    "price": 375000,
+    "property_type": "single_family",
+    "source": "Coldwell Banker",
+    "sqft": 1221,
+    "status": "active",
+    "url": "https://www.coldwellbankerhomes.com/ut/lehi/190-w-600-n/pid_73615098/",
+    "year_built": 1934
+   },
+   "first_seen": "2026-11-09",
+   "last_seen": "2026-11-09",
+   "price_history": [
+    {
+     "date": "2026-11-09",
+     "price": 375000
+    }
+   ],
+   "status": "active"
+  },
   "191-w-100-s-spanish-fork": {
    "data": {
     "address": "191 W 100 S",
@@ -528,7 +561,7 @@
     "year_built": 1942
    },
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "price_history": [
     {
      "date": "2026-11-07",
@@ -565,6 +598,39 @@
     {
      "date": "2026-11-07",
      "price": 340000
+    }
+   ],
+   "status": "active"
+  },
+  "244-e-center-st-spanish-fork": {
+   "data": {
+    "address": "244 E Center St",
+    "baths": 1,
+    "beds": 2,
+    "cb_url": "https://www.coldwellbankerhomes.com/ut/spanish-fork/244-e-center-st/pid_73348577/",
+    "city": "Spanish Fork",
+    "days_on_market": 69,
+    "description": "Brick home in the center of town, two bedrooms and one bath, mature yard, covered patio.",
+    "garage": true,
+    "hoa_monthly": 0,
+    "lot_acres": 0.18,
+    "mls": "2182228",
+    "photo": "https://images-listings.century21.com/SL/21/82/22/8/_P/2182228_P00.jpg?format=webp&quality=70&width=800",
+    "photo_count": 21,
+    "price": 380000,
+    "property_type": "single_family",
+    "source": "Coldwell Banker",
+    "sqft": 1680,
+    "status": "active",
+    "url": "https://www.coldwellbankerhomes.com/ut/spanish-fork/244-e-center-st/pid_73348577/",
+    "year_built": 1939
+   },
+   "first_seen": "2026-11-09",
+   "last_seen": "2026-11-09",
+   "price_history": [
+    {
+     "date": "2026-11-09",
+     "price": 380000
     }
    ],
    "status": "active"
@@ -752,6 +818,39 @@
    ],
    "status": "active"
   },
+  "31-b-st-springville": {
+   "data": {
+    "address": "31 B St",
+    "baths": 2,
+    "beds": 4,
+    "cb_url": "https://www.coldwellbankerhomes.com/ut/springville/31-b-st/pid_73673396/",
+    "city": "Springville",
+    "days_on_market": 58,
+    "description": "Short sale that requires third-party approval. 4-bedroom Springville home, open floor plan, covered patio. Needs updating and TLC; newer roof within last three years.",
+    "garage": false,
+    "hoa_monthly": 0,
+    "lot_acres": 0.13,
+    "mls": "2184754",
+    "photo": "https://images-listings.century21.com/SL/21/84/75/4/_P/2184754_P00.jpg?format=webp&quality=70&width=800",
+    "photo_count": 31,
+    "price": 375000,
+    "property_type": "single_family",
+    "source": "Coldwell Banker",
+    "sqft": 1960,
+    "status": "active",
+    "url": "https://www.coldwellbankerhomes.com/ut/springville/31-b-st/pid_73673396/",
+    "year_built": 1943
+   },
+   "first_seen": "2026-11-09",
+   "last_seen": "2026-11-09",
+   "price_history": [
+    {
+     "date": "2026-11-09",
+     "price": 375000
+    }
+   ],
+   "status": "active"
+  },
   "310-s-center-st-santaquin": {
    "data": {
     "address": "310 S Center St",
@@ -840,7 +939,7 @@
     "year_built": 1913
    },
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "price_history": [
     {
      "date": "2026-11-07",
@@ -1380,7 +1479,7 @@
     "year_built": 1882
    },
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "price_history": [
     {
      "date": "2026-11-07",
@@ -1549,9 +1648,10 @@
     "address": "950 W 500 N",
     "baths": 1,
     "beds": 2,
+    "cb_url": "https://www.coldwellbankerhomes.com/ut/provo/950-w-500-n/pid_73618535/",
     "city": "Provo",
-    "days_on_market": 58,
-    "description": "Recently price-reduced 1918 bungalow with updates. Landscaped lot, large backyard, storage shed, covered carport, crawl space.",
+    "days_on_market": 60,
+    "description": "Price-improved 1918 bungalow, 2 bed 1 bath, 753 sq ft on 0.15 acre, landscaped, storage shed, carport. Square footage is a county-records estimate.",
     "garage": false,
     "hoa_monthly": 0,
     "lot_acres": 0.15,
@@ -1560,14 +1660,14 @@
     "photo_count": 15,
     "price": 320000,
     "property_type": "single_family",
-    "source": "Century21",
+    "source": "Coldwell Banker",
     "sqft": 753,
     "status": "active",
-    "url": "https://www.century21.com/homes/detail/ut/provo/950-w-500-n/lid-P00800000HH32easCKoVM213wlvB96TDkN5AH6GU",
+    "url": "https://www.coldwellbankerhomes.com/ut/provo/950-w-500-n/pid_73618535/",
     "year_built": 1918
    },
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "price_history": [
     {
      "date": "2026-11-07",
@@ -1639,7 +1739,39 @@
     }
    ],
    "status": "active"
+  },
+  "965-s-730-w-payson": {
+   "data": {
+    "address": "965 S 730 W",
+    "baths": 1,
+    "beds": 3,
+    "cb_url": "https://www.coldwellbankerhomes.com/ut/payson/965-s-730-w/pid_73656610/",
+    "city": "Payson",
+    "days_on_market": 59,
+    "description": "Recently price-improved ranch home kept up by its original owner. Roof about four years old, fenced backyard, partly finished basement with plumbing stubbed for an extra bathroom. Square footage is a county-records estimate.",
+    "hoa_monthly": 0,
+    "lot_acres": 0.17,
+    "mls": "2184575",
+    "photo": "https://images-listings.century21.com/SL/21/84/57/5/_P/2184575_P00.jpg?format=webp&quality=70&width=800",
+    "photo_count": 28,
+    "price": 385000,
+    "property_type": "single_family",
+    "source": "Coldwell Banker",
+    "sqft": 2085,
+    "status": "active",
+    "url": "https://www.coldwellbankerhomes.com/ut/payson/965-s-730-w/pid_73656610/",
+    "year_built": 1974
+   },
+   "first_seen": "2026-11-09",
+   "last_seen": "2026-11-09",
+   "price_history": [
+    {
+     "date": "2026-11-09",
+     "price": 385000
+    }
+   ],
+   "status": "active"
   }
  },
- "updated": "2026-11-08"
+ "updated": "2026-11-09"
 }

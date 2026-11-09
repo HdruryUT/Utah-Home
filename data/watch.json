@@ -53,12 +53,6 @@
   "price": 400000,
   "first_seen": "2026-11-07"
  },
- "/ut/eagle-mountain/2135-e-white-pine-rd/pid_74321808/": {
-  "address": "2135 E White Pine Rd",
-  "city": "Eagle Mountain",
-  "price": 399900,
-  "first_seen": "2026-11-07"
- },
  "/ut/lindon/364-w-lakeview-rd-n/pid_74461259/": {
   "address": "364 W Lakeview Rd N",
   "city": "Lindon",
@@ -226,5 +220,53 @@
   "city": "Lehi",
   "price": 444900,
   "first_seen": "2026-11-08"
+ },
+ "/ut/provo/2163-dakota-ave/pid_73729010/": {
+  "address": "2163 Dakota Ave",
+  "city": "Provo",
+  "price": 399990,
+  "first_seen": "2026-11-09"
+ },
+ "/ut/eagle-mountain/1100-e-bell-buoy-way-lot-1408/pid_73795394/": {
+  "address": "1100 E Bell Buoy Way Lot #1408",
+  "city": "Eagle Mountain",
+  "price": 399388,
+  "first_seen": "2026-11-09"
+ },
+ "/ut/springville/978-e-40-n/pid_73643854/": {
+  "address": "978 E 40 N",
+  "city": "Springville",
+  "price": 400000,
+  "first_seen": "2026-11-09"
+ },
+ "/ut/provo/1106-w-450-n/pid_73323168/": {
+  "address": "1106 W 450 N",
+  "city": "Provo",
+  "price": 405000,
+  "first_seen": "2026-11-09"
+ },
+ "/ut/spanish-fork/739-w-60-n/pid_73276598/": {
+  "address": "739 W 60 N",
+  "city": "Spanish Fork",
+  "price": 410000,
+  "first_seen": "2026-11-09"
+ },
+ "/ut/santaquin/1681-s-sageberry-dr-sr-344/pid_73659370/": {
+  "address": "1681 S Sageberry Dr #SR 344",
+  "city": "Santaquin",
+  "price": 414900,
+  "first_seen": "2026-11-09"
+ },
+ "/ut/santaquin/1563-s-deerbrook-spec-sr-267/pid_73629002/": {
+  "address": "1563 S Deerbrook Spec #SR 267",
+  "city": "Santaquin",
+  "price": 419900,
+  "first_seen": "2026-11-09"
+ },
+ "/ut/american-fork/93-s-100-w/pid_73783621/": {
+  "address": "93 S 100 W",
+  "city": "American Fork",
+  "price": 410000,
+  "first_seen": "2026-11-09"
  }
 }
