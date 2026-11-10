@@ -268,5 +268,107 @@
   "city": "American Fork",
   "price": 410000,
   "first_seen": "2026-11-09"
+ },
+ "/ut/eagle-mountain/1953-e-atlas-cedar-rd-e/pid_74671926/": {
+  "address": "1953 E Atlas Cedar Rd E",
+  "city": "Eagle Mountain",
+  "price": 450000,
+  "first_seen": "2026-11-10"
+ },
+ "/ut/springville/30-s-1300-e/pid_74675997/": {
+  "address": "30 S 1300 E",
+  "city": "Springville",
+  "price": 429000,
+  "first_seen": "2026-11-10"
+ },
+ "/ut/eagle-mountain/1320-e-raptor-rd/pid_73092219/": {
+  "address": "1320 E Raptor Rd",
+  "city": "Eagle Mountain",
+  "price": 405000,
+  "first_seen": "2026-11-10"
+ },
+ "/ut/eagle-mountain/7065-n-cherokee-st/pid_73095131/": {
+  "address": "7065 N Cherokee St",
+  "city": "Eagle Mountain",
+  "price": 399900,
+  "first_seen": "2026-11-10"
+ },
+ "/ut/spanish-fork/1644-e-ridgefield-rd/pid_73081533/": {
+  "address": "1644 E Ridgefield Rd",
+  "city": "Spanish Fork",
+  "price": 415000,
+  "first_seen": "2026-11-10"
+ },
+ "/ut/orem/847-n-275-e/pid_73034073/": {
+  "address": "847 N 275 E",
+  "city": "Orem",
+  "price": 418000,
+  "first_seen": "2026-11-10"
+ },
+ "/ut/lehi/194-w-200-n/pid_73085625/": {
+  "address": "194 W 200 N",
+  "city": "Lehi",
+  "price": 449999,
+  "first_seen": "2026-11-10"
+ },
+ "/ut/american-fork/224-w-pacific/pid_72947773/": {
+  "address": "224 W Pacific",
+  "city": "American Fork",
+  "price": 420000,
+  "first_seen": "2026-11-10"
+ },
+ "/ut/eagle-mountain/4384-n-maple-dr/pid_72868843/": {
+  "address": "4384 N Maple Dr",
+  "city": "Eagle Mountain",
+  "price": 427400,
+  "first_seen": "2026-11-10"
+ },
+ "/ut/lehi/336-n-1030-e-t-1/pid_72805675/": {
+  "address": "336 N 1030 E #T-1",
+  "city": "Lehi",
+  "price": 445000,
+  "first_seen": "2026-11-10"
+ },
+ "/ut/spanish-fork/591-n-1120-e/pid_72709160/": {
+  "address": "591 N 1120 E",
+  "city": "Spanish Fork",
+  "price": 414550,
+  "first_seen": "2026-11-10"
+ },
+ "/ut/eagle-mountain/6152-n-sheps-ridge-rd-e/pid_72695085/": {
+  "address": "6152 N Sheps Ridge Rd E",
+  "city": "Eagle Mountain",
+  "price": 419900,
+  "first_seen": "2026-11-10"
+ },
+ "/ut/payson/1225-w-1050-s/pid_72686465/": {
+  "address": "1225 W 1050 S",
+  "city": "Payson",
+  "price": 399999,
+  "first_seen": "2026-11-10"
+ },
+ "/ut/santaquin/109-w-930-n/pid_72686439/": {
+  "address": "109 W 930 N",
+  "city": "Santaquin",
+  "price": 399900,
+  "first_seen": "2026-11-10"
+ },
+ "/ut/provo/1065-e-420-st-s/pid_72707002/": {
+  "address": "1065 E 420 St S",
+  "city": "Provo",
+  "price": 397000,
+  "first_seen": "2026-11-10"
+ },
+ "/ut/spanish-fork/1566-s-2000-e/pid_72758049/": {
+  "address": "1566 S 2000 E",
+  "city": "Spanish Fork",
+  "price": 409000,
+  "first_seen": "2026-11-10"
+ },
+ "/ut/saratoga-springs/419-e-halls-creek-rd/pid_73200108/": {
+  "address": "419 E Halls Creek Rd",
+  "city": "Saratoga Springs",
+  "price": 449990,
+  "first_seen": "2026-11-10"
  }
 }

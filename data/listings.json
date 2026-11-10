@@ -55,7 +55,7 @@
     "year_built": 1956
    },
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-10",
    "price_history": [
     {
      "date": "2026-11-07",
@@ -268,6 +268,38 @@
    ],
    "status": "pending"
   },
+  "1660-n-500-w-lehi": {
+   "data": {
+    "address": "1660 N 500 W",
+    "baths": 1,
+    "beds": 2,
+    "cb_url": "https://www.coldwellbankerhomes.com/ut/lehi/1660-n-500-w/pid_72686440/",
+    "city": "Lehi",
+    "days_on_market": 109,
+    "description": "Historic Lehi brick bungalow. Nearly everything new: heating and AC, fixtures, stainless appliances, cabinets, quartz counters, bathrooms, LVP flooring; newer roof, electrical, sprinklers and sod. No HOA rules. Seller financing with $100K down.",
+    "hoa_monthly": 0,
+    "lot_acres": 0.07,
+    "mls": "2174071",
+    "photo": "https://images-listings.century21.com/SL/21/74/07/1/_P/2174071_P00.jpg?format=webp&quality=70&width=800",
+    "photo_count": 14,
+    "price": 299900,
+    "property_type": "single_family",
+    "source": "Coldwell Banker",
+    "sqft": 702,
+    "status": "active",
+    "url": "https://www.coldwellbankerhomes.com/ut/lehi/1660-n-500-w/pid_72686440/",
+    "year_built": 1947
+   },
+   "first_seen": "2026-11-10",
+   "last_seen": "2026-11-10",
+   "price_history": [
+    {
+     "date": "2026-11-10",
+     "price": 299900
+    }
+   ],
+   "status": "active"
+  },
   "1716-n-1230-e-payson": {
    "data": {
     "address": "1716 N 1230 E",
@@ -355,7 +387,7 @@
     "year_built": 1947
    },
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-10",
    "price_history": [
     {
      "date": "2026-11-07",
@@ -420,7 +452,7 @@
     "year_built": 2007
    },
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-10",
    "price_history": [
     {
      "date": "2026-11-07",
@@ -566,6 +598,39 @@
     {
      "date": "2026-11-07",
      "price": 375000
+    }
+   ],
+   "status": "active"
+  },
+  "2035-e-weeping-willow-way-eagle-mountain": {
+   "data": {
+    "address": "2035 E Weeping Willow Way",
+    "baths": 2,
+    "beds": 3,
+    "cb_url": "https://www.coldwellbankerhomes.com/ut/eagle-mountain/2035-e-weeping-willow-way/pid_72926808/",
+    "city": "Eagle Mountain",
+    "days_on_market": 95,
+    "description": "Recently remodeled rambler with three bedrooms, two bathrooms, two-car garage, private backyard. New kitchen, flooring, HVAC, paint and countertops; xeriscaped front yard. No HOA. Lender credits and transferable home warranty mentioned.",
+    "garage": true,
+    "hoa_monthly": 0,
+    "lot_acres": 0.16,
+    "mls": "2176954",
+    "photo": "https://images-listings.century21.com/SL/21/76/95/4/_P/2176954_P00.jpg?format=webp&quality=70&width=800",
+    "photo_count": 28,
+    "price": 379900,
+    "property_type": "single_family",
+    "source": "Coldwell Banker",
+    "sqft": 1015,
+    "status": "active",
+    "url": "https://www.coldwellbankerhomes.com/ut/eagle-mountain/2035-e-weeping-willow-way/pid_72926808/",
+    "year_built": 2000
+   },
+   "first_seen": "2026-11-10",
+   "last_seen": "2026-11-10",
+   "price_history": [
+    {
+     "date": "2026-11-10",
+     "price": 379900
     }
    ],
    "status": "active"
@@ -875,7 +940,7 @@
     "year_built": 1937
    },
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-10",
    "price_history": [
     {
      "date": "2026-11-07",
@@ -1086,7 +1151,7 @@
     "year_built": 1967
    },
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-10",
    "price_history": [
     {
      "date": "2026-11-07",
@@ -1393,11 +1458,44 @@
     "year_built": 1947
    },
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-10",
    "price_history": [
     {
      "date": "2026-11-07",
      "price": 379900
+    }
+   ],
+   "status": "active"
+  },
+  "55-n-jordon-river-way-saratoga-springs": {
+   "data": {
+    "address": "55 N Jordon River Way",
+    "baths": 2.5,
+    "beds": 2,
+    "cb_url": "https://www.coldwellbankerhomes.com/ut/saratoga-springs/55-n-jordon-river-way/pid_72955193/",
+    "city": "Saratoga Springs",
+    "days_on_market": 94,
+    "description": "Two-story new-construction home in the Wander community, about 1,033 sq ft, two bedrooms, up to 2.5 baths, island kitchen, two-car garage. Seller offers up to $20,000 toward closing costs with preferred lender. Photos show a different home.",
+    "garage": true,
+    "hoa_monthly": 144,
+    "lot_acres": 0.08,
+    "mls": "2177368",
+    "photo": "https://images-listings.century21.com/SL/21/77/36/8/_P/2177368_P00.jpg?format=webp&quality=70&width=800",
+    "photo_count": 29,
+    "price": 359990,
+    "property_type": "single_family",
+    "source": "Coldwell Banker",
+    "sqft": 1031,
+    "status": "active",
+    "url": "https://www.coldwellbankerhomes.com/ut/saratoga-springs/55-n-jordon-river-way/pid_72955193/",
+    "year_built": 2027
+   },
+   "first_seen": "2026-11-10",
+   "last_seen": "2026-11-10",
+   "price_history": [
+    {
+     "date": "2026-11-10",
+     "price": 359990
     }
    ],
    "status": "active"
@@ -1488,6 +1586,39 @@
    ],
    "status": "pending"
   },
+  "61-n-jordan-river-way-359-saratoga-springs": {
+   "data": {
+    "address": "61 N Jordan River Way #359",
+    "baths": 2.5,
+    "beds": 2,
+    "cb_url": "https://www.coldwellbankerhomes.com/ut/saratoga-springs/61-n-jordan-river-way-359/pid_72955226/",
+    "city": "Saratoga Springs",
+    "days_on_market": 94,
+    "description": "Under contract. Two-story Moreno home, about 1,033 sq ft, 2 bedrooms, up to 2.5 baths, 2-car garage, in the Wander community.",
+    "garage": true,
+    "hoa_monthly": 144,
+    "lot_acres": 0.08,
+    "mls": "2177401",
+    "photo": "https://images-listings.century21.com/SL/21/77/40/1/_P/2177401_P00.jpg?format=webp&quality=70&width=800",
+    "photo_count": 25,
+    "price": 364990,
+    "property_type": "single_family",
+    "source": "Coldwell Banker",
+    "sqft": 1031,
+    "status": "pending",
+    "url": "https://www.coldwellbankerhomes.com/ut/saratoga-springs/61-n-jordan-river-way-359/pid_72955226/",
+    "year_built": 2027
+   },
+   "first_seen": "2026-11-10",
+   "last_seen": "2026-11-10",
+   "price_history": [
+    {
+     "date": "2026-11-10",
+     "price": 364990
+    }
+   ],
+   "status": "pending"
+  },
   "688-e-300-s-spanish-fork": {
    "data": {
     "address": "688 E 300 S",
@@ -1544,7 +1675,7 @@
     "year_built": 2027
    },
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-10",
    "price_history": [
     {
      "date": "2026-11-07",
@@ -1609,7 +1740,7 @@
     "year_built": 2027
    },
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-10",
    "price_history": [
     {
      "date": "2026-11-07",
@@ -1624,24 +1755,33 @@
     "baths": 2,
     "beds": 3,
     "city": "Payson",
+    "days_on_market": 112,
+    "description": "1940s bungalow with an attached 1 bed/1 bath accessory unit rented at $800/month. Main home has 2 bedrooms, 1 bath, about 967 sq ft. Freshly painted; accessory unit has its own kitchen and laundry.",
+    "lot_acres": 0.13,
+    "mls": "2173161",
     "photo": "https://images-listings.century21.com/SL/21/73/16/1/_P/2173161_P00.jpg?format=webp&quality=70&width=800",
     "photo_count": 23,
-    "price": 387500,
+    "price": 370000,
     "property_type": "single_family",
     "source": "Century21",
     "sqft": 1690,
-    "status": "pending",
-    "url": "https://www.century21.com/homes/detail/ut/payson/864-e-100-s/lid-P00800000HEPk9XbtRpMe0YYSvRMmhSKVeK0REBL"
+    "status": "active",
+    "url": "https://www.century21.com/homes/detail/ut/payson/864-e-100-s/lid-P00800000HEPk9XbtRpMe0YYSvRMmhSKVeK0REBL",
+    "year_built": 1940
    },
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-10",
    "price_history": [
     {
      "date": "2026-11-07",
      "price": 387500
+    },
+    {
+     "date": "2026-11-10",
+     "price": 370000
     }
    ],
-   "status": "pending"
+   "status": "active"
   },
   "950-w-500-n-provo": {
    "data": {
@@ -1773,5 +1913,5 @@
    "status": "active"
   }
  },
- "updated": "2026-11-09"
+ "updated": "2026-11-10"
 }
