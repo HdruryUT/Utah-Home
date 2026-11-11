@@ -370,5 +370,35 @@
   "city": "Saratoga Springs",
   "price": 449990,
   "first_seen": "2026-11-10"
+ },
+ "/ut/provo/821-w-1280-n/pid_74692360/": {
+  "address": "821 W 1280 N",
+  "city": "Provo",
+  "price": 410000,
+  "first_seen": "2026-11-11"
+ },
+ "/ut/american-fork/173-e-100-n/pid_72448391/": {
+  "address": "173 E 100 N",
+  "city": "American Fork",
+  "price": 399000,
+  "first_seen": "2026-11-11"
+ },
+ "/ut/orem/127-w-1200-n/pid_71955649/": {
+  "address": "127 W 1200 N",
+  "city": "Orem",
+  "price": 399801,
+  "first_seen": "2026-11-11"
+ },
+ "/ut/eagle-mountain/3574-n-oak-blvd-329/pid_72511459/": {
+  "address": "3574 N Oak Blvd #329",
+  "city": "Eagle Mountain",
+  "price": 399900,
+  "first_seen": "2026-11-11"
+ },
+ "/ut/saratoga-springs/47-n-jordan-river-way/pid_72177609/": {
+  "address": "47 N Jordan River Way",
+  "city": "Saratoga Springs",
+  "price": 399990,
+  "first_seen": "2026-11-11"
  }
 }

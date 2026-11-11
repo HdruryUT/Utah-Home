@@ -242,6 +242,30 @@
    ],
    "status": "pending"
   },
+  "15-n-jordan-river-way-373-saratoga-springs": {
+   "data": {
+    "address": "15 N Jordan River Way #373",
+    "beds": 2,
+    "cb_url": "https://www.coldwellbankerhomes.com/ut/saratoga-springs/15-n-jordan-river-way-373/pid_71929982/",
+    "city": "Saratoga Springs",
+    "description": "Under Contract.",
+    "price": 369990,
+    "property_type": "single_family",
+    "source": "Coldwell Banker",
+    "sqft": 1031,
+    "status": "pending",
+    "url": "https://www.coldwellbankerhomes.com/ut/saratoga-springs/15-n-jordan-river-way-373/pid_71929982/"
+   },
+   "first_seen": "2026-11-11",
+   "last_seen": "2026-11-11",
+   "price_history": [
+    {
+     "date": "2026-11-11",
+     "price": 369990
+    }
+   ],
+   "status": "pending"
+  },
   "1563-s-600-e-springville": {
    "data": {
     "address": "1563 S 600 E",
@@ -259,7 +283,7 @@
     "url": "https://www.century21.com/homes/detail/ut/springville/1563-s-600-e/lid-P00800000HDfm7TlKLUg8dmVFsUTecCPsYWzrzXh"
    },
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-11",
    "price_history": [
     {
      "date": "2026-11-07",
@@ -349,19 +373,19 @@
     "property_type": "single_family",
     "source": "Century21",
     "sqft": 1165,
-    "status": "active",
+    "status": "pending",
     "url": "https://www.century21.com/homes/detail/ut/springville/175-e-700-n/lid-P00800000HDMfhZ7uNhgEjkJF4ieoBpJUUWvyMQe",
     "year_built": 1957
    },
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-11",
    "price_history": [
     {
      "date": "2026-11-07",
      "price": 389900
     }
    ],
-   "status": "active"
+   "status": "pending"
   },
   "175-s-200-e-payson": {
    "data": {
@@ -419,7 +443,7 @@
     "year_built": 1914
    },
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-11",
    "price_history": [
     {
      "date": "2026-11-07",
@@ -754,7 +778,7 @@
     "year_built": 1909
    },
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-11",
    "price_history": [
     {
      "date": "2026-11-07",
@@ -1118,7 +1142,7 @@
     "year_built": 1923
    },
    "first_seen": "2026-11-08",
-   "last_seen": "2026-11-08",
+   "last_seen": "2026-11-11",
    "price_history": [
     {
      "date": "2026-11-08",
@@ -1192,6 +1216,30 @@
    ],
    "status": "active"
   },
+  "41-n-jordan-river-way-365-saratoga-springs": {
+   "data": {
+    "address": "41 N Jordan River Way #365",
+    "beds": 2,
+    "cb_url": "https://www.coldwellbankerhomes.com/ut/saratoga-springs/41-n-jordan-river-way-365/pid_72177617/",
+    "city": "Saratoga Springs",
+    "description": "Under Contract.",
+    "price": 359990,
+    "property_type": "single_family",
+    "source": "Coldwell Banker",
+    "sqft": 1031,
+    "status": "pending",
+    "url": "https://www.coldwellbankerhomes.com/ut/saratoga-springs/41-n-jordan-river-way-365/pid_72177617/"
+   },
+   "first_seen": "2026-11-11",
+   "last_seen": "2026-11-11",
+   "price_history": [
+    {
+     "date": "2026-11-11",
+     "price": 359990
+    }
+   ],
+   "status": "pending"
+  },
   "410-n-main-st-e-payson": {
    "data": {
     "address": "410 N Main St E",
@@ -1214,7 +1262,7 @@
     "year_built": 1896
    },
    "first_seen": "2026-11-08",
-   "last_seen": "2026-11-08",
+   "last_seen": "2026-11-11",
    "price_history": [
     {
      "date": "2026-11-08",
@@ -1244,6 +1292,37 @@
     {
      "date": "2026-11-07",
      "price": 350000
+    }
+   ],
+   "status": "pending"
+  },
+  "44-e-400-n-lehi": {
+   "data": {
+    "address": "44 E 400 N",
+    "baths": 1,
+    "beds": 2,
+    "cb_url": "https://www.coldwellbankerhomes.com/ut/lehi/44-e-400-n/pid_72091805/",
+    "city": "Lehi",
+    "description": "Lehi bungalow, 2 bed 1 bath, main-level living. HUD home; bidding rules apply. Under Contract.",
+    "garage": true,
+    "lot_acres": 0.15,
+    "mls": "2166780",
+    "photo": "https://images-listings.century21.com/SL/21/66/78/0/_P/2166780_P00.jpg?format=webp&quality=70&width=800",
+    "photo_count": 9,
+    "price": 297500,
+    "property_type": "single_family",
+    "source": "Coldwell Banker",
+    "sqft": 969,
+    "status": "pending",
+    "url": "https://www.coldwellbankerhomes.com/ut/lehi/44-e-400-n/pid_72091805/",
+    "year_built": 1947
+   },
+   "first_seen": "2026-11-11",
+   "last_seen": "2026-11-11",
+   "price_history": [
+    {
+     "date": "2026-11-11",
+     "price": 297500
     }
    ],
    "status": "pending"
@@ -1386,6 +1465,30 @@
    ],
    "status": "active"
   },
+  "49-n-jordan-river-way-363-saratoga-springs": {
+   "data": {
+    "address": "49 N Jordan River Way #363",
+    "beds": 2,
+    "cb_url": "https://www.coldwellbankerhomes.com/ut/saratoga-springs/49-n-jordan-river-way-363/pid_72176268/",
+    "city": "Saratoga Springs",
+    "description": "Under Contract.",
+    "price": 374990,
+    "property_type": "single_family",
+    "source": "Coldwell Banker",
+    "sqft": 1031,
+    "status": "pending",
+    "url": "https://www.coldwellbankerhomes.com/ut/saratoga-springs/49-n-jordan-river-way-363/pid_72176268/"
+   },
+   "first_seen": "2026-11-11",
+   "last_seen": "2026-11-11",
+   "price_history": [
+    {
+     "date": "2026-11-11",
+     "price": 374990
+    }
+   ],
+   "status": "pending"
+  },
   "530-e-900-n-spanish-fork": {
    "data": {
     "address": "530 E 900 N",
@@ -1426,7 +1529,7 @@
     "url": "https://www.century21.com/homes/detail/ut/provo/542-e-3400/lid-P00800000HDqSzlOU08PfHrOKUGxTqIlP0X8Zjwq"
    },
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-11",
    "price_history": [
     {
      "date": "2026-11-07",
@@ -1619,6 +1722,39 @@
    ],
    "status": "pending"
   },
+  "627-e-800-n-spanish-fork": {
+   "data": {
+    "address": "627 E 800 N",
+    "baths": 1,
+    "beds": 3,
+    "cb_url": "https://www.coldwellbankerhomes.com/ut/spanish-fork/627-e-800-n/pid_72000909/",
+    "city": "Spanish Fork",
+    "days_on_market": 148,
+    "description": "Rambler/Ranch. LVP flooring, refinished original hardwood in primary bedroom, updated kitchen with stainless appliances, new roof 2024, private backyard, 2 covered carport spaces (no garage).",
+    "garage": false,
+    "hoa_monthly": 0,
+    "lot_acres": 0.14,
+    "mls": "2165550",
+    "photo": "https://images-listings.century21.com/SL/21/65/55/0/_P/2165550_P00.jpg?format=webp&quality=70&width=800",
+    "photo_count": 29,
+    "price": 369900,
+    "property_type": "single_family",
+    "source": "Coldwell Banker",
+    "sqft": 1320,
+    "status": "active",
+    "url": "https://www.coldwellbankerhomes.com/ut/spanish-fork/627-e-800-n/pid_72000909/",
+    "year_built": 1916
+   },
+   "first_seen": "2026-11-11",
+   "last_seen": "2026-11-11",
+   "price_history": [
+    {
+     "date": "2026-11-11",
+     "price": 369900
+    }
+   ],
+   "status": "active"
+  },
   "688-e-300-s-spanish-fork": {
    "data": {
     "address": "688 E 300 S",
@@ -1783,6 +1919,39 @@
    ],
    "status": "active"
   },
+  "868-e-200-s-spanish-fork": {
+   "data": {
+    "address": "868 E 200 S",
+    "baths": 1,
+    "beds": 3,
+    "cb_url": "https://www.coldwellbankerhomes.com/ut/spanish-fork/868-e-200-s/pid_71710846/",
+    "city": "Spanish Fork",
+    "days_on_market": 160,
+    "description": "Back on the market after a buyer withdrew over financing. Small 1908 bungalow, large backyard, no HOA, updated windows, appliances, carpet, water softener, insulation, lighting.",
+    "garage": false,
+    "hoa_monthly": 0,
+    "lot_acres": 0.18,
+    "mls": "2162414",
+    "photo": "https://images-listings.century21.com/SL/21/62/41/4/_P/2162414_P00.jpg?format=webp&quality=70&width=800",
+    "photo_count": 16,
+    "price": 349900,
+    "property_type": "single_family",
+    "source": "Coldwell Banker",
+    "sqft": 1000,
+    "status": "active",
+    "url": "https://www.coldwellbankerhomes.com/ut/spanish-fork/868-e-200-s/pid_71710846/",
+    "year_built": 1908
+   },
+   "first_seen": "2026-11-11",
+   "last_seen": "2026-11-11",
+   "price_history": [
+    {
+     "date": "2026-11-11",
+     "price": 349900
+    }
+   ],
+   "status": "active"
+  },
   "950-w-500-n-provo": {
    "data": {
     "address": "950 W 500 N",
@@ -1839,7 +2008,7 @@
     "year_built": 1949
    },
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-11",
    "price_history": [
     {
      "date": "2026-11-07",
@@ -1871,7 +2040,7 @@
     "year_built": 1943
    },
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-11",
    "price_history": [
     {
      "date": "2026-11-07",
@@ -1913,5 +2082,5 @@
    "status": "active"
   }
  },
- "updated": "2026-11-10"
+ "updated": "2026-11-11"
 }
