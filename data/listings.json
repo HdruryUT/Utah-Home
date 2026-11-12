@@ -128,6 +128,39 @@
    ],
    "status": "active"
   },
+  "130-n-provo-river-rd-241-saratoga-springs": {
+   "data": {
+    "address": "130 N Provo River Rd #241",
+    "baths": 3,
+    "beds": 2,
+    "cb_url": "https://www.coldwellbankerhomes.com/ut/saratoga-springs/130-n-provo-river-rd-241/pid_69737606/",
+    "city": "Saratoga Springs",
+    "days_on_market": 264,
+    "description": "New two-story single-family home in the WANDER community, no shared walls, private yard, flex room. Two bedrooms upstairs. Under early construction; listing photos show a different home. Under contract.",
+    "garage": true,
+    "hoa_monthly": 168,
+    "lot_acres": 0.07,
+    "mls": "2138455",
+    "photo": "https://images-listings.century21.com/SL/21/38/45/5/_P/2138455_P00.jpg?format=webp&quality=70&width=800",
+    "photo_count": 20,
+    "price": 359990,
+    "property_type": "single_family",
+    "source": "Coldwell Banker",
+    "sqft": 1030,
+    "status": "pending",
+    "url": "https://www.coldwellbankerhomes.com/ut/saratoga-springs/130-n-provo-river-rd-241/pid_69737606/",
+    "year_built": 2026
+   },
+   "first_seen": "2026-11-12",
+   "last_seen": "2026-11-12",
+   "price_history": [
+    {
+     "date": "2026-11-12",
+     "price": 359990
+    }
+   ],
+   "status": "pending"
+  },
   "130-w-600-n-spanish-fork": {
    "data": {
     "address": "130 W 600 N",
@@ -151,7 +184,7 @@
     "year_built": 1941
    },
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-08",
+   "last_seen": "2026-11-12",
    "price_history": [
     {
      "date": "2026-11-07",
@@ -233,7 +266,7 @@
     "url": "https://www.century21.com/homes/detail/ut/springville/146-w-200-n/lid-P00800000HHosrUNwx7uNJp8PFckMmP1EnPueSyo"
    },
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-08",
+   "last_seen": "2026-11-12",
    "price_history": [
     {
      "date": "2026-11-07",
@@ -585,7 +618,7 @@
     "year_built": 1934
    },
    "first_seen": "2026-11-09",
-   "last_seen": "2026-11-09",
+   "last_seen": "2026-11-12",
    "price_history": [
     {
      "date": "2026-11-09",
@@ -617,7 +650,7 @@
     "year_built": 1942
    },
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-09",
+   "last_seen": "2026-11-12",
    "price_history": [
     {
      "date": "2026-11-07",
@@ -715,7 +748,7 @@
     "year_built": 1939
    },
    "first_seen": "2026-11-09",
-   "last_seen": "2026-11-09",
+   "last_seen": "2026-11-12",
    "price_history": [
     {
      "date": "2026-11-09",
@@ -931,7 +964,7 @@
     "year_built": 1943
    },
    "first_seen": "2026-11-09",
-   "last_seen": "2026-11-09",
+   "last_seen": "2026-11-12",
    "price_history": [
     {
      "date": "2026-11-09",
@@ -1078,7 +1111,7 @@
     "url": "https://www.century21.com/homes/detail/ut/payson/368-s-1000-w/lid-P00800000H7NbbykKe3MFZOnS2zqXyYafLZQQB2V"
    },
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-12",
    "price_history": [
     {
      "date": "2026-11-07",
@@ -1115,6 +1148,37 @@
     {
      "date": "2026-11-07",
      "price": 385000
+    }
+   ],
+   "status": "active"
+  },
+  "380-e-300-s-pleasant-grove": {
+   "data": {
+    "address": "380 E 300 S",
+    "baths": 1,
+    "beds": 2,
+    "cb_url": "https://www.coldwellbankerhomes.com/ut/pleasant-grove/380-e-300-s/pid_74706971/",
+    "city": "Pleasant Grove",
+    "description": "Single-level 1951 brick rambler on 0.20 acres, 2 bed 1 bath, detached garage, carport. Sewer line and water heater replaced within 5 years. Sold as-is; no showings until Sat 11/14 open house. Suited to investors or first-time buyers.",
+    "garage": true,
+    "lot_acres": 0.2,
+    "mls": "2195645",
+    "photo": "https://images-listings.century21.com/SL/21/95/64/5/_P/2195645_P00.jpg?format=webp&quality=70&width=800",
+    "photo_count": 34,
+    "price": 325000,
+    "property_type": "single_family",
+    "source": "Coldwell Banker",
+    "sqft": 1036,
+    "status": "active",
+    "url": "https://www.coldwellbankerhomes.com/ut/pleasant-grove/380-e-300-s/pid_74706971/",
+    "year_built": 1951
+   },
+   "first_seen": "2026-11-12",
+   "last_seen": "2026-11-12",
+   "price_history": [
+    {
+     "date": "2026-11-12",
+     "price": 325000
     }
    ],
    "status": "active"
@@ -1651,7 +1715,7 @@
     "year_built": 1931
    },
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-08",
+   "last_seen": "2026-11-12",
    "price_history": [
     {
      "date": "2026-11-07",
@@ -1680,7 +1744,7 @@
     "year_built": 1882
    },
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-09",
+   "last_seen": "2026-11-12",
    "price_history": [
     {
      "date": "2026-11-07",
@@ -1787,6 +1851,39 @@
    ],
    "status": "active"
   },
+  "694-e-100-s-spanish-fork": {
+   "data": {
+    "address": "694 E 100 S",
+    "baths": 1,
+    "beds": 3,
+    "cb_url": "https://www.coldwellbankerhomes.com/ut/spanish-fork/694-e-100-s/pid_71048029/",
+    "city": "Spanish Fork",
+    "days_on_market": 191,
+    "description": "Remodeled 3-bed, 1-bath home on 0.23-acre corner lot. Heated kitchen floors, RV parking with 50-amp hookup, new paver patio, shed, two one-car garages. Lot may allow a detached ADU. No HOA.",
+    "garage": true,
+    "hoa_monthly": 0,
+    "lot_acres": 0.23,
+    "mls": "2155231",
+    "photo": "https://images-listings.century21.com/SL/21/55/23/1/_P/2155231_P00.jpg?format=webp&quality=70&width=800",
+    "photo_count": 27,
+    "price": 389000,
+    "property_type": "single_family",
+    "source": "Coldwell Banker",
+    "sqft": 920,
+    "status": "active",
+    "url": "https://www.coldwellbankerhomes.com/ut/spanish-fork/694-e-100-s/pid_71048029/",
+    "year_built": 1913
+   },
+   "first_seen": "2026-11-12",
+   "last_seen": "2026-11-12",
+   "price_history": [
+    {
+     "date": "2026-11-12",
+     "price": 389000
+    }
+   ],
+   "status": "active"
+  },
   "73-n-jordan-river-rd-saratoga-springs": {
    "data": {
     "address": "73 N Jordan River Rd",
@@ -1843,7 +1940,7 @@
     "year_built": 1940
    },
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-12",
    "price_history": [
     {
      "date": "2026-11-07",
@@ -1976,7 +2073,7 @@
     "year_built": 1918
    },
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-09",
+   "last_seen": "2026-11-12",
    "price_history": [
     {
      "date": "2026-11-07",
@@ -2072,7 +2169,7 @@
     "year_built": 1974
    },
    "first_seen": "2026-11-09",
-   "last_seen": "2026-11-09",
+   "last_seen": "2026-11-12",
    "price_history": [
     {
      "date": "2026-11-09",
@@ -2082,5 +2179,5 @@
    "status": "active"
   }
  },
- "updated": "2026-11-11"
+ "updated": "2026-11-12"
 }

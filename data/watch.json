@@ -400,5 +400,47 @@
   "city": "Saratoga Springs",
   "price": 399990,
   "first_seen": "2026-11-11"
+ },
+ "/ut/eagle-mountain/1786-e-sunrise-dr-n/pid_74724279/": {
+  "address": "1786 E Sunrise Dr N",
+  "city": "Eagle Mountain",
+  "price": 432600,
+  "first_seen": "2026-11-12"
+ },
+ "/ut/saratoga-springs/129-n-green-river-rd-293/pid_70472621/": {
+  "address": "129 N Green River Rd #293",
+  "city": "Saratoga Springs",
+  "price": 404990,
+  "first_seen": "2026-11-12"
+ },
+ "/ut/provo/1090-e-460-st-s/pid_70357269/": {
+  "address": "1090 E 460 St S",
+  "city": "Provo",
+  "price": 424900,
+  "first_seen": "2026-11-12"
+ },
+ "/ut/saratoga-springs/137-n-green-river-rd/pid_70872227/": {
+  "address": "137 N Green River Rd",
+  "city": "Saratoga Springs",
+  "price": 419990,
+  "first_seen": "2026-11-12"
+ },
+ "/ut/saratoga-springs/363-e-halls-creek-rd/pid_71010452/": {
+  "address": "363 E Halls Creek Rd",
+  "city": "Saratoga Springs",
+  "price": 419990,
+  "first_seen": "2026-11-12"
+ },
+ "/ut/eagle-mountain/4673-e-golden-meadow-crossing/pid_67477536/": {
+  "address": "4673 E Golden Meadow Crossing",
+  "city": "Eagle Mountain",
+  "price": 437900,
+  "first_seen": "2026-11-12"
+ },
+ "/ut/saratoga-springs/459-e-kanab-creek-dr-216/pid_69646296/": {
+  "address": "459 E Kanab Creek Dr #216",
+  "city": "Saratoga Springs",
+  "price": 429990,
+  "first_seen": "2026-11-12"
  }
 }
