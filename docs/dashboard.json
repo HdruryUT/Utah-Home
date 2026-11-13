@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-12",
+ "updated": "2026-11-13",
  "plan": {
   "closing_cost_pct": 0.03,
   "mortgage_rate": 0.0718,
@@ -218,84 +218,6 @@
     {
      "date": "2026-11-07",
      "price": 325000
-    }
-   ],
-   "price_drop": 0
-  },
-  {
-   "id": "178-s-300-e-american-fork",
-   "address": "178 S 300 E",
-   "city": "American Fork",
-   "region": "North",
-   "price": 340000,
-   "beds": 3,
-   "baths": 2,
-   "sqft": 1612,
-   "price_per_sqft": 211,
-   "lot_acres": null,
-   "year_built": null,
-   "garage": null,
-   "hoa_monthly": 0,
-   "days_on_market": null,
-   "url": "https://www.century21.com/homes/detail/ut/american-fork/178-s-300-e/lid-P00800000HGQ1WgzCNZLuqNF42EPcOnMA4JF1k0J",
-   "photo": "https://images-listings.century21.com/SL/21/81/85/8/_P/2181858_P00.jpg?format=webp&quality=70&width=800",
-   "photo_count": 35,
-   "description": null,
-   "mls": null,
-   "source": "Century21",
-   "stretch": false,
-   "fit_score": 81,
-   "score_breakdown": {
-    "profit": 26.2,
-    "affordability": 13.4,
-    "resale_layout": 15.0,
-    "value_vs_market": 11.1,
-    "condition": 10.0,
-    "price": 1.9,
-    "lot_garage": 0,
-    "hoa": 3.0,
-    "days_on_market": 0
-   },
-   "pros": [
-    "$211/sqft vs ~$254 American Fork median (17% below)",
-    "Roomy: 1,612 sqft",
-    "Strong profit potential: ~$87k after fixing up and selling in 3 yrs",
-    "Clears ~$40k profit even at asking price",
-    "Dated but livable: room to add value with cosmetic updates",
-    "3+ bed / 2 bath: the layout most buyers want when you sell"
-   ],
-   "cons": [
-    "Payment ~$2,381/mo: doable but tight"
-   ],
-   "rehab_tier": "medium",
-   "market_value": 409448,
-   "arv": 458582,
-   "rehab_cost": 40300,
-   "selling_costs": 27515,
-   "buy_hold_costs": 10200,
-   "flip_profit": 40567,
-   "flip_roi_pct": 10.4,
-   "live_in_years": 3,
-   "live_in_value": 508438,
-   "live_in_gain": 87432,
-   "live_in_roi_pct": 98,
-   "max_offer": 386000,
-   "buy_closing": 10200,
-   "sale_costs": 30506,
-   "target_profit": 40000,
-   "monthly_payment": 2381,
-   "payment_level": "tight",
-   "down_pct": 0.115,
-   "pmi_monthly": 95,
-   "cash_needed": 89600,
-   "cash_ok": true,
-   "status": "pending",
-   "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
-   "price_history": [
-    {
-     "date": "2026-11-07",
-     "price": 340000
     }
    ],
    "price_drop": 0
@@ -530,7 +452,7 @@
    "cash_ok": true,
    "status": "active",
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-13",
    "price_history": [
     {
      "date": "2026-11-07",
@@ -925,7 +847,7 @@
    "cash_ok": true,
    "status": "active",
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-13",
    "price_history": [
     {
      "date": "2026-11-07",
@@ -1086,9 +1008,9 @@
    "pmi_monthly": 179,
    "cash_needed": 143380,
    "cash_ok": false,
-   "status": "active",
+   "status": "pending",
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-13",
    "price_history": [
     {
      "date": "2026-11-07",
@@ -1249,7 +1171,7 @@
    "cash_ok": false,
    "status": "pending",
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-10",
+   "last_seen": "2026-11-13",
    "price_history": [
     {
      "date": "2026-11-07",
@@ -1330,7 +1252,7 @@
    "cash_ok": true,
    "status": "active",
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-13",
    "price_history": [
     {
      "date": "2026-11-07",
@@ -1724,7 +1646,7 @@
    "cash_ok": false,
    "status": "active",
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-10",
+   "last_seen": "2026-11-13",
    "price_history": [
     {
      "date": "2026-11-07",
@@ -2035,7 +1957,7 @@
    "cash_ok": true,
    "status": "pending",
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-13",
    "price_history": [
     {
      "date": "2026-11-07",
@@ -2915,6 +2837,85 @@
    "price_drop": 0
   },
   {
+   "id": "4027-o-fallons-way-eagle-mountain",
+   "address": "4027 O Fallons Way",
+   "city": "Eagle Mountain",
+   "region": "North",
+   "price": 379000,
+   "beds": 3,
+   "baths": 2,
+   "sqft": 1700,
+   "price_per_sqft": 223,
+   "lot_acres": 0.22,
+   "year_built": 2001,
+   "garage": true,
+   "hoa_monthly": 0,
+   "days_on_market": 21,
+   "url": "https://www.coldwellbankerhomes.com/ut/eagle-mountain/4027-o-fallons-way/pid_74407367/",
+   "photo": "https://images-listings.century21.com/SL/21/92/65/7/_P/2192657_P00.jpg?format=webp&quality=70&width=800",
+   "photo_count": 23,
+   "description": "3-bed, 2-bath tri-level home with attached garage, a blank canvas for buyers. Bank-owned, sold as-is; buyers to verify all details including square footage.",
+   "mls": "2192657",
+   "source": "Coldwell Banker",
+   "stretch": false,
+   "fit_score": 49,
+   "score_breakdown": {
+    "profit": 17.2,
+    "affordability": 0.5,
+    "resale_layout": 15.0,
+    "value_vs_market": 3.2,
+    "condition": 3.5,
+    "price": 0.6,
+    "lot_garage": 5.0,
+    "hoa": 3.0,
+    "days_on_market": 1.0
+   },
+   "pros": [
+    "Roomy: 1,700 sqft",
+    "Big lot: 0.22 ac",
+    "Has a garage",
+    "Clears ~$40k profit even at asking price",
+    "3+ bed / 2 bath: the layout most buyers want when you sell"
+   ],
+   "cons": [
+    "Heavy fixer: may be hard to live in or finance while you work on it",
+    "Payment ~$2,952/mo: likely more than you'd want to carry",
+    "Needs ~$116k cash to buy and fix: more than your cash budget"
+   ],
+   "rehab_tier": "heavy",
+   "market_value": 346800,
+   "arv": 519250,
+   "rehab_cost": 93500,
+   "selling_costs": 31155,
+   "buy_hold_costs": 11370,
+   "flip_profit": 4225,
+   "flip_roi_pct": 0.9,
+   "live_in_years": 3,
+   "live_in_value": 575702,
+   "live_in_gain": 57290,
+   "live_in_roi_pct": 49,
+   "max_offer": 396000,
+   "buy_closing": 11370,
+   "sale_costs": 34542,
+   "target_profit": 40000,
+   "monthly_payment": 2952,
+   "payment_level": "high",
+   "down_pct": 0.03,
+   "pmi_monthly": 199,
+   "cash_needed": 116240,
+   "cash_ok": false,
+   "status": "active",
+   "first_seen": "2026-11-13",
+   "last_seen": "2026-11-13",
+   "price_history": [
+    {
+     "date": "2026-11-13",
+     "price": 379000
+    }
+   ],
+   "price_drop": 0
+  },
+  {
    "id": "311-w-1610-s-provo",
    "address": "311 W 1610 S",
    "city": "Provo",
@@ -3063,7 +3064,7 @@
    "cash_ok": true,
    "status": "active",
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-13",
    "price_history": [
     {
      "date": "2026-11-07",
@@ -3142,7 +3143,7 @@
    "cash_ok": true,
    "status": "active",
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-13",
    "price_history": [
     {
      "date": "2026-11-07",
@@ -3302,7 +3303,7 @@
    "cash_ok": true,
    "status": "active",
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-10",
+   "last_seen": "2026-11-13",
    "price_history": [
     {
      "date": "2026-11-07",
@@ -3553,84 +3554,6 @@
    "price_drop": 0
   },
   {
-   "id": "542-e-3400-n-provo",
-   "address": "542 E 3400 N",
-   "city": "Provo",
-   "region": "Central",
-   "price": 389900,
-   "beds": 3,
-   "baths": 2,
-   "sqft": 1012,
-   "price_per_sqft": 385,
-   "lot_acres": null,
-   "year_built": null,
-   "garage": null,
-   "hoa_monthly": 0,
-   "days_on_market": null,
-   "url": "https://www.century21.com/homes/detail/ut/provo/542-e-3400/lid-P00800000HDqSzlOU08PfHrOKUGxTqIlP0X8Zjwq",
-   "photo": "https://images-listings.century21.com/SL/21/70/90/6/_P/2170906_P00.jpg?format=webp&quality=70&width=800",
-   "photo_count": 39,
-   "description": null,
-   "mls": "2170906",
-   "source": "Century21",
-   "stretch": true,
-   "fit_score": 45,
-   "score_breakdown": {
-    "profit": 6.5,
-    "affordability": 10.1,
-    "resale_layout": 15.0,
-    "value_vs_market": 0.0,
-    "condition": 10.0,
-    "price": 0.2,
-    "lot_garage": 0,
-    "hoa": 3.0,
-    "days_on_market": 0
-   },
-   "pros": [
-    "Offer $372k or less to clear ~$40k profit",
-    "Dated but livable: room to add value with cosmetic updates",
-    "Trim the fix-up by ~$6k to reach 15% down and lower PMI",
-    "3+ bed / 2 bath: the layout most buyers want when you sell"
-   ],
-   "cons": [
-    "Stretch: $10k over your $380k target",
-    "$385/sqft is above the ~$297 Provo median",
-    "Payment ~$2,658/mo: doable but tight"
-   ],
-   "rehab_tier": "medium",
-   "market_value": 300564,
-   "arv": 430380,
-   "rehab_cost": 25300,
-   "selling_costs": 25823,
-   "buy_hold_costs": 11697,
-   "flip_profit": -22340,
-   "flip_roi_pct": -5.2,
-   "live_in_years": 3,
-   "live_in_value": 477170,
-   "live_in_gain": 21643,
-   "live_in_roi_pct": 24,
-   "max_offer": 372000,
-   "buy_closing": 11697,
-   "sale_costs": 28630,
-   "target_profit": 40000,
-   "monthly_payment": 2658,
-   "payment_level": "tight",
-   "down_pct": 0.135,
-   "pmi_monthly": 107,
-   "cash_needed": 89634,
-   "cash_ok": true,
-   "status": "pending",
-   "first_seen": "2026-11-07",
-   "last_seen": "2026-11-11",
-   "price_history": [
-    {
-     "date": "2026-11-07",
-     "price": 389900
-    }
-   ],
-   "price_drop": 0
-  },
-  {
    "id": "380-e-300-s-pleasant-grove",
    "address": "380 E 300 S",
    "city": "Pleasant Grove",
@@ -3710,6 +3633,84 @@
    "price_drop": 0
   },
   {
+   "id": "542-e-3400-n-provo",
+   "address": "542 E 3400 N",
+   "city": "Provo",
+   "region": "Central",
+   "price": 389900,
+   "beds": 3,
+   "baths": 2,
+   "sqft": 1012,
+   "price_per_sqft": 385,
+   "lot_acres": null,
+   "year_built": null,
+   "garage": null,
+   "hoa_monthly": 0,
+   "days_on_market": null,
+   "url": "https://www.century21.com/homes/detail/ut/provo/542-e-3400/lid-P00800000HDqSzlOU08PfHrOKUGxTqIlP0X8Zjwq",
+   "photo": "https://images-listings.century21.com/SL/21/70/90/6/_P/2170906_P00.jpg?format=webp&quality=70&width=800",
+   "photo_count": 39,
+   "description": null,
+   "mls": "2170906",
+   "source": "Century21",
+   "stretch": true,
+   "fit_score": 45,
+   "score_breakdown": {
+    "profit": 6.5,
+    "affordability": 10.1,
+    "resale_layout": 15.0,
+    "value_vs_market": 0.0,
+    "condition": 10.0,
+    "price": 0.2,
+    "lot_garage": 0,
+    "hoa": 3.0,
+    "days_on_market": 0
+   },
+   "pros": [
+    "Offer $372k or less to clear ~$40k profit",
+    "Dated but livable: room to add value with cosmetic updates",
+    "Trim the fix-up by ~$6k to reach 15% down and lower PMI",
+    "3+ bed / 2 bath: the layout most buyers want when you sell"
+   ],
+   "cons": [
+    "Stretch: $10k over your $380k target",
+    "$385/sqft is above the ~$297 Provo median",
+    "Payment ~$2,658/mo: doable but tight"
+   ],
+   "rehab_tier": "medium",
+   "market_value": 300564,
+   "arv": 430380,
+   "rehab_cost": 25300,
+   "selling_costs": 25823,
+   "buy_hold_costs": 11697,
+   "flip_profit": -22340,
+   "flip_roi_pct": -5.2,
+   "live_in_years": 3,
+   "live_in_value": 477170,
+   "live_in_gain": 21643,
+   "live_in_roi_pct": 24,
+   "max_offer": 372000,
+   "buy_closing": 11697,
+   "sale_costs": 28630,
+   "target_profit": 40000,
+   "monthly_payment": 2658,
+   "payment_level": "tight",
+   "down_pct": 0.135,
+   "pmi_monthly": 107,
+   "cash_needed": 89634,
+   "cash_ok": true,
+   "status": "pending",
+   "first_seen": "2026-11-07",
+   "last_seen": "2026-11-11",
+   "price_history": [
+    {
+     "date": "2026-11-07",
+     "price": 389900
+    }
+   ],
+   "price_drop": 0
+  },
+  {
    "id": "175-s-200-e-payson",
    "address": "175 S 200 E",
    "city": "Payson",
@@ -3781,7 +3782,7 @@
    "cash_ok": true,
    "status": "active",
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-10",
+   "last_seen": "2026-11-13",
    "price_history": [
     {
      "date": "2026-11-07",
@@ -4026,7 +4027,7 @@
    "cash_ok": true,
    "status": "active",
    "first_seen": "2026-11-10",
-   "last_seen": "2026-11-10",
+   "last_seen": "2026-11-13",
    "price_history": [
     {
      "date": "2026-11-10",
@@ -4105,7 +4106,7 @@
    "cash_ok": true,
    "status": "active",
    "first_seen": "2026-11-10",
-   "last_seen": "2026-11-10",
+   "last_seen": "2026-11-13",
    "price_history": [
     {
      "date": "2026-11-10",
@@ -4505,7 +4506,7 @@
    "cash_ok": true,
    "status": "active",
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-10",
+   "last_seen": "2026-11-13",
    "price_history": [
     {
      "date": "2026-11-07",
@@ -4664,6 +4665,86 @@
     {
      "date": "2026-11-07",
      "price": 350000
+    }
+   ],
+   "price_drop": 0
+  },
+  {
+   "id": "964-e-300-n-provo",
+   "address": "964 E 300 N",
+   "city": "Provo",
+   "region": "Central",
+   "price": 389999,
+   "beds": 3,
+   "baths": 2,
+   "sqft": 1036,
+   "price_per_sqft": 376,
+   "lot_acres": 0.19,
+   "year_built": 1943,
+   "garage": true,
+   "hoa_monthly": 0,
+   "days_on_market": 20,
+   "url": "https://www.coldwellbankerhomes.com/ut/provo/964-e-300-n/pid_74419466/",
+   "photo": "https://images-listings.century21.com/SL/21/92/79/6/_P/2192796_P00.jpg?format=webp&quality=70&width=800",
+   "photo_count": 34,
+   "description": "Freshly painted 3-bed, 2-bath rambler within walking distance of BYU. Remodeled bath with walk-in tub/shower, new kitchen counters, refinished hardwood floors, large fenced backyard with alley access, garden, chicken coop. Fiber internet available.",
+   "mls": "2192796",
+   "source": "Coldwell Banker",
+   "stretch": true,
+   "fit_score": 40,
+   "score_breakdown": {
+    "profit": 1.6,
+    "affordability": 11.8,
+    "resale_layout": 15.0,
+    "value_vs_market": 0.0,
+    "condition": 4.5,
+    "price": 0.2,
+    "lot_garage": 4.0,
+    "hoa": 3.0,
+    "days_on_market": 0
+   },
+   "pros": [
+    "Has a garage",
+    "Offer $356k or less to clear ~$40k profit",
+    "3+ bed / 2 bath: the layout most buyers want when you sell"
+   ],
+   "cons": [
+    "Stretch: $10k over your $380k target",
+    "$376/sqft is above the ~$294 Provo median",
+    "Built 1943: check for lead paint, the electrical, and the sewer line",
+    "Thin profit: only ~$5k after fixing up and selling in 3 yrs",
+    "Already updated: little left for you to add value",
+    "Payment ~$2,518/mo: doable but tight"
+   ],
+   "rehab_tier": "light",
+   "market_value": 304584,
+   "arv": 400359,
+   "rehab_cost": 10360,
+   "selling_costs": 24022,
+   "buy_hold_costs": 11700,
+   "flip_profit": -35722,
+   "flip_roi_pct": -8.7,
+   "live_in_years": 3,
+   "live_in_value": 443885,
+   "live_in_gain": 5193,
+   "live_in_roi_pct": 6,
+   "max_offer": 356000,
+   "buy_closing": 11700,
+   "sale_costs": 26633,
+   "target_profit": 40000,
+   "monthly_payment": 2518,
+   "payment_level": "tight",
+   "down_pct": 0.17,
+   "pmi_monthly": 59,
+   "cash_needed": 88360,
+   "cash_ok": true,
+   "status": "active",
+   "first_seen": "2026-11-13",
+   "last_seen": "2026-11-13",
+   "price_history": [
+    {
+     "date": "2026-11-13",
+     "price": 389999
     }
    ],
    "price_drop": 0
@@ -5299,7 +5380,7 @@
    "cash_ok": false,
    "status": "active",
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-13",
    "price_history": [
     {
      "date": "2026-11-07",
@@ -5381,92 +5462,11 @@
    "cash_ok": true,
    "status": "active",
    "first_seen": "2026-11-10",
-   "last_seen": "2026-11-10",
+   "last_seen": "2026-11-13",
    "price_history": [
     {
      "date": "2026-11-10",
      "price": 359990
-    }
-   ],
-   "price_drop": 0
-  },
-  {
-   "id": "61-n-jordan-river-way-359-saratoga-springs",
-   "address": "61 N Jordan River Way #359",
-   "city": "Saratoga Springs",
-   "region": "North",
-   "price": 364990,
-   "beds": 2,
-   "baths": 2.5,
-   "sqft": 1031,
-   "price_per_sqft": 354,
-   "lot_acres": 0.08,
-   "year_built": 2027,
-   "garage": true,
-   "hoa_monthly": 144,
-   "days_on_market": 94,
-   "url": "https://www.coldwellbankerhomes.com/ut/saratoga-springs/61-n-jordan-river-way-359/pid_72955226/",
-   "photo": "https://images-listings.century21.com/SL/21/77/40/1/_P/2177401_P00.jpg?format=webp&quality=70&width=800",
-   "photo_count": 25,
-   "description": "Under contract. Two-story Moreno home, about 1,033 sq ft, 2 bedrooms, up to 2.5 baths, 2-car garage, in the Wander community.",
-   "mls": "2177401",
-   "source": "Coldwell Banker",
-   "stretch": false,
-   "fit_score": 33,
-   "score_breakdown": {
-    "profit": 1.5,
-    "affordability": 12.3,
-    "resale_layout": 9.0,
-    "value_vs_market": 0.0,
-    "condition": 4.5,
-    "price": 1.0,
-    "lot_garage": 2.5,
-    "hoa": 0,
-    "days_on_market": 2.0
-   },
-   "pros": [
-    "Has a garage",
-    "Newer build (2027)",
-    "On market 94 days: room to negotiate",
-    "Offer $331k or less to clear ~$40k profit",
-    "Trim the fix-up by ~$5k to reach 20% down and drop PMI entirely"
-   ],
-   "cons": [
-    "$354/sqft is above the ~$280 Saratoga Springs median",
-    "Small lot: 0.08 ac",
-    "HOA $144/mo",
-    "Thin profit: only ~$5k after fixing up and selling in 3 yrs",
-    "Payment ~$2,470/mo: doable but tight"
-   ],
-   "rehab_tier": "light",
-   "market_value": 288680,
-   "arv": 375300,
-   "rehab_cost": 10310,
-   "selling_costs": 22518,
-   "buy_hold_costs": 10950,
-   "flip_profit": -33468,
-   "flip_roi_pct": -8.7,
-   "live_in_years": 3,
-   "live_in_value": 416102,
-   "live_in_gain": 4886,
-   "live_in_roi_pct": 6,
-   "max_offer": 331000,
-   "buy_closing": 10950,
-   "sale_costs": 24966,
-   "target_profit": 40000,
-   "monthly_payment": 2470,
-   "payment_level": "tight",
-   "down_pct": 0.185,
-   "pmi_monthly": 55,
-   "cash_needed": 88783,
-   "cash_ok": true,
-   "status": "pending",
-   "first_seen": "2026-11-10",
-   "last_seen": "2026-11-10",
-   "price_history": [
-    {
-     "date": "2026-11-10",
-     "price": 364990
     }
    ],
    "price_drop": 0
@@ -5553,6 +5553,87 @@
    "price_drop": 0
   },
   {
+   "id": "61-n-jordan-river-way-359-saratoga-springs",
+   "address": "61 N Jordan River Way #359",
+   "city": "Saratoga Springs",
+   "region": "North",
+   "price": 364990,
+   "beds": 2,
+   "baths": 2.5,
+   "sqft": 1031,
+   "price_per_sqft": 354,
+   "lot_acres": 0.08,
+   "year_built": 2027,
+   "garage": true,
+   "hoa_monthly": 144,
+   "days_on_market": 94,
+   "url": "https://www.coldwellbankerhomes.com/ut/saratoga-springs/61-n-jordan-river-way-359/pid_72955226/",
+   "photo": "https://images-listings.century21.com/SL/21/77/40/1/_P/2177401_P00.jpg?format=webp&quality=70&width=800",
+   "photo_count": 25,
+   "description": "Under contract. Two-story Moreno home, about 1,033 sq ft, 2 bedrooms, up to 2.5 baths, 2-car garage, in the Wander community.",
+   "mls": "2177401",
+   "source": "Coldwell Banker",
+   "stretch": false,
+   "fit_score": 33,
+   "score_breakdown": {
+    "profit": 1.5,
+    "affordability": 12.3,
+    "resale_layout": 9.0,
+    "value_vs_market": 0.0,
+    "condition": 4.5,
+    "price": 1.0,
+    "lot_garage": 2.5,
+    "hoa": 0,
+    "days_on_market": 2.0
+   },
+   "pros": [
+    "Has a garage",
+    "Newer build (2027)",
+    "On market 94 days: room to negotiate",
+    "Offer $331k or less to clear ~$40k profit",
+    "Trim the fix-up by ~$5k to reach 20% down and drop PMI entirely"
+   ],
+   "cons": [
+    "$354/sqft is above the ~$280 Saratoga Springs median",
+    "Small lot: 0.08 ac",
+    "HOA $144/mo",
+    "Thin profit: only ~$5k after fixing up and selling in 3 yrs",
+    "Payment ~$2,470/mo: doable but tight"
+   ],
+   "rehab_tier": "light",
+   "market_value": 288680,
+   "arv": 375300,
+   "rehab_cost": 10310,
+   "selling_costs": 22518,
+   "buy_hold_costs": 10950,
+   "flip_profit": -33468,
+   "flip_roi_pct": -8.7,
+   "live_in_years": 3,
+   "live_in_value": 416102,
+   "live_in_gain": 4886,
+   "live_in_roi_pct": 6,
+   "max_offer": 331000,
+   "buy_closing": 10950,
+   "sale_costs": 24966,
+   "target_profit": 40000,
+   "monthly_payment": 2470,
+   "payment_level": "tight",
+   "down_pct": 0.185,
+   "pmi_monthly": 55,
+   "cash_needed": 88783,
+   "cash_ok": true,
+   "status": "pending",
+   "first_seen": "2026-11-10",
+   "last_seen": "2026-11-13",
+   "price_history": [
+    {
+     "date": "2026-11-10",
+     "price": 364990
+    }
+   ],
+   "price_drop": 0
+  },
+  {
    "id": "83-n-jordan-river-way-saratoga-springs",
    "address": "83 N Jordan River Way",
    "city": "Saratoga Springs",
@@ -5624,7 +5705,7 @@
    "cash_ok": true,
    "status": "active",
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-10",
+   "last_seen": "2026-11-13",
    "price_history": [
     {
      "date": "2026-11-07",
@@ -5705,7 +5786,7 @@
    "cash_ok": true,
    "status": "active",
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-10",
+   "last_seen": "2026-11-13",
    "price_history": [
     {
      "date": "2026-11-07",

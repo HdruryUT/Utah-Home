@@ -17,28 +17,10 @@
   "price": 399800,
   "first_seen": "2026-11-07"
  },
- "/ut/provo/964-e-300-n/pid_74419466/": {
-  "address": "964 E 300 N",
-  "city": "Provo",
-  "price": 398900,
-  "first_seen": "2026-11-07"
- },
- "/ut/eagle-mountain/4027-o-fallons-way/pid_74407367/": {
-  "address": "4027 O Fallons Way",
-  "city": "Eagle Mountain",
-  "price": 399000,
-  "first_seen": "2026-11-07"
- },
  "/ut/spanish-fork/136-e-900-n/pid_74390622/": {
   "address": "136 E 900 N",
   "city": "Spanish Fork",
   "price": 399000,
-  "first_seen": "2026-11-07"
- },
- "/ut/saratoga-springs/163-e-hamilton-row/pid_74461263/": {
-  "address": "163 E Hamilton Row",
-  "city": "Saratoga Springs",
-  "price": 399900,
   "first_seen": "2026-11-07"
  },
  "/ut/spanish-fork/241-w-300-s/pid_74421896/": {
@@ -62,7 +44,7 @@
  "/ut/provo/1051-e-620-n/pid_74599226/": {
   "address": "1051 E 620 N",
   "city": "Provo",
-  "price": 410000,
+  "price": 399000,
   "first_seen": "2026-11-07"
  },
  "/ut/orem/670-n-800-w/pid_74624948/": {
@@ -80,7 +62,7 @@
  "/ut/orem/853-n-235-e/pid_74554996/": {
   "address": "853 N 235 E",
   "city": "Orem",
-  "price": 415000,
+  "price": 410000,
   "first_seen": "2026-11-07"
  },
  "/ut/eagle-mountain/2369-e-prairie-ln/pid_74503985/": {
@@ -442,5 +424,23 @@
   "city": "Saratoga Springs",
   "price": 429990,
   "first_seen": "2026-11-12"
+ },
+ "/ut/springville/1474-s-archmore-loop/pid_74401755/": {
+  "address": "1474 S Archmore Loop",
+  "city": "Springville",
+  "price": 419000,
+  "first_seen": "2026-11-13"
+ },
+ "/ut/saratoga-springs/77-n-jordan-river-way/pid_74621703/": {
+  "address": "77 N Jordan River Way",
+  "city": "Saratoga Springs",
+  "price": 409990,
+  "first_seen": "2026-11-13"
+ },
+ "/ut/saratoga-springs/75-n-jordan-river-rd/pid_74624949/": {
+  "address": "75 N Jordan River Rd",
+  "city": "Saratoga Springs",
+  "price": 404640,
+  "first_seen": "2026-11-13"
  }
 }

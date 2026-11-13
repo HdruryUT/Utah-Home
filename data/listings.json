@@ -23,7 +23,7 @@
     "year_built": 1909
    },
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-13",
    "price_history": [
     {
      "date": "2026-11-07",
@@ -55,7 +55,7 @@
     "year_built": 1956
    },
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-10",
+   "last_seen": "2026-11-13",
    "price_history": [
     {
      "date": "2026-11-07",
@@ -241,7 +241,7 @@
     "year_built": 1938
    },
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-13",
    "price_history": [
     {
      "date": "2026-11-07",
@@ -348,7 +348,7 @@
     "year_built": 1947
    },
    "first_seen": "2026-11-10",
-   "last_seen": "2026-11-10",
+   "last_seen": "2026-11-13",
    "price_history": [
     {
      "date": "2026-11-10",
@@ -444,7 +444,7 @@
     "year_built": 1947
    },
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-10",
+   "last_seen": "2026-11-13",
    "price_history": [
     {
      "date": "2026-11-07",
@@ -509,7 +509,7 @@
     "year_built": 2007
    },
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-10",
+   "last_seen": "2026-11-13",
    "price_history": [
     {
      "date": "2026-11-07",
@@ -534,14 +534,14 @@
     "url": "https://www.century21.com/homes/detail/ut/american-fork/178-s-300-e/lid-P00800000HGQ1WgzCNZLuqNF42EPcOnMA4JF1k0J"
    },
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-13",
    "price_history": [
     {
      "date": "2026-11-07",
      "price": 340000
     }
    ],
-   "status": "pending"
+   "status": "gone"
   },
   "1820-w-150-n-provo": {
    "data": {
@@ -585,7 +585,7 @@
     "url": "https://www.century21.com/homes/detail/ut/eagle-mountain/18534-wilson-ave/lid-P00800000HIxycfhqgTzkVVM2E5zctrN4k6QFNSU"
    },
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-13",
    "price_history": [
     {
      "date": "2026-11-07",
@@ -683,7 +683,7 @@
     "year_built": 2000
    },
    "first_seen": "2026-11-10",
-   "last_seen": "2026-11-10",
+   "last_seen": "2026-11-13",
    "price_history": [
     {
      "date": "2026-11-10",
@@ -710,19 +710,19 @@
     "property_type": "single_family",
     "source": "Century21",
     "sqft": 2236,
-    "status": "active",
+    "status": "pending",
     "url": "https://www.century21.com/homes/detail/ut/american-fork/230-e-700-n/lid-P00800000HJz2d0WcRwZMOHxl9eTVEFkL9X8VPFc",
     "year_built": 1973
    },
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-13",
    "price_history": [
     {
      "date": "2026-11-07",
      "price": 340000
     }
    ],
-   "status": "active"
+   "status": "pending"
   },
   "244-e-center-st-spanish-fork": {
    "data": {
@@ -899,7 +899,7 @@
     "year_built": 1906
    },
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-13",
    "price_history": [
     {
      "date": "2026-11-07",
@@ -997,7 +997,7 @@
     "year_built": 1937
    },
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-10",
+   "last_seen": "2026-11-13",
    "price_history": [
     {
      "date": "2026-11-07",
@@ -1143,7 +1143,7 @@
     "year_built": 1951
    },
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-13",
    "price_history": [
     {
      "date": "2026-11-07",
@@ -1239,7 +1239,7 @@
     "year_built": 1967
    },
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-10",
+   "last_seen": "2026-11-13",
    "price_history": [
     {
      "date": "2026-11-07",
@@ -1276,6 +1276,38 @@
     {
      "date": "2026-11-07",
      "price": 310000
+    }
+   ],
+   "status": "active"
+  },
+  "4027-o-fallons-way-eagle-mountain": {
+   "data": {
+    "address": "4027 O Fallons Way",
+    "baths": 2,
+    "beds": 3,
+    "cb_url": "https://www.coldwellbankerhomes.com/ut/eagle-mountain/4027-o-fallons-way/pid_74407367/",
+    "city": "Eagle Mountain",
+    "days_on_market": 21,
+    "description": "3-bed, 2-bath tri-level home with attached garage, a blank canvas for buyers. Bank-owned, sold as-is; buyers to verify all details including square footage.",
+    "garage": true,
+    "lot_acres": 0.22,
+    "mls": "2192657",
+    "photo": "https://images-listings.century21.com/SL/21/92/65/7/_P/2192657_P00.jpg?format=webp&quality=70&width=800",
+    "photo_count": 23,
+    "price": 379000,
+    "property_type": "single_family",
+    "source": "Coldwell Banker",
+    "sqft": 1700,
+    "status": "active",
+    "url": "https://www.coldwellbankerhomes.com/ut/eagle-mountain/4027-o-fallons-way/pid_74407367/",
+    "year_built": 2001
+   },
+   "first_seen": "2026-11-13",
+   "last_seen": "2026-11-13",
+   "price_history": [
+    {
+     "date": "2026-11-13",
+     "price": 379000
     }
    ],
    "status": "active"
@@ -1488,7 +1520,7 @@
     "year_built": 1916
    },
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-13",
    "price_history": [
     {
      "date": "2026-11-07",
@@ -1658,7 +1690,7 @@
     "year_built": 2027
    },
    "first_seen": "2026-11-10",
-   "last_seen": "2026-11-10",
+   "last_seen": "2026-11-13",
    "price_history": [
     {
      "date": "2026-11-10",
@@ -1777,7 +1809,7 @@
     "year_built": 2027
    },
    "first_seen": "2026-11-10",
-   "last_seen": "2026-11-10",
+   "last_seen": "2026-11-13",
    "price_history": [
     {
      "date": "2026-11-10",
@@ -1842,7 +1874,7 @@
     "year_built": 1903
    },
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-13",
    "price_history": [
     {
      "date": "2026-11-07",
@@ -1908,7 +1940,7 @@
     "year_built": 2027
    },
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-10",
+   "last_seen": "2026-11-13",
    "price_history": [
     {
      "date": "2026-11-07",
@@ -1973,7 +2005,7 @@
     "year_built": 2027
    },
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-10",
+   "last_seen": "2026-11-13",
    "price_history": [
     {
      "date": "2026-11-07",
@@ -2146,6 +2178,38 @@
    ],
    "status": "active"
   },
+  "964-e-300-n-provo": {
+   "data": {
+    "address": "964 E 300 N",
+    "baths": 2,
+    "beds": 3,
+    "cb_url": "https://www.coldwellbankerhomes.com/ut/provo/964-e-300-n/pid_74419466/",
+    "city": "Provo",
+    "days_on_market": 20,
+    "description": "Freshly painted 3-bed, 2-bath rambler within walking distance of BYU. Remodeled bath with walk-in tub/shower, new kitchen counters, refinished hardwood floors, large fenced backyard with alley access, garden, chicken coop. Fiber internet available.",
+    "garage": true,
+    "lot_acres": 0.19,
+    "mls": "2192796",
+    "photo": "https://images-listings.century21.com/SL/21/92/79/6/_P/2192796_P00.jpg?format=webp&quality=70&width=800",
+    "photo_count": 34,
+    "price": 389999,
+    "property_type": "single_family",
+    "source": "Coldwell Banker",
+    "sqft": 1036,
+    "status": "active",
+    "url": "https://www.coldwellbankerhomes.com/ut/provo/964-e-300-n/pid_74419466/",
+    "year_built": 1943
+   },
+   "first_seen": "2026-11-13",
+   "last_seen": "2026-11-13",
+   "price_history": [
+    {
+     "date": "2026-11-13",
+     "price": 389999
+    }
+   ],
+   "status": "active"
+  },
   "965-s-730-w-payson": {
    "data": {
     "address": "965 S 730 W",
@@ -2179,5 +2243,5 @@
    "status": "active"
   }
  },
- "updated": "2026-11-12"
+ "updated": "2026-11-13"
 }
