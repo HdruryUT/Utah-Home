@@ -442,5 +442,35 @@
   "city": "Saratoga Springs",
   "price": 404640,
   "first_seen": "2026-11-13"
+ },
+ "/ut/orem/1605-s-800-e/pid_74751645/": {
+  "address": "1605 S 800 E",
+  "city": "Orem",
+  "price": 399900,
+  "first_seen": "2026-11-14"
+ },
+ "/ut/payson/443-e-100-n/pid_74763548/": {
+  "address": "443 E 100 N",
+  "city": "Payson",
+  "price": 450000,
+  "first_seen": "2026-11-14"
+ },
+ "/ut/springville/678-s-200-e/pid_74757466/": {
+  "address": "678 S 200 E",
+  "city": "Springville",
+  "price": 439000,
+  "first_seen": "2026-11-14"
+ },
+ "/ut/spanish-fork/648-w-center-st/pid_74734976/": {
+  "address": "648 W Center St",
+  "city": "Spanish Fork",
+  "price": 450000,
+  "first_seen": "2026-11-14"
+ },
+ "/ut/provo/95-n-1600-w/pid_74734926/": {
+  "address": "95 N 1600 W",
+  "city": "Provo",
+  "price": 425000,
+  "first_seen": "2026-11-14"
  }
 }

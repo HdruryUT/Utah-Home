@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-13",
+ "updated": "2026-11-14",
  "plan": {
   "closing_cost_pct": 0.03,
   "mortgage_rate": 0.0718,
@@ -290,7 +290,7 @@
    "cash_ok": true,
    "status": "pending",
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-08",
+   "last_seen": "2026-11-14",
    "price_history": [
     {
      "date": "2026-11-07",
@@ -372,7 +372,7 @@
    "cash_ok": true,
    "status": "active",
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-14",
    "price_history": [
     {
      "date": "2026-11-07",
@@ -689,7 +689,7 @@
    "cash_ok": true,
    "status": "pending",
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-14",
    "price_history": [
     {
      "date": "2026-11-07",
@@ -925,7 +925,7 @@
    "cash_ok": true,
    "status": "active",
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-14",
    "price_history": [
     {
      "date": "2026-11-07",
@@ -1090,7 +1090,7 @@
    "cash_ok": true,
    "status": "active",
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-14",
    "price_history": [
     {
      "date": "2026-11-07",
@@ -1327,7 +1327,7 @@
    "cash_ok": true,
    "status": "pending",
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-08",
+   "last_seen": "2026-11-14",
    "price_history": [
     {
      "date": "2026-11-07",
@@ -1723,7 +1723,7 @@
    "cash_ok": true,
    "status": "active",
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-08",
+   "last_seen": "2026-11-14",
    "price_history": [
     {
      "date": "2026-11-07",
@@ -1807,84 +1807,6 @@
     {
      "date": "2026-11-07",
      "price": 379500
-    }
-   ],
-   "price_drop": 0
-  },
-  {
-   "id": "410-n-main-st-e-payson",
-   "address": "410 N Main St E",
-   "city": "Payson",
-   "region": "South",
-   "price": 375000,
-   "beds": 4,
-   "baths": 3,
-   "sqft": 1570,
-   "price_per_sqft": 239,
-   "lot_acres": 0.27,
-   "year_built": 1896,
-   "garage": false,
-   "hoa_monthly": 0,
-   "days_on_market": null,
-   "url": "https://www.coldwellbankerhomes.com/ut/payson/410-n-main-st-e/pid_74183443/",
-   "photo": "https://images-listings.century21.com/SL/21/90/20/3/_P/2190203_P00.jpg?format=webp&quality=70&width=800",
-   "photo_count": 22,
-   "description": "Charming 1896 Rambler/Ranch on a 0.27-acre corner lot. Over $30,000 in upgrades: fresh paint, new LVP flooring, updated kitchen, newer roof. Four bedrooms, mudroom/laundry, fenced yard, shed. Unfinished basement.",
-   "mls": "2190203",
-   "source": "Coldwell Banker",
-   "stretch": false,
-   "fit_score": 55,
-   "score_breakdown": {
-    "profit": 9.2,
-    "affordability": 10.3,
-    "resale_layout": 15.0,
-    "value_vs_market": 4.7,
-    "condition": 10.0,
-    "price": 0.7,
-    "lot_garage": 2.5,
-    "hoa": 3.0,
-    "days_on_market": 0
-   },
-   "pros": [
-    "Big lot: 0.27 ac",
-    "Offer $366k or less to clear ~$40k profit",
-    "Dated but livable: room to add value with cosmetic updates",
-    "3+ bed / 2 bath: the layout most buyers want when you sell"
-   ],
-   "cons": [
-    "No garage",
-    "Built 1896: check for lead paint, the electrical, and the sewer line",
-    "Payment ~$2,640/mo: doable but tight"
-   ],
-   "rehab_tier": "medium",
-   "market_value": 359530,
-   "arv": 437800,
-   "rehab_cost": 39250,
-   "selling_costs": 26268,
-   "buy_hold_costs": 11250,
-   "flip_profit": -13968,
-   "flip_roi_pct": -3.3,
-   "live_in_years": 3,
-   "live_in_value": 485397,
-   "live_in_gain": 30773,
-   "live_in_roi_pct": 34,
-   "max_offer": 366000,
-   "buy_closing": 11250,
-   "sale_costs": 29124,
-   "target_profit": 40000,
-   "monthly_payment": 2640,
-   "payment_level": "tight",
-   "down_pct": 0.105,
-   "pmi_monthly": 106,
-   "cash_needed": 89875,
-   "cash_ok": true,
-   "status": "active",
-   "first_seen": "2026-11-08",
-   "last_seen": "2026-11-11",
-   "price_history": [
-    {
-     "date": "2026-11-08",
-     "price": 375000
     }
    ],
    "price_drop": 0
@@ -2115,7 +2037,7 @@
    "cash_ok": true,
    "status": "pending",
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-14",
    "price_history": [
     {
      "date": "2026-11-07",
@@ -2270,7 +2192,7 @@
    "cash_ok": true,
    "status": "pending",
    "first_seen": "2026-11-11",
-   "last_seen": "2026-11-11",
+   "last_seen": "2026-11-14",
    "price_history": [
     {
      "date": "2026-11-11",
@@ -2349,7 +2271,7 @@
    "cash_ok": true,
    "status": "active",
    "first_seen": "2026-11-11",
-   "last_seen": "2026-11-11",
+   "last_seen": "2026-11-14",
    "price_history": [
     {
      "date": "2026-11-11",
@@ -2591,7 +2513,7 @@
    "cash_ok": true,
    "status": "active",
    "first_seen": "2026-11-11",
-   "last_seen": "2026-11-11",
+   "last_seen": "2026-11-14",
    "price_history": [
     {
      "date": "2026-11-11",
@@ -2763,80 +2685,6 @@
    "price_drop": 0
   },
   {
-   "id": "45-n-330-e-american-fork",
-   "address": "45 N 330 E",
-   "city": "American Fork",
-   "region": "North",
-   "price": 345000,
-   "beds": 2,
-   "baths": 2,
-   "sqft": 1096,
-   "price_per_sqft": 315,
-   "lot_acres": null,
-   "year_built": null,
-   "garage": null,
-   "hoa_monthly": 0,
-   "days_on_market": null,
-   "url": "https://www.century21.com/homes/detail/ut/american-fork/45-n-330-e-st/lid-P00800000HF8mVwP3ADs8RFH0H5GnwnOnvh6ngaV",
-   "photo": "https://images-listings.century21.com/SL/21/76/26/1/_P/2176261_P00.jpg?format=webp&quality=70&width=800",
-   "photo_count": 33,
-   "description": null,
-   "mls": null,
-   "source": "Century21",
-   "stretch": false,
-   "fit_score": 49,
-   "score_breakdown": {
-    "profit": 6.7,
-    "affordability": 14.5,
-    "resale_layout": 9.0,
-    "value_vs_market": 4.2,
-    "condition": 10.0,
-    "price": 1.7,
-    "lot_garage": 0,
-    "hoa": 3.0,
-    "days_on_market": 0
-   },
-   "pros": [
-    "Offer $328k or less to clear ~$40k profit",
-    "Dated but livable: room to add value with cosmetic updates"
-   ],
-   "cons": [
-    "Payment ~$2,289/mo: doable but tight"
-   ],
-   "rehab_tier": "medium",
-   "market_value": 325512,
-   "arv": 388840,
-   "rehab_cost": 27400,
-   "selling_costs": 23330,
-   "buy_hold_costs": 10350,
-   "flip_profit": -17240,
-   "flip_roi_pct": -4.5,
-   "live_in_years": 3,
-   "live_in_value": 431114,
-   "live_in_gain": 22497,
-   "live_in_roi_pct": 25,
-   "max_offer": 328000,
-   "buy_closing": 10350,
-   "sale_costs": 25867,
-   "target_profit": 40000,
-   "monthly_payment": 2289,
-   "payment_level": "tight",
-   "down_pct": 0.15,
-   "pmi_monthly": 54,
-   "cash_needed": 89500,
-   "cash_ok": true,
-   "status": "pending",
-   "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
-   "price_history": [
-    {
-     "date": "2026-11-07",
-     "price": 345000
-    }
-   ],
-   "price_drop": 0
-  },
-  {
    "id": "4027-o-fallons-way-eagle-mountain",
    "address": "4027 O Fallons Way",
    "city": "Eagle Mountain",
@@ -2916,6 +2764,80 @@
    "price_drop": 0
   },
   {
+   "id": "45-n-330-e-american-fork",
+   "address": "45 N 330 E",
+   "city": "American Fork",
+   "region": "North",
+   "price": 345000,
+   "beds": 2,
+   "baths": 2,
+   "sqft": 1096,
+   "price_per_sqft": 315,
+   "lot_acres": null,
+   "year_built": null,
+   "garage": null,
+   "hoa_monthly": 0,
+   "days_on_market": null,
+   "url": "https://www.century21.com/homes/detail/ut/american-fork/45-n-330-e-st/lid-P00800000HF8mVwP3ADs8RFH0H5GnwnOnvh6ngaV",
+   "photo": "https://images-listings.century21.com/SL/21/76/26/1/_P/2176261_P00.jpg?format=webp&quality=70&width=800",
+   "photo_count": 33,
+   "description": null,
+   "mls": null,
+   "source": "Century21",
+   "stretch": false,
+   "fit_score": 49,
+   "score_breakdown": {
+    "profit": 6.7,
+    "affordability": 14.5,
+    "resale_layout": 9.0,
+    "value_vs_market": 4.2,
+    "condition": 10.0,
+    "price": 1.7,
+    "lot_garage": 0,
+    "hoa": 3.0,
+    "days_on_market": 0
+   },
+   "pros": [
+    "Offer $328k or less to clear ~$40k profit",
+    "Dated but livable: room to add value with cosmetic updates"
+   ],
+   "cons": [
+    "Payment ~$2,289/mo: doable but tight"
+   ],
+   "rehab_tier": "medium",
+   "market_value": 325512,
+   "arv": 388840,
+   "rehab_cost": 27400,
+   "selling_costs": 23330,
+   "buy_hold_costs": 10350,
+   "flip_profit": -17240,
+   "flip_roi_pct": -4.5,
+   "live_in_years": 3,
+   "live_in_value": 431114,
+   "live_in_gain": 22497,
+   "live_in_roi_pct": 25,
+   "max_offer": 328000,
+   "buy_closing": 10350,
+   "sale_costs": 25867,
+   "target_profit": 40000,
+   "monthly_payment": 2289,
+   "payment_level": "tight",
+   "down_pct": 0.15,
+   "pmi_monthly": 54,
+   "cash_needed": 89500,
+   "cash_ok": true,
+   "status": "pending",
+   "first_seen": "2026-11-07",
+   "last_seen": "2026-11-07",
+   "price_history": [
+    {
+     "date": "2026-11-07",
+     "price": 345000
+    }
+   ],
+   "price_drop": 0
+  },
+  {
    "id": "311-w-1610-s-provo",
    "address": "311 W 1610 S",
    "city": "Provo",
@@ -2984,7 +2906,7 @@
    "cash_ok": true,
    "status": "active",
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-08",
+   "last_seen": "2026-11-14",
    "price_history": [
     {
      "date": "2026-11-07",
@@ -3863,7 +3785,7 @@
    "cash_ok": true,
    "status": "active",
    "first_seen": "2026-11-08",
-   "last_seen": "2026-11-11",
+   "last_seen": "2026-11-14",
    "price_history": [
     {
      "date": "2026-11-08",
@@ -4183,7 +4105,7 @@
    "cash_ok": true,
    "status": "active",
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-08",
+   "last_seen": "2026-11-14",
    "price_history": [
     {
      "date": "2026-11-07",
@@ -4263,7 +4185,7 @@
    "cash_ok": true,
    "status": "active",
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-08",
+   "last_seen": "2026-11-14",
    "price_history": [
     {
      "date": "2026-11-07",
@@ -4817,7 +4739,7 @@
    "cash_ok": true,
    "status": "pending",
    "first_seen": "2026-11-11",
-   "last_seen": "2026-11-11",
+   "last_seen": "2026-11-14",
    "price_history": [
     {
      "date": "2026-11-11",
@@ -5061,7 +4983,7 @@
    "cash_ok": true,
    "status": "pending",
    "first_seen": "2026-11-11",
-   "last_seen": "2026-11-11",
+   "last_seen": "2026-11-14",
    "price_history": [
     {
      "date": "2026-11-11",
@@ -5138,7 +5060,7 @@
    "cash_ok": true,
    "status": "pending",
    "first_seen": "2026-11-11",
-   "last_seen": "2026-11-11",
+   "last_seen": "2026-11-14",
    "price_history": [
     {
      "date": "2026-11-11",
