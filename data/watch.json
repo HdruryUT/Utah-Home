@@ -472,5 +472,17 @@
   "city": "Provo",
   "price": 425000,
   "first_seen": "2026-11-14"
+ },
+ "/ut/eagle-mountain/2951-e-ash-point/pid_74757471/": {
+  "address": "2951 E Ash Point",
+  "city": "Eagle Mountain",
+  "price": 450000,
+  "first_seen": "2026-11-15"
+ },
+ "/ut/goshen/110-s-110-west-main/pid_74754201/": {
+  "address": "110 S 110 West Main",
+  "city": "Goshen",
+  "price": 450000,
+  "first_seen": "2026-11-15"
  }
 }

@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-14",
+ "updated": "2026-11-15",
  "plan": {
   "closing_cost_pct": 0.03,
   "mortgage_rate": 0.0718,
@@ -65,85 +65,6 @@
   "target_max": 380000
  },
  "rows": [
-  {
-   "id": "530-e-900-n-spanish-fork",
-   "address": "530 E 900 N",
-   "city": "Spanish Fork",
-   "region": "South",
-   "price": 320000,
-   "beds": 4,
-   "baths": 2,
-   "sqft": 1944,
-   "price_per_sqft": 165,
-   "lot_acres": null,
-   "year_built": null,
-   "garage": null,
-   "hoa_monthly": 0,
-   "days_on_market": null,
-   "url": "https://www.century21.com/homes/detail/ut/spanish-fork/530-e-900-n/lid-P00800000HJ6nHyyemCLyvXYFLwc5rwO8KpDpj4g",
-   "photo": null,
-   "photo_count": null,
-   "description": null,
-   "mls": null,
-   "source": "Century21",
-   "stretch": false,
-   "fit_score": 88,
-   "score_breakdown": {
-    "profit": 30.0,
-    "affordability": 14.1,
-    "resale_layout": 15.0,
-    "value_vs_market": 13.3,
-    "condition": 10.0,
-    "price": 2.6,
-    "lot_garage": 0,
-    "hoa": 3.0,
-    "days_on_market": 0
-   },
-   "pros": [
-    "$165/sqft vs ~$218 Spanish Fork median (24% below)",
-    "Roomy: 1,944 sqft",
-    "Strong profit potential: ~$116k after fixing up and selling in 3 yrs",
-    "Clears ~$40k profit even at asking price",
-    "Dated but livable: room to add value with cosmetic updates",
-    "Trim the fix-up by ~$2k to reach 10% down and lower PMI",
-    "3+ bed / 2 bath: the layout most buyers want when you sell"
-   ],
-   "cons": [
-    "Payment ~$2,322/mo: doable but tight"
-   ],
-   "rehab_tier": "medium",
-   "market_value": 423792,
-   "arv": 474647,
-   "rehab_cost": 48600,
-   "selling_costs": 28479,
-   "buy_hold_costs": 9600,
-   "flip_profit": 67968,
-   "flip_roi_pct": 18.0,
-   "live_in_years": 3,
-   "live_in_value": 526250,
-   "live_in_gain": 116475,
-   "live_in_roi_pct": 131,
-   "max_offer": 394000,
-   "buy_closing": 9600,
-   "sale_costs": 31575,
-   "target_profit": 40000,
-   "monthly_payment": 2322,
-   "payment_level": "tight",
-   "down_pct": 0.095,
-   "pmi_monthly": 121,
-   "cash_needed": 88600,
-   "cash_ok": true,
-   "status": "pending",
-   "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
-   "price_history": [
-    {
-     "date": "2026-11-07",
-     "price": 320000
-    }
-   ],
-   "price_drop": 0
-  },
   {
    "id": "562-w-utah-ave-payson",
    "address": "562 W Utah Ave",
@@ -382,6 +303,87 @@
    "price_drop": 0
   },
   {
+   "id": "208-n-600-e-spanish-fork",
+   "address": "208 N 600 E",
+   "city": "Spanish Fork",
+   "region": "South",
+   "price": 369900,
+   "beds": 3,
+   "baths": 1,
+   "sqft": 1898,
+   "price_per_sqft": 195,
+   "lot_acres": 0.3,
+   "year_built": 1934,
+   "garage": true,
+   "hoa_monthly": 0,
+   "days_on_market": null,
+   "url": "https://www.coldwellbankerhomes.com/ut/spanish-fork/208-n-600-e/pid_74768307/",
+   "photo": "https://images-listings.century21.com/SL/21/96/30/1/_P/2196301_P00.jpg?format=webp&quality=70&width=800",
+   "photo_count": 28,
+   "description": "Clean three-bedroom rambler on a large corner lot with mature trees and an oversized carport. Wood floors, fireplace, new carpet and paint. Includes washer, dryer, refrigerator, two sheds. Move-in ready.",
+   "mls": "2196301",
+   "source": "Coldwell Banker",
+   "stretch": false,
+   "fit_score": 73,
+   "score_breakdown": {
+    "profit": 26.2,
+    "affordability": 13.0,
+    "resale_layout": 11.2,
+    "value_vs_market": 9.4,
+    "condition": 4.5,
+    "price": 0.9,
+    "lot_garage": 5.0,
+    "hoa": 3.0,
+    "days_on_market": 0
+   },
+   "pros": [
+    "$195/sqft vs ~$220 Spanish Fork median (11% below)",
+    "Roomy: 1,898 sqft",
+    "Big lot: 0.30 ac",
+    "Has a garage",
+    "Strong profit potential: ~$87k after fixing up and selling in 3 yrs",
+    "Clears ~$40k profit even at asking price"
+   ],
+   "cons": [
+    "Only 1 bathroom: adding a second is a common value-add",
+    "Built 1934: check for lead paint, the electrical, and the sewer line",
+    "Already updated: little left for you to add value",
+    "Payment ~$2,420/mo: doable but tight"
+   ],
+   "rehab_tier": "light",
+   "market_value": 417560,
+   "arv": 467667,
+   "rehab_cost": 18980,
+   "selling_costs": 28060,
+   "buy_hold_costs": 11097,
+   "flip_profit": 39630,
+   "flip_roi_pct": 9.9,
+   "live_in_years": 3,
+   "live_in_value": 518511,
+   "live_in_gain": 87423,
+   "live_in_roi_pct": 98,
+   "max_offer": 416000,
+   "buy_closing": 11097,
+   "sale_costs": 31111,
+   "target_profit": 40000,
+   "monthly_payment": 2420,
+   "payment_level": "tight",
+   "down_pct": 0.16,
+   "pmi_monthly": 57,
+   "cash_needed": 89261,
+   "cash_ok": true,
+   "status": "active",
+   "first_seen": "2026-11-15",
+   "last_seen": "2026-11-15",
+   "price_history": [
+    {
+     "date": "2026-11-15",
+     "price": 369900
+    }
+   ],
+   "price_drop": 0
+  },
+  {
    "id": "47-e-100-s-goshen",
    "address": "47 E 100 S",
    "city": "Goshen",
@@ -557,7 +559,7 @@
    "garage": null,
    "hoa_monthly": 0,
    "days_on_market": null,
-   "url": "https://www.century21.com/homes/detail/ut/springville/1563-s-600-e/lid-P00800000HDfm7TlKLUg8dmVFsUTecCPsYWzrzXh",
+   "url": "https://www.coldwellbankerhomes.com/ut/springville/1563-s-600-e/pid_72346076/",
    "photo": "https://images-listings.century21.com/SL/21/69/78/5/_P/2169785_P00.jpg?format=webp&quality=70&width=800",
    "photo_count": 30,
    "description": null,
@@ -612,7 +614,7 @@
    "cash_ok": true,
    "status": "pending",
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-11",
+   "last_seen": "2026-11-15",
    "price_history": [
     {
      "date": "2026-11-07",
@@ -689,7 +691,7 @@
    "cash_ok": true,
    "status": "pending",
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-14",
+   "last_seen": "2026-11-15",
    "price_history": [
     {
      "date": "2026-11-07",
@@ -1090,7 +1092,7 @@
    "cash_ok": true,
    "status": "active",
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-14",
+   "last_seen": "2026-11-15",
    "price_history": [
     {
      "date": "2026-11-07",
@@ -1351,7 +1353,7 @@
    "garage": null,
    "hoa_monthly": 0,
    "days_on_market": 112,
-   "url": "https://www.century21.com/homes/detail/ut/payson/864-e-100-s/lid-P00800000HEPk9XbtRpMe0YYSvRMmhSKVeK0REBL",
+   "url": "https://www.coldwellbankerhomes.com/ut/payson/864-e-100-s/pid_72617853/",
    "photo": "https://images-listings.century21.com/SL/21/73/16/1/_P/2173161_P00.jpg?format=webp&quality=70&width=800",
    "photo_count": 23,
    "description": "1940s bungalow with an attached 1 bed/1 bath accessory unit rented at $800/month. Main home has 2 bedrooms, 1 bath, about 967 sq ft. Freshly painted; accessory unit has its own kitchen and laundry.",
@@ -1407,7 +1409,7 @@
    "cash_ok": true,
    "status": "active",
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-10",
+   "last_seen": "2026-11-15",
    "price_history": [
     {
      "date": "2026-11-07",
@@ -1490,7 +1492,7 @@
    "cash_ok": true,
    "status": "active",
    "first_seen": "2026-11-09",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-15",
    "price_history": [
     {
      "date": "2026-11-09",
@@ -1747,7 +1749,7 @@
    "garage": false,
    "hoa_monthly": 0,
    "days_on_market": 59,
-   "url": "https://www.century21.com/homes/detail/ut/payson/314-n-100-w/lid-P00800000HGzyNTcwPx6juLT41pLP8lERlmVm2Am",
+   "url": "https://www.coldwellbankerhomes.com/ut/payson/314-n-100-w/pid_73586339/",
    "photo": "https://images-listings.century21.com/SL/21/83/97/8/_P/2183978_P00.jpg?format=webp&quality=70&width=800",
    "photo_count": 22,
    "description": "Remodeled 1913 home on a corner lot in central Payson. Updated kitchen, carport, storage sheds, full landscaping, near schools and shopping.",
@@ -1802,7 +1804,7 @@
    "cash_ok": true,
    "status": "active",
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-09",
+   "last_seen": "2026-11-15",
    "price_history": [
     {
      "date": "2026-11-07",
@@ -2113,7 +2115,7 @@
    "cash_ok": true,
    "status": "pending",
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-15",
    "price_history": [
     {
      "date": "2026-11-07",
@@ -2295,7 +2297,7 @@
    "garage": true,
    "hoa_monthly": 0,
    "days_on_market": 262,
-   "url": "https://www.century21.com/homes/detail/ut/payson/742-w-400-s/lid-P00800000H6UfcjVt46o8c4klGs6Dc8ifryLfzTy",
+   "url": "https://www.coldwellbankerhomes.com/ut/payson/742-w-400-s/pid_69680488/",
    "photo": "https://images-listings.century21.com/SL/21/37/67/5/_P/2137675_P00.jpg?format=webp&quality=70&width=800",
    "photo_count": 26,
    "description": "Single-level ranch, 4 bed 2 bath on main plus finished basement. Evaporative cooling, fenced yard, patio, shed. Short sale requiring third-party approval, sold as is.",
@@ -2354,7 +2356,7 @@
    "cash_ok": false,
    "status": "active",
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-15",
    "price_history": [
     {
      "date": "2026-11-07",
@@ -2434,7 +2436,7 @@
    "cash_ok": true,
    "status": "active",
    "first_seen": "2026-11-09",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-15",
    "price_history": [
     {
      "date": "2026-11-09",
@@ -2675,7 +2677,7 @@
    "cash_ok": false,
    "status": "active",
    "first_seen": "2026-11-09",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-15",
    "price_history": [
     {
      "date": "2026-11-09",
@@ -3331,7 +3333,7 @@
    "garage": true,
    "hoa_monthly": 0,
    "days_on_market": 134,
-   "url": "https://www.century21.com/homes/detail/ut/orem/960-w-100-s/lid-P00800000HD6dqbXQjKE6qTItRXqwcOma4r2OwLR",
+   "url": "https://www.coldwellbankerhomes.com/ut/orem/960-w-100-s/pid_72180596/",
    "photo": "https://images-listings.century21.com/SL/21/67/79/4/_P/2167794_P00.jpg?format=webp&quality=70&width=800",
    "photo_count": 28,
    "description": "Relisted. New carpet, bonus loft (office or extra bedroom), large fenced yard, home warranty included. Seller-reported updates to water heater, furnace, A/C and roof. Near I-15, schools and shopping.",
@@ -3387,7 +3389,7 @@
    "cash_ok": true,
    "status": "active",
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-11",
+   "last_seen": "2026-11-15",
    "price_history": [
     {
      "date": "2026-11-07",
@@ -3466,7 +3468,7 @@
    "cash_ok": true,
    "status": "active",
    "first_seen": "2026-11-09",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-15",
    "price_history": [
     {
      "date": "2026-11-09",
@@ -3545,7 +3547,7 @@
    "cash_ok": true,
    "status": "active",
    "first_seen": "2026-11-12",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-15",
    "price_history": [
     {
      "date": "2026-11-12",
@@ -3867,11 +3869,92 @@
    "cash_ok": true,
    "status": "active",
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-15",
    "price_history": [
     {
      "date": "2026-11-07",
      "price": 320000
+    }
+   ],
+   "price_drop": 0
+  },
+  {
+   "id": "978-e-40-n-springville",
+   "address": "978 E 40 N",
+   "city": "Springville",
+   "region": "South",
+   "price": 389000,
+   "beds": 3,
+   "baths": 1,
+   "sqft": 936,
+   "price_per_sqft": 416,
+   "lot_acres": 0.15,
+   "year_built": 1958,
+   "garage": false,
+   "hoa_monthly": 0,
+   "days_on_market": 65,
+   "url": "https://www.coldwellbankerhomes.com/ut/springville/978-e-40-n/pid_73643854/",
+   "photo": "https://images-listings.century21.com/SL/21/84/41/0/_P/2184410_P00.jpg?format=webp&quality=70&width=800",
+   "photo_count": 21,
+   "description": "Single-level all-brick 3-bedroom home with updated kitchen and large island. Backyard pergola, new storage shed, carport. Square footage is a county-records estimate.",
+   "mls": "2184410",
+   "source": "Coldwell Banker",
+   "stretch": true,
+   "fit_score": 44,
+   "score_breakdown": {
+    "profit": 6.1,
+    "affordability": 10.3,
+    "resale_layout": 11.2,
+    "value_vs_market": 0.0,
+    "condition": 10.0,
+    "price": 0.2,
+    "lot_garage": 1.5,
+    "hoa": 3.0,
+    "days_on_market": 2.0
+   },
+   "pros": [
+    "On market 65 days: room to negotiate",
+    "Offer $370k or less to clear ~$40k profit",
+    "Dated but livable: room to add value with cosmetic updates",
+    "Trim the fix-up by ~$4k to reach 15% down and lower PMI"
+   ],
+   "cons": [
+    "Stretch: $9k over your $380k target",
+    "$416/sqft is above the ~$284 Springville median",
+    "Only 1 bathroom: adding a second is a common value-add",
+    "No garage",
+    "Built 1958: check for lead paint, the electrical, and the sewer line",
+    "Payment ~$2,638/mo: doable but tight"
+   ],
+   "rehab_tier": "medium",
+   "market_value": 265824,
+   "arv": 426440,
+   "rehab_cost": 23400,
+   "selling_costs": 25586,
+   "buy_hold_costs": 11670,
+   "flip_profit": -23216,
+   "flip_roi_pct": -5.5,
+   "live_in_years": 3,
+   "live_in_value": 472802,
+   "live_in_gain": 20364,
+   "live_in_roi_pct": 23,
+   "max_offer": 370000,
+   "buy_closing": 11670,
+   "sale_costs": 28368,
+   "target_profit": 40000,
+   "monthly_payment": 2638,
+   "payment_level": "tight",
+   "down_pct": 0.14,
+   "pmi_monthly": 106,
+   "cash_needed": 89530,
+   "cash_ok": true,
+   "status": "active",
+   "first_seen": "2026-11-15",
+   "last_seen": "2026-11-15",
+   "price_history": [
+    {
+     "date": "2026-11-15",
+     "price": 389000
     }
    ],
    "price_drop": 0
@@ -4290,7 +4373,7 @@
    "garage": false,
    "hoa_monthly": 0,
    "days_on_market": 79,
-   "url": "https://www.century21.com/homes/detail/ut/payson/544-e-500-s/lid-P00800000HFxp8cus6UAI9TbfC0WxF4oii2bhnTM",
+   "url": "https://www.coldwellbankerhomes.com/ut/payson/544-s-500-e/pid_73156226/",
    "photo": "https://images-listings.century21.com/SL/21/79/88/1/_P/2179881_P00.jpg?format=webp&quality=70&width=800",
    "photo_count": 25,
    "description": "Spacious kitchen, family room with fireplace, finished basement with second family room and den. Roof replaced ~2020, solar paid off at closing, large powered shed. Seller offers up to $9,000 rate buydown.",
@@ -4347,7 +4430,7 @@
    "cash_ok": true,
    "status": "active",
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-10",
+   "last_seen": "2026-11-15",
    "price_history": [
     {
      "date": "2026-11-07",
@@ -4504,7 +4587,7 @@
    "cash_ok": true,
    "status": "pending",
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-15",
    "price_history": [
     {
      "date": "2026-11-07",
@@ -4822,7 +4905,7 @@
    "cash_ok": true,
    "status": "active",
    "first_seen": "2026-11-12",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-15",
    "price_history": [
     {
      "date": "2026-11-12",
@@ -4846,7 +4929,7 @@
    "garage": true,
    "hoa_monthly": 100,
    "days_on_market": 52,
-   "url": "https://www.century21.com/homes/detail/ut/payson/1716-n-1230/lid-P00800000HHMoBYdctOrD7wdufUT9oD1WGRk8BtB",
+   "url": "https://www.coldwellbankerhomes.com/ut/payson/1716-n-1230-e/pid_73750906/",
    "photo": "https://images-listings.century21.com/SL/21/85/47/0/_P/2185470_P00.jpg?format=webp&quality=70&width=800",
    "photo_count": 35,
    "description": "Accepting backup offers. Seller offers up to $11,500 toward closing costs or rate buydown. Modern 3 bed with quartz counters, mountain views.",
@@ -4906,7 +4989,7 @@
    "cash_ok": true,
    "status": "pending",
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-09",
+   "last_seen": "2026-11-15",
    "price_history": [
     {
      "date": "2026-11-07",
@@ -5465,7 +5548,7 @@
    "cash_ok": true,
    "status": "pending",
    "first_seen": "2026-11-12",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-15",
    "price_history": [
     {
      "date": "2026-11-12",
