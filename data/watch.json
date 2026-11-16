@@ -95,12 +95,6 @@
   "price": 430000,
   "first_seen": "2026-11-07"
  },
- "/ut/american-fork/290-s-200-e/pid_74419471/": {
-  "address": "290 S 300 E",
-  "city": "American Fork",
-  "price": 435000,
-  "first_seen": "2026-11-07"
- },
  "/ut/spanish-fork/540-e-400-n/pid_74390638/": {
   "address": "540 E 400 N",
   "city": "Spanish Fork",
@@ -269,12 +263,6 @@
   "price": 405000,
   "first_seen": "2026-11-10"
  },
- "/ut/eagle-mountain/7065-n-cherokee-st/pid_73095131/": {
-  "address": "7065 N Cherokee St",
-  "city": "Eagle Mountain",
-  "price": 399900,
-  "first_seen": "2026-11-10"
- },
  "/ut/spanish-fork/1644-e-ridgefield-rd/pid_73081533/": {
   "address": "1644 E Ridgefield Rd",
   "city": "Spanish Fork",
@@ -308,19 +296,13 @@
  "/ut/lehi/336-n-1030-e-t-1/pid_72805675/": {
   "address": "336 N 1030 E #T-1",
   "city": "Lehi",
-  "price": 445000,
+  "price": 435000,
   "first_seen": "2026-11-10"
  },
  "/ut/spanish-fork/591-n-1120-e/pid_72709160/": {
   "address": "591 N 1120 E",
   "city": "Spanish Fork",
   "price": 414550,
-  "first_seen": "2026-11-10"
- },
- "/ut/eagle-mountain/6152-n-sheps-ridge-rd-e/pid_72695085/": {
-  "address": "6152 N Sheps Ridge Rd E",
-  "city": "Eagle Mountain",
-  "price": 419900,
   "first_seen": "2026-11-10"
  },
  "/ut/payson/1225-w-1050-s/pid_72686465/": {
@@ -344,7 +326,7 @@
  "/ut/spanish-fork/1566-s-2000-e/pid_72758049/": {
   "address": "1566 S 2000 E",
   "city": "Spanish Fork",
-  "price": 409000,
+  "price": 399500,
   "first_seen": "2026-11-10"
  },
  "/ut/saratoga-springs/419-e-halls-creek-rd/pid_73200108/": {
@@ -389,22 +371,10 @@
   "price": 432600,
   "first_seen": "2026-11-12"
  },
- "/ut/saratoga-springs/129-n-green-river-rd-293/pid_70472621/": {
-  "address": "129 N Green River Rd #293",
-  "city": "Saratoga Springs",
-  "price": 404990,
-  "first_seen": "2026-11-12"
- },
  "/ut/provo/1090-e-460-st-s/pid_70357269/": {
   "address": "1090 E 460 St S",
   "city": "Provo",
   "price": 424900,
-  "first_seen": "2026-11-12"
- },
- "/ut/saratoga-springs/137-n-green-river-rd/pid_70872227/": {
-  "address": "137 N Green River Rd",
-  "city": "Saratoga Springs",
-  "price": 419990,
   "first_seen": "2026-11-12"
  },
  "/ut/saratoga-springs/363-e-halls-creek-rd/pid_71010452/": {
@@ -417,12 +387,6 @@
   "address": "4673 E Golden Meadow Crossing",
   "city": "Eagle Mountain",
   "price": 437900,
-  "first_seen": "2026-11-12"
- },
- "/ut/saratoga-springs/459-e-kanab-creek-dr-216/pid_69646296/": {
-  "address": "459 E Kanab Creek Dr #216",
-  "city": "Saratoga Springs",
-  "price": 429990,
   "first_seen": "2026-11-12"
  },
  "/ut/springville/1474-s-archmore-loop/pid_74401755/": {
@@ -484,5 +448,35 @@
   "city": "Goshen",
   "price": 450000,
   "first_seen": "2026-11-15"
+ },
+ "/ut/eagle-mountain/1896-e-juniper-dr/pid_72487182/": {
+  "address": "1896 E Juniper Dr",
+  "city": "Eagle Mountain",
+  "price": 419900,
+  "first_seen": "2026-11-16"
+ },
+ "/ut/eagle-mountain/3529-n-sparrow-ln-215/pid_72483550/": {
+  "address": "3529 N Sparrow Ln #215",
+  "city": "Eagle Mountain",
+  "price": 438900,
+  "first_seen": "2026-11-16"
+ },
+ "/ut/provo/2159-s-dakota-ave/pid_72543705/": {
+  "address": "2159 S Dakota Ave",
+  "city": "Provo",
+  "price": 435000,
+  "first_seen": "2026-11-16"
+ },
+ "/ut/orem/992-n-300-e/pid_72503180/": {
+  "address": "992 N 300 E",
+  "city": "Orem",
+  "price": 419900,
+  "first_seen": "2026-11-16"
+ },
+ "/ut/eagle-mountain/868-e-eden-st-1685/pid_72807149/": {
+  "address": "868 E Eden St #1685",
+  "city": "Eagle Mountain",
+  "price": 444990,
+  "first_seen": "2026-11-16"
  }
 }

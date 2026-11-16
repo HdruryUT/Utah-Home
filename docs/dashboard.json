@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-15",
+ "updated": "2026-11-16",
  "plan": {
   "closing_cost_pct": 0.03,
   "mortgage_rate": 0.0718,
@@ -374,7 +374,7 @@
    "cash_ok": true,
    "status": "active",
    "first_seen": "2026-11-15",
-   "last_seen": "2026-11-15",
+   "last_seen": "2026-11-16",
    "price_history": [
     {
      "date": "2026-11-15",
@@ -1173,7 +1173,7 @@
    "cash_ok": false,
    "status": "pending",
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-16",
    "price_history": [
     {
      "date": "2026-11-07",
@@ -1409,7 +1409,7 @@
    "cash_ok": true,
    "status": "active",
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-15",
+   "last_seen": "2026-11-16",
    "price_history": [
     {
      "date": "2026-11-07",
@@ -1648,7 +1648,7 @@
    "cash_ok": false,
    "status": "active",
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-16",
    "price_history": [
     {
      "date": "2026-11-07",
@@ -2754,9 +2754,9 @@
    "pmi_monthly": 199,
    "cash_needed": 116240,
    "cash_ok": false,
-   "status": "active",
+   "status": "pending",
    "first_seen": "2026-11-13",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-16",
    "price_history": [
     {
      "date": "2026-11-13",
@@ -3227,7 +3227,7 @@
    "cash_ok": true,
    "status": "active",
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-16",
    "price_history": [
     {
      "date": "2026-11-07",
@@ -3706,7 +3706,7 @@
    "cash_ok": true,
    "status": "active",
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-16",
    "price_history": [
     {
      "date": "2026-11-07",
@@ -4032,7 +4032,7 @@
    "cash_ok": true,
    "status": "active",
    "first_seen": "2026-11-10",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-16",
    "price_history": [
     {
      "date": "2026-11-10",
@@ -4111,7 +4111,7 @@
    "cash_ok": true,
    "status": "active",
    "first_seen": "2026-11-10",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-16",
    "price_history": [
     {
      "date": "2026-11-10",
@@ -4430,7 +4430,7 @@
    "cash_ok": true,
    "status": "active",
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-15",
+   "last_seen": "2026-11-16",
    "price_history": [
     {
      "date": "2026-11-07",
@@ -4511,7 +4511,7 @@
    "cash_ok": true,
    "status": "active",
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-16",
    "price_history": [
     {
      "date": "2026-11-07",
@@ -4745,7 +4745,7 @@
    "cash_ok": true,
    "status": "active",
    "first_seen": "2026-11-13",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-16",
    "price_history": [
     {
      "date": "2026-11-13",
@@ -5467,7 +5467,7 @@
    "cash_ok": true,
    "status": "active",
    "first_seen": "2026-11-10",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-16",
    "price_history": [
     {
      "date": "2026-11-10",
@@ -5629,7 +5629,7 @@
    "cash_ok": true,
    "status": "pending",
    "first_seen": "2026-11-10",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-16",
    "price_history": [
     {
      "date": "2026-11-10",
@@ -5710,7 +5710,7 @@
    "cash_ok": true,
    "status": "active",
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-16",
    "price_history": [
     {
      "date": "2026-11-07",
@@ -5789,9 +5789,9 @@
    "pmi_monthly": 55,
    "cash_needed": 89858,
    "cash_ok": true,
-   "status": "active",
+   "status": "pending",
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-16",
    "price_history": [
     {
      "date": "2026-11-07",

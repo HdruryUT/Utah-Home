@@ -55,7 +55,7 @@
     "year_built": 1956
    },
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-16",
    "price_history": [
     {
      "date": "2026-11-07",
@@ -349,7 +349,7 @@
     "year_built": 1947
    },
    "first_seen": "2026-11-10",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-16",
    "price_history": [
     {
      "date": "2026-11-10",
@@ -446,7 +446,7 @@
     "year_built": 1947
    },
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-16",
    "price_history": [
     {
      "date": "2026-11-07",
@@ -511,7 +511,7 @@
     "year_built": 2007
    },
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-16",
    "price_history": [
     {
      "date": "2026-11-07",
@@ -686,7 +686,7 @@
     "year_built": 2000
    },
    "first_seen": "2026-11-10",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-16",
    "price_history": [
     {
      "date": "2026-11-10",
@@ -718,7 +718,7 @@
     "year_built": 1934
    },
    "first_seen": "2026-11-15",
-   "last_seen": "2026-11-15",
+   "last_seen": "2026-11-16",
    "price_history": [
     {
      "date": "2026-11-15",
@@ -1032,7 +1032,7 @@
     "year_built": 1937
    },
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-16",
    "price_history": [
     {
      "date": "2026-11-07",
@@ -1275,7 +1275,7 @@
     "year_built": 1967
    },
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-16",
    "price_history": [
     {
      "date": "2026-11-07",
@@ -1334,19 +1334,19 @@
     "property_type": "single_family",
     "source": "Coldwell Banker",
     "sqft": 1700,
-    "status": "active",
+    "status": "pending",
     "url": "https://www.coldwellbankerhomes.com/ut/eagle-mountain/4027-o-fallons-way/pid_74407367/",
     "year_built": 2001
    },
    "first_seen": "2026-11-13",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-16",
    "price_history": [
     {
      "date": "2026-11-13",
      "price": 379000
     }
    ],
-   "status": "active"
+   "status": "pending"
   },
   "41-n-jordan-river-way-365-saratoga-springs": {
    "data": {
@@ -1694,7 +1694,7 @@
     "year_built": 1947
    },
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-15",
+   "last_seen": "2026-11-16",
    "price_history": [
     {
      "date": "2026-11-07",
@@ -1727,7 +1727,7 @@
     "year_built": 2027
    },
    "first_seen": "2026-11-10",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-16",
    "price_history": [
     {
      "date": "2026-11-10",
@@ -1847,7 +1847,7 @@
     "year_built": 2027
    },
    "first_seen": "2026-11-10",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-16",
    "price_history": [
     {
      "date": "2026-11-10",
@@ -1973,19 +1973,19 @@
     "property_type": "single_family",
     "source": "Coldwell Banker",
     "sqft": 1031,
-    "status": "active",
+    "status": "pending",
     "url": "https://www.coldwellbankerhomes.com/ut/saratoga-springs/73-n-jordan-river-rd/pid_74624957/",
     "year_built": 2027
    },
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-16",
    "price_history": [
     {
      "date": "2026-11-07",
      "price": 369990
     }
    ],
-   "status": "active"
+   "status": "pending"
   },
   "742-w-400-s-payson": {
    "data": {
@@ -2044,7 +2044,7 @@
     "year_built": 2027
    },
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-16",
    "price_history": [
     {
      "date": "2026-11-07",
@@ -2075,7 +2075,7 @@
     "year_built": 1940
    },
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-15",
+   "last_seen": "2026-11-16",
    "price_history": [
     {
      "date": "2026-11-07",
@@ -2242,7 +2242,7 @@
     "year_built": 1943
    },
    "first_seen": "2026-11-13",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-16",
    "price_history": [
     {
      "date": "2026-11-13",
@@ -2317,5 +2317,5 @@
    "status": "active"
   }
  },
- "updated": "2026-11-15"
+ "updated": "2026-11-16"
 }
