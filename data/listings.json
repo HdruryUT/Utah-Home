@@ -94,7 +94,7 @@
      "price": 150000
     }
    ],
-   "status": "active"
+   "status": "gone"
   },
   "1226-e-570-n-spanish-fork": {
    "data": {
@@ -184,7 +184,7 @@
     "year_built": 1941
    },
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-14",
+   "last_seen": "2026-11-17",
    "price_history": [
     {
      "date": "2026-11-07",
@@ -216,7 +216,7 @@
      "price": 375000
     }
    ],
-   "status": "pending"
+   "status": "gone"
   },
   "146-n-100-w-springville": {
    "data": {
@@ -290,7 +290,7 @@
     "url": "https://www.coldwellbankerhomes.com/ut/saratoga-springs/15-n-jordan-river-way-373/pid_71929982/"
    },
    "first_seen": "2026-11-11",
-   "last_seen": "2026-11-14",
+   "last_seen": "2026-11-17",
    "price_history": [
     {
      "date": "2026-11-11",
@@ -317,7 +317,7 @@
     "url": "https://www.coldwellbankerhomes.com/ut/springville/1563-s-600-e/pid_72346076/"
    },
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-15",
+   "last_seen": "2026-11-17",
    "price_history": [
     {
      "date": "2026-11-07",
@@ -408,19 +408,19 @@
     "property_type": "single_family",
     "source": "Century21",
     "sqft": 1165,
-    "status": "pending",
+    "status": "active",
     "url": "https://www.century21.com/homes/detail/ut/springville/175-e-700-n/lid-P00800000HDMfhZ7uNhgEjkJF4ieoBpJUUWvyMQe",
     "year_built": 1957
    },
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-11",
+   "last_seen": "2026-11-17",
    "price_history": [
     {
      "date": "2026-11-07",
      "price": 389900
     }
    ],
-   "status": "pending"
+   "status": "active"
   },
   "175-s-200-e-payson": {
    "data": {
@@ -478,7 +478,7 @@
     "year_built": 1914
    },
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-11",
+   "last_seen": "2026-11-17",
    "price_history": [
     {
      "date": "2026-11-07",
@@ -718,7 +718,7 @@
     "year_built": 1934
    },
    "first_seen": "2026-11-15",
-   "last_seen": "2026-11-16",
+   "last_seen": "2026-11-17",
    "price_history": [
     {
      "date": "2026-11-15",
@@ -822,7 +822,7 @@
      "price": 300000
     }
    ],
-   "status": "pending"
+   "status": "gone"
   },
   "262-w-400-s-springville": {
    "data": {
@@ -846,7 +846,7 @@
     "year_built": 1909
    },
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-11",
+   "last_seen": "2026-11-17",
    "price_history": [
     {
      "date": "2026-11-07",
@@ -973,7 +973,7 @@
      "price": 394900
     }
    ],
-   "status": "active"
+   "status": "gone"
   },
   "31-b-st-springville": {
    "data": {
@@ -1242,7 +1242,7 @@
     "year_built": 1923
    },
    "first_seen": "2026-11-08",
-   "last_seen": "2026-11-14",
+   "last_seen": "2026-11-17",
    "price_history": [
     {
      "date": "2026-11-08",
@@ -1314,7 +1314,7 @@
      "price": 310000
     }
    ],
-   "status": "active"
+   "status": "gone"
   },
   "4027-o-fallons-way-eagle-mountain": {
    "data": {
@@ -1363,7 +1363,7 @@
     "url": "https://www.coldwellbankerhomes.com/ut/saratoga-springs/41-n-jordan-river-way-365/pid_72177617/"
    },
    "first_seen": "2026-11-11",
-   "last_seen": "2026-11-14",
+   "last_seen": "2026-11-17",
    "price_history": [
     {
      "date": "2026-11-11",
@@ -1426,7 +1426,7 @@
      "price": 350000
     }
    ],
-   "status": "pending"
+   "status": "gone"
   },
   "44-e-400-n-lehi": {
    "data": {
@@ -1450,7 +1450,7 @@
     "year_built": 1947
    },
    "first_seen": "2026-11-11",
-   "last_seen": "2026-11-14",
+   "last_seen": "2026-11-17",
    "price_history": [
     {
      "date": "2026-11-11",
@@ -1482,7 +1482,7 @@
      "price": 345000
     }
    ],
-   "status": "pending"
+   "status": "gone"
   },
   "453-e-100-n-salem": {
    "data": {
@@ -1507,7 +1507,7 @@
      "price": 389999
     }
    ],
-   "status": "pending"
+   "status": "gone"
   },
   "456-e-400-s-provo": {
    "data": {
@@ -1612,7 +1612,7 @@
     "url": "https://www.coldwellbankerhomes.com/ut/saratoga-springs/49-n-jordan-river-way-363/pid_72176268/"
    },
    "first_seen": "2026-11-11",
-   "last_seen": "2026-11-14",
+   "last_seen": "2026-11-17",
    "price_history": [
     {
      "date": "2026-11-11",
@@ -1661,7 +1661,7 @@
     "url": "https://www.century21.com/homes/detail/ut/provo/542-e-3400/lid-P00800000HDqSzlOU08PfHrOKUGxTqIlP0X8Zjwq"
    },
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-11",
+   "last_seen": "2026-11-17",
    "price_history": [
     {
      "date": "2026-11-07",
@@ -1759,7 +1759,7 @@
      "price": 325000
     }
    ],
-   "status": "pending"
+   "status": "gone"
   },
   "575-e-400-n-spanish-fork": {
    "data": {
@@ -1784,7 +1784,7 @@
     "year_built": 1931
    },
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-14",
+   "last_seen": "2026-11-17",
    "price_history": [
     {
      "date": "2026-11-07",
@@ -1880,7 +1880,7 @@
     "year_built": 1916
    },
    "first_seen": "2026-11-11",
-   "last_seen": "2026-11-14",
+   "last_seen": "2026-11-17",
    "price_history": [
     {
      "date": "2026-11-11",
@@ -1945,7 +1945,7 @@
     "year_built": 1913
    },
    "first_seen": "2026-11-12",
-   "last_seen": "2026-11-15",
+   "last_seen": "2026-11-17",
    "price_history": [
     {
      "date": "2026-11-12",
@@ -2112,7 +2112,7 @@
     "year_built": 1908
    },
    "first_seen": "2026-11-11",
-   "last_seen": "2026-11-14",
+   "last_seen": "2026-11-17",
    "price_history": [
     {
      "date": "2026-11-11",
@@ -2178,7 +2178,7 @@
     "year_built": 1949
    },
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-15",
+   "last_seen": "2026-11-17",
    "price_history": [
     {
      "date": "2026-11-07",
@@ -2210,7 +2210,7 @@
     "year_built": 1943
    },
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-11",
+   "last_seen": "2026-11-17",
    "price_history": [
     {
      "date": "2026-11-07",
@@ -2317,5 +2317,5 @@
    "status": "active"
   }
  },
- "updated": "2026-11-16"
+ "updated": "2026-11-17"
 }

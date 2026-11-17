@@ -323,8 +323,8 @@
   "buyer": {
     "_note": "Budget limits only (raw income and savings are deliberately not stored in this public repo). Refresh mortgage_rate weekly from Freddie Mac PMMS (published Thursdays).",
     "closing_cost_pct": 0.03,
-    "mortgage_rate": 0.0718,
-    "mortgage_rate_as_of": "2026-11-05",
+    "mortgage_rate": 0.0711,
+    "mortgage_rate_as_of": "2026-11-12",
     "term_years": 30,
     "property_tax_rate": 0.0046,
     "insurance_annual": 1400,

@@ -1,9 +1,9 @@
 {
- "updated": "2026-11-16",
+ "updated": "2026-11-17",
  "plan": {
   "closing_cost_pct": 0.03,
-  "mortgage_rate": 0.0718,
-  "mortgage_rate_as_of": "2026-11-05",
+  "mortgage_rate": 0.0711,
+  "mortgage_rate_as_of": "2026-11-12",
   "min_down_pct": 0.03,
   "max_down_pct": 0.2,
   "pmi_tiers": [
@@ -66,84 +66,6 @@
  },
  "rows": [
   {
-   "id": "562-w-utah-ave-payson",
-   "address": "562 W Utah Ave",
-   "city": "Payson",
-   "region": "South",
-   "price": 325000,
-   "beds": 4,
-   "baths": 1,
-   "sqft": 2338,
-   "price_per_sqft": 139,
-   "lot_acres": null,
-   "year_built": null,
-   "garage": null,
-   "hoa_monthly": 0,
-   "days_on_market": null,
-   "url": "https://www.century21.com/homes/detail/ut/payson/562-w-utah-ave/lid-P00800000HGzRS61ltZMnRot5VCzCeJmtf6YJofb",
-   "photo": "https://images-listings.century21.com/SL/21/81/94/7/_P/2181947_P00.jpg?format=webp&quality=70&width=800",
-   "photo_count": 43,
-   "description": null,
-   "mls": null,
-   "source": "Century21",
-   "stretch": false,
-   "fit_score": 86,
-   "score_breakdown": {
-    "profit": 30.0,
-    "affordability": 12.9,
-    "resale_layout": 12.8,
-    "value_vs_market": 14.6,
-    "condition": 10.0,
-    "price": 2.4,
-    "lot_garage": 0,
-    "hoa": 3.0,
-    "days_on_market": 0
-   },
-   "pros": [
-    "$139/sqft vs ~$195 Payson median (29% below)",
-    "Roomy: 2,338 sqft",
-    "Strong profit potential: ~$139k after fixing up and selling in 3 yrs",
-    "Clears ~$40k profit even at asking price",
-    "Dated but livable: room to add value with cosmetic updates"
-   ],
-   "cons": [
-    "Only 1 bathroom: adding a second is a common value-add",
-    "Payment ~$2,426/mo: doable but tight"
-   ],
-   "rehab_tier": "medium",
-   "market_value": 455910,
-   "arv": 510619,
-   "rehab_cost": 58450,
-   "selling_costs": 30637,
-   "buy_hold_costs": 9750,
-   "flip_profit": 86782,
-   "flip_roi_pct": 22.1,
-   "live_in_years": 3,
-   "live_in_value": 566132,
-   "live_in_gain": 138964,
-   "live_in_roi_pct": 156,
-   "max_offer": 421000,
-   "buy_closing": 9750,
-   "sale_costs": 33968,
-   "target_profit": 40000,
-   "monthly_payment": 2426,
-   "payment_level": "tight",
-   "down_pct": 0.065,
-   "pmi_monthly": 127,
-   "cash_needed": 89325,
-   "cash_ok": true,
-   "status": "pending",
-   "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
-   "price_history": [
-    {
-     "date": "2026-11-07",
-     "price": 325000
-    }
-   ],
-   "price_drop": 0
-  },
-  {
    "id": "1820-w-150-n-provo",
    "address": "1820 W 150 N",
    "city": "Provo",
@@ -182,7 +104,7 @@
     "Strong profit potential: ~$81k after fixing up and selling in 3 yrs",
     "Clears ~$40k profit even at asking price",
     "Dated but livable: room to add value with cosmetic updates",
-    "Payment ~$2,170/mo: comfortable for your budget",
+    "Payment ~$2,157/mo: comfortable for your budget",
     "Trim the fix-up by ~$5k to reach 15% down and lower PMI",
     "3+ bed / 2 bath: the layout most buyers want when you sell"
    ],
@@ -203,7 +125,7 @@
    "buy_closing": 9450,
    "sale_costs": 28251,
    "target_profit": 40000,
-   "monthly_payment": 2170,
+   "monthly_payment": 2157,
    "payment_level": "comfortable",
    "down_pct": 0.135,
    "pmi_monthly": 86,
@@ -242,10 +164,10 @@
    "mls": "2186884",
    "source": "Coldwell Banker",
    "stretch": false,
-   "fit_score": 75,
+   "fit_score": 76,
    "score_breakdown": {
     "profit": 20.7,
-    "affordability": 12.6,
+    "affordability": 12.8,
     "resale_layout": 12.8,
     "value_vs_market": 10.2,
     "condition": 10.0,
@@ -267,7 +189,7 @@
    "cons": [
     "Only 1 bathroom: adding a second is a common value-add",
     "Built 1941: check for lead paint, the electrical, and the sewer line",
-    "Payment ~$2,451/mo: doable but tight"
+    "Payment ~$2,436/mo: doable but tight"
    ],
    "rehab_tier": "medium",
    "market_value": 401336,
@@ -285,7 +207,7 @@
    "buy_closing": 10350,
    "sale_costs": 29902,
    "target_profit": 40000,
-   "monthly_payment": 2451,
+   "monthly_payment": 2436,
    "payment_level": "tight",
    "down_pct": 0.1,
    "pmi_monthly": 98,
@@ -293,7 +215,7 @@
    "cash_ok": true,
    "status": "active",
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-14",
+   "last_seen": "2026-11-17",
    "price_history": [
     {
      "date": "2026-11-07",
@@ -327,7 +249,7 @@
    "fit_score": 73,
    "score_breakdown": {
     "profit": 26.2,
-    "affordability": 13.0,
+    "affordability": 13.1,
     "resale_layout": 11.2,
     "value_vs_market": 9.4,
     "condition": 4.5,
@@ -348,7 +270,7 @@
     "Only 1 bathroom: adding a second is a common value-add",
     "Built 1934: check for lead paint, the electrical, and the sewer line",
     "Already updated: little left for you to add value",
-    "Payment ~$2,420/mo: doable but tight"
+    "Payment ~$2,406/mo: doable but tight"
    ],
    "rehab_tier": "light",
    "market_value": 417560,
@@ -366,7 +288,7 @@
    "buy_closing": 11097,
    "sale_costs": 31111,
    "target_profit": 40000,
-   "monthly_payment": 2420,
+   "monthly_payment": 2406,
    "payment_level": "tight",
    "down_pct": 0.16,
    "pmi_monthly": 57,
@@ -374,7 +296,7 @@
    "cash_ok": true,
    "status": "active",
    "first_seen": "2026-11-15",
-   "last_seen": "2026-11-16",
+   "last_seen": "2026-11-17",
    "price_history": [
     {
      "date": "2026-11-15",
@@ -423,7 +345,7 @@
     "Big lot: 0.50 ac",
     "Offer $274k or less to clear ~$40k profit",
     "Dated but livable: room to add value with cosmetic updates",
-    "Payment ~$1,909/mo: comfortable for your budget",
+    "Payment ~$1,898/mo: comfortable for your budget",
     "Trim the fix-up by ~$4k to reach 15% down and lower PMI"
    ],
    "cons": [
@@ -446,7 +368,7 @@
    "buy_closing": 8250,
    "sale_costs": 23421,
    "target_profit": 40000,
-   "monthly_payment": 1909,
+   "monthly_payment": 1898,
    "payment_level": "comfortable",
    "down_pct": 0.135,
    "pmi_monthly": 75,
@@ -459,87 +381,6 @@
     {
      "date": "2026-11-07",
      "price": 275000
-    }
-   ],
-   "price_drop": 0
-  },
-  {
-   "id": "257-s-200-w-payson",
-   "address": "257 S 200 W",
-   "city": "Payson",
-   "region": "South",
-   "price": 300000,
-   "beds": 4,
-   "baths": 2,
-   "sqft": 1574,
-   "price_per_sqft": 191,
-   "lot_acres": 0.21,
-   "year_built": 1941,
-   "garage": true,
-   "hoa_monthly": 0,
-   "days_on_market": 68,
-   "url": "https://www.century21.com/homes/detail/ut/payson/257-s-200/lid-P00800000HGEWriwvOTRVyslT2wntlWfQvogh5az",
-   "photo": "https://images-listings.century21.com/SL/21/80/91/9/_P/2180919_P00.jpg?format=webp&quality=70&width=800",
-   "photo_count": 28,
-   "description": "Sold as-is, suited to investor or renovator. Fenced yard, covered deck, detached 1-car garage.",
-   "mls": "2180919",
-   "source": "Century21",
-   "stretch": false,
-   "fit_score": 66,
-   "score_breakdown": {
-    "profit": 15.7,
-    "affordability": 7.7,
-    "resale_layout": 15.0,
-    "value_vs_market": 10.9,
-    "condition": 3.5,
-    "price": 3.3,
-    "lot_garage": 5.0,
-    "hoa": 3.0,
-    "days_on_market": 2.0
-   },
-   "pros": [
-    "$191/sqft vs ~$228 Payson median (16% below)",
-    "Big lot: 0.21 ac",
-    "Has a garage",
-    "On market 68 days: room to negotiate",
-    "Clears ~$40k profit even at asking price",
-    "3+ bed / 2 bath: the layout most buyers want when you sell"
-   ],
-   "cons": [
-    "Built 1941: check for lead paint, the electrical, and the sewer line",
-    "Heavy fixer: may be hard to live in or finance while you work on it",
-    "Payment ~$2,361/mo: doable but tight",
-    "Needs ~$105k cash to buy and fix: more than your cash budget"
-   ],
-   "rehab_tier": "heavy",
-   "market_value": 358872,
-   "arv": 429855,
-   "rehab_cost": 86570,
-   "selling_costs": 25791,
-   "buy_hold_costs": 9000,
-   "flip_profit": 8494,
-   "flip_roi_pct": 2.1,
-   "live_in_years": 3,
-   "live_in_value": 476588,
-   "live_in_gain": 52423,
-   "live_in_roi_pct": 50,
-   "max_offer": 312000,
-   "buy_closing": 9000,
-   "sale_costs": 28595,
-   "target_profit": 40000,
-   "monthly_payment": 2361,
-   "payment_level": "tight",
-   "down_pct": 0.03,
-   "pmi_monthly": 158,
-   "cash_needed": 104570,
-   "cash_ok": false,
-   "status": "pending",
-   "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
-   "price_history": [
-    {
-     "date": "2026-11-07",
-     "price": 300000
     }
    ],
    "price_drop": 0
@@ -566,10 +407,10 @@
    "mls": "2169785",
    "source": "Century21",
    "stretch": true,
-   "fit_score": 65,
+   "fit_score": 66,
    "score_breakdown": {
     "profit": 19.6,
-    "affordability": 7.6,
+    "affordability": 7.8,
     "resale_layout": 15.0,
     "value_vs_market": 9.9,
     "condition": 10.0,
@@ -588,7 +429,7 @@
    ],
    "cons": [
     "Stretch: $5k over your $380k target",
-    "Payment ~$2,866/mo: likely more than you'd want to carry"
+    "Payment ~$2,849/mo: likely more than you'd want to carry"
    ],
    "rehab_tier": "medium",
    "market_value": 442380,
@@ -606,7 +447,7 @@
    "buy_closing": 11547,
    "sale_costs": 32960,
    "target_profit": 40000,
-   "monthly_payment": 2866,
+   "monthly_payment": 2849,
    "payment_level": "high",
    "down_pct": 0.06,
    "pmi_monthly": 151,
@@ -614,7 +455,7 @@
    "cash_ok": true,
    "status": "pending",
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-15",
+   "last_seen": "2026-11-17",
    "price_history": [
     {
      "date": "2026-11-07",
@@ -645,10 +486,10 @@
    "mls": "2186244",
    "source": "Coldwell Banker",
    "stretch": false,
-   "fit_score": 65,
+   "fit_score": 66,
    "score_breakdown": {
     "profit": 10.8,
-    "affordability": 14.9,
+    "affordability": 15.0,
     "resale_layout": 15.0,
     "value_vs_market": 7.9,
     "condition": 10.0,
@@ -660,12 +501,12 @@
    "pros": [
     "Offer $325k or less to clear ~$40k profit",
     "Dated but livable: room to add value with cosmetic updates",
+    "Payment ~$2,247/mo: comfortable for your budget",
     "Trim the fix-up by ~$5k to reach 15% down and lower PMI",
     "3+ bed / 2 bath: the layout most buyers want when you sell"
    ],
    "cons": [
-    "Built 1882: check for lead paint, the electrical, and the sewer line",
-    "Payment ~$2,261/mo: doable but tight"
+    "Built 1882: check for lead paint, the electrical, and the sewer line"
    ],
    "rehab_tier": "medium",
    "market_value": 351664,
@@ -683,8 +524,8 @@
    "buy_closing": 9870,
    "sale_costs": 26201,
    "target_profit": 40000,
-   "monthly_payment": 2261,
-   "payment_level": "tight",
+   "monthly_payment": 2247,
+   "payment_level": "comfortable",
    "down_pct": 0.135,
    "pmi_monthly": 90,
    "cash_needed": 89735,
@@ -722,10 +563,10 @@
    "mls": null,
    "source": "Century21",
    "stretch": false,
-   "fit_score": 64,
+   "fit_score": 65,
    "score_breakdown": {
     "profit": 16.0,
-    "affordability": 10.0,
+    "affordability": 10.2,
     "resale_layout": 15.0,
     "value_vs_market": 9.3,
     "condition": 10.0,
@@ -742,7 +583,7 @@
     "3+ bed / 2 bath: the layout most buyers want when you sell"
    ],
    "cons": [
-    "Payment ~$2,664/mo: doable but tight"
+    "Payment ~$2,648/mo: doable but tight"
    ],
    "rehab_tier": "medium",
    "market_value": 408804,
@@ -760,7 +601,7 @@
    "buy_closing": 10920,
    "sale_costs": 30458,
    "target_profit": 40000,
-   "monthly_payment": 2664,
+   "monthly_payment": 2648,
    "payment_level": "tight",
    "down_pct": 0.08,
    "pmi_monthly": 140,
@@ -802,7 +643,7 @@
    "fit_score": 63,
    "score_breakdown": {
     "profit": 14.0,
-    "affordability": 9.8,
+    "affordability": 10.0,
     "resale_layout": 11.2,
     "value_vs_market": 8.6,
     "condition": 10.0,
@@ -823,7 +664,7 @@
    "cons": [
     "Only 1 bathroom: adding a second is a common value-add",
     "Built 1903: check for lead paint, the electrical, and the sewer line",
-    "Payment ~$2,679/mo: doable but tight"
+    "Payment ~$2,663/mo: doable but tight"
    ],
    "rehab_tier": "medium",
    "market_value": 405000,
@@ -841,7 +682,7 @@
    "buy_closing": 11097,
    "sale_costs": 30175,
    "target_profit": 40000,
-   "monthly_payment": 2679,
+   "monthly_payment": 2663,
    "payment_level": "tight",
    "down_pct": 0.09,
    "pmi_monthly": 140,
@@ -895,7 +736,7 @@
    "pros": [
     "On market 46 days: room to negotiate",
     "Clears ~$40k profit even at asking price",
-    "Payment ~$2,209/mo: comfortable for your budget"
+    "Payment ~$2,196/mo: comfortable for your budget"
    ],
    "cons": [
     "Only 1 bathroom: adding a second is a common value-add",
@@ -919,7 +760,7 @@
    "buy_closing": 8700,
    "sale_costs": 25932,
    "target_profit": 40000,
-   "monthly_payment": 2209,
+   "monthly_payment": 2196,
    "payment_level": "comfortable",
    "down_pct": 0.05,
    "pmi_monthly": 115,
@@ -927,11 +768,91 @@
    "cash_ok": true,
    "status": "active",
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-14",
+   "last_seen": "2026-11-17",
    "price_history": [
     {
      "date": "2026-11-07",
      "price": 290000
+    }
+   ],
+   "price_drop": 0
+  },
+  {
+   "id": "191-w-100-s-spanish-fork",
+   "address": "191 W 100 S",
+   "city": "Spanish Fork",
+   "region": "South",
+   "price": 375000,
+   "beds": 3,
+   "baths": 1,
+   "sqft": 1792,
+   "price_per_sqft": 209,
+   "lot_acres": 0.15,
+   "year_built": 1942,
+   "garage": true,
+   "hoa_monthly": 0,
+   "days_on_market": 50,
+   "url": "https://www.coldwellbankerhomes.com/ut/spanish-fork/191-w-100-s/pid_73812969/",
+   "photo": "https://images-listings.century21.com/SL/21/86/21/8/_P/2186218_P00.jpg?format=webp&quality=70&width=800",
+   "photo_count": 25,
+   "description": "Back on market after buyer fell through. Updated: new plumbing, electrical, furnace, A/C, water heater, softener and roof, 2023 flooring and remodeled bath. Appliances included. Walkable to library, sports park and shopping. Terms: cash, conventional, FHA.",
+   "mls": "2186218",
+   "source": "Coldwell Banker",
+   "stretch": false,
+   "fit_score": 61,
+   "score_breakdown": {
+    "profit": 11.9,
+    "affordability": 9.6,
+    "resale_layout": 11.2,
+    "value_vs_market": 8.1,
+    "condition": 10.0,
+    "price": 0.7,
+    "lot_garage": 4.0,
+    "hoa": 3.0,
+    "days_on_market": 2.0
+   },
+   "pros": [
+    "Roomy: 1,792 sqft",
+    "Has a garage",
+    "On market 50 days: room to negotiate",
+    "Clears ~$40k profit even at asking price",
+    "Dated but livable: room to add value with cosmetic updates",
+    "Trim the fix-up by ~$4k to reach 10% down and lower PMI"
+   ],
+   "cons": [
+    "Only 1 bathroom: adding a second is a common value-add",
+    "Built 1942: check for lead paint, the electrical, and the sewer line",
+    "Payment ~$2,698/mo: doable but tight"
+   ],
+   "rehab_tier": "medium",
+   "market_value": 403200,
+   "arv": 451584,
+   "rehab_cost": 44800,
+   "selling_costs": 27095,
+   "buy_hold_costs": 11250,
+   "flip_profit": -6561,
+   "flip_roi_pct": -1.5,
+   "live_in_years": 3,
+   "live_in_value": 500679,
+   "live_in_gain": 39588,
+   "live_in_roi_pct": 44,
+   "max_offer": 375000,
+   "buy_closing": 11250,
+   "sale_costs": 30041,
+   "target_profit": 40000,
+   "monthly_payment": 2698,
+   "payment_level": "tight",
+   "down_pct": 0.09,
+   "pmi_monthly": 142,
+   "cash_needed": 89800,
+   "cash_ok": true,
+   "status": "active",
+   "first_seen": "2026-11-07",
+   "last_seen": "2026-11-15",
+   "price_history": [
+    {
+     "date": "2026-11-07",
+     "price": 375000
     }
    ],
    "price_drop": 0
@@ -961,7 +882,7 @@
    "fit_score": 61,
    "score_breakdown": {
     "profit": 28.1,
-    "affordability": 4.1,
+    "affordability": 4.3,
     "resale_layout": 15.0,
     "value_vs_market": 15.0,
     "condition": 3.5,
@@ -985,7 +906,7 @@
     "Built 1973: check for lead paint, the electrical, and the sewer line",
     "Heavy fixer: may be hard to live in or finance while you work on it",
     "Cash offers only: you can't use a mortgage",
-    "Payment ~$2,660/mo: doable but tight",
+    "Payment ~$2,644/mo: doable but tight",
     "Needs ~$143k cash to buy and fix: more than your cash budget"
    ],
    "rehab_tier": "heavy",
@@ -1004,7 +925,7 @@
    "buy_closing": 10200,
    "sale_costs": 36189,
    "target_profit": 40000,
-   "monthly_payment": 2660,
+   "monthly_payment": 2644,
    "payment_level": "tight",
    "down_pct": 0.03,
    "pmi_monthly": 179,
@@ -1017,86 +938,6 @@
     {
      "date": "2026-11-07",
      "price": 340000
-    }
-   ],
-   "price_drop": 0
-  },
-  {
-   "id": "191-w-100-s-spanish-fork",
-   "address": "191 W 100 S",
-   "city": "Spanish Fork",
-   "region": "South",
-   "price": 375000,
-   "beds": 3,
-   "baths": 1,
-   "sqft": 1792,
-   "price_per_sqft": 209,
-   "lot_acres": 0.15,
-   "year_built": 1942,
-   "garage": true,
-   "hoa_monthly": 0,
-   "days_on_market": 50,
-   "url": "https://www.coldwellbankerhomes.com/ut/spanish-fork/191-w-100-s/pid_73812969/",
-   "photo": "https://images-listings.century21.com/SL/21/86/21/8/_P/2186218_P00.jpg?format=webp&quality=70&width=800",
-   "photo_count": 25,
-   "description": "Back on market after buyer fell through. Updated: new plumbing, electrical, furnace, A/C, water heater, softener and roof, 2023 flooring and remodeled bath. Appliances included. Walkable to library, sports park and shopping. Terms: cash, conventional, FHA.",
-   "mls": "2186218",
-   "source": "Coldwell Banker",
-   "stretch": false,
-   "fit_score": 60,
-   "score_breakdown": {
-    "profit": 11.9,
-    "affordability": 9.4,
-    "resale_layout": 11.2,
-    "value_vs_market": 8.1,
-    "condition": 10.0,
-    "price": 0.7,
-    "lot_garage": 4.0,
-    "hoa": 3.0,
-    "days_on_market": 2.0
-   },
-   "pros": [
-    "Roomy: 1,792 sqft",
-    "Has a garage",
-    "On market 50 days: room to negotiate",
-    "Clears ~$40k profit even at asking price",
-    "Dated but livable: room to add value with cosmetic updates",
-    "Trim the fix-up by ~$4k to reach 10% down and lower PMI"
-   ],
-   "cons": [
-    "Only 1 bathroom: adding a second is a common value-add",
-    "Built 1942: check for lead paint, the electrical, and the sewer line",
-    "Payment ~$2,714/mo: doable but tight"
-   ],
-   "rehab_tier": "medium",
-   "market_value": 403200,
-   "arv": 451584,
-   "rehab_cost": 44800,
-   "selling_costs": 27095,
-   "buy_hold_costs": 11250,
-   "flip_profit": -6561,
-   "flip_roi_pct": -1.5,
-   "live_in_years": 3,
-   "live_in_value": 500679,
-   "live_in_gain": 39588,
-   "live_in_roi_pct": 44,
-   "max_offer": 375000,
-   "buy_closing": 11250,
-   "sale_costs": 30041,
-   "target_profit": 40000,
-   "monthly_payment": 2714,
-   "payment_level": "tight",
-   "down_pct": 0.09,
-   "pmi_monthly": 142,
-   "cash_needed": 89800,
-   "cash_ok": true,
-   "status": "active",
-   "first_seen": "2026-11-07",
-   "last_seen": "2026-11-15",
-   "price_history": [
-    {
-     "date": "2026-11-07",
-     "price": 375000
     }
    ],
    "price_drop": 0
@@ -1140,7 +981,7 @@
     "Roomy: 1,767 sqft",
     "Strong profit potential: ~$63k after fixing up and selling in 3 yrs",
     "Clears ~$40k profit even at asking price",
-    "Payment ~$2,174/mo: comfortable for your budget"
+    "Payment ~$2,161/mo: comfortable for your budget"
    ],
    "cons": [
     "No garage",
@@ -1165,7 +1006,7 @@
    "buy_closing": 8250,
    "sale_costs": 28305,
    "target_profit": 40000,
-   "monthly_payment": 2174,
+   "monthly_payment": 2161,
    "payment_level": "comfortable",
    "down_pct": 0.03,
    "pmi_monthly": 144,
@@ -1207,7 +1048,7 @@
    "fit_score": 60,
    "score_breakdown": {
     "profit": 11.2,
-    "affordability": 8.2,
+    "affordability": 8.4,
     "resale_layout": 15.0,
     "value_vs_market": 7.9,
     "condition": 10.0,
@@ -1228,7 +1069,7 @@
    "cons": [
     "Stretch: $5k over your $380k target",
     "Built 1951: check for lead paint, the electrical, and the sewer line",
-    "Payment ~$2,811/mo: likely more than you'd want to carry"
+    "Payment ~$2,795/mo: likely more than you'd want to carry"
    ],
    "rehab_tier": "medium",
    "market_value": 411212,
@@ -1246,7 +1087,7 @@
    "buy_closing": 11550,
    "sale_costs": 30638,
    "target_profit": 40000,
-   "monthly_payment": 2811,
+   "monthly_payment": 2795,
    "payment_level": "high",
    "down_pct": 0.08,
    "pmi_monthly": 148,
@@ -1259,6 +1100,86 @@
     {
      "date": "2026-11-07",
      "price": 385000
+    }
+   ],
+   "price_drop": 0
+  },
+  {
+   "id": "393-n-900-e-payson",
+   "address": "393 N 900 E",
+   "city": "Payson",
+   "region": "South",
+   "price": 340000,
+   "beds": 3,
+   "baths": 2,
+   "sqft": 1760,
+   "price_per_sqft": 193,
+   "lot_acres": 0.17,
+   "year_built": 1967,
+   "garage": true,
+   "hoa_monthly": 0,
+   "days_on_market": 16,
+   "url": "https://www.coldwellbankerhomes.com/ut/payson/393-n-900-e/pid_74390627/",
+   "photo": "https://images-listings.century21.com/SL/21/92/46/8/_P/2192468_P00.jpg?format=webp&quality=70&width=800",
+   "photo_count": 15,
+   "description": "Tri-level Payson home that needs updates and renovation; suits buyers building equity or investors. Square footage estimated from county records.",
+   "mls": "2192468",
+   "source": "Coldwell Banker",
+   "stretch": false,
+   "fit_score": 59,
+   "score_breakdown": {
+    "profit": 17.6,
+    "affordability": 4.3,
+    "resale_layout": 15.0,
+    "value_vs_market": 9.4,
+    "condition": 3.5,
+    "price": 1.9,
+    "lot_garage": 4.0,
+    "hoa": 3.0,
+    "days_on_market": 0
+   },
+   "pros": [
+    "$193/sqft vs ~$218 Payson median (11% below)",
+    "Roomy: 1,760 sqft",
+    "Has a garage",
+    "Clears ~$40k profit even at asking price",
+    "3+ bed / 2 bath: the layout most buyers want when you sell"
+   ],
+   "cons": [
+    "Built 1967: check for lead paint, the electrical, and the sewer line",
+    "Heavy fixer: may be hard to live in or finance while you work on it",
+    "Payment ~$2,644/mo: doable but tight",
+    "Needs ~$117k cash to buy and fix: more than your cash budget"
+   ],
+   "rehab_tier": "heavy",
+   "market_value": 383680,
+   "arv": 485200,
+   "rehab_cost": 96800,
+   "selling_costs": 29112,
+   "buy_hold_costs": 10200,
+   "flip_profit": 9088,
+   "flip_roi_pct": 2.0,
+   "live_in_years": 3,
+   "live_in_value": 537950,
+   "live_in_gain": 58673,
+   "live_in_roi_pct": 50,
+   "max_offer": 358000,
+   "buy_closing": 10200,
+   "sale_costs": 32277,
+   "target_profit": 40000,
+   "monthly_payment": 2644,
+   "payment_level": "tight",
+   "down_pct": 0.03,
+   "pmi_monthly": 179,
+   "cash_needed": 117200,
+   "cash_ok": false,
+   "status": "active",
+   "first_seen": "2026-11-07",
+   "last_seen": "2026-11-16",
+   "price_history": [
+    {
+     "date": "2026-11-07",
+     "price": 340000
     }
    ],
    "price_drop": 0
@@ -1300,7 +1221,7 @@
    "pros": [
     "Clears ~$40k profit even at asking price",
     "Dated but livable: room to add value with cosmetic updates",
-    "Payment ~$2,006/mo: comfortable for your budget"
+    "Payment ~$1,993/mo: comfortable for your budget"
    ],
    "cons": [
     "2 bed / 1 bath: fewer buyers when you sell"
@@ -1321,7 +1242,7 @@
    "buy_closing": 9150,
    "sale_costs": 25046,
    "target_profit": 40000,
-   "monthly_payment": 2006,
+   "monthly_payment": 1993,
    "payment_level": "comfortable",
    "down_pct": 0.165,
    "pmi_monthly": 47,
@@ -1363,7 +1284,7 @@
    "fit_score": 59,
    "score_breakdown": {
     "profit": 9.8,
-    "affordability": 10.0,
+    "affordability": 10.2,
     "resale_layout": 15.0,
     "value_vs_market": 6.4,
     "condition": 10.0,
@@ -1383,7 +1304,7 @@
    ],
    "cons": [
     "Built 1940: check for lead paint, the electrical, and the sewer line",
-    "Payment ~$2,666/mo: doable but tight"
+    "Payment ~$2,651/mo: doable but tight"
    ],
    "rehab_tier": "medium",
    "market_value": 375180,
@@ -1401,7 +1322,7 @@
    "buy_closing": 11100,
    "sale_costs": 29110,
    "target_profit": 40000,
-   "monthly_payment": 2666,
+   "monthly_payment": 2651,
    "payment_level": "tight",
    "down_pct": 0.095,
    "pmi_monthly": 140,
@@ -1447,7 +1368,7 @@
    "fit_score": 59,
    "score_breakdown": {
     "profit": 14.3,
-    "affordability": 7.7,
+    "affordability": 7.9,
     "resale_layout": 11.2,
     "value_vs_market": 8.8,
     "condition": 10.0,
@@ -1466,7 +1387,7 @@
     "Stretch: $5k over your $380k target",
     "Only 1 bathroom: adding a second is a common value-add",
     "Built 1974: check for lead paint, the electrical, and the sewer line",
-    "Payment ~$2,853/mo: likely more than you'd want to carry"
+    "Payment ~$2,836/mo: likely more than you'd want to carry"
    ],
    "rehab_tier": "medium",
    "market_value": 425340,
@@ -1484,7 +1405,7 @@
    "buy_closing": 11550,
    "sale_costs": 31690,
    "target_profit": 40000,
-   "monthly_payment": 2853,
+   "monthly_payment": 2836,
    "payment_level": "high",
    "down_pct": 0.065,
    "pmi_monthly": 150,
@@ -1497,162 +1418,6 @@
     {
      "date": "2026-11-09",
      "price": 385000
-    }
-   ],
-   "price_drop": 0
-  },
-  {
-   "id": "1453-n-250-e-springville",
-   "address": "1453 N 250 E",
-   "city": "Springville",
-   "region": "South",
-   "price": 375000,
-   "beds": 3,
-   "baths": 3,
-   "sqft": 1888,
-   "price_per_sqft": 199,
-   "lot_acres": null,
-   "year_built": null,
-   "garage": null,
-   "hoa_monthly": 0,
-   "days_on_market": null,
-   "url": "https://www.century21.com/homes/detail/ut/springville/1453-n-250-e/lid-P00800000HFxGC70xbSEf67Ns4FDEh1j51NelEp5",
-   "photo": "https://images-listings.century21.com/SL/21/79/75/8/_P/2179758_P00.jpg?format=webp&quality=70&width=800",
-   "photo_count": 36,
-   "description": null,
-   "mls": null,
-   "source": "Century21",
-   "stretch": false,
-   "fit_score": 58,
-   "score_breakdown": {
-    "profit": 12.1,
-    "affordability": 9.1,
-    "resale_layout": 15.0,
-    "value_vs_market": 8.3,
-    "condition": 10.0,
-    "price": 0.7,
-    "lot_garage": 0,
-    "hoa": 3.0,
-    "days_on_market": 0
-   },
-   "pros": [
-    "Roomy: 1,888 sqft",
-    "Clears ~$40k profit even at asking price",
-    "Dated but livable: room to add value with cosmetic updates",
-    "3+ bed / 2 bath: the layout most buyers want when you sell"
-   ],
-   "cons": [
-    "Payment ~$2,741/mo: doable but tight"
-   ],
-   "rehab_tier": "medium",
-   "market_value": 405920,
-   "arv": 454630,
-   "rehab_cost": 47200,
-   "selling_costs": 27278,
-   "buy_hold_costs": 11250,
-   "flip_profit": -6097,
-   "flip_roi_pct": -1.4,
-   "live_in_years": 3,
-   "live_in_value": 504056,
-   "live_in_gain": 40363,
-   "live_in_roi_pct": 46,
-   "max_offer": 375000,
-   "buy_closing": 11250,
-   "sale_costs": 30243,
-   "target_profit": 40000,
-   "monthly_payment": 2741,
-   "payment_level": "tight",
-   "down_pct": 0.08,
-   "pmi_monthly": 144,
-   "cash_needed": 88450,
-   "cash_ok": true,
-   "status": "pending",
-   "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
-   "price_history": [
-    {
-     "date": "2026-11-07",
-     "price": 375000
-    }
-   ],
-   "price_drop": 0
-  },
-  {
-   "id": "393-n-900-e-payson",
-   "address": "393 N 900 E",
-   "city": "Payson",
-   "region": "South",
-   "price": 340000,
-   "beds": 3,
-   "baths": 2,
-   "sqft": 1760,
-   "price_per_sqft": 193,
-   "lot_acres": 0.17,
-   "year_built": 1967,
-   "garage": true,
-   "hoa_monthly": 0,
-   "days_on_market": 16,
-   "url": "https://www.coldwellbankerhomes.com/ut/payson/393-n-900-e/pid_74390627/",
-   "photo": "https://images-listings.century21.com/SL/21/92/46/8/_P/2192468_P00.jpg?format=webp&quality=70&width=800",
-   "photo_count": 15,
-   "description": "Tri-level Payson home that needs updates and renovation; suits buyers building equity or investors. Square footage estimated from county records.",
-   "mls": "2192468",
-   "source": "Coldwell Banker",
-   "stretch": false,
-   "fit_score": 58,
-   "score_breakdown": {
-    "profit": 17.6,
-    "affordability": 4.1,
-    "resale_layout": 15.0,
-    "value_vs_market": 9.4,
-    "condition": 3.5,
-    "price": 1.9,
-    "lot_garage": 4.0,
-    "hoa": 3.0,
-    "days_on_market": 0
-   },
-   "pros": [
-    "$193/sqft vs ~$218 Payson median (11% below)",
-    "Roomy: 1,760 sqft",
-    "Has a garage",
-    "Clears ~$40k profit even at asking price",
-    "3+ bed / 2 bath: the layout most buyers want when you sell"
-   ],
-   "cons": [
-    "Built 1967: check for lead paint, the electrical, and the sewer line",
-    "Heavy fixer: may be hard to live in or finance while you work on it",
-    "Payment ~$2,660/mo: doable but tight",
-    "Needs ~$117k cash to buy and fix: more than your cash budget"
-   ],
-   "rehab_tier": "heavy",
-   "market_value": 383680,
-   "arv": 485200,
-   "rehab_cost": 96800,
-   "selling_costs": 29112,
-   "buy_hold_costs": 10200,
-   "flip_profit": 9088,
-   "flip_roi_pct": 2.0,
-   "live_in_years": 3,
-   "live_in_value": 537950,
-   "live_in_gain": 58673,
-   "live_in_roi_pct": 50,
-   "max_offer": 358000,
-   "buy_closing": 10200,
-   "sale_costs": 32277,
-   "target_profit": 40000,
-   "monthly_payment": 2660,
-   "payment_level": "tight",
-   "down_pct": 0.03,
-   "pmi_monthly": 179,
-   "cash_needed": 117200,
-   "cash_ok": false,
-   "status": "active",
-   "first_seen": "2026-11-07",
-   "last_seen": "2026-11-16",
-   "price_history": [
-    {
-     "date": "2026-11-07",
-     "price": 340000
     }
    ],
    "price_drop": 0
@@ -1682,7 +1447,7 @@
    "fit_score": 56,
    "score_breakdown": {
     "profit": 12.5,
-    "affordability": 12.7,
+    "affordability": 12.9,
     "resale_layout": 15.0,
     "value_vs_market": 6.5,
     "condition": 4.5,
@@ -1699,7 +1464,7 @@
    "cons": [
     "HOA $76/mo",
     "Already updated: little left for you to add value",
-    "Payment ~$2,440/mo: doable but tight"
+    "Payment ~$2,426/mo: doable but tight"
    ],
    "rehab_tier": "light",
    "market_value": 371280,
@@ -1717,7 +1482,7 @@
    "buy_closing": 10950,
    "sale_costs": 27663,
    "target_profit": 40000,
-   "monthly_payment": 2440,
+   "monthly_payment": 2426,
    "payment_level": "tight",
    "down_pct": 0.17,
    "pmi_monthly": 56,
@@ -1759,7 +1524,7 @@
    "fit_score": 56,
    "score_breakdown": {
     "profit": 9.1,
-    "affordability": 9.9,
+    "affordability": 10.1,
     "resale_layout": 15.0,
     "value_vs_market": 4.0,
     "condition": 10.0,
@@ -1778,7 +1543,7 @@
    "cons": [
     "No garage",
     "Built 1913: check for lead paint, the electrical, and the sewer line",
-    "Payment ~$2,671/mo: doable but tight"
+    "Payment ~$2,655/mo: doable but tight"
    ],
    "rehab_tier": "medium",
    "market_value": 355580,
@@ -1796,7 +1561,7 @@
    "buy_closing": 11385,
    "sale_costs": 29359,
    "target_profit": 40000,
-   "monthly_payment": 2671,
+   "monthly_payment": 2655,
    "payment_level": "tight",
    "down_pct": 0.105,
    "pmi_monthly": 108,
@@ -1835,10 +1600,10 @@
    "mls": "2191682",
    "source": "Century21",
    "stretch": false,
-   "fit_score": 54,
+   "fit_score": 55,
    "score_breakdown": {
     "profit": 10.5,
-    "affordability": 9.8,
+    "affordability": 10.0,
     "resale_layout": 15.0,
     "value_vs_market": 5.3,
     "condition": 10.0,
@@ -1855,7 +1620,7 @@
     "3+ bed / 2 bath: the layout most buyers want when you sell"
    ],
    "cons": [
-    "Payment ~$2,679/mo: doable but tight"
+    "Payment ~$2,663/mo: doable but tight"
    ],
    "rehab_tier": "medium",
    "market_value": 361152,
@@ -1873,7 +1638,7 @@
    "buy_closing": 11097,
    "sale_costs": 29460,
    "target_profit": 40000,
-   "monthly_payment": 2679,
+   "monthly_payment": 2663,
    "payment_level": "tight",
    "down_pct": 0.09,
    "pmi_monthly": 140,
@@ -1915,7 +1680,7 @@
    "fit_score": 54,
    "score_breakdown": {
     "profit": 11.7,
-    "affordability": 14.9,
+    "affordability": 15.0,
     "resale_layout": 11.2,
     "value_vs_market": 6.0,
     "condition": 3.5,
@@ -1929,14 +1694,14 @@
     "Big lot: 0.38 ac",
     "On market 132 days: room to negotiate",
     "RV parking",
-    "Offer $298k or less to clear ~$40k profit"
+    "Offer $298k or less to clear ~$40k profit",
+    "Payment ~$2,243/mo: comfortable for your budget"
    ],
    "cons": [
     "Only 1 bathroom: adding a second is a common value-add",
     "Built 1909: check for lead paint, the electrical, and the sewer line",
     "Heavy fixer: may be hard to live in or finance while you work on it",
-    "May not qualify for FHA financing",
-    "Payment ~$2,256/mo: doable but tight"
+    "May not qualify for FHA financing"
    ],
    "rehab_tier": "heavy",
    "market_value": 299294,
@@ -1954,15 +1719,15 @@
    "buy_closing": 8985,
    "sale_costs": 26169,
    "target_profit": 40000,
-   "monthly_payment": 2256,
-   "payment_level": "tight",
+   "monthly_payment": 2243,
+   "payment_level": "comfortable",
    "down_pct": 0.06,
    "pmi_monthly": 117,
    "cash_needed": 89545,
    "cash_ok": true,
    "status": "active",
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-11",
+   "last_seen": "2026-11-17",
    "price_history": [
     {
      "date": "2026-11-07",
@@ -1996,7 +1761,7 @@
    "fit_score": 52,
    "score_breakdown": {
     "profit": 10.6,
-    "affordability": 8.2,
+    "affordability": 8.4,
     "resale_layout": 12.8,
     "value_vs_market": 7.1,
     "condition": 10.0,
@@ -2013,7 +1778,7 @@
    "cons": [
     "Stretch: $5k over your $380k target",
     "Only 1 bathroom: adding a second is a common value-add",
-    "Payment ~$2,811/mo: likely more than you'd want to carry"
+    "Payment ~$2,795/mo: likely more than you'd want to carry"
    ],
    "rehab_tier": "medium",
    "market_value": 399714,
@@ -2031,7 +1796,7 @@
    "buy_closing": 11550,
    "sale_costs": 30513,
    "target_profit": 40000,
-   "monthly_payment": 2811,
+   "monthly_payment": 2795,
    "payment_level": "high",
    "down_pct": 0.08,
    "pmi_monthly": 148,
@@ -2044,6 +1809,169 @@
     {
      "date": "2026-11-07",
      "price": 385000
+    }
+   ],
+   "price_drop": 0
+  },
+  {
+   "id": "742-w-400-s-payson",
+   "address": "742 W 400 S",
+   "city": "Payson",
+   "region": "South",
+   "price": 375000,
+   "beds": 4,
+   "baths": 2,
+   "sqft": 1966,
+   "price_per_sqft": 191,
+   "lot_acres": 0.18,
+   "year_built": 1940,
+   "garage": true,
+   "hoa_monthly": 0,
+   "days_on_market": 262,
+   "url": "https://www.coldwellbankerhomes.com/ut/payson/742-w-400-s/pid_69680488/",
+   "photo": "https://images-listings.century21.com/SL/21/37/67/5/_P/2137675_P00.jpg?format=webp&quality=70&width=800",
+   "photo_count": 26,
+   "description": "Single-level ranch, 4 bed 2 bath on main plus finished basement. Evaporative cooling, fenced yard, patio, shed. Short sale requiring third-party approval, sold as is.",
+   "mls": "2137675",
+   "source": "Century21",
+   "stretch": false,
+   "fit_score": 52,
+   "score_breakdown": {
+    "profit": 19.6,
+    "affordability": 1.1,
+    "resale_layout": 15.0,
+    "value_vs_market": 8.6,
+    "condition": 3.5,
+    "price": 0.7,
+    "lot_garage": 4.0,
+    "hoa": 3.0,
+    "days_on_market": 2.0,
+    "dealbreakers": -6
+   },
+   "pros": [
+    "Roomy: 1,966 sqft",
+    "Has a garage",
+    "On market 262 days: room to negotiate",
+    "Strong profit potential: ~$65k after fixing up and selling in 3 yrs",
+    "Clears ~$40k profit even at asking price",
+    "3+ bed / 2 bath: the layout most buyers want when you sell"
+   ],
+   "cons": [
+    "Built 1940: check for lead paint, the electrical, and the sewer line",
+    "Heavy fixer: may be hard to live in or finance while you work on it",
+    "Short sale: needs bank approval, which can take months",
+    "Payment ~$2,904/mo: likely more than you'd want to carry",
+    "Needs ~$131k cash to buy and fix: more than your cash budget"
+   ],
+   "rehab_tier": "heavy",
+   "market_value": 410894,
+   "arv": 537195,
+   "rehab_cost": 108130,
+   "selling_costs": 32232,
+   "buy_hold_costs": 11250,
+   "flip_profit": 10583,
+   "flip_roi_pct": 2.1,
+   "live_in_years": 3,
+   "live_in_value": 595598,
+   "live_in_gain": 65482,
+   "live_in_roi_pct": 50,
+   "max_offer": 400000,
+   "buy_closing": 11250,
+   "sale_costs": 35736,
+   "target_profit": 40000,
+   "monthly_payment": 2904,
+   "payment_level": "high",
+   "down_pct": 0.03,
+   "pmi_monthly": 197,
+   "cash_needed": 130630,
+   "cash_ok": false,
+   "status": "active",
+   "first_seen": "2026-11-07",
+   "last_seen": "2026-11-15",
+   "price_history": [
+    {
+     "date": "2026-11-07",
+     "price": 375000
+    }
+   ],
+   "price_drop": 0
+  },
+  {
+   "id": "244-e-center-st-spanish-fork",
+   "address": "244 E Center St",
+   "city": "Spanish Fork",
+   "region": "South",
+   "price": 380000,
+   "beds": 2,
+   "baths": 1,
+   "sqft": 1680,
+   "price_per_sqft": 226,
+   "lot_acres": 0.18,
+   "year_built": 1939,
+   "garage": true,
+   "hoa_monthly": 0,
+   "days_on_market": 69,
+   "url": "https://www.coldwellbankerhomes.com/ut/spanish-fork/244-e-center-st/pid_73348577/",
+   "photo": "https://images-listings.century21.com/SL/21/82/22/8/_P/2182228_P00.jpg?format=webp&quality=70&width=800",
+   "photo_count": 21,
+   "description": "Brick home in the center of town, two bedrooms and one bath, mature yard, covered patio.",
+   "mls": "2182228",
+   "source": "Coldwell Banker",
+   "stretch": false,
+   "fit_score": 51,
+   "score_breakdown": {
+    "profit": 9.8,
+    "affordability": 9.3,
+    "resale_layout": 5.2,
+    "value_vs_market": 6.6,
+    "condition": 10.0,
+    "price": 0.5,
+    "lot_garage": 4.0,
+    "hoa": 3.0,
+    "days_on_market": 2.0
+   },
+   "pros": [
+    "Roomy: 1,680 sqft",
+    "Has a garage",
+    "On market 69 days: room to negotiate",
+    "Offer $373k or less to clear ~$40k profit",
+    "Dated but livable: room to add value with cosmetic updates",
+    "Trim the fix-up by ~$2k to reach 10% down and lower PMI"
+   ],
+   "cons": [
+    "Built 1939: check for lead paint, the electrical, and the sewer line",
+    "Payment ~$2,719/mo: doable but tight",
+    "2 bed / 1 bath: fewer buyers when you sell"
+   ],
+   "rehab_tier": "medium",
+   "market_value": 388080,
+   "arv": 447200,
+   "rehab_cost": 42000,
+   "selling_costs": 26832,
+   "buy_hold_costs": 11400,
+   "flip_profit": -13032,
+   "flip_roi_pct": -3.0,
+   "live_in_years": 3,
+   "live_in_value": 495819,
+   "live_in_gain": 32670,
+   "live_in_roi_pct": 37,
+   "max_offer": 373000,
+   "buy_closing": 11400,
+   "sale_costs": 29749,
+   "target_profit": 40000,
+   "monthly_payment": 2719,
+   "payment_level": "tight",
+   "down_pct": 0.095,
+   "pmi_monthly": 143,
+   "cash_needed": 89500,
+   "cash_ok": true,
+   "status": "active",
+   "first_seen": "2026-11-09",
+   "last_seen": "2026-11-15",
+   "price_history": [
+    {
+     "date": "2026-11-09",
+     "price": 380000
     }
    ],
    "price_drop": 0
@@ -2085,7 +2013,7 @@
    "pros": [
     "Offer $319k or less to clear ~$40k profit",
     "Dated but livable: room to add value with cosmetic updates",
-    "Payment ~$2,243/mo: comfortable for your budget",
+    "Payment ~$2,230/mo: comfortable for your budget",
     "Trim the fix-up by ~$2k to reach 15% down and lower PMI"
    ],
    "cons": [
@@ -2107,7 +2035,7 @@
    "buy_closing": 9897,
    "sale_costs": 25555,
    "target_profit": 40000,
-   "monthly_payment": 2243,
+   "monthly_payment": 2230,
    "payment_level": "comfortable",
    "down_pct": 0.145,
    "pmi_monthly": 89,
@@ -2162,7 +2090,7 @@
     "Has a garage",
     "Offer $278k or less to clear ~$40k profit",
     "Dated but livable: room to add value with cosmetic updates",
-    "Payment ~$1,907/mo: comfortable for your budget",
+    "Payment ~$1,896/mo: comfortable for your budget",
     "Trim the fix-up by ~$3k to reach 20% down and drop PMI entirely"
    ],
    "cons": [
@@ -2186,7 +2114,7 @@
    "buy_closing": 8925,
    "sale_costs": 22369,
    "target_profit": 40000,
-   "monthly_payment": 1907,
+   "monthly_payment": 1896,
    "payment_level": "comfortable",
    "down_pct": 0.19,
    "pmi_monthly": 44,
@@ -2194,7 +2122,7 @@
    "cash_ok": true,
    "status": "pending",
    "first_seen": "2026-11-11",
-   "last_seen": "2026-11-14",
+   "last_seen": "2026-11-17",
    "price_history": [
     {
      "date": "2026-11-11",
@@ -2228,7 +2156,7 @@
    "fit_score": 51,
    "score_breakdown": {
     "profit": 8.0,
-    "affordability": 11.2,
+    "affordability": 11.4,
     "resale_layout": 11.2,
     "value_vs_market": 3.0,
     "condition": 10.0,
@@ -2247,7 +2175,7 @@
     "Only 1 bathroom: adding a second is a common value-add",
     "No garage",
     "Built 1916: check for lead paint, the electrical, and the sewer line",
-    "Payment ~$2,567/mo: doable but tight"
+    "Payment ~$2,551/mo: doable but tight"
    ],
    "rehab_tier": "medium",
    "market_value": 336600,
@@ -2265,7 +2193,7 @@
    "buy_closing": 11097,
    "sale_costs": 28119,
    "target_profit": 40000,
-   "monthly_payment": 2567,
+   "monthly_payment": 2551,
    "payment_level": "tight",
    "down_pct": 0.12,
    "pmi_monthly": 103,
@@ -2273,174 +2201,11 @@
    "cash_ok": true,
    "status": "active",
    "first_seen": "2026-11-11",
-   "last_seen": "2026-11-14",
+   "last_seen": "2026-11-17",
    "price_history": [
     {
      "date": "2026-11-11",
      "price": 369900
-    }
-   ],
-   "price_drop": 0
-  },
-  {
-   "id": "742-w-400-s-payson",
-   "address": "742 W 400 S",
-   "city": "Payson",
-   "region": "South",
-   "price": 375000,
-   "beds": 4,
-   "baths": 2,
-   "sqft": 1966,
-   "price_per_sqft": 191,
-   "lot_acres": 0.18,
-   "year_built": 1940,
-   "garage": true,
-   "hoa_monthly": 0,
-   "days_on_market": 262,
-   "url": "https://www.coldwellbankerhomes.com/ut/payson/742-w-400-s/pid_69680488/",
-   "photo": "https://images-listings.century21.com/SL/21/37/67/5/_P/2137675_P00.jpg?format=webp&quality=70&width=800",
-   "photo_count": 26,
-   "description": "Single-level ranch, 4 bed 2 bath on main plus finished basement. Evaporative cooling, fenced yard, patio, shed. Short sale requiring third-party approval, sold as is.",
-   "mls": "2137675",
-   "source": "Century21",
-   "stretch": false,
-   "fit_score": 51,
-   "score_breakdown": {
-    "profit": 19.6,
-    "affordability": 0.9,
-    "resale_layout": 15.0,
-    "value_vs_market": 8.6,
-    "condition": 3.5,
-    "price": 0.7,
-    "lot_garage": 4.0,
-    "hoa": 3.0,
-    "days_on_market": 2.0,
-    "dealbreakers": -6
-   },
-   "pros": [
-    "Roomy: 1,966 sqft",
-    "Has a garage",
-    "On market 262 days: room to negotiate",
-    "Strong profit potential: ~$65k after fixing up and selling in 3 yrs",
-    "Clears ~$40k profit even at asking price",
-    "3+ bed / 2 bath: the layout most buyers want when you sell"
-   ],
-   "cons": [
-    "Built 1940: check for lead paint, the electrical, and the sewer line",
-    "Heavy fixer: may be hard to live in or finance while you work on it",
-    "Short sale: needs bank approval, which can take months",
-    "Payment ~$2,922/mo: likely more than you'd want to carry",
-    "Needs ~$131k cash to buy and fix: more than your cash budget"
-   ],
-   "rehab_tier": "heavy",
-   "market_value": 410894,
-   "arv": 537195,
-   "rehab_cost": 108130,
-   "selling_costs": 32232,
-   "buy_hold_costs": 11250,
-   "flip_profit": 10583,
-   "flip_roi_pct": 2.1,
-   "live_in_years": 3,
-   "live_in_value": 595598,
-   "live_in_gain": 65482,
-   "live_in_roi_pct": 50,
-   "max_offer": 400000,
-   "buy_closing": 11250,
-   "sale_costs": 35736,
-   "target_profit": 40000,
-   "monthly_payment": 2922,
-   "payment_level": "high",
-   "down_pct": 0.03,
-   "pmi_monthly": 197,
-   "cash_needed": 130630,
-   "cash_ok": false,
-   "status": "active",
-   "first_seen": "2026-11-07",
-   "last_seen": "2026-11-15",
-   "price_history": [
-    {
-     "date": "2026-11-07",
-     "price": 375000
-    }
-   ],
-   "price_drop": 0
-  },
-  {
-   "id": "244-e-center-st-spanish-fork",
-   "address": "244 E Center St",
-   "city": "Spanish Fork",
-   "region": "South",
-   "price": 380000,
-   "beds": 2,
-   "baths": 1,
-   "sqft": 1680,
-   "price_per_sqft": 226,
-   "lot_acres": 0.18,
-   "year_built": 1939,
-   "garage": true,
-   "hoa_monthly": 0,
-   "days_on_market": 69,
-   "url": "https://www.coldwellbankerhomes.com/ut/spanish-fork/244-e-center-st/pid_73348577/",
-   "photo": "https://images-listings.century21.com/SL/21/82/22/8/_P/2182228_P00.jpg?format=webp&quality=70&width=800",
-   "photo_count": 21,
-   "description": "Brick home in the center of town, two bedrooms and one bath, mature yard, covered patio.",
-   "mls": "2182228",
-   "source": "Coldwell Banker",
-   "stretch": false,
-   "fit_score": 50,
-   "score_breakdown": {
-    "profit": 9.8,
-    "affordability": 9.2,
-    "resale_layout": 5.2,
-    "value_vs_market": 6.6,
-    "condition": 10.0,
-    "price": 0.5,
-    "lot_garage": 4.0,
-    "hoa": 3.0,
-    "days_on_market": 2.0
-   },
-   "pros": [
-    "Roomy: 1,680 sqft",
-    "Has a garage",
-    "On market 69 days: room to negotiate",
-    "Offer $373k or less to clear ~$40k profit",
-    "Dated but livable: room to add value with cosmetic updates",
-    "Trim the fix-up by ~$2k to reach 10% down and lower PMI"
-   ],
-   "cons": [
-    "Built 1939: check for lead paint, the electrical, and the sewer line",
-    "Payment ~$2,735/mo: doable but tight",
-    "2 bed / 1 bath: fewer buyers when you sell"
-   ],
-   "rehab_tier": "medium",
-   "market_value": 388080,
-   "arv": 447200,
-   "rehab_cost": 42000,
-   "selling_costs": 26832,
-   "buy_hold_costs": 11400,
-   "flip_profit": -13032,
-   "flip_roi_pct": -3.0,
-   "live_in_years": 3,
-   "live_in_value": 495819,
-   "live_in_gain": 32670,
-   "live_in_roi_pct": 37,
-   "max_offer": 373000,
-   "buy_closing": 11400,
-   "sale_costs": 29749,
-   "target_profit": 40000,
-   "monthly_payment": 2735,
-   "payment_level": "tight",
-   "down_pct": 0.095,
-   "pmi_monthly": 143,
-   "cash_needed": 89500,
-   "cash_ok": true,
-   "status": "active",
-   "first_seen": "2026-11-09",
-   "last_seen": "2026-11-15",
-   "price_history": [
-    {
-     "date": "2026-11-09",
-     "price": 380000
     }
    ],
    "price_drop": 0
@@ -2470,7 +2235,7 @@
    "fit_score": 50,
    "score_breakdown": {
     "profit": 6.3,
-    "affordability": 14.3,
+    "affordability": 14.5,
     "resale_layout": 11.2,
     "value_vs_market": 0.0,
     "condition": 10.0,
@@ -2489,7 +2254,7 @@
     "Only 1 bathroom: adding a second is a common value-add",
     "No garage",
     "Built 1908: check for lead paint, the electrical, and the sewer line",
-    "Payment ~$2,308/mo: doable but tight"
+    "Payment ~$2,294/mo: doable but tight"
    ],
    "rehab_tier": "medium",
    "market_value": 285000,
@@ -2507,7 +2272,7 @@
    "buy_closing": 10497,
    "sale_costs": 25937,
    "target_profit": 40000,
-   "monthly_payment": 2308,
+   "monthly_payment": 2294,
    "payment_level": "tight",
    "down_pct": 0.155,
    "pmi_monthly": 54,
@@ -2515,7 +2280,7 @@
    "cash_ok": true,
    "status": "active",
    "first_seen": "2026-11-11",
-   "last_seen": "2026-11-14",
+   "last_seen": "2026-11-17",
    "price_history": [
     {
      "date": "2026-11-11",
@@ -2549,7 +2314,7 @@
    "fit_score": 49,
    "score_breakdown": {
     "profit": 7.3,
-    "affordability": 9.8,
+    "affordability": 10.0,
     "resale_layout": 15.0,
     "value_vs_market": 0.0,
     "condition": 10.0,
@@ -2568,7 +2333,7 @@
     "Stretch: $10k over your $380k target",
     "$335/sqft is above the ~$260 Springville median",
     "Built 1957: check for lead paint, the electrical, and the sewer line",
-    "Payment ~$2,685/mo: doable but tight"
+    "Payment ~$2,669/mo: doable but tight"
    ],
    "rehab_tier": "medium",
    "market_value": 302900,
@@ -2586,15 +2351,15 @@
    "buy_closing": 11697,
    "sale_costs": 29037,
    "target_profit": 40000,
-   "monthly_payment": 2685,
+   "monthly_payment": 2669,
    "payment_level": "tight",
    "down_pct": 0.125,
    "pmi_monthly": 108,
    "cash_needed": 89560,
    "cash_ok": true,
-   "status": "pending",
+   "status": "active",
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-11",
+   "last_seen": "2026-11-17",
    "price_history": [
     {
      "date": "2026-11-07",
@@ -2628,7 +2393,7 @@
    "fit_score": 49,
    "score_breakdown": {
     "profit": 19.6,
-    "affordability": 0.9,
+    "affordability": 1.1,
     "resale_layout": 15.0,
     "value_vs_market": 8.8,
     "condition": 3.5,
@@ -2650,7 +2415,7 @@
     "Built 1943: check for lead paint, the electrical, and the sewer line",
     "Heavy fixer: may be hard to live in or finance while you work on it",
     "Short sale: needs bank approval, which can take months",
-    "Payment ~$2,922/mo: likely more than you'd want to carry",
+    "Payment ~$2,904/mo: likely more than you'd want to carry",
     "Needs ~$130k cash to buy and fix: more than your cash budget"
    ],
    "rehab_tier": "heavy",
@@ -2669,7 +2434,7 @@
    "buy_closing": 11250,
    "sale_costs": 35703,
    "target_profit": 40000,
-   "monthly_payment": 2922,
+   "monthly_payment": 2904,
    "payment_level": "high",
    "down_pct": 0.03,
    "pmi_monthly": 197,
@@ -2711,7 +2476,7 @@
    "fit_score": 49,
    "score_breakdown": {
     "profit": 17.2,
-    "affordability": 0.5,
+    "affordability": 0.8,
     "resale_layout": 15.0,
     "value_vs_market": 3.2,
     "condition": 3.5,
@@ -2729,7 +2494,7 @@
    ],
    "cons": [
     "Heavy fixer: may be hard to live in or finance while you work on it",
-    "Payment ~$2,952/mo: likely more than you'd want to carry",
+    "Payment ~$2,934/mo: likely more than you'd want to carry",
     "Needs ~$116k cash to buy and fix: more than your cash budget"
    ],
    "rehab_tier": "heavy",
@@ -2748,7 +2513,7 @@
    "buy_closing": 11370,
    "sale_costs": 34542,
    "target_profit": 40000,
-   "monthly_payment": 2952,
+   "monthly_payment": 2934,
    "payment_level": "high",
    "down_pct": 0.03,
    "pmi_monthly": 199,
@@ -2761,80 +2526,6 @@
     {
      "date": "2026-11-13",
      "price": 379000
-    }
-   ],
-   "price_drop": 0
-  },
-  {
-   "id": "45-n-330-e-american-fork",
-   "address": "45 N 330 E",
-   "city": "American Fork",
-   "region": "North",
-   "price": 345000,
-   "beds": 2,
-   "baths": 2,
-   "sqft": 1096,
-   "price_per_sqft": 315,
-   "lot_acres": null,
-   "year_built": null,
-   "garage": null,
-   "hoa_monthly": 0,
-   "days_on_market": null,
-   "url": "https://www.century21.com/homes/detail/ut/american-fork/45-n-330-e-st/lid-P00800000HF8mVwP3ADs8RFH0H5GnwnOnvh6ngaV",
-   "photo": "https://images-listings.century21.com/SL/21/76/26/1/_P/2176261_P00.jpg?format=webp&quality=70&width=800",
-   "photo_count": 33,
-   "description": null,
-   "mls": null,
-   "source": "Century21",
-   "stretch": false,
-   "fit_score": 49,
-   "score_breakdown": {
-    "profit": 6.7,
-    "affordability": 14.5,
-    "resale_layout": 9.0,
-    "value_vs_market": 4.2,
-    "condition": 10.0,
-    "price": 1.7,
-    "lot_garage": 0,
-    "hoa": 3.0,
-    "days_on_market": 0
-   },
-   "pros": [
-    "Offer $328k or less to clear ~$40k profit",
-    "Dated but livable: room to add value with cosmetic updates"
-   ],
-   "cons": [
-    "Payment ~$2,289/mo: doable but tight"
-   ],
-   "rehab_tier": "medium",
-   "market_value": 325512,
-   "arv": 388840,
-   "rehab_cost": 27400,
-   "selling_costs": 23330,
-   "buy_hold_costs": 10350,
-   "flip_profit": -17240,
-   "flip_roi_pct": -4.5,
-   "live_in_years": 3,
-   "live_in_value": 431114,
-   "live_in_gain": 22497,
-   "live_in_roi_pct": 25,
-   "max_offer": 328000,
-   "buy_closing": 10350,
-   "sale_costs": 25867,
-   "target_profit": 40000,
-   "monthly_payment": 2289,
-   "payment_level": "tight",
-   "down_pct": 0.15,
-   "pmi_monthly": 54,
-   "cash_needed": 89500,
-   "cash_ok": true,
-   "status": "pending",
-   "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
-   "price_history": [
-    {
-     "date": "2026-11-07",
-     "price": 345000
     }
    ],
    "price_drop": 0
@@ -2864,7 +2555,7 @@
    "fit_score": 48,
    "score_breakdown": {
     "profit": 7.3,
-    "affordability": 11.1,
+    "affordability": 11.3,
     "resale_layout": 11.2,
     "value_vs_market": 1.9,
     "condition": 10.0,
@@ -2882,7 +2573,7 @@
     "$318/sqft is above the ~$279 Provo median",
     "Only 1 bathroom: adding a second is a common value-add",
     "No garage",
-    "Payment ~$2,574/mo: doable but tight"
+    "Payment ~$2,558/mo: doable but tight"
    ],
    "rehab_tier": "medium",
    "market_value": 329499,
@@ -2900,7 +2591,7 @@
    "buy_closing": 11250,
    "sale_costs": 28089,
    "target_profit": 40000,
-   "monthly_payment": 2574,
+   "monthly_payment": 2558,
    "payment_level": "tight",
    "down_pct": 0.13,
    "pmi_monthly": 103,
@@ -2942,7 +2633,7 @@
    "fit_score": 47,
    "score_breakdown": {
     "profit": 8.7,
-    "affordability": 9.1,
+    "affordability": 9.3,
     "resale_layout": 11.2,
     "value_vs_market": 2.1,
     "condition": 10.0,
@@ -2962,7 +2653,7 @@
     "Only 1 bathroom: adding a second is a common value-add",
     "No garage",
     "Built 1909: check for lead paint, the electrical, and the sewer line",
-    "Payment ~$2,741/mo: doable but tight"
+    "Payment ~$2,725/mo: doable but tight"
    ],
    "rehab_tier": "medium",
    "market_value": 345116,
@@ -2980,7 +2671,7 @@
    "buy_closing": 11700,
    "sale_costs": 29786,
    "target_profit": 40000,
-   "monthly_payment": 2741,
+   "monthly_payment": 2725,
    "payment_level": "tight",
    "down_pct": 0.105,
    "pmi_monthly": 111,
@@ -2993,6 +2684,85 @@
     {
      "date": "2026-11-07",
      "price": 390000
+    }
+   ],
+   "price_drop": 0
+  },
+  {
+   "id": "111-e-700-s-pleasant-grove",
+   "address": "111 E 700 S",
+   "city": "Pleasant Grove",
+   "region": "North",
+   "price": 385000,
+   "beds": 3,
+   "baths": 1,
+   "sqft": 1277,
+   "price_per_sqft": 301,
+   "lot_acres": 0.17,
+   "year_built": 1956,
+   "garage": true,
+   "hoa_monthly": 0,
+   "days_on_market": null,
+   "url": "https://www.coldwellbankerhomes.com/ut/pleasant-grove/111-e-700-s/pid_74376228/",
+   "photo": "https://images-listings.century21.com/SL/21/92/32/0/_P/2192320_P00.jpg?format=webp&quality=70&width=800",
+   "photo_count": 16,
+   "description": "Single-family home with two bedrooms and a flex third room with its own outside entrance (massage studio). Private yard, close to I-15.",
+   "mls": "2192320",
+   "source": "Coldwell Banker",
+   "stretch": true,
+   "fit_score": 47,
+   "score_breakdown": {
+    "profit": 7.8,
+    "affordability": 10.2,
+    "resale_layout": 11.2,
+    "value_vs_market": 0.0,
+    "condition": 10.0,
+    "price": 0.3,
+    "lot_garage": 4.0,
+    "hoa": 3.0,
+    "days_on_market": 0
+   },
+   "pros": [
+    "Has a garage",
+    "Offer $371k or less to clear ~$40k profit",
+    "Dated but livable: room to add value with cosmetic updates"
+   ],
+   "cons": [
+    "Stretch: $5k over your $380k target",
+    "$301/sqft is above the ~$251 Pleasant Grove median",
+    "Only 1 bathroom: adding a second is a common value-add",
+    "Built 1956: check for lead paint, the electrical, and the sewer line",
+    "Payment ~$2,651/mo: doable but tight"
+   ],
+   "rehab_tier": "medium",
+   "market_value": 320527,
+   "arv": 436080,
+   "rehab_cost": 31925,
+   "selling_costs": 26165,
+   "buy_hold_costs": 11550,
+   "flip_profit": -18560,
+   "flip_roi_pct": -4.3,
+   "live_in_years": 3,
+   "live_in_value": 483490,
+   "live_in_gain": 26005,
+   "live_in_roi_pct": 29,
+   "max_offer": 371000,
+   "buy_closing": 11550,
+   "sale_costs": 29009,
+   "target_profit": 40000,
+   "monthly_payment": 2651,
+   "payment_level": "tight",
+   "down_pct": 0.12,
+   "pmi_monthly": 107,
+   "cash_needed": 89675,
+   "cash_ok": true,
+   "status": "active",
+   "first_seen": "2026-11-07",
+   "last_seen": "2026-11-16",
+   "price_history": [
+    {
+     "date": "2026-11-07",
+     "price": 385000
     }
    ],
    "price_drop": 0
@@ -3022,7 +2792,7 @@
    "fit_score": 47,
    "score_breakdown": {
     "profit": 8.2,
-    "affordability": 9.6,
+    "affordability": 9.8,
     "resale_layout": 11.2,
     "value_vs_market": 0.9,
     "condition": 10.0,
@@ -3041,7 +2811,7 @@
     "$288/sqft is above the ~$246 Springville median",
     "Only 1 bathroom: adding a second is a common value-add",
     "Built 1938: check for lead paint, the electrical, and the sewer line",
-    "Payment ~$2,697/mo: doable but tight"
+    "Payment ~$2,681/mo: doable but tight"
    ],
    "rehab_tier": "medium",
    "market_value": 331116,
@@ -3059,7 +2829,7 @@
    "buy_closing": 11625,
    "sale_costs": 29359,
    "target_profit": 40000,
-   "monthly_payment": 2697,
+   "monthly_payment": 2681,
    "payment_level": "tight",
    "down_pct": 0.115,
    "pmi_monthly": 109,
@@ -3072,166 +2842,6 @@
     {
      "date": "2026-11-07",
      "price": 387500
-    }
-   ],
-   "price_drop": 0
-  },
-  {
-   "id": "395-w-400-n-orem",
-   "address": "395 W 400 N",
-   "city": "Orem",
-   "region": "Central",
-   "price": 310000,
-   "beds": 2,
-   "baths": 1,
-   "sqft": 718,
-   "price_per_sqft": 432,
-   "lot_acres": 0.12,
-   "year_built": 1942,
-   "garage": true,
-   "hoa_monthly": 0,
-   "days_on_market": 71,
-   "url": "https://www.century21.com/homes/detail/ut/orem/395-w-400-n/lid-P00800000HGJc59q3IE2lDjcJRn8annCkYVbZPIC",
-   "photo": "https://images-listings.century21.com/SL/21/81/19/6/_P/2181196_P00.jpg?format=webp&quality=70&width=800",
-   "photo_count": 24,
-   "description": null,
-   "mls": "2181196",
-   "source": "Century21",
-   "stretch": false,
-   "fit_score": 47,
-   "score_breakdown": {
-    "profit": 4.7,
-    "affordability": 15.0,
-    "resale_layout": 5.2,
-    "value_vs_market": 0.0,
-    "condition": 10.0,
-    "price": 2.9,
-    "lot_garage": 4.0,
-    "hoa": 3.0,
-    "days_on_market": 2.0
-   },
-   "pros": [
-    "Has a garage",
-    "On market 71 days: room to negotiate",
-    "Offer $286k or less to clear ~$40k profit",
-    "Dated but livable: room to add value with cosmetic updates",
-    "Payment ~$1,916/mo: comfortable for your budget"
-   ],
-   "cons": [
-    "$432/sqft is above the ~$323 Orem median",
-    "Small: 718 sqft",
-    "Built 1942: check for lead paint, the electrical, and the sewer line",
-    "Thin profit: only ~$16k after fixing up and selling in 3 yrs",
-    "2 bed / 1 bath: fewer buyers when you sell"
-   ],
-   "rehab_tier": "medium",
-   "market_value": 231914,
-   "arv": 338720,
-   "rehab_cost": 17950,
-   "selling_costs": 20323,
-   "buy_hold_costs": 9300,
-   "flip_profit": -18853,
-   "flip_roi_pct": -5.6,
-   "live_in_years": 3,
-   "live_in_value": 375545,
-   "live_in_gain": 15762,
-   "live_in_roi_pct": 18,
-   "max_offer": 286000,
-   "buy_closing": 9300,
-   "sale_costs": 22533,
-   "target_profit": 40000,
-   "monthly_payment": 1916,
-   "payment_level": "comfortable",
-   "down_pct": 0.2,
-   "pmi_monthly": 0,
-   "cash_needed": 89250,
-   "cash_ok": true,
-   "status": "active",
-   "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
-   "price_history": [
-    {
-     "date": "2026-11-07",
-     "price": 310000
-    }
-   ],
-   "price_drop": 0
-  },
-  {
-   "id": "111-e-700-s-pleasant-grove",
-   "address": "111 E 700 S",
-   "city": "Pleasant Grove",
-   "region": "North",
-   "price": 385000,
-   "beds": 3,
-   "baths": 1,
-   "sqft": 1277,
-   "price_per_sqft": 301,
-   "lot_acres": 0.17,
-   "year_built": 1956,
-   "garage": true,
-   "hoa_monthly": 0,
-   "days_on_market": null,
-   "url": "https://www.coldwellbankerhomes.com/ut/pleasant-grove/111-e-700-s/pid_74376228/",
-   "photo": "https://images-listings.century21.com/SL/21/92/32/0/_P/2192320_P00.jpg?format=webp&quality=70&width=800",
-   "photo_count": 16,
-   "description": "Single-family home with two bedrooms and a flex third room with its own outside entrance (massage studio). Private yard, close to I-15.",
-   "mls": "2192320",
-   "source": "Coldwell Banker",
-   "stretch": true,
-   "fit_score": 46,
-   "score_breakdown": {
-    "profit": 7.8,
-    "affordability": 10.0,
-    "resale_layout": 11.2,
-    "value_vs_market": 0.0,
-    "condition": 10.0,
-    "price": 0.3,
-    "lot_garage": 4.0,
-    "hoa": 3.0,
-    "days_on_market": 0
-   },
-   "pros": [
-    "Has a garage",
-    "Offer $371k or less to clear ~$40k profit",
-    "Dated but livable: room to add value with cosmetic updates"
-   ],
-   "cons": [
-    "Stretch: $5k over your $380k target",
-    "$301/sqft is above the ~$251 Pleasant Grove median",
-    "Only 1 bathroom: adding a second is a common value-add",
-    "Built 1956: check for lead paint, the electrical, and the sewer line",
-    "Payment ~$2,667/mo: doable but tight"
-   ],
-   "rehab_tier": "medium",
-   "market_value": 320527,
-   "arv": 436080,
-   "rehab_cost": 31925,
-   "selling_costs": 26165,
-   "buy_hold_costs": 11550,
-   "flip_profit": -18560,
-   "flip_roi_pct": -4.3,
-   "live_in_years": 3,
-   "live_in_value": 483490,
-   "live_in_gain": 26005,
-   "live_in_roi_pct": 29,
-   "max_offer": 371000,
-   "buy_closing": 11550,
-   "sale_costs": 29009,
-   "target_profit": 40000,
-   "monthly_payment": 2667,
-   "payment_level": "tight",
-   "down_pct": 0.12,
-   "pmi_monthly": 107,
-   "cash_needed": 89675,
-   "cash_ok": true,
-   "status": "active",
-   "first_seen": "2026-11-07",
-   "last_seen": "2026-11-16",
-   "price_history": [
-    {
-     "date": "2026-11-07",
-     "price": 385000
     }
    ],
    "price_drop": 0
@@ -3261,7 +2871,7 @@
    "fit_score": 46,
    "score_breakdown": {
     "profit": 7.6,
-    "affordability": 9.6,
+    "affordability": 9.8,
     "resale_layout": 11.2,
     "value_vs_market": 0.0,
     "condition": 10.0,
@@ -3283,7 +2893,7 @@
     "Only 1 bathroom: adding a second is a common value-add",
     "No garage",
     "Built 1914: check for lead paint, the electrical, and the sewer line",
-    "Payment ~$2,699/mo: doable but tight"
+    "Payment ~$2,683/mo: doable but tight"
    ],
    "rehab_tier": "medium",
    "market_value": 316566,
@@ -3301,7 +2911,7 @@
    "buy_closing": 11697,
    "sale_costs": 29202,
    "target_profit": 40000,
-   "monthly_payment": 2699,
+   "monthly_payment": 2683,
    "payment_level": "tight",
    "down_pct": 0.12,
    "pmi_monthly": 109,
@@ -3309,7 +2919,7 @@
    "cash_ok": true,
    "status": "active",
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-11",
+   "last_seen": "2026-11-17",
    "price_history": [
     {
      "date": "2026-11-07",
@@ -3343,7 +2953,7 @@
    "fit_score": 46,
    "score_breakdown": {
     "profit": 2.9,
-    "affordability": 10.9,
+    "affordability": 11.1,
     "resale_layout": 15.0,
     "value_vs_market": 4.0,
     "condition": 4.5,
@@ -3363,7 +2973,7 @@
     "Built 1949: check for lead paint, the electrical, and the sewer line",
     "Thin profit: only ~$10k after fixing up and selling in 3 yrs",
     "Already updated: little left for you to add value",
-    "Payment ~$2,590/mo: doable but tight"
+    "Payment ~$2,574/mo: doable but tight"
    ],
    "rehab_tier": "light",
    "market_value": 370048,
@@ -3381,7 +2991,7 @@
    "buy_closing": 11847,
    "sale_costs": 27571,
    "target_profit": 40000,
-   "monthly_payment": 2590,
+   "monthly_payment": 2574,
    "payment_level": "tight",
    "down_pct": 0.155,
    "pmi_monthly": 61,
@@ -3389,7 +2999,7 @@
    "cash_ok": true,
    "status": "active",
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-15",
+   "last_seen": "2026-11-17",
    "price_history": [
     {
      "date": "2026-11-07",
@@ -3423,7 +3033,7 @@
    "fit_score": 45,
    "score_breakdown": {
     "profit": 12.7,
-    "affordability": 6.9,
+    "affordability": 7.1,
     "resale_layout": 12.8,
     "value_vs_market": 1.9,
     "condition": 3.5,
@@ -3442,7 +3052,7 @@
     "No garage",
     "Built 1934: check for lead paint, the electrical, and the sewer line",
     "Heavy fixer: may be hard to live in or finance while you work on it",
-    "Payment ~$2,922/mo: likely more than you'd want to carry"
+    "Payment ~$2,904/mo: likely more than you'd want to carry"
    ],
    "rehab_tier": "heavy",
    "market_value": 329670,
@@ -3460,7 +3070,7 @@
    "buy_closing": 11250,
    "sale_costs": 31647,
    "target_profit": 40000,
-   "monthly_payment": 2922,
+   "monthly_payment": 2904,
    "payment_level": "high",
    "down_pct": 0.03,
    "pmi_monthly": 197,
@@ -3502,7 +3112,7 @@
    "fit_score": 45,
    "score_breakdown": {
     "profit": 10.8,
-    "affordability": 13.0,
+    "affordability": 13.2,
     "resale_layout": 5.2,
     "value_vs_market": 1.5,
     "condition": 3.5,
@@ -3520,7 +3130,7 @@
     "$314/sqft is above the ~$273 Pleasant Grove median",
     "Built 1951: check for lead paint, the electrical, and the sewer line",
     "Heavy fixer: may be hard to live in or finance while you work on it",
-    "Payment ~$2,415/mo: doable but tight",
+    "Payment ~$2,400/mo: doable but tight",
     "2 bed / 1 bath: fewer buyers when you sell"
    ],
    "rehab_tier": "heavy",
@@ -3539,7 +3149,7 @@
    "buy_closing": 9750,
    "sale_costs": 27306,
    "target_profit": 40000,
-   "monthly_payment": 2415,
+   "monthly_payment": 2400,
    "payment_level": "tight",
    "down_pct": 0.07,
    "pmi_monthly": 126,
@@ -3581,7 +3191,7 @@
    "fit_score": 45,
    "score_breakdown": {
     "profit": 6.5,
-    "affordability": 10.1,
+    "affordability": 10.3,
     "resale_layout": 15.0,
     "value_vs_market": 0.0,
     "condition": 10.0,
@@ -3599,7 +3209,7 @@
    "cons": [
     "Stretch: $10k over your $380k target",
     "$385/sqft is above the ~$297 Provo median",
-    "Payment ~$2,658/mo: doable but tight"
+    "Payment ~$2,642/mo: doable but tight"
    ],
    "rehab_tier": "medium",
    "market_value": 300564,
@@ -3617,7 +3227,7 @@
    "buy_closing": 11697,
    "sale_costs": 28630,
    "target_profit": 40000,
-   "monthly_payment": 2658,
+   "monthly_payment": 2642,
    "payment_level": "tight",
    "down_pct": 0.135,
    "pmi_monthly": 107,
@@ -3625,11 +3235,92 @@
    "cash_ok": true,
    "status": "pending",
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-11",
+   "last_seen": "2026-11-17",
    "price_history": [
     {
      "date": "2026-11-07",
      "price": 389900
+    }
+   ],
+   "price_drop": 0
+  },
+  {
+   "id": "978-e-40-n-springville",
+   "address": "978 E 40 N",
+   "city": "Springville",
+   "region": "South",
+   "price": 389000,
+   "beds": 3,
+   "baths": 1,
+   "sqft": 936,
+   "price_per_sqft": 416,
+   "lot_acres": 0.15,
+   "year_built": 1958,
+   "garage": false,
+   "hoa_monthly": 0,
+   "days_on_market": 65,
+   "url": "https://www.coldwellbankerhomes.com/ut/springville/978-e-40-n/pid_73643854/",
+   "photo": "https://images-listings.century21.com/SL/21/84/41/0/_P/2184410_P00.jpg?format=webp&quality=70&width=800",
+   "photo_count": 21,
+   "description": "Single-level all-brick 3-bedroom home with updated kitchen and large island. Backyard pergola, new storage shed, carport. Square footage is a county-records estimate.",
+   "mls": "2184410",
+   "source": "Coldwell Banker",
+   "stretch": true,
+   "fit_score": 45,
+   "score_breakdown": {
+    "profit": 6.1,
+    "affordability": 10.5,
+    "resale_layout": 11.2,
+    "value_vs_market": 0.0,
+    "condition": 10.0,
+    "price": 0.2,
+    "lot_garage": 1.5,
+    "hoa": 3.0,
+    "days_on_market": 2.0
+   },
+   "pros": [
+    "On market 65 days: room to negotiate",
+    "Offer $370k or less to clear ~$40k profit",
+    "Dated but livable: room to add value with cosmetic updates",
+    "Trim the fix-up by ~$4k to reach 15% down and lower PMI"
+   ],
+   "cons": [
+    "Stretch: $9k over your $380k target",
+    "$416/sqft is above the ~$284 Springville median",
+    "Only 1 bathroom: adding a second is a common value-add",
+    "No garage",
+    "Built 1958: check for lead paint, the electrical, and the sewer line",
+    "Payment ~$2,622/mo: doable but tight"
+   ],
+   "rehab_tier": "medium",
+   "market_value": 265824,
+   "arv": 426440,
+   "rehab_cost": 23400,
+   "selling_costs": 25586,
+   "buy_hold_costs": 11670,
+   "flip_profit": -23216,
+   "flip_roi_pct": -5.5,
+   "live_in_years": 3,
+   "live_in_value": 472802,
+   "live_in_gain": 20364,
+   "live_in_roi_pct": 23,
+   "max_offer": 370000,
+   "buy_closing": 11670,
+   "sale_costs": 28368,
+   "target_profit": 40000,
+   "monthly_payment": 2622,
+   "payment_level": "tight",
+   "down_pct": 0.14,
+   "pmi_monthly": 106,
+   "cash_needed": 89530,
+   "cash_ok": true,
+   "status": "active",
+   "first_seen": "2026-11-15",
+   "last_seen": "2026-11-15",
+   "price_history": [
+    {
+     "date": "2026-11-15",
+     "price": 389000
     }
    ],
    "price_drop": 0
@@ -3672,7 +3363,7 @@
     "Has a garage",
     "Offer $318k or less to clear ~$40k profit",
     "Dated but livable: room to add value with cosmetic updates",
-    "Payment ~$2,198/mo: comfortable for your budget"
+    "Payment ~$2,185/mo: comfortable for your budget"
    ],
    "cons": [
     "$425/sqft is above the ~$299 Payson median",
@@ -3698,7 +3389,7 @@
    "buy_closing": 10197,
    "sale_costs": 24740,
    "target_profit": 40000,
-   "monthly_payment": 2198,
+   "monthly_payment": 2185,
    "payment_level": "comfortable",
    "down_pct": 0.175,
    "pmi_monthly": 51,
@@ -3711,6 +3402,162 @@
     {
      "date": "2026-11-07",
      "price": 339900
+    }
+   ],
+   "price_drop": 0
+  },
+  {
+   "id": "2035-e-weeping-willow-way-eagle-mountain",
+   "address": "2035 E Weeping Willow Way",
+   "city": "Eagle Mountain",
+   "region": "North",
+   "price": 379900,
+   "beds": 3,
+   "baths": 2,
+   "sqft": 1015,
+   "price_per_sqft": 374,
+   "lot_acres": 0.16,
+   "year_built": 2000,
+   "garage": true,
+   "hoa_monthly": 0,
+   "days_on_market": 95,
+   "url": "https://www.coldwellbankerhomes.com/ut/eagle-mountain/2035-e-weeping-willow-way/pid_72926808/",
+   "photo": "https://images-listings.century21.com/SL/21/76/95/4/_P/2176954_P00.jpg?format=webp&quality=70&width=800",
+   "photo_count": 28,
+   "description": "Recently remodeled rambler with three bedrooms, two bathrooms, two-car garage, private backyard. New kitchen, flooring, HVAC, paint and countertops; xeriscaped front yard. No HOA. Lender credits and transferable home warranty mentioned.",
+   "mls": "2176954",
+   "source": "Coldwell Banker",
+   "stretch": false,
+   "fit_score": 44,
+   "score_breakdown": {
+    "profit": 1.5,
+    "affordability": 13.0,
+    "resale_layout": 15.0,
+    "value_vs_market": 0.0,
+    "condition": 4.5,
+    "price": 0.5,
+    "lot_garage": 4.0,
+    "hoa": 3.0,
+    "days_on_market": 2.0
+   },
+   "pros": [
+    "Has a garage",
+    "On market 95 days: room to negotiate",
+    "Offer $346k or less to clear ~$40k profit",
+    "3+ bed / 2 bath: the layout most buyers want when you sell"
+   ],
+   "cons": [
+    "$374/sqft is above the ~$250 Eagle Mountain median",
+    "Thin profit: only ~$5k after fixing up and selling in 3 yrs",
+    "Already updated: little left for you to add value",
+    "Payment ~$2,415/mo: doable but tight"
+   ],
+   "rehab_tier": "light",
+   "market_value": 253750,
+   "arv": 390050,
+   "rehab_cost": 10150,
+   "selling_costs": 23403,
+   "buy_hold_costs": 11397,
+   "flip_profit": -34800,
+   "flip_roi_pct": -8.7,
+   "live_in_years": 3,
+   "live_in_value": 432455,
+   "live_in_gain": 5061,
+   "live_in_roi_pct": 6,
+   "max_offer": 346000,
+   "buy_closing": 11397,
+   "sale_costs": 25947,
+   "target_profit": 40000,
+   "monthly_payment": 2415,
+   "payment_level": "tight",
+   "down_pct": 0.18,
+   "pmi_monthly": 57,
+   "cash_needed": 89929,
+   "cash_ok": true,
+   "status": "active",
+   "first_seen": "2026-11-10",
+   "last_seen": "2026-11-16",
+   "price_history": [
+    {
+     "date": "2026-11-10",
+     "price": 379900
+    }
+   ],
+   "price_drop": 0
+  },
+  {
+   "id": "268-n-300-w-provo",
+   "address": "268 N 300 W",
+   "city": "Provo",
+   "region": "Central",
+   "price": 374900,
+   "beds": 2,
+   "baths": 1,
+   "sqft": 1271,
+   "price_per_sqft": 295,
+   "lot_acres": 0.12,
+   "year_built": 1906,
+   "garage": null,
+   "hoa_monthly": 0,
+   "days_on_market": 39,
+   "url": "https://www.century21.com/homes/detail/ut/provo/268-n-300-w/lid-P00800000HI2NjOuG73TgnT2YPR08kRyZtaG0oXM",
+   "photo": "https://images-listings.century21.com/SL/21/87/95/0/_P/2187950_P00.jpg?format=webp&quality=70&width=800",
+   "photo_count": 14,
+   "description": "Walkable to BYU, UVU, hospital, downtown. Provo owner-occupancy deed restriction: no leasing for first 12 months, no short-term rentals.",
+   "mls": "2187950",
+   "source": "Century21",
+   "stretch": false,
+   "fit_score": 44,
+   "score_breakdown": {
+    "profit": 7.7,
+    "affordability": 11.1,
+    "resale_layout": 5.2,
+    "value_vs_market": 3.3,
+    "condition": 10.0,
+    "price": 0.7,
+    "lot_garage": 1.5,
+    "hoa": 3.0,
+    "days_on_market": 1.0
+   },
+   "pros": [
+    "Offer $361k or less to clear ~$40k profit",
+    "Dated but livable: room to add value with cosmetic updates"
+   ],
+   "cons": [
+    "Built 1906: check for lead paint, the electrical, and the sewer line",
+    "Deed restriction: you must live there (no renting at first)",
+    "Payment ~$2,571/mo: doable but tight",
+    "2 bed / 1 bath: fewer buyers when you sell"
+   ],
+   "rehab_tier": "medium",
+   "market_value": 344441,
+   "arv": 425740,
+   "rehab_cost": 31775,
+   "selling_costs": 25544,
+   "buy_hold_costs": 11247,
+   "flip_profit": -17726,
+   "flip_roi_pct": -4.2,
+   "live_in_years": 3,
+   "live_in_value": 472026,
+   "live_in_gain": 25782,
+   "live_in_roi_pct": 29,
+   "max_offer": 361000,
+   "buy_closing": 11247,
+   "sale_costs": 28322,
+   "target_profit": 40000,
+   "monthly_payment": 2571,
+   "payment_level": "tight",
+   "down_pct": 0.125,
+   "pmi_monthly": 104,
+   "cash_needed": 89884,
+   "cash_ok": true,
+   "status": "active",
+   "first_seen": "2026-11-07",
+   "last_seen": "2026-11-14",
+   "price_history": [
+    {
+     "date": "2026-11-07",
+     "price": 374900
     }
    ],
    "price_drop": 0
@@ -3752,7 +3599,7 @@
    "pros": [
     "Solar panels",
     "Offer $306k or less to clear ~$40k profit",
-    "Payment ~$2,151/mo: comfortable for your budget",
+    "Payment ~$2,138/mo: comfortable for your budget",
     "Trim the fix-up by ~$2k to reach 20% down and drop PMI entirely"
    ],
    "cons": [
@@ -3779,7 +3626,7 @@
    "buy_closing": 10200,
    "sale_costs": 23409,
    "target_profit": 40000,
-   "monthly_payment": 2151,
+   "monthly_payment": 2138,
    "payment_level": "comfortable",
    "down_pct": 0.195,
    "pmi_monthly": 50,
@@ -3787,7 +3634,7 @@
    "cash_ok": true,
    "status": "active",
    "first_seen": "2026-11-08",
-   "last_seen": "2026-11-14",
+   "last_seen": "2026-11-17",
    "price_history": [
     {
      "date": "2026-11-08",
@@ -3834,7 +3681,7 @@
     "On market 60 days: room to negotiate",
     "Offer $297k or less to clear ~$40k profit",
     "Dated but livable: room to add value with cosmetic updates",
-    "Payment ~$2,043/mo: comfortable for your budget",
+    "Payment ~$2,031/mo: comfortable for your budget",
     "Trim the fix-up by ~$3k to reach 20% down and drop PMI entirely"
    ],
    "cons": [
@@ -3861,7 +3708,7 @@
    "buy_closing": 9600,
    "sale_costs": 23291,
    "target_profit": 40000,
-   "monthly_payment": 2043,
+   "monthly_payment": 2031,
    "payment_level": "comfortable",
    "down_pct": 0.19,
    "pmi_monthly": 48,
@@ -3874,87 +3721,6 @@
     {
      "date": "2026-11-07",
      "price": 320000
-    }
-   ],
-   "price_drop": 0
-  },
-  {
-   "id": "978-e-40-n-springville",
-   "address": "978 E 40 N",
-   "city": "Springville",
-   "region": "South",
-   "price": 389000,
-   "beds": 3,
-   "baths": 1,
-   "sqft": 936,
-   "price_per_sqft": 416,
-   "lot_acres": 0.15,
-   "year_built": 1958,
-   "garage": false,
-   "hoa_monthly": 0,
-   "days_on_market": 65,
-   "url": "https://www.coldwellbankerhomes.com/ut/springville/978-e-40-n/pid_73643854/",
-   "photo": "https://images-listings.century21.com/SL/21/84/41/0/_P/2184410_P00.jpg?format=webp&quality=70&width=800",
-   "photo_count": 21,
-   "description": "Single-level all-brick 3-bedroom home with updated kitchen and large island. Backyard pergola, new storage shed, carport. Square footage is a county-records estimate.",
-   "mls": "2184410",
-   "source": "Coldwell Banker",
-   "stretch": true,
-   "fit_score": 44,
-   "score_breakdown": {
-    "profit": 6.1,
-    "affordability": 10.3,
-    "resale_layout": 11.2,
-    "value_vs_market": 0.0,
-    "condition": 10.0,
-    "price": 0.2,
-    "lot_garage": 1.5,
-    "hoa": 3.0,
-    "days_on_market": 2.0
-   },
-   "pros": [
-    "On market 65 days: room to negotiate",
-    "Offer $370k or less to clear ~$40k profit",
-    "Dated but livable: room to add value with cosmetic updates",
-    "Trim the fix-up by ~$4k to reach 15% down and lower PMI"
-   ],
-   "cons": [
-    "Stretch: $9k over your $380k target",
-    "$416/sqft is above the ~$284 Springville median",
-    "Only 1 bathroom: adding a second is a common value-add",
-    "No garage",
-    "Built 1958: check for lead paint, the electrical, and the sewer line",
-    "Payment ~$2,638/mo: doable but tight"
-   ],
-   "rehab_tier": "medium",
-   "market_value": 265824,
-   "arv": 426440,
-   "rehab_cost": 23400,
-   "selling_costs": 25586,
-   "buy_hold_costs": 11670,
-   "flip_profit": -23216,
-   "flip_roi_pct": -5.5,
-   "live_in_years": 3,
-   "live_in_value": 472802,
-   "live_in_gain": 20364,
-   "live_in_roi_pct": 23,
-   "max_offer": 370000,
-   "buy_closing": 11670,
-   "sale_costs": 28368,
-   "target_profit": 40000,
-   "monthly_payment": 2638,
-   "payment_level": "tight",
-   "down_pct": 0.14,
-   "pmi_monthly": 106,
-   "cash_needed": 89530,
-   "cash_ok": true,
-   "status": "active",
-   "first_seen": "2026-11-15",
-   "last_seen": "2026-11-15",
-   "price_history": [
-    {
-     "date": "2026-11-15",
-     "price": 389000
     }
    ],
    "price_drop": 0
@@ -3998,7 +3764,7 @@
     "Seller may offer financing",
     "Offer $276k or less to clear ~$40k profit",
     "Dated but livable: room to add value with cosmetic updates",
-    "Payment ~$1,857/mo: comfortable for your budget"
+    "Payment ~$1,846/mo: comfortable for your budget"
    ],
    "cons": [
     "$427/sqft is above the ~$337 Lehi median",
@@ -4024,7 +3790,7 @@
    "buy_closing": 8997,
    "sale_costs": 21818,
    "target_profit": 40000,
-   "monthly_payment": 1857,
+   "monthly_payment": 1846,
    "payment_level": "comfortable",
    "down_pct": 0.2,
    "pmi_monthly": 0,
@@ -4037,162 +3803,6 @@
     {
      "date": "2026-11-10",
      "price": 299900
-    }
-   ],
-   "price_drop": 0
-  },
-  {
-   "id": "2035-e-weeping-willow-way-eagle-mountain",
-   "address": "2035 E Weeping Willow Way",
-   "city": "Eagle Mountain",
-   "region": "North",
-   "price": 379900,
-   "beds": 3,
-   "baths": 2,
-   "sqft": 1015,
-   "price_per_sqft": 374,
-   "lot_acres": 0.16,
-   "year_built": 2000,
-   "garage": true,
-   "hoa_monthly": 0,
-   "days_on_market": 95,
-   "url": "https://www.coldwellbankerhomes.com/ut/eagle-mountain/2035-e-weeping-willow-way/pid_72926808/",
-   "photo": "https://images-listings.century21.com/SL/21/76/95/4/_P/2176954_P00.jpg?format=webp&quality=70&width=800",
-   "photo_count": 28,
-   "description": "Recently remodeled rambler with three bedrooms, two bathrooms, two-car garage, private backyard. New kitchen, flooring, HVAC, paint and countertops; xeriscaped front yard. No HOA. Lender credits and transferable home warranty mentioned.",
-   "mls": "2176954",
-   "source": "Coldwell Banker",
-   "stretch": false,
-   "fit_score": 43,
-   "score_breakdown": {
-    "profit": 1.5,
-    "affordability": 12.8,
-    "resale_layout": 15.0,
-    "value_vs_market": 0.0,
-    "condition": 4.5,
-    "price": 0.5,
-    "lot_garage": 4.0,
-    "hoa": 3.0,
-    "days_on_market": 2.0
-   },
-   "pros": [
-    "Has a garage",
-    "On market 95 days: room to negotiate",
-    "Offer $346k or less to clear ~$40k profit",
-    "3+ bed / 2 bath: the layout most buyers want when you sell"
-   ],
-   "cons": [
-    "$374/sqft is above the ~$250 Eagle Mountain median",
-    "Thin profit: only ~$5k after fixing up and selling in 3 yrs",
-    "Already updated: little left for you to add value",
-    "Payment ~$2,430/mo: doable but tight"
-   ],
-   "rehab_tier": "light",
-   "market_value": 253750,
-   "arv": 390050,
-   "rehab_cost": 10150,
-   "selling_costs": 23403,
-   "buy_hold_costs": 11397,
-   "flip_profit": -34800,
-   "flip_roi_pct": -8.7,
-   "live_in_years": 3,
-   "live_in_value": 432455,
-   "live_in_gain": 5061,
-   "live_in_roi_pct": 6,
-   "max_offer": 346000,
-   "buy_closing": 11397,
-   "sale_costs": 25947,
-   "target_profit": 40000,
-   "monthly_payment": 2430,
-   "payment_level": "tight",
-   "down_pct": 0.18,
-   "pmi_monthly": 57,
-   "cash_needed": 89929,
-   "cash_ok": true,
-   "status": "active",
-   "first_seen": "2026-11-10",
-   "last_seen": "2026-11-16",
-   "price_history": [
-    {
-     "date": "2026-11-10",
-     "price": 379900
-    }
-   ],
-   "price_drop": 0
-  },
-  {
-   "id": "268-n-300-w-provo",
-   "address": "268 N 300 W",
-   "city": "Provo",
-   "region": "Central",
-   "price": 374900,
-   "beds": 2,
-   "baths": 1,
-   "sqft": 1271,
-   "price_per_sqft": 295,
-   "lot_acres": 0.12,
-   "year_built": 1906,
-   "garage": null,
-   "hoa_monthly": 0,
-   "days_on_market": 39,
-   "url": "https://www.century21.com/homes/detail/ut/provo/268-n-300-w/lid-P00800000HI2NjOuG73TgnT2YPR08kRyZtaG0oXM",
-   "photo": "https://images-listings.century21.com/SL/21/87/95/0/_P/2187950_P00.jpg?format=webp&quality=70&width=800",
-   "photo_count": 14,
-   "description": "Walkable to BYU, UVU, hospital, downtown. Provo owner-occupancy deed restriction: no leasing for first 12 months, no short-term rentals.",
-   "mls": "2187950",
-   "source": "Century21",
-   "stretch": false,
-   "fit_score": 43,
-   "score_breakdown": {
-    "profit": 7.7,
-    "affordability": 11.0,
-    "resale_layout": 5.2,
-    "value_vs_market": 3.3,
-    "condition": 10.0,
-    "price": 0.7,
-    "lot_garage": 1.5,
-    "hoa": 3.0,
-    "days_on_market": 1.0
-   },
-   "pros": [
-    "Offer $361k or less to clear ~$40k profit",
-    "Dated but livable: room to add value with cosmetic updates"
-   ],
-   "cons": [
-    "Built 1906: check for lead paint, the electrical, and the sewer line",
-    "Deed restriction: you must live there (no renting at first)",
-    "Payment ~$2,586/mo: doable but tight",
-    "2 bed / 1 bath: fewer buyers when you sell"
-   ],
-   "rehab_tier": "medium",
-   "market_value": 344441,
-   "arv": 425740,
-   "rehab_cost": 31775,
-   "selling_costs": 25544,
-   "buy_hold_costs": 11247,
-   "flip_profit": -17726,
-   "flip_roi_pct": -4.2,
-   "live_in_years": 3,
-   "live_in_value": 472026,
-   "live_in_gain": 25782,
-   "live_in_roi_pct": 29,
-   "max_offer": 361000,
-   "buy_closing": 11247,
-   "sale_costs": 28322,
-   "target_profit": 40000,
-   "monthly_payment": 2586,
-   "payment_level": "tight",
-   "down_pct": 0.125,
-   "pmi_monthly": 104,
-   "cash_needed": 89884,
-   "cash_ok": true,
-   "status": "active",
-   "first_seen": "2026-11-07",
-   "last_seen": "2026-11-14",
-   "price_history": [
-    {
-     "date": "2026-11-07",
-     "price": 374900
     }
    ],
    "price_drop": 0
@@ -4222,7 +3832,7 @@
    "fit_score": 43,
    "score_breakdown": {
     "profit": 6.8,
-    "affordability": 11.3,
+    "affordability": 11.4,
     "resale_layout": 5.2,
     "value_vs_market": 0.0,
     "condition": 10.0,
@@ -4241,7 +3851,7 @@
    "cons": [
     "$345/sqft is above the ~$268 Springville median",
     "Built 1944: check for lead paint, the electrical, and the sewer line",
-    "Payment ~$2,561/mo: doable but tight",
+    "Payment ~$2,545/mo: doable but tight",
     "2 bed / 1 bath: fewer buyers when you sell"
    ],
    "rehab_tier": "medium",
@@ -4260,7 +3870,7 @@
    "buy_closing": 11250,
    "sale_costs": 27841,
    "target_profit": 40000,
-   "monthly_payment": 2561,
+   "monthly_payment": 2545,
    "payment_level": "tight",
    "down_pct": 0.135,
    "pmi_monthly": 103,
@@ -4302,7 +3912,7 @@
    "fit_score": 43,
    "score_breakdown": {
     "profit": 10.6,
-    "affordability": 10.9,
+    "affordability": 11.1,
     "resale_layout": 11.2,
     "value_vs_market": 0.8,
     "condition": 3.5,
@@ -4323,7 +3933,7 @@
     "Built 1943: check for lead paint, the electrical, and the sewer line",
     "Heavy fixer: may be hard to live in or finance while you work on it",
     "Tenants in place: you may not be able to move in right away",
-    "Payment ~$2,592/mo: doable but tight"
+    "Payment ~$2,576/mo: doable but tight"
    ],
    "rehab_tier": "heavy",
    "market_value": 298000,
@@ -4341,7 +3951,7 @@
    "buy_closing": 10500,
    "sale_costs": 28771,
    "target_profit": 40000,
-   "monthly_payment": 2592,
+   "monthly_payment": 2576,
    "payment_level": "tight",
    "down_pct": 0.07,
    "pmi_monthly": 136,
@@ -4349,7 +3959,7 @@
    "cash_ok": true,
    "status": "active",
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-11",
+   "last_seen": "2026-11-17",
    "price_history": [
     {
      "date": "2026-11-07",
@@ -4383,7 +3993,7 @@
    "fit_score": 42,
    "score_breakdown": {
     "profit": 8.2,
-    "affordability": 10.2,
+    "affordability": 10.4,
     "resale_layout": 5.2,
     "value_vs_market": 1.3,
     "condition": 10.0,
@@ -4403,7 +4013,7 @@
     "$281/sqft is above the ~$243 Payson median",
     "No garage",
     "Built 1947: check for lead paint, the electrical, and the sewer line",
-    "Payment ~$2,646/mo: doable but tight",
+    "Payment ~$2,630/mo: doable but tight",
     "2 bed / 1 bath: fewer buyers when you sell"
    ],
    "rehab_tier": "medium",
@@ -4422,7 +4032,7 @@
    "buy_closing": 11397,
    "sale_costs": 28870,
    "target_profit": 40000,
-   "monthly_payment": 2646,
+   "monthly_payment": 2630,
    "payment_level": "tight",
    "down_pct": 0.115,
    "pmi_monthly": 106,
@@ -4461,10 +4071,10 @@
    "mls": "2192793",
    "source": "Coldwell Banker",
    "stretch": true,
-   "fit_score": 40,
+   "fit_score": 41,
    "score_breakdown": {
     "profit": 3.4,
-    "affordability": 10.2,
+    "affordability": 10.4,
     "resale_layout": 15.0,
     "value_vs_market": 4.4,
     "condition": 4.5,
@@ -4485,7 +4095,7 @@
     "Small lot: 0.06 ac",
     "HOA $119/mo",
     "Thin profit: only ~$11k after fixing up and selling in 3 yrs",
-    "Payment ~$2,647/mo: doable but tight"
+    "Payment ~$2,631/mo: doable but tight"
    ],
    "rehab_tier": "light",
    "market_value": 365238,
@@ -4503,7 +4113,7 @@
    "buy_closing": 11550,
    "sale_costs": 27212,
    "target_profit": 40000,
-   "monthly_payment": 2647,
+   "monthly_payment": 2631,
    "payment_level": "tight",
    "down_pct": 0.155,
    "pmi_monthly": 60,
@@ -4545,7 +4155,7 @@
    "fit_score": 40,
    "score_breakdown": {
     "profit": 8.5,
-    "affordability": 9.3,
+    "affordability": 9.5,
     "resale_layout": 5.2,
     "value_vs_market": 4.0,
     "condition": 10.0,
@@ -4560,7 +4170,7 @@
    ],
    "cons": [
     "Stretch: $10k over your $380k target",
-    "Payment ~$2,727/mo: doable but tight",
+    "Payment ~$2,710/mo: doable but tight",
     "2 bed / 1 bath: fewer buyers when you sell"
    ],
    "rehab_tier": "medium",
@@ -4579,7 +4189,7 @@
    "buy_closing": 11697,
    "sale_costs": 29684,
    "target_profit": 40000,
-   "monthly_payment": 2727,
+   "monthly_payment": 2710,
    "payment_level": "tight",
    "down_pct": 0.11,
    "pmi_monthly": 110,
@@ -4597,79 +4207,84 @@
    "price_drop": 0
   },
   {
-   "id": "433-e-200-s-payson",
-   "address": "433 E 200 S",
-   "city": "Payson",
+   "id": "694-e-100-s-spanish-fork",
+   "address": "694 E 100 S",
+   "city": "Spanish Fork",
    "region": "South",
-   "price": 350000,
-   "beds": 2,
+   "price": 389000,
+   "beds": 3,
    "baths": 1,
-   "sqft": 861,
-   "price_per_sqft": 407,
-   "lot_acres": null,
-   "year_built": null,
-   "garage": null,
+   "sqft": 920,
+   "price_per_sqft": 423,
+   "lot_acres": 0.23,
+   "year_built": 1913,
+   "garage": true,
    "hoa_monthly": 0,
-   "days_on_market": null,
-   "url": "https://www.century21.com/homes/detail/ut/payson/433-e-200-s/lid-P00800000HGj8OrD9lqdInLtZumdDE9qX1mzZiA5",
-   "photo": "https://images-listings.century21.com/SL/21/82/94/1/_P/2182941_P00.jpg?format=webp&quality=70&width=800",
-   "photo_count": 22,
-   "description": null,
-   "mls": null,
-   "source": "Century21",
-   "stretch": false,
+   "days_on_market": 191,
+   "url": "https://www.coldwellbankerhomes.com/ut/spanish-fork/694-e-100-s/pid_71048029/",
+   "photo": "https://images-listings.century21.com/SL/21/55/23/1/_P/2155231_P00.jpg?format=webp&quality=70&width=800",
+   "photo_count": 27,
+   "description": "Remodeled 3-bed, 1-bath home on 0.23-acre corner lot. Heated kitchen floors, RV parking with 50-amp hookup, new paver patio, shed, two one-car garages. Lot may allow a detached ADU. No HOA.",
+   "mls": "2155231",
+   "source": "Coldwell Banker",
+   "stretch": true,
    "fit_score": 40,
    "score_breakdown": {
-    "profit": 5.6,
-    "affordability": 14.6,
-    "resale_layout": 5.2,
+    "profit": 1.5,
+    "affordability": 12.2,
+    "resale_layout": 11.2,
     "value_vs_market": 0.0,
-    "condition": 10.0,
-    "price": 1.6,
-    "lot_garage": 0,
+    "condition": 4.5,
+    "price": 0.2,
+    "lot_garage": 5.0,
     "hoa": 3.0,
-    "days_on_market": 0
+    "days_on_market": 2.0
    },
    "pros": [
-    "Offer $329k or less to clear ~$40k profit",
-    "Dated but livable: room to add value with cosmetic updates"
+    "Big lot: 0.23 ac",
+    "Has a garage",
+    "On market 191 days: room to negotiate",
+    "RV parking",
+    "Offer $355k or less to clear ~$40k profit"
    ],
    "cons": [
-    "$407/sqft is above the ~$291 Payson median",
-    "Small: 861 sqft",
-    "Thin profit: only ~$19k after fixing up and selling in 3 yrs",
-    "Payment ~$2,284/mo: doable but tight",
-    "2 bed / 1 bath: fewer buyers when you sell"
+    "Stretch: $9k over your $380k target",
+    "$423/sqft is above the ~$294 Spanish Fork median",
+    "Only 1 bathroom: adding a second is a common value-add",
+    "Built 1913: check for lead paint, the electrical, and the sewer line",
+    "Thin profit: only ~$5k after fixing up and selling in 3 yrs",
+    "Already updated: little left for you to add value",
+    "Payment ~$2,484/mo: doable but tight"
    ],
-   "rehab_tier": "medium",
-   "market_value": 250551,
-   "arv": 384440,
-   "rehab_cost": 21525,
-   "selling_costs": 23066,
-   "buy_hold_costs": 10500,
-   "flip_profit": -20651,
-   "flip_roi_pct": -5.4,
+   "rehab_tier": "light",
+   "market_value": 270480,
+   "arv": 398200,
+   "rehab_cost": 9200,
+   "selling_costs": 23892,
+   "buy_hold_costs": 11670,
+   "flip_profit": -35562,
+   "flip_roi_pct": -8.7,
    "live_in_years": 3,
-   "live_in_value": 426235,
-   "live_in_gain": 18636,
-   "live_in_roi_pct": 21,
-   "max_offer": 329000,
-   "buy_closing": 10500,
-   "sale_costs": 25574,
+   "live_in_value": 441491,
+   "live_in_gain": 5132,
+   "live_in_roi_pct": 6,
+   "max_offer": 355000,
+   "buy_closing": 11670,
+   "sale_costs": 26489,
    "target_profit": 40000,
-   "monthly_payment": 2284,
+   "monthly_payment": 2484,
    "payment_level": "tight",
-   "down_pct": 0.165,
-   "pmi_monthly": 54,
-   "cash_needed": 89775,
+   "down_pct": 0.175,
+   "pmi_monthly": 59,
+   "cash_needed": 88945,
    "cash_ok": true,
-   "status": "pending",
-   "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "status": "active",
+   "first_seen": "2026-11-12",
+   "last_seen": "2026-11-17",
    "price_history": [
     {
-     "date": "2026-11-07",
-     "price": 350000
+     "date": "2026-11-12",
+     "price": 389000
     }
    ],
    "price_drop": 0
@@ -4699,7 +4314,7 @@
    "fit_score": 40,
    "score_breakdown": {
     "profit": 1.6,
-    "affordability": 11.8,
+    "affordability": 12.0,
     "resale_layout": 15.0,
     "value_vs_market": 0.0,
     "condition": 4.5,
@@ -4719,7 +4334,7 @@
     "Built 1943: check for lead paint, the electrical, and the sewer line",
     "Thin profit: only ~$5k after fixing up and selling in 3 yrs",
     "Already updated: little left for you to add value",
-    "Payment ~$2,518/mo: doable but tight"
+    "Payment ~$2,503/mo: doable but tight"
    ],
    "rehab_tier": "light",
    "market_value": 304584,
@@ -4737,7 +4352,7 @@
    "buy_closing": 11700,
    "sale_costs": 26633,
    "target_profit": 40000,
-   "monthly_payment": 2518,
+   "monthly_payment": 2503,
    "payment_level": "tight",
    "down_pct": 0.17,
    "pmi_monthly": 59,
@@ -4779,7 +4394,7 @@
    "fit_score": 39,
    "score_breakdown": {
     "profit": 6.5,
-    "affordability": 12.7,
+    "affordability": 12.9,
     "resale_layout": 5.2,
     "value_vs_market": 0.0,
     "condition": 10.0,
@@ -4795,7 +4410,7 @@
    ],
    "cons": [
     "$349/sqft is above the ~$280 Saratoga Springs median",
-    "Payment ~$2,437/mo: doable but tight",
+    "Payment ~$2,423/mo: doable but tight",
     "2 bed / 1 bath: fewer buyers when you sell"
    ],
    "rehab_tier": "medium",
@@ -4814,7 +4429,7 @@
    "buy_closing": 10800,
    "sale_costs": 26691,
    "target_profit": 40000,
-   "monthly_payment": 2437,
+   "monthly_payment": 2423,
    "payment_level": "tight",
    "down_pct": 0.145,
    "pmi_monthly": 97,
@@ -4822,7 +4437,7 @@
    "cash_ok": true,
    "status": "pending",
    "first_seen": "2026-11-11",
-   "last_seen": "2026-11-14",
+   "last_seen": "2026-11-17",
    "price_history": [
     {
      "date": "2026-11-11",
@@ -4832,84 +4447,78 @@
    "price_drop": 0
   },
   {
-   "id": "694-e-100-s-spanish-fork",
-   "address": "694 E 100 S",
-   "city": "Spanish Fork",
-   "region": "South",
-   "price": 389000,
-   "beds": 3,
-   "baths": 1,
-   "sqft": 920,
-   "price_per_sqft": 423,
-   "lot_acres": 0.23,
-   "year_built": 1913,
-   "garage": true,
+   "id": "15-n-jordan-river-way-373-saratoga-springs",
+   "address": "15 N Jordan River Way #373",
+   "city": "Saratoga Springs",
+   "region": "North",
+   "price": 369990,
+   "beds": 2,
+   "baths": null,
+   "sqft": 1031,
+   "price_per_sqft": 359,
+   "lot_acres": null,
+   "year_built": null,
+   "garage": null,
    "hoa_monthly": 0,
-   "days_on_market": 191,
-   "url": "https://www.coldwellbankerhomes.com/ut/spanish-fork/694-e-100-s/pid_71048029/",
-   "photo": "https://images-listings.century21.com/SL/21/55/23/1/_P/2155231_P00.jpg?format=webp&quality=70&width=800",
-   "photo_count": 27,
-   "description": "Remodeled 3-bed, 1-bath home on 0.23-acre corner lot. Heated kitchen floors, RV parking with 50-amp hookup, new paver patio, shed, two one-car garages. Lot may allow a detached ADU. No HOA.",
-   "mls": "2155231",
+   "days_on_market": null,
+   "url": "https://www.coldwellbankerhomes.com/ut/saratoga-springs/15-n-jordan-river-way-373/pid_71929982/",
+   "photo": null,
+   "photo_count": null,
+   "description": "Under Contract.",
+   "mls": null,
    "source": "Coldwell Banker",
-   "stretch": true,
-   "fit_score": 39,
+   "stretch": false,
+   "fit_score": 38,
    "score_breakdown": {
-    "profit": 1.5,
+    "profit": 6.5,
     "affordability": 12.0,
-    "resale_layout": 11.2,
+    "resale_layout": 5.2,
     "value_vs_market": 0.0,
-    "condition": 4.5,
-    "price": 0.2,
-    "lot_garage": 5.0,
+    "condition": 10.0,
+    "price": 0.9,
+    "lot_garage": 0,
     "hoa": 3.0,
-    "days_on_market": 2.0
+    "days_on_market": 0
    },
    "pros": [
-    "Big lot: 0.23 ac",
-    "Has a garage",
-    "On market 191 days: room to negotiate",
-    "RV parking",
-    "Offer $355k or less to clear ~$40k profit"
+    "Offer $352k or less to clear ~$40k profit",
+    "Dated but livable: room to add value with cosmetic updates",
+    "Trim the fix-up by ~$4k to reach 15% down and lower PMI"
    ],
    "cons": [
-    "Stretch: $9k over your $380k target",
-    "$423/sqft is above the ~$294 Spanish Fork median",
-    "Only 1 bathroom: adding a second is a common value-add",
-    "Built 1913: check for lead paint, the electrical, and the sewer line",
-    "Thin profit: only ~$5k after fixing up and selling in 3 yrs",
-    "Already updated: little left for you to add value",
-    "Payment ~$2,499/mo: doable but tight"
+    "$359/sqft is above the ~$280 Saratoga Springs median",
+    "Payment ~$2,500/mo: doable but tight",
+    "2 bed / 1 bath: fewer buyers when you sell"
    ],
-   "rehab_tier": "light",
-   "market_value": 270480,
-   "arv": 398200,
-   "rehab_cost": 9200,
-   "selling_costs": 23892,
-   "buy_hold_costs": 11670,
-   "flip_profit": -35562,
-   "flip_roi_pct": -8.7,
+   "rehab_tier": "medium",
+   "market_value": 288680,
+   "arv": 411230,
+   "rehab_cost": 25775,
+   "selling_costs": 24674,
+   "buy_hold_costs": 11100,
+   "flip_profit": -20308,
+   "flip_roi_pct": -5.0,
    "live_in_years": 3,
-   "live_in_value": 441491,
-   "live_in_gain": 5132,
-   "live_in_roi_pct": 6,
-   "max_offer": 355000,
-   "buy_closing": 11670,
-   "sale_costs": 26489,
+   "live_in_value": 455938,
+   "live_in_gain": 21717,
+   "live_in_roi_pct": 24,
+   "max_offer": 352000,
+   "buy_closing": 11100,
+   "sale_costs": 27356,
    "target_profit": 40000,
-   "monthly_payment": 2499,
+   "monthly_payment": 2500,
    "payment_level": "tight",
-   "down_pct": 0.175,
-   "pmi_monthly": 59,
-   "cash_needed": 88945,
+   "down_pct": 0.14,
+   "pmi_monthly": 101,
+   "cash_needed": 88673,
    "cash_ok": true,
-   "status": "active",
-   "first_seen": "2026-11-12",
-   "last_seen": "2026-11-15",
+   "status": "pending",
+   "first_seen": "2026-11-11",
+   "last_seen": "2026-11-17",
    "price_history": [
     {
-     "date": "2026-11-12",
-     "price": 389000
+     "date": "2026-11-11",
+     "price": 369990
     }
    ],
    "price_drop": 0
@@ -4939,7 +4548,7 @@
    "fit_score": 38,
    "score_breakdown": {
     "profit": 3.2,
-    "affordability": 11.2,
+    "affordability": 11.4,
     "resale_layout": 15.0,
     "value_vs_market": 4.1,
     "condition": 4.5,
@@ -4963,7 +4572,7 @@
     "HOA $100/mo",
     "Already under contract (accepting backup offers)",
     "Thin profit: only ~$11k after fixing up and selling in 3 yrs",
-    "Payment ~$2,567/mo: doable but tight"
+    "Payment ~$2,552/mo: doable but tight"
    ],
    "rehab_tier": "light",
    "market_value": 357420,
@@ -4981,7 +4590,7 @@
    "buy_closing": 11385,
    "sale_costs": 26630,
    "target_profit": 40000,
-   "monthly_payment": 2567,
+   "monthly_payment": 2552,
    "payment_level": "tight",
    "down_pct": 0.165,
    "pmi_monthly": 58,
@@ -4994,83 +4603,6 @@
     {
      "date": "2026-11-07",
      "price": 379490
-    }
-   ],
-   "price_drop": 0
-  },
-  {
-   "id": "15-n-jordan-river-way-373-saratoga-springs",
-   "address": "15 N Jordan River Way #373",
-   "city": "Saratoga Springs",
-   "region": "North",
-   "price": 369990,
-   "beds": 2,
-   "baths": null,
-   "sqft": 1031,
-   "price_per_sqft": 359,
-   "lot_acres": null,
-   "year_built": null,
-   "garage": null,
-   "hoa_monthly": 0,
-   "days_on_market": null,
-   "url": "https://www.coldwellbankerhomes.com/ut/saratoga-springs/15-n-jordan-river-way-373/pid_71929982/",
-   "photo": null,
-   "photo_count": null,
-   "description": "Under Contract.",
-   "mls": null,
-   "source": "Coldwell Banker",
-   "stretch": false,
-   "fit_score": 37,
-   "score_breakdown": {
-    "profit": 6.5,
-    "affordability": 11.8,
-    "resale_layout": 5.2,
-    "value_vs_market": 0.0,
-    "condition": 10.0,
-    "price": 0.9,
-    "lot_garage": 0,
-    "hoa": 3.0,
-    "days_on_market": 0
-   },
-   "pros": [
-    "Offer $352k or less to clear ~$40k profit",
-    "Dated but livable: room to add value with cosmetic updates",
-    "Trim the fix-up by ~$4k to reach 15% down and lower PMI"
-   ],
-   "cons": [
-    "$359/sqft is above the ~$280 Saratoga Springs median",
-    "Payment ~$2,515/mo: doable but tight",
-    "2 bed / 1 bath: fewer buyers when you sell"
-   ],
-   "rehab_tier": "medium",
-   "market_value": 288680,
-   "arv": 411230,
-   "rehab_cost": 25775,
-   "selling_costs": 24674,
-   "buy_hold_costs": 11100,
-   "flip_profit": -20308,
-   "flip_roi_pct": -5.0,
-   "live_in_years": 3,
-   "live_in_value": 455938,
-   "live_in_gain": 21717,
-   "live_in_roi_pct": 24,
-   "max_offer": 352000,
-   "buy_closing": 11100,
-   "sale_costs": 27356,
-   "target_profit": 40000,
-   "monthly_payment": 2515,
-   "payment_level": "tight",
-   "down_pct": 0.14,
-   "pmi_monthly": 101,
-   "cash_needed": 88673,
-   "cash_ok": true,
-   "status": "pending",
-   "first_seen": "2026-11-11",
-   "last_seen": "2026-11-14",
-   "price_history": [
-    {
-     "date": "2026-11-11",
-     "price": 369990
     }
    ],
    "price_drop": 0
@@ -5100,7 +4632,7 @@
    "fit_score": 37,
    "score_breakdown": {
     "profit": 6.5,
-    "affordability": 11.4,
+    "affordability": 11.6,
     "resale_layout": 5.2,
     "value_vs_market": 0.0,
     "condition": 10.0,
@@ -5116,7 +4648,7 @@
    ],
    "cons": [
     "$364/sqft is above the ~$280 Saratoga Springs median",
-    "Payment ~$2,547/mo: doable but tight",
+    "Payment ~$2,532/mo: doable but tight",
     "2 bed / 1 bath: fewer buyers when you sell"
    ],
    "rehab_tier": "medium",
@@ -5135,7 +4667,7 @@
    "buy_closing": 11250,
    "sale_costs": 27689,
    "target_profit": 40000,
-   "monthly_payment": 2547,
+   "monthly_payment": 2532,
    "payment_level": "tight",
    "down_pct": 0.14,
    "pmi_monthly": 102,
@@ -5143,172 +4675,11 @@
    "cash_ok": true,
    "status": "pending",
    "first_seen": "2026-11-11",
-   "last_seen": "2026-11-14",
+   "last_seen": "2026-11-17",
    "price_history": [
     {
      "date": "2026-11-11",
      "price": 374990
-    }
-   ],
-   "price_drop": 0
-  },
-  {
-   "id": "1205-hillcrest-dr-springville",
-   "address": "1205 Hillcrest Dr",
-   "city": "Springville",
-   "region": "South",
-   "price": 150000,
-   "beds": 5,
-   "baths": 2,
-   "sqft": 3456,
-   "price_per_sqft": 43,
-   "lot_acres": 0.26,
-   "year_built": 1961,
-   "garage": true,
-   "hoa_monthly": 0,
-   "days_on_market": 7,
-   "url": "https://www.century21.com/homes/detail/ut/springville/1205-hillcrest-dr/lid-P00800000HJgDhUbyYq9YVjq2LG4rMpEnHJBvRpD",
-   "photo": "https://images-listings.century21.com/SL/21/93/90/0/_P/2193900_P00.jpg?format=webp&quality=70&width=800",
-   "photo_count": 26,
-   "description": "As-is 1961 brick home needing a full renovation. $150K is a starting price; offers due November 18 at 5 PM, multiple offers expected. Finished basement with separate entrance, corner lot, mountain views.",
-   "mls": "2193900",
-   "source": "Century21",
-   "stretch": false,
-   "fit_score": 36,
-   "score_breakdown": {
-    "profit": 0.0,
-    "affordability": 9.0,
-    "resale_layout": 15.0,
-    "value_vs_market": 15.0,
-    "condition": 3.5,
-    "price": 5.0,
-    "lot_garage": 5.0,
-    "hoa": 3.0,
-    "days_on_market": 0,
-    "dealbreakers": -20
-   },
-   "pros": [
-    "$43/sqft vs ~$197 Springville median (78% below)",
-    "Roomy: 3,456 sqft",
-    "Big lot: 0.26 ac",
-    "Has a garage",
-    "Payment ~$1,239/mo: comfortable for your budget",
-    "3+ bed / 2 bath: the layout most buyers want when you sell"
-   ],
-   "cons": [
-    "Built 1961: check for lead paint, the electrical, and the sewer line",
-    "Heavy fixer: may be hard to live in or finance while you work on it",
-    "Listed at a starting price with an offer deadline: expect it to sell well above list",
-    "Multiple offers expected: likely to sell above asking",
-    "Thin profit: only ~$-94k after fixing up and selling in 3 yrs",
-    "Needs ~$199k cash to buy and fix: more than your cash budget"
-   ],
-   "rehab_tier": "heavy",
-   "market_value": 680832,
-   "arv": 240000,
-   "rehab_cost": 190080,
-   "selling_costs": 14400,
-   "buy_hold_costs": 4500,
-   "flip_profit": -118980,
-   "flip_roi_pct": -34.5,
-   "live_in_years": 3,
-   "live_in_value": 266092,
-   "live_in_gain": -94453,
-   "live_in_roi_pct": -47,
-   "max_offer": 19000,
-   "buy_closing": 4500,
-   "sale_costs": 15966,
-   "target_profit": 40000,
-   "monthly_payment": 1239,
-   "payment_level": "comfortable",
-   "down_pct": 0.03,
-   "pmi_monthly": 79,
-   "cash_needed": 199080,
-   "cash_ok": false,
-   "status": "active",
-   "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
-   "price_history": [
-    {
-     "date": "2026-11-07",
-     "price": 150000
-    }
-   ],
-   "price_drop": 0
-  },
-  {
-   "id": "453-e-100-n-salem",
-   "address": "453 E 100 N",
-   "city": "Salem",
-   "region": "South",
-   "price": 389999,
-   "beds": 2,
-   "baths": 1,
-   "sqft": 1347,
-   "price_per_sqft": 290,
-   "lot_acres": null,
-   "year_built": null,
-   "garage": null,
-   "hoa_monthly": 0,
-   "days_on_market": null,
-   "url": "https://www.century21.com/homes/detail/ut/salem/453-e-100-n/lid-P00800000HFYZlMou9Cmx4N9DV8F4X4GWTovLllB",
-   "photo": "https://images-listings.century21.com/SL/21/77/41/4/_P/2177414_P00.jpg?format=webp&quality=70&width=800",
-   "photo_count": 40,
-   "description": null,
-   "mls": null,
-   "source": "Century21",
-   "stretch": true,
-   "fit_score": 36,
-   "score_breakdown": {
-    "profit": 8.2,
-    "affordability": 9.3,
-    "resale_layout": 5.2,
-    "value_vs_market": 0.0,
-    "condition": 10.0,
-    "price": 0.2,
-    "lot_garage": 0,
-    "hoa": 3.0,
-    "days_on_market": 0
-   },
-   "pros": [
-    "Offer $378k or less to clear ~$40k profit",
-    "Dated but livable: room to add value with cosmetic updates"
-   ],
-   "cons": [
-    "Stretch: $10k over your $380k target",
-    "$290/sqft is above the ~$224 Salem median",
-    "Payment ~$2,727/mo: doable but tight",
-    "2 bed / 1 bath: fewer buyers when you sell"
-   ],
-   "rehab_tier": "medium",
-   "market_value": 301728,
-   "arv": 443879,
-   "rehab_cost": 33675,
-   "selling_costs": 26633,
-   "buy_hold_costs": 11700,
-   "flip_profit": -18128,
-   "flip_roi_pct": -4.2,
-   "live_in_years": 3,
-   "live_in_value": 492137,
-   "live_in_gain": 27234,
-   "live_in_roi_pct": 31,
-   "max_offer": 378000,
-   "buy_closing": 11700,
-   "sale_costs": 29528,
-   "target_profit": 40000,
-   "monthly_payment": 2727,
-   "payment_level": "tight",
-   "down_pct": 0.11,
-   "pmi_monthly": 110,
-   "cash_needed": 88275,
-   "cash_ok": true,
-   "status": "pending",
-   "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
-   "price_history": [
-    {
-     "date": "2026-11-07",
-     "price": 389999
     }
    ],
    "price_drop": 0
@@ -5358,7 +4729,7 @@
     "No garage",
     "Built 1906: check for lead paint, the electrical, and the sewer line",
     "Heavy fixer: may be hard to live in or finance while you work on it",
-    "Payment ~$3,033/mo: likely more than you'd want to carry",
+    "Payment ~$3,015/mo: likely more than you'd want to carry",
     "Needs ~$96k cash to buy and fix: more than your cash budget"
    ],
    "rehab_tier": "heavy",
@@ -5377,7 +4748,7 @@
    "buy_closing": 11697,
    "sale_costs": 33187,
    "target_profit": 40000,
-   "monthly_payment": 3033,
+   "monthly_payment": 3015,
    "payment_level": "high",
    "down_pct": 0.03,
    "pmi_monthly": 205,
@@ -5419,7 +4790,7 @@
    "fit_score": 34,
    "score_breakdown": {
     "profit": 1.4,
-    "affordability": 12.9,
+    "affordability": 13.0,
     "resale_layout": 9.0,
     "value_vs_market": 0.0,
     "condition": 4.5,
@@ -5441,7 +4812,7 @@
     "Small lot: 0.08 ac",
     "HOA $144/mo",
     "Thin profit: only ~$5k after fixing up and selling in 3 yrs",
-    "Payment ~$2,427/mo: doable but tight"
+    "Payment ~$2,414/mo: doable but tight"
    ],
    "rehab_tier": "light",
    "market_value": 288680,
@@ -5459,7 +4830,7 @@
    "buy_closing": 10800,
    "sale_costs": 24633,
    "target_profit": 40000,
-   "monthly_payment": 2427,
+   "monthly_payment": 2414,
    "payment_level": "tight",
    "down_pct": 0.19,
    "pmi_monthly": 53,
@@ -5501,7 +4872,7 @@
    "fit_score": 33,
    "score_breakdown": {
     "profit": 1.4,
-    "affordability": 12.6,
+    "affordability": 12.7,
     "resale_layout": 9.0,
     "value_vs_market": 0.0,
     "condition": 4.5,
@@ -5522,7 +4893,7 @@
     "Small lot: 0.07 ac",
     "HOA $168/mo",
     "Thin profit: only ~$5k after fixing up and selling in 3 yrs",
-    "Payment ~$2,451/mo: doable but tight"
+    "Payment ~$2,438/mo: doable but tight"
    ],
    "rehab_tier": "light",
    "market_value": 288400,
@@ -5540,7 +4911,7 @@
    "buy_closing": 10800,
    "sale_costs": 24633,
    "target_profit": 40000,
-   "monthly_payment": 2451,
+   "monthly_payment": 2438,
    "payment_level": "tight",
    "down_pct": 0.19,
    "pmi_monthly": 53,
@@ -5582,7 +4953,7 @@
    "fit_score": 33,
    "score_breakdown": {
     "profit": 1.5,
-    "affordability": 12.3,
+    "affordability": 12.5,
     "resale_layout": 9.0,
     "value_vs_market": 0.0,
     "condition": 4.5,
@@ -5603,7 +4974,7 @@
     "Small lot: 0.08 ac",
     "HOA $144/mo",
     "Thin profit: only ~$5k after fixing up and selling in 3 yrs",
-    "Payment ~$2,470/mo: doable but tight"
+    "Payment ~$2,456/mo: doable but tight"
    ],
    "rehab_tier": "light",
    "market_value": 288680,
@@ -5621,7 +4992,7 @@
    "buy_closing": 10950,
    "sale_costs": 24966,
    "target_profit": 40000,
-   "monthly_payment": 2470,
+   "monthly_payment": 2456,
    "payment_level": "tight",
    "down_pct": 0.185,
    "pmi_monthly": 55,
@@ -5663,7 +5034,7 @@
    "fit_score": 32,
    "score_breakdown": {
     "profit": 1.4,
-    "affordability": 12.9,
+    "affordability": 13.0,
     "resale_layout": 9.0,
     "value_vs_market": 0.0,
     "condition": 4.5,
@@ -5684,7 +5055,7 @@
     "Small lot: 0.08 ac",
     "HOA $144/mo",
     "Thin profit: only ~$5k after fixing up and selling in 3 yrs",
-    "Payment ~$2,427/mo: doable but tight"
+    "Payment ~$2,414/mo: doable but tight"
    ],
    "rehab_tier": "light",
    "market_value": 288680,
@@ -5702,7 +5073,7 @@
    "buy_closing": 10800,
    "sale_costs": 24633,
    "target_profit": 40000,
-   "monthly_payment": 2427,
+   "monthly_payment": 2414,
    "payment_level": "tight",
    "down_pct": 0.19,
    "pmi_monthly": 53,
@@ -5741,10 +5112,10 @@
    "mls": "2194873",
    "source": "Coldwell Banker",
    "stretch": false,
-   "fit_score": 30,
+   "fit_score": 31,
    "score_breakdown": {
     "profit": 1.5,
-    "affordability": 12.0,
+    "affordability": 12.2,
     "resale_layout": 9.0,
     "value_vs_market": 0.0,
     "condition": 4.5,
@@ -5765,7 +5136,7 @@
     "Small lot: 0.08 ac",
     "HOA $144/mo",
     "Thin profit: only ~$5k after fixing up and selling in 3 yrs",
-    "Payment ~$2,501/mo: doable but tight"
+    "Payment ~$2,486/mo: doable but tight"
    ],
    "rehab_tier": "light",
    "market_value": 288680,
@@ -5783,7 +5154,7 @@
    "buy_closing": 11100,
    "sale_costs": 25299,
    "target_profit": 40000,
-   "monthly_payment": 2501,
+   "monthly_payment": 2486,
    "payment_level": "tight",
    "down_pct": 0.185,
    "pmi_monthly": 55,
@@ -5796,88 +5167,6 @@
     {
      "date": "2026-11-07",
      "price": 369990
-    }
-   ],
-   "price_drop": 0
-  },
-  {
-   "id": "289-s-500-e-payson",
-   "address": "289 S 500 E",
-   "city": "Payson",
-   "region": "South",
-   "price": 394900,
-   "beds": 2,
-   "baths": 1,
-   "sqft": 970,
-   "price_per_sqft": 407,
-   "lot_acres": 0.16,
-   "year_built": 1930,
-   "garage": false,
-   "hoa_monthly": 0,
-   "days_on_market": 53,
-   "url": "https://www.century21.com/homes/detail/ut/payson/289-s-500-e/lid-P00800000HFyLyIewV0op7yOfa94RHvMTttXfo3Q",
-   "photo": "https://images-listings.century21.com/SL/21/79/92/0/_P/2179920_P00.jpg?format=webp&quality=70&width=800",
-   "photo_count": 26,
-   "description": "Remodeled in 2023: new flooring, paint, cabinets, furnace and central air, stainless appliances, granite. Walk-in closet, shed, large mature yard.",
-   "mls": "2179920",
-   "source": "Century21",
-   "stretch": true,
-   "fit_score": 29,
-   "score_breakdown": {
-    "profit": 1.6,
-    "affordability": 11.4,
-    "resale_layout": 5.2,
-    "value_vs_market": 0.0,
-    "condition": 4.5,
-    "price": 0.0,
-    "lot_garage": 1.5,
-    "hoa": 3.0,
-    "days_on_market": 2.0
-   },
-   "pros": [
-    "On market 53 days: room to negotiate",
-    "Has central A/C",
-    "Offer $361k or less to clear ~$40k profit"
-   ],
-   "cons": [
-    "Stretch: $15k over your $380k target",
-    "$407/sqft is above the ~$277 Payson median",
-    "No garage",
-    "Built 1930: check for lead paint, the electrical, and the sewer line",
-    "Thin profit: only ~$5k after fixing up and selling in 3 yrs",
-    "Already updated: little left for you to add value",
-    "Payment ~$2,549/mo: doable but tight",
-    "2 bed / 1 bath: fewer buyers when you sell"
-   ],
-   "rehab_tier": "light",
-   "market_value": 268690,
-   "arv": 404600,
-   "rehab_cost": 9700,
-   "selling_costs": 24276,
-   "buy_hold_costs": 11847,
-   "flip_profit": -36123,
-   "flip_roi_pct": -8.7,
-   "live_in_years": 3,
-   "live_in_value": 448587,
-   "live_in_gain": 5225,
-   "live_in_roi_pct": 6,
-   "max_offer": 361000,
-   "buy_closing": 11847,
-   "sale_costs": 26915,
-   "target_profit": 40000,
-   "monthly_payment": 2549,
-   "payment_level": "tight",
-   "down_pct": 0.17,
-   "pmi_monthly": 60,
-   "cash_needed": 88680,
-   "cash_ok": true,
-   "status": "active",
-   "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
-   "price_history": [
-    {
-     "date": "2026-11-07",
-     "price": 394900
     }
    ],
    "price_drop": 0

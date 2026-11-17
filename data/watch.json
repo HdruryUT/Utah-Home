@@ -478,5 +478,95 @@
   "city": "Eagle Mountain",
   "price": 444990,
   "first_seen": "2026-11-16"
+ },
+ "/ut/eagle-mountain/4117-e-ofallons-way/pid_74788392/": {
+  "address": "4117 E Ofallons Way",
+  "city": "Eagle Mountain",
+  "price": 445000,
+  "first_seen": "2026-11-17"
+ },
+ "/ut/spanish-fork/145-n-200-w/pid_74788819/": {
+  "address": "145 N 200 W",
+  "city": "Spanish Fork",
+  "price": 420000,
+  "first_seen": "2026-11-17"
+ },
+ "/ut/provo/1616-s-400-w/pid_72431235/": {
+  "address": "1616 S 400 W",
+  "city": "Provo",
+  "price": 409000,
+  "first_seen": "2026-11-17"
+ },
+ "/ut/provo/1050-w-100-n/pid_71971645/": {
+  "address": "1050 W 100 N",
+  "city": "Provo",
+  "price": 414900,
+  "first_seen": "2026-11-17"
+ },
+ "/ut/spanish-fork/771-w-250-n/pid_72290528/": {
+  "address": "771 W 250 N",
+  "city": "Spanish Fork",
+  "price": 429900,
+  "first_seen": "2026-11-17"
+ },
+ "/ut/spanish-fork/684-n-1120-e/pid_71644262/": {
+  "address": "684 N 1120 E",
+  "city": "Spanish Fork",
+  "price": 450000,
+  "first_seen": "2026-11-17"
+ },
+ "/ut/springville/127-w-300-n/pid_72217840/": {
+  "address": "127 W 300 N",
+  "city": "Springville",
+  "price": 449500,
+  "first_seen": "2026-11-17"
+ },
+ "/ut/orem/58-w-400-s/pid_72099129/": {
+  "address": "58 W 400 S",
+  "city": "Orem",
+  "price": 449900,
+  "first_seen": "2026-11-17"
+ },
+ "/ut/saratoga-springs/37-n-jordan-river-way-366/pid_72201488/": {
+  "address": "37 N Jordan River Way #366",
+  "city": "Saratoga Springs",
+  "price": 404990,
+  "first_seen": "2026-11-17"
+ },
+ "/ut/saratoga-springs/23-n-jordan-river-way/pid_71931576/": {
+  "address": "23 N Jordan River Way",
+  "city": "Saratoga Springs",
+  "price": 409990,
+  "first_seen": "2026-11-17"
+ },
+ "/ut/eagle-mountain/2152-e-weeping-willow-way-n/pid_72157951/": {
+  "address": "2152 E Weeping Willow Way N",
+  "city": "Eagle Mountain",
+  "price": 418000,
+  "first_seen": "2026-11-17"
+ },
+ "/ut/eagle-mountain/3918-e-parkers-pl/pid_72391779/": {
+  "address": "3918 E Parkers Pl",
+  "city": "Eagle Mountain",
+  "price": 439900,
+  "first_seen": "2026-11-17"
+ },
+ "/ut/eagle-mountain/6764-n-star-lake-dr/pid_71071324/": {
+  "address": "6764 N Star Lake Dr",
+  "city": "Eagle Mountain",
+  "price": 449900,
+  "first_seen": "2026-11-17"
+ },
+ "/ut/saratoga-springs/352-bayside-dr/pid_71363083/": {
+  "address": "352 Bayside Dr",
+  "city": "Saratoga Springs",
+  "price": 449000,
+  "first_seen": "2026-11-17"
+ },
+ "/ut/eagle-mountain/3327-e-windhover-rd/pid_72310759/": {
+  "address": "3327 E Windhover Rd",
+  "city": "Eagle Mountain",
+  "price": 444900,
+  "first_seen": "2026-11-17"
  }
 }
