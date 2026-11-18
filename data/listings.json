@@ -152,7 +152,7 @@
     "year_built": 2026
    },
    "first_seen": "2026-11-12",
-   "last_seen": "2026-11-15",
+   "last_seen": "2026-11-18",
    "price_history": [
     {
      "date": "2026-11-12",
@@ -377,19 +377,19 @@
     "property_type": "single_family",
     "source": "Century21",
     "sqft": 1554,
-    "status": "pending",
+    "status": "active",
     "url": "https://www.coldwellbankerhomes.com/ut/payson/1716-n-1230-e/pid_73750906/",
     "year_built": 2021
    },
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-15",
+   "last_seen": "2026-11-18",
    "price_history": [
     {
      "date": "2026-11-07",
      "price": 379490
     }
    ],
-   "status": "pending"
+   "status": "active"
   },
   "175-n-700-e-springville": {
    "data": {
@@ -620,7 +620,7 @@
     "year_built": 1934
    },
    "first_seen": "2026-11-09",
-   "last_seen": "2026-11-15",
+   "last_seen": "2026-11-18",
    "price_history": [
     {
      "date": "2026-11-09",
@@ -653,7 +653,7 @@
     "year_built": 1942
    },
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-15",
+   "last_seen": "2026-11-18",
    "price_history": [
     {
      "date": "2026-11-07",
@@ -718,7 +718,7 @@
     "year_built": 1934
    },
    "first_seen": "2026-11-15",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "price_history": [
     {
      "date": "2026-11-15",
@@ -783,7 +783,7 @@
     "year_built": 1939
    },
    "first_seen": "2026-11-09",
-   "last_seen": "2026-11-15",
+   "last_seen": "2026-11-18",
    "price_history": [
     {
      "date": "2026-11-09",
@@ -999,7 +999,7 @@
     "year_built": 1943
    },
    "first_seen": "2026-11-09",
-   "last_seen": "2026-11-15",
+   "last_seen": "2026-11-18",
    "price_history": [
     {
      "date": "2026-11-09",
@@ -1097,7 +1097,7 @@
     "year_built": 1913
    },
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-15",
+   "last_seen": "2026-11-18",
    "price_history": [
     {
      "date": "2026-11-07",
@@ -1136,6 +1136,7 @@
     "address": "368 S 1000 W",
     "baths": 2,
     "beds": 5,
+    "cb_url": "https://www.coldwellbankerhomes.com/ut/payson/368-s-1000-w/pid_69984791/",
     "city": "Payson",
     "photo": "https://images-listings.century21.com/SL/21/41/67/2/_P/2141672_P00.jpg?format=webp&quality=70&width=800",
     "photo_count": 2,
@@ -1147,7 +1148,7 @@
     "url": "https://www.century21.com/homes/detail/ut/payson/368-s-1000-w/lid-P00800000H7NbbykKe3MFZOnS2zqXyYafLZQQB2V"
    },
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-18",
    "price_history": [
     {
      "date": "2026-11-07",
@@ -1210,7 +1211,7 @@
     "year_built": 1951
    },
    "first_seen": "2026-11-12",
-   "last_seen": "2026-11-15",
+   "last_seen": "2026-11-18",
    "price_history": [
     {
      "date": "2026-11-12",
@@ -1814,7 +1815,7 @@
     "year_built": 1882
    },
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-15",
+   "last_seen": "2026-11-18",
    "price_history": [
     {
      "date": "2026-11-07",
@@ -1959,7 +1960,7 @@
     "address": "73 N Jordan River Rd",
     "baths": 2.5,
     "beds": 2,
-    "cb_url": "https://www.coldwellbankerhomes.com/ut/saratoga-springs/73-n-jordan-river-rd/pid_74624957/",
+    "cb_url": "https://www.coldwellbankerhomes.com/ut/saratoga-springs/73-n-jordan-river-rd-356/pid_74624957/",
     "city": "Saratoga Springs",
     "days_on_market": 2,
     "description": "The Moreno: two-story new-build, 2 bed, up to 2.5 baths, 2-car garage in the Wander community. Up to $20k closing costs. Photos show another home.",
@@ -1978,7 +1979,7 @@
     "year_built": 2027
    },
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-16",
+   "last_seen": "2026-11-18",
    "price_history": [
     {
      "date": "2026-11-07",
@@ -2136,7 +2137,7 @@
     "mls": "2184216",
     "photo": "https://images-listings.century21.com/SL/21/84/21/6/_P/2184216_P00.jpg?format=webp&quality=70&width=800",
     "photo_count": 15,
-    "price": 320000,
+    "price": 319900,
     "property_type": "single_family",
     "source": "Coldwell Banker",
     "sqft": 753,
@@ -2145,11 +2146,15 @@
     "year_built": 1918
    },
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-15",
+   "last_seen": "2026-11-18",
    "price_history": [
     {
      "date": "2026-11-07",
      "price": 320000
+    },
+    {
+     "date": "2026-11-18",
+     "price": 319900
     }
    ],
    "status": "active"
@@ -2274,7 +2279,7 @@
     "year_built": 1974
    },
    "first_seen": "2026-11-09",
-   "last_seen": "2026-11-15",
+   "last_seen": "2026-11-18",
    "price_history": [
     {
      "date": "2026-11-09",
@@ -2307,7 +2312,7 @@
     "year_built": 1958
    },
    "first_seen": "2026-11-15",
-   "last_seen": "2026-11-15",
+   "last_seen": "2026-11-18",
    "price_history": [
     {
      "date": "2026-11-15",
@@ -2315,7 +2320,38 @@
     }
    ],
    "status": "active"
+  },
+  "984-n-850-w-provo": {
+   "data": {
+    "address": "984 N 850 W",
+    "baths": 1,
+    "beds": 2,
+    "cb_url": "https://www.coldwellbankerhomes.com/ut/provo/984-n-850-w/pid_74803700/",
+    "city": "Provo",
+    "description": "Rambler/ranch near UVRMC and BYU. Interior in rough condition; furnace needs replacing. Large yard. Could be a starter home after updates. Showings require 24 hours notice.",
+    "garage": false,
+    "lot_acres": 0.21,
+    "mls": "2196756",
+    "photo": "https://images-listings.century21.com/SL/21/96/75/6/_P/2196756_P00.jpg?format=webp&quality=70&width=800",
+    "photo_count": 20,
+    "price": 350000,
+    "property_type": "single_family",
+    "source": "Coldwell Banker",
+    "sqft": 789,
+    "status": "active",
+    "url": "https://www.coldwellbankerhomes.com/ut/provo/984-n-850-w/pid_74803700/",
+    "year_built": 1950
+   },
+   "first_seen": "2026-11-18",
+   "last_seen": "2026-11-18",
+   "price_history": [
+    {
+     "date": "2026-11-18",
+     "price": 350000
+    }
+   ],
+   "status": "active"
   }
  },
- "updated": "2026-11-17"
+ "updated": "2026-11-18"
 }

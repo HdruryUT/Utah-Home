@@ -568,5 +568,23 @@
   "city": "Eagle Mountain",
   "price": 444900,
   "first_seen": "2026-11-17"
+ },
+ "/ut/eagle-mountain/3629-n-annabell-street-lot-1404/pid_74803680/": {
+  "address": "3629 N Annabell Street Lot #1404",
+  "city": "Eagle Mountain",
+  "price": 398778,
+  "first_seen": "2026-11-18"
+ },
+ "/ut/payson/742-w-400-s/pid_69680488/": {
+  "address": "742 W 400 S",
+  "city": "Payson",
+  "price": 409000,
+  "first_seen": "2026-11-18"
+ },
+ "/ut/eagle-mountain/3403-n-goldfinch-dr-5006/pid_74800418/": {
+  "address": "3403 N GoldFinch Dr #5006",
+  "city": "Eagle Mountain",
+  "price": 431900,
+  "first_seen": "2026-11-18"
  }
 }

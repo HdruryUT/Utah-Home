@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-17",
+ "updated": "2026-11-18",
  "plan": {
   "closing_cost_pct": 0.03,
   "mortgage_rate": 0.0711,
@@ -296,7 +296,7 @@
    "cash_ok": true,
    "status": "active",
    "first_seen": "2026-11-15",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "price_history": [
     {
      "date": "2026-11-15",
@@ -532,7 +532,7 @@
    "cash_ok": true,
    "status": "pending",
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-15",
+   "last_seen": "2026-11-18",
    "price_history": [
     {
      "date": "2026-11-07",
@@ -609,7 +609,7 @@
    "cash_ok": true,
    "status": "pending",
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-18",
    "price_history": [
     {
      "date": "2026-11-07",
@@ -848,7 +848,7 @@
    "cash_ok": true,
    "status": "active",
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-15",
+   "last_seen": "2026-11-18",
    "price_history": [
     {
      "date": "2026-11-07",
@@ -1413,7 +1413,7 @@
    "cash_ok": true,
    "status": "active",
    "first_seen": "2026-11-09",
-   "last_seen": "2026-11-15",
+   "last_seen": "2026-11-18",
    "price_history": [
     {
      "date": "2026-11-09",
@@ -1569,7 +1569,7 @@
    "cash_ok": true,
    "status": "active",
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-15",
+   "last_seen": "2026-11-18",
    "price_history": [
     {
      "date": "2026-11-07",
@@ -1967,7 +1967,7 @@
    "cash_ok": true,
    "status": "active",
    "first_seen": "2026-11-09",
-   "last_seen": "2026-11-15",
+   "last_seen": "2026-11-18",
    "price_history": [
     {
      "date": "2026-11-09",
@@ -2442,7 +2442,7 @@
    "cash_ok": false,
    "status": "active",
    "first_seen": "2026-11-09",
-   "last_seen": "2026-11-15",
+   "last_seen": "2026-11-18",
    "price_history": [
     {
      "date": "2026-11-09",
@@ -3078,7 +3078,7 @@
    "cash_ok": true,
    "status": "active",
    "first_seen": "2026-11-09",
-   "last_seen": "2026-11-15",
+   "last_seen": "2026-11-18",
    "price_history": [
     {
      "date": "2026-11-09",
@@ -3157,7 +3157,7 @@
    "cash_ok": true,
    "status": "active",
    "first_seen": "2026-11-12",
-   "last_seen": "2026-11-15",
+   "last_seen": "2026-11-18",
    "price_history": [
     {
      "date": "2026-11-12",
@@ -3316,7 +3316,7 @@
    "cash_ok": true,
    "status": "active",
    "first_seen": "2026-11-15",
-   "last_seen": "2026-11-15",
+   "last_seen": "2026-11-18",
    "price_history": [
     {
      "date": "2026-11-15",
@@ -3648,7 +3648,7 @@
    "address": "950 W 500 N",
    "city": "Provo",
    "region": "Central",
-   "price": 320000,
+   "price": 319900,
    "beds": 2,
    "baths": 1,
    "sqft": 753,
@@ -3679,9 +3679,10 @@
    },
    "pros": [
     "On market 60 days: room to negotiate",
+    "Price dropped $100",
     "Offer $297k or less to clear ~$40k profit",
     "Dated but livable: room to add value with cosmetic updates",
-    "Payment ~$2,031/mo: comfortable for your budget",
+    "Payment ~$2,030/mo: comfortable for your budget",
     "Trim the fix-up by ~$3k to reach 20% down and drop PMI entirely"
    ],
    "cons": [
@@ -3694,36 +3695,40 @@
    ],
    "rehab_tier": "medium",
    "market_value": 251502,
-   "arv": 350120,
+   "arv": 350020,
    "rehab_cost": 18825,
-   "selling_costs": 21007,
-   "buy_hold_costs": 9600,
-   "flip_profit": -19312,
+   "selling_costs": 21001,
+   "buy_hold_costs": 9597,
+   "flip_profit": -19303,
    "flip_roi_pct": -5.5,
    "live_in_years": 3,
-   "live_in_value": 388184,
-   "live_in_gain": 16468,
+   "live_in_value": 388073,
+   "live_in_gain": 16467,
    "live_in_roi_pct": 18,
    "max_offer": 297000,
-   "buy_closing": 9600,
-   "sale_costs": 23291,
+   "buy_closing": 9597,
+   "sale_costs": 23284,
    "target_profit": 40000,
-   "monthly_payment": 2031,
+   "monthly_payment": 2030,
    "payment_level": "comfortable",
    "down_pct": 0.19,
    "pmi_monthly": 48,
-   "cash_needed": 89225,
+   "cash_needed": 89203,
    "cash_ok": true,
    "status": "active",
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-15",
+   "last_seen": "2026-11-18",
    "price_history": [
     {
      "date": "2026-11-07",
      "price": 320000
+    },
+    {
+     "date": "2026-11-18",
+     "price": 319900
     }
    ],
-   "price_drop": 0
+   "price_drop": 100
   },
   {
    "id": "1660-n-500-w-lehi",
@@ -4045,6 +4050,87 @@
     {
      "date": "2026-11-07",
      "price": 379900
+    }
+   ],
+   "price_drop": 0
+  },
+  {
+   "id": "984-n-850-w-provo",
+   "address": "984 N 850 W",
+   "city": "Provo",
+   "region": "Central",
+   "price": 350000,
+   "beds": 2,
+   "baths": 1,
+   "sqft": 789,
+   "price_per_sqft": 444,
+   "lot_acres": 0.21,
+   "year_built": 1950,
+   "garage": false,
+   "hoa_monthly": 0,
+   "days_on_market": null,
+   "url": "https://www.coldwellbankerhomes.com/ut/provo/984-n-850-w/pid_74803700/",
+   "photo": "https://images-listings.century21.com/SL/21/96/75/6/_P/2196756_P00.jpg?format=webp&quality=70&width=800",
+   "photo_count": 20,
+   "description": "Rambler/ranch near UVRMC and BYU. Interior in rough condition; furnace needs replacing. Large yard. Could be a starter home after updates. Showings require 24 hours notice.",
+   "mls": "2196756",
+   "source": "Coldwell Banker",
+   "stretch": false,
+   "fit_score": 42,
+   "score_breakdown": {
+    "profit": 5.2,
+    "affordability": 14.9,
+    "resale_layout": 5.2,
+    "value_vs_market": 0.0,
+    "condition": 10.0,
+    "price": 1.6,
+    "lot_garage": 2.5,
+    "hoa": 3.0,
+    "days_on_market": 0
+   },
+   "pros": [
+    "Big lot: 0.21 ac",
+    "Offer $328k or less to clear ~$40k profit",
+    "Dated but livable: room to add value with cosmetic updates"
+   ],
+   "cons": [
+    "$444/sqft is above the ~$328 Provo median",
+    "Small: 789 sqft",
+    "No garage",
+    "Built 1950: check for lead paint, the electrical, and the sewer line",
+    "Thin profit: only ~$17k after fixing up and selling in 3 yrs",
+    "Payment ~$2,258/mo: doable but tight",
+    "2 bed / 1 bath: fewer buyers when you sell"
+   ],
+   "rehab_tier": "medium",
+   "market_value": 258792,
+   "arv": 381560,
+   "rehab_cost": 19725,
+   "selling_costs": 22894,
+   "buy_hold_costs": 10500,
+   "flip_profit": -21559,
+   "flip_roi_pct": -5.7,
+   "live_in_years": 3,
+   "live_in_value": 423042,
+   "live_in_gain": 17435,
+   "live_in_roi_pct": 19,
+   "max_offer": 328000,
+   "buy_closing": 10500,
+   "sale_costs": 25383,
+   "target_profit": 40000,
+   "monthly_payment": 2258,
+   "payment_level": "tight",
+   "down_pct": 0.17,
+   "pmi_monthly": 53,
+   "cash_needed": 89725,
+   "cash_ok": true,
+   "status": "active",
+   "first_seen": "2026-11-18",
+   "last_seen": "2026-11-18",
+   "price_history": [
+    {
+     "date": "2026-11-18",
+     "price": 350000
     }
    ],
    "price_drop": 0
@@ -4596,9 +4682,9 @@
    "pmi_monthly": 58,
    "cash_needed": 89541,
    "cash_ok": true,
-   "status": "pending",
+   "status": "active",
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-15",
+   "last_seen": "2026-11-18",
    "price_history": [
     {
      "date": "2026-11-07",
@@ -4919,7 +5005,7 @@
    "cash_ok": true,
    "status": "pending",
    "first_seen": "2026-11-12",
-   "last_seen": "2026-11-15",
+   "last_seen": "2026-11-18",
    "price_history": [
     {
      "date": "2026-11-12",
@@ -5162,7 +5248,7 @@
    "cash_ok": true,
    "status": "pending",
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-16",
+   "last_seen": "2026-11-18",
    "price_history": [
     {
      "date": "2026-11-07",
