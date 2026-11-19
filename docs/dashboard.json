@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-18",
+ "updated": "2026-11-19",
  "plan": {
   "closing_cost_pct": 0.03,
   "mortgage_rate": 0.0711,
@@ -225,6 +225,90 @@
    "price_drop": 0
   },
   {
+   "id": "456-e-400-s-provo",
+   "address": "456 E 400 S",
+   "city": "Provo",
+   "region": "Central",
+   "price": 283000,
+   "beds": 2,
+   "baths": 1,
+   "sqft": 1218,
+   "price_per_sqft": 232,
+   "lot_acres": 0.14,
+   "year_built": 1894,
+   "garage": true,
+   "hoa_monthly": 0,
+   "days_on_market": 39,
+   "url": "https://www.coldwellbankerhomes.com/ut/provo/456-e-400-s/pid_74211275/",
+   "photo": "https://images-listings.century21.com/SL/21/90/53/6/_P/2190536_P00.jpg?format=webp&quality=70&width=800",
+   "photo_count": 24,
+   "description": "1894 single-story Provo home marketed for restoration; original hardwood floors, 11-foot ceilings, new asphalt roof, carport, near FrontRunner and BYU.",
+   "mls": "2190536",
+   "source": "Coldwell Banker",
+   "stretch": false,
+   "fit_score": 74,
+   "score_breakdown": {
+    "profit": 21.1,
+    "affordability": 15.0,
+    "resale_layout": 5.2,
+    "value_vs_market": 10.7,
+    "condition": 10.0,
+    "price": 3.9,
+    "lot_garage": 4.0,
+    "hoa": 3.0,
+    "days_on_market": 1.0
+   },
+   "pros": [
+    "$232/sqft vs ~$276 Provo median (16% below)",
+    "Has a garage",
+    "Price dropped $22k",
+    "Strong profit potential: ~$70k after fixing up and selling in 3 yrs",
+    "Clears ~$40k profit even at asking price",
+    "Dated but livable: room to add value with cosmetic updates",
+    "Payment ~$1,829/mo: comfortable for your budget"
+   ],
+   "cons": [
+    "Built 1894: check for lead paint, the electrical, and the sewer line",
+    "2 bed / 1 bath: fewer buyers when you sell"
+   ],
+   "rehab_tier": "medium",
+   "market_value": 336168,
+   "arv": 376508,
+   "rehab_cost": 30450,
+   "selling_costs": 22590,
+   "buy_hold_costs": 8490,
+   "flip_profit": 31978,
+   "flip_roi_pct": 9.9,
+   "live_in_years": 3,
+   "live_in_value": 417441,
+   "live_in_gain": 70455,
+   "live_in_roi_pct": 78,
+   "max_offer": 313000,
+   "buy_closing": 8490,
+   "sale_costs": 25046,
+   "target_profit": 40000,
+   "monthly_payment": 1829,
+   "payment_level": "comfortable",
+   "down_pct": 0.18,
+   "pmi_monthly": 43,
+   "cash_needed": 89880,
+   "cash_ok": true,
+   "status": "active",
+   "first_seen": "2026-11-07",
+   "last_seen": "2026-11-19",
+   "price_history": [
+    {
+     "date": "2026-11-07",
+     "price": 305000
+    },
+    {
+     "date": "2026-11-19",
+     "price": 283000
+    }
+   ],
+   "price_drop": 22000
+  },
+  {
    "id": "208-n-600-e-spanish-fork",
    "address": "208 N 600 E",
    "city": "Spanish Fork",
@@ -376,7 +460,7 @@
    "cash_ok": true,
    "status": "active",
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-19",
    "price_history": [
     {
      "date": "2026-11-07",
@@ -619,6 +703,92 @@
    "price_drop": 0
   },
   {
+   "id": "380-e-200-s-spanish-fork",
+   "address": "380 E 200 S",
+   "city": "Spanish Fork",
+   "region": "South",
+   "price": 375000,
+   "beds": 3,
+   "baths": 2,
+   "sqft": 1844,
+   "price_per_sqft": 203,
+   "lot_acres": 0.13,
+   "year_built": 1951,
+   "garage": true,
+   "hoa_monthly": 0,
+   "days_on_market": 15,
+   "url": "https://www.coldwellbankerhomes.com/ut/spanish-fork/380-e-200-s/pid_74579620/",
+   "photo": "https://images-listings.century21.com/SL/21/94/32/2/_P/2194322_P00.jpg?format=webp&quality=70&width=800",
+   "photo_count": 28,
+   "description": "Rambler near historic downtown Spanish Fork with separate basement entrance suited to a mother-in-law apartment, oversized two-car garage with workshop, cold storage room, seller financing listed as available.",
+   "mls": "2194322",
+   "source": "Coldwell Banker",
+   "stretch": false,
+   "fit_score": 65,
+   "score_breakdown": {
+    "profit": 14.3,
+    "affordability": 9.4,
+    "resale_layout": 15.0,
+    "value_vs_market": 8.6,
+    "condition": 10.0,
+    "price": 0.7,
+    "lot_garage": 4.0,
+    "hoa": 3.0,
+    "days_on_market": 0
+   },
+   "pros": [
+    "Roomy: 1,844 sqft",
+    "Has a garage",
+    "Price dropped $10k",
+    "Seller may offer financing",
+    "Basement could become a rental or mother-in-law unit",
+    "Clears ~$40k profit even at asking price",
+    "Dated but livable: room to add value with cosmetic updates",
+    "Trim the fix-up by ~$6k to reach 10% down and lower PMI",
+    "3+ bed / 2 bath: the layout most buyers want when you sell"
+   ],
+   "cons": [
+    "Built 1951: check for lead paint, the electrical, and the sewer line",
+    "Payment ~$2,712/mo: doable but tight"
+   ],
+   "rehab_tier": "medium",
+   "market_value": 411212,
+   "arv": 460557,
+   "rehab_cost": 46100,
+   "selling_costs": 27633,
+   "buy_hold_costs": 11250,
+   "flip_profit": 574,
+   "flip_roi_pct": 0.1,
+   "live_in_years": 3,
+   "live_in_value": 510628,
+   "live_in_gain": 47640,
+   "live_in_roi_pct": 53,
+   "max_offer": 382000,
+   "buy_closing": 11250,
+   "sale_costs": 30638,
+   "target_profit": 40000,
+   "monthly_payment": 2712,
+   "payment_level": "tight",
+   "down_pct": 0.085,
+   "pmi_monthly": 143,
+   "cash_needed": 89225,
+   "cash_ok": true,
+   "status": "active",
+   "first_seen": "2026-11-07",
+   "last_seen": "2026-11-19",
+   "price_history": [
+    {
+     "date": "2026-11-07",
+     "price": 385000
+    },
+    {
+     "date": "2026-11-19",
+     "price": 375000
+    }
+   ],
+   "price_drop": 10000
+  },
+  {
    "id": "688-e-300-s-spanish-fork",
    "address": "688 E 300 S",
    "city": "Spanish Fork",
@@ -690,7 +860,7 @@
    "cash_ok": true,
    "status": "active",
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-19",
    "price_history": [
     {
      "date": "2026-11-07",
@@ -933,7 +1103,7 @@
    "cash_ok": false,
    "status": "pending",
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-19",
    "price_history": [
     {
      "date": "2026-11-07",
@@ -1014,92 +1184,11 @@
    "cash_ok": false,
    "status": "pending",
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-16",
+   "last_seen": "2026-11-19",
    "price_history": [
     {
      "date": "2026-11-07",
      "price": 275000
-    }
-   ],
-   "price_drop": 0
-  },
-  {
-   "id": "380-e-200-s-spanish-fork",
-   "address": "380 E 200 S",
-   "city": "Spanish Fork",
-   "region": "South",
-   "price": 385000,
-   "beds": 3,
-   "baths": 2,
-   "sqft": 1844,
-   "price_per_sqft": 209,
-   "lot_acres": 0.13,
-   "year_built": 1951,
-   "garage": true,
-   "hoa_monthly": 0,
-   "days_on_market": 3,
-   "url": "https://www.century21.com/homes/detail/ut/spanish-fork/380-e-200-s/lid-P00800000HJsctdZmy372sYkE8i1Ek1EXPHAqTwV",
-   "photo": "https://images-listings.century21.com/SL/21/94/32/2/_P/2194322_P00.jpg?format=webp&quality=70&width=800",
-   "photo_count": 27,
-   "description": "Central Spanish Fork near downtown. Basement entrance could work as a mother-in-law apartment. Oversized 2-car garage with workshop, sprinklers. Possible seller financing.",
-   "mls": "2194322",
-   "source": "Century21",
-   "stretch": true,
-   "fit_score": 60,
-   "score_breakdown": {
-    "profit": 11.2,
-    "affordability": 8.4,
-    "resale_layout": 15.0,
-    "value_vs_market": 7.9,
-    "condition": 10.0,
-    "price": 0.3,
-    "lot_garage": 4.0,
-    "hoa": 3.0,
-    "days_on_market": 0
-   },
-   "pros": [
-    "Roomy: 1,844 sqft",
-    "Has a garage",
-    "Seller may offer financing",
-    "Basement could become a rental or mother-in-law unit",
-    "Offer $382k or less to clear ~$40k profit",
-    "Dated but livable: room to add value with cosmetic updates",
-    "3+ bed / 2 bath: the layout most buyers want when you sell"
-   ],
-   "cons": [
-    "Stretch: $5k over your $380k target",
-    "Built 1951: check for lead paint, the electrical, and the sewer line",
-    "Payment ~$2,795/mo: likely more than you'd want to carry"
-   ],
-   "rehab_tier": "medium",
-   "market_value": 411212,
-   "arv": 460557,
-   "rehab_cost": 46100,
-   "selling_costs": 27633,
-   "buy_hold_costs": 11550,
-   "flip_profit": -9726,
-   "flip_roi_pct": -2.2,
-   "live_in_years": 3,
-   "live_in_value": 510628,
-   "live_in_gain": 37340,
-   "live_in_roi_pct": 42,
-   "max_offer": 382000,
-   "buy_closing": 11550,
-   "sale_costs": 30638,
-   "target_profit": 40000,
-   "monthly_payment": 2795,
-   "payment_level": "high",
-   "down_pct": 0.08,
-   "pmi_monthly": 148,
-   "cash_needed": 88450,
-   "cash_ok": true,
-   "status": "active",
-   "first_seen": "2026-11-07",
-   "last_seen": "2026-11-13",
-   "price_history": [
-    {
-     "date": "2026-11-07",
-     "price": 385000
     }
    ],
    "price_drop": 0
@@ -1175,86 +1264,11 @@
    "cash_ok": false,
    "status": "active",
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-16",
+   "last_seen": "2026-11-19",
    "price_history": [
     {
      "date": "2026-11-07",
      "price": 340000
-    }
-   ],
-   "price_drop": 0
-  },
-  {
-   "id": "456-e-400-s-provo",
-   "address": "456 E 400 S",
-   "city": "Provo",
-   "region": "Central",
-   "price": 305000,
-   "beds": 2,
-   "baths": 1,
-   "sqft": 1218,
-   "price_per_sqft": 250,
-   "lot_acres": null,
-   "year_built": null,
-   "garage": null,
-   "hoa_monthly": 0,
-   "days_on_market": null,
-   "url": "https://www.century21.com/homes/detail/ut/provo/456-e-400-s/lid-P00800000HIdvJTPxeeudV06zue6Ajwazrjl6wj9",
-   "photo": "https://images-listings.century21.com/SL/21/90/53/6/_P/2190536_P00.jpg?format=webp&quality=70&width=800",
-   "photo_count": 24,
-   "description": null,
-   "mls": null,
-   "source": "Century21",
-   "stretch": false,
-   "fit_score": 59,
-   "score_breakdown": {
-    "profit": 14.3,
-    "affordability": 15.0,
-    "resale_layout": 5.2,
-    "value_vs_market": 8.8,
-    "condition": 10.0,
-    "price": 3.1,
-    "lot_garage": 0,
-    "hoa": 3.0,
-    "days_on_market": 0
-   },
-   "pros": [
-    "Clears ~$40k profit even at asking price",
-    "Dated but livable: room to add value with cosmetic updates",
-    "Payment ~$1,993/mo: comfortable for your budget"
-   ],
-   "cons": [
-    "2 bed / 1 bath: fewer buyers when you sell"
-   ],
-   "rehab_tier": "medium",
-   "market_value": 336168,
-   "arv": 376508,
-   "rehab_cost": 30450,
-   "selling_costs": 22590,
-   "buy_hold_costs": 9150,
-   "flip_profit": 9318,
-   "flip_roi_pct": 2.7,
-   "live_in_years": 3,
-   "live_in_value": 417441,
-   "live_in_gain": 47795,
-   "live_in_roi_pct": 53,
-   "max_offer": 313000,
-   "buy_closing": 9150,
-   "sale_costs": 25046,
-   "target_profit": 40000,
-   "monthly_payment": 1993,
-   "payment_level": "comfortable",
-   "down_pct": 0.165,
-   "pmi_monthly": 47,
-   "cash_needed": 89925,
-   "cash_ok": true,
-   "status": "pending",
-   "first_seen": "2026-11-07",
-   "last_seen": "2026-11-14",
-   "price_history": [
-    {
-     "date": "2026-11-07",
-     "price": 305000
     }
    ],
    "price_drop": 0
@@ -1330,7 +1344,7 @@
    "cash_ok": true,
    "status": "active",
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-16",
+   "last_seen": "2026-11-19",
    "price_history": [
     {
      "date": "2026-11-07",
@@ -1418,6 +1432,88 @@
     {
      "date": "2026-11-09",
      "price": 385000
+    }
+   ],
+   "price_drop": 0
+  },
+  {
+   "id": "1205-hillcrest-dr-springville",
+   "address": "1205 Hillcrest Dr",
+   "city": "Springville",
+   "region": "South",
+   "price": 150000,
+   "beds": 4,
+   "baths": 2,
+   "sqft": 3456,
+   "price_per_sqft": 43,
+   "lot_acres": 0.26,
+   "year_built": 1961,
+   "garage": true,
+   "hoa_monthly": 0,
+   "days_on_market": 19,
+   "url": "https://www.coldwellbankerhomes.com/ut/springville/1205-hillcrest-dr/pid_74527902/",
+   "photo": "https://images-listings.century21.com/SL/21/93/90/0/_P/2193900_P00.jpg?format=webp&quality=70&width=800",
+   "photo_count": 26,
+   "description": "As-is 1961 brick home needing a full renovation. Offers start at $150K, due November 18 at 5 PM, multiple offers expected. Finished basement with separate entrance, corner lot, mountain views.",
+   "mls": "2193900",
+   "source": "Coldwell Banker",
+   "stretch": false,
+   "fit_score": 56,
+   "score_breakdown": {
+    "profit": 0.0,
+    "affordability": 9.0,
+    "resale_layout": 15.0,
+    "value_vs_market": 15.0,
+    "condition": 3.5,
+    "price": 5.0,
+    "lot_garage": 5.0,
+    "hoa": 3.0,
+    "days_on_market": 0
+   },
+   "pros": [
+    "$43/sqft vs ~$197 Springville median (78% below)",
+    "Roomy: 3,456 sqft",
+    "Big lot: 0.26 ac",
+    "Has a garage",
+    "Payment ~$1,232/mo: comfortable for your budget",
+    "3+ bed / 2 bath: the layout most buyers want when you sell"
+   ],
+   "cons": [
+    "Built 1961: check for lead paint, the electrical, and the sewer line",
+    "Heavy fixer: may be hard to live in or finance while you work on it",
+    "Multiple offers expected: likely to sell above asking",
+    "Thin profit: only ~$-94k after fixing up and selling in 3 yrs",
+    "Needs ~$199k cash to buy and fix: more than your cash budget"
+   ],
+   "rehab_tier": "heavy",
+   "market_value": 680832,
+   "arv": 240000,
+   "rehab_cost": 190080,
+   "selling_costs": 14400,
+   "buy_hold_costs": 4500,
+   "flip_profit": -118980,
+   "flip_roi_pct": -34.5,
+   "live_in_years": 3,
+   "live_in_value": 266092,
+   "live_in_gain": -94453,
+   "live_in_roi_pct": -47,
+   "max_offer": 19000,
+   "buy_closing": 4500,
+   "sale_costs": 15966,
+   "target_profit": 40000,
+   "monthly_payment": 1232,
+   "payment_level": "comfortable",
+   "down_pct": 0.03,
+   "pmi_monthly": 79,
+   "cash_needed": 199080,
+   "cash_ok": false,
+   "status": "active",
+   "first_seen": "2026-11-07",
+   "last_seen": "2026-11-19",
+   "price_history": [
+    {
+     "date": "2026-11-07",
+     "price": 150000
     }
    ],
    "price_drop": 0
@@ -2290,6 +2386,89 @@
    "price_drop": 0
   },
   {
+   "id": "111-e-700-s-pleasant-grove",
+   "address": "111 E 700 S",
+   "city": "Pleasant Grove",
+   "region": "North",
+   "price": 375000,
+   "beds": 3,
+   "baths": 1,
+   "sqft": 1277,
+   "price_per_sqft": 294,
+   "lot_acres": 0.17,
+   "year_built": 1956,
+   "garage": true,
+   "hoa_monthly": 0,
+   "days_on_market": null,
+   "url": "https://www.coldwellbankerhomes.com/ut/pleasant-grove/111-e-700-s/pid_74376228/",
+   "photo": "https://images-listings.century21.com/SL/21/92/32/0/_P/2192320_P00.jpg?format=webp&quality=70&width=800",
+   "photo_count": 16,
+   "description": "Single-family home with two bedrooms and a flex third room with its own outside entrance (massage studio). Private yard, close to I-15.",
+   "mls": "2192320",
+   "source": "Coldwell Banker",
+   "stretch": false,
+   "fit_score": 49,
+   "score_breakdown": {
+    "profit": 7.8,
+    "affordability": 11.0,
+    "resale_layout": 11.2,
+    "value_vs_market": 0.9,
+    "condition": 10.0,
+    "price": 0.7,
+    "lot_garage": 4.0,
+    "hoa": 3.0,
+    "days_on_market": 0
+   },
+   "pros": [
+    "Has a garage",
+    "Price dropped $10k",
+    "Offer $361k or less to clear ~$40k profit",
+    "Dated but livable: room to add value with cosmetic updates"
+   ],
+   "cons": [
+    "$294/sqft is above the ~$251 Pleasant Grove median",
+    "Only 1 bathroom: adding a second is a common value-add",
+    "Built 1956: check for lead paint, the electrical, and the sewer line",
+    "Payment ~$2,585/mo: doable but tight"
+   ],
+   "rehab_tier": "medium",
+   "market_value": 320527,
+   "arv": 426080,
+   "rehab_cost": 31925,
+   "selling_costs": 25565,
+   "buy_hold_costs": 11250,
+   "flip_profit": -17660,
+   "flip_roi_pct": -4.2,
+   "live_in_years": 3,
+   "live_in_value": 472403,
+   "live_in_gain": 25883,
+   "live_in_roi_pct": 29,
+   "max_offer": 361000,
+   "buy_closing": 11250,
+   "sale_costs": 28344,
+   "target_profit": 40000,
+   "monthly_payment": 2585,
+   "payment_level": "tight",
+   "down_pct": 0.12,
+   "pmi_monthly": 104,
+   "cash_needed": 88175,
+   "cash_ok": true,
+   "status": "active",
+   "first_seen": "2026-11-07",
+   "last_seen": "2026-11-19",
+   "price_history": [
+    {
+     "date": "2026-11-07",
+     "price": 385000
+    },
+    {
+     "date": "2026-11-19",
+     "price": 375000
+    }
+   ],
+   "price_drop": 10000
+  },
+  {
    "id": "175-n-700-e-springville",
    "address": "175 N 700 E",
    "city": "Springville",
@@ -2521,7 +2700,7 @@
    "cash_ok": false,
    "status": "pending",
    "first_seen": "2026-11-13",
-   "last_seen": "2026-11-16",
+   "last_seen": "2026-11-19",
    "price_history": [
     {
      "date": "2026-11-13",
@@ -2679,90 +2858,11 @@
    "cash_ok": true,
    "status": "active",
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-19",
    "price_history": [
     {
      "date": "2026-11-07",
      "price": 390000
-    }
-   ],
-   "price_drop": 0
-  },
-  {
-   "id": "111-e-700-s-pleasant-grove",
-   "address": "111 E 700 S",
-   "city": "Pleasant Grove",
-   "region": "North",
-   "price": 385000,
-   "beds": 3,
-   "baths": 1,
-   "sqft": 1277,
-   "price_per_sqft": 301,
-   "lot_acres": 0.17,
-   "year_built": 1956,
-   "garage": true,
-   "hoa_monthly": 0,
-   "days_on_market": null,
-   "url": "https://www.coldwellbankerhomes.com/ut/pleasant-grove/111-e-700-s/pid_74376228/",
-   "photo": "https://images-listings.century21.com/SL/21/92/32/0/_P/2192320_P00.jpg?format=webp&quality=70&width=800",
-   "photo_count": 16,
-   "description": "Single-family home with two bedrooms and a flex third room with its own outside entrance (massage studio). Private yard, close to I-15.",
-   "mls": "2192320",
-   "source": "Coldwell Banker",
-   "stretch": true,
-   "fit_score": 47,
-   "score_breakdown": {
-    "profit": 7.8,
-    "affordability": 10.2,
-    "resale_layout": 11.2,
-    "value_vs_market": 0.0,
-    "condition": 10.0,
-    "price": 0.3,
-    "lot_garage": 4.0,
-    "hoa": 3.0,
-    "days_on_market": 0
-   },
-   "pros": [
-    "Has a garage",
-    "Offer $371k or less to clear ~$40k profit",
-    "Dated but livable: room to add value with cosmetic updates"
-   ],
-   "cons": [
-    "Stretch: $5k over your $380k target",
-    "$301/sqft is above the ~$251 Pleasant Grove median",
-    "Only 1 bathroom: adding a second is a common value-add",
-    "Built 1956: check for lead paint, the electrical, and the sewer line",
-    "Payment ~$2,651/mo: doable but tight"
-   ],
-   "rehab_tier": "medium",
-   "market_value": 320527,
-   "arv": 436080,
-   "rehab_cost": 31925,
-   "selling_costs": 26165,
-   "buy_hold_costs": 11550,
-   "flip_profit": -18560,
-   "flip_roi_pct": -4.3,
-   "live_in_years": 3,
-   "live_in_value": 483490,
-   "live_in_gain": 26005,
-   "live_in_roi_pct": 29,
-   "max_offer": 371000,
-   "buy_closing": 11550,
-   "sale_costs": 29009,
-   "target_profit": 40000,
-   "monthly_payment": 2651,
-   "payment_level": "tight",
-   "down_pct": 0.12,
-   "pmi_monthly": 107,
-   "cash_needed": 89675,
-   "cash_ok": true,
-   "status": "active",
-   "first_seen": "2026-11-07",
-   "last_seen": "2026-11-16",
-   "price_history": [
-    {
-     "date": "2026-11-07",
-     "price": 385000
     }
    ],
    "price_drop": 0
@@ -2837,7 +2937,7 @@
    "cash_ok": true,
    "status": "active",
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-19",
    "price_history": [
     {
      "date": "2026-11-07",
@@ -3397,7 +3497,7 @@
    "cash_ok": true,
    "status": "active",
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-16",
+   "last_seen": "2026-11-19",
    "price_history": [
     {
      "date": "2026-11-07",
@@ -3476,7 +3576,7 @@
    "cash_ok": true,
    "status": "active",
    "first_seen": "2026-11-10",
-   "last_seen": "2026-11-16",
+   "last_seen": "2026-11-19",
    "price_history": [
     {
      "date": "2026-11-10",
@@ -3803,7 +3903,7 @@
    "cash_ok": true,
    "status": "active",
    "first_seen": "2026-11-10",
-   "last_seen": "2026-11-16",
+   "last_seen": "2026-11-19",
    "price_history": [
     {
      "date": "2026-11-10",
@@ -3883,7 +3983,7 @@
    "cash_ok": true,
    "status": "active",
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-14",
+   "last_seen": "2026-11-19",
    "price_history": [
     {
      "date": "2026-11-07",
@@ -4045,7 +4145,7 @@
    "cash_ok": true,
    "status": "active",
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-16",
+   "last_seen": "2026-11-19",
    "price_history": [
     {
      "date": "2026-11-07",
@@ -4126,7 +4226,7 @@
    "cash_ok": true,
    "status": "active",
    "first_seen": "2026-11-18",
-   "last_seen": "2026-11-18",
+   "last_seen": "2026-11-19",
    "price_history": [
     {
      "date": "2026-11-18",
@@ -4207,7 +4307,7 @@
    "cash_ok": true,
    "status": "active",
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-16",
+   "last_seen": "2026-11-19",
    "price_history": [
     {
      "date": "2026-11-07",
@@ -4446,7 +4546,7 @@
    "cash_ok": true,
    "status": "active",
    "first_seen": "2026-11-13",
-   "last_seen": "2026-11-16",
+   "last_seen": "2026-11-19",
    "price_history": [
     {
      "date": "2026-11-13",
@@ -4842,7 +4942,7 @@
    "cash_ok": false,
    "status": "active",
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-19",
    "price_history": [
     {
      "date": "2026-11-07",
@@ -4924,7 +5024,7 @@
    "cash_ok": true,
    "status": "active",
    "first_seen": "2026-11-10",
-   "last_seen": "2026-11-16",
+   "last_seen": "2026-11-19",
    "price_history": [
     {
      "date": "2026-11-10",
@@ -5086,7 +5186,7 @@
    "cash_ok": true,
    "status": "pending",
    "first_seen": "2026-11-10",
-   "last_seen": "2026-11-16",
+   "last_seen": "2026-11-19",
    "price_history": [
     {
      "date": "2026-11-10",
@@ -5167,7 +5267,7 @@
    "cash_ok": true,
    "status": "active",
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-16",
+   "last_seen": "2026-11-19",
    "price_history": [
     {
      "date": "2026-11-07",
@@ -5248,7 +5348,7 @@
    "cash_ok": true,
    "status": "pending",
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-18",
+   "last_seen": "2026-11-19",
    "price_history": [
     {
      "date": "2026-11-07",

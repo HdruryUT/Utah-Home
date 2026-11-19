@@ -23,7 +23,7 @@
     "year_built": 1909
    },
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-19",
    "price_history": [
     {
      "date": "2026-11-07",
@@ -46,7 +46,7 @@
     "mls": "2192320",
     "photo": "https://images-listings.century21.com/SL/21/92/32/0/_P/2192320_P00.jpg?format=webp&quality=70&width=800",
     "photo_count": 16,
-    "price": 385000,
+    "price": 375000,
     "property_type": "single_family",
     "source": "Coldwell Banker",
     "sqft": 1277,
@@ -55,11 +55,15 @@
     "year_built": 1956
    },
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-16",
+   "last_seen": "2026-11-19",
    "price_history": [
     {
      "date": "2026-11-07",
      "price": 385000
+    },
+    {
+     "date": "2026-11-19",
+     "price": 375000
     }
    ],
    "status": "active"
@@ -68,10 +72,11 @@
    "data": {
     "address": "1205 Hillcrest Dr",
     "baths": 2,
-    "beds": 5,
+    "beds": 4,
+    "cb_url": "https://www.coldwellbankerhomes.com/ut/springville/1205-hillcrest-dr/pid_74527902/",
     "city": "Springville",
-    "days_on_market": 7,
-    "description": "As-is 1961 brick home needing a full renovation. $150K is a starting price; offers due November 18 at 5 PM, multiple offers expected. Finished basement with separate entrance, corner lot, mountain views.",
+    "days_on_market": 19,
+    "description": "As-is 1961 brick home needing a full renovation. Offers start at $150K, due November 18 at 5 PM, multiple offers expected. Finished basement with separate entrance, corner lot, mountain views.",
     "garage": true,
     "hoa_monthly": 0,
     "lot_acres": 0.26,
@@ -80,21 +85,21 @@
     "photo_count": 26,
     "price": 150000,
     "property_type": "single_family",
-    "source": "Century21",
+    "source": "Coldwell Banker",
     "sqft": 3456,
     "status": "active",
-    "url": "https://www.century21.com/homes/detail/ut/springville/1205-hillcrest-dr/lid-P00800000HJgDhUbyYq9YVjq2LG4rMpEnHJBvRpD",
+    "url": "https://www.coldwellbankerhomes.com/ut/springville/1205-hillcrest-dr/pid_74527902/",
     "year_built": 1961
    },
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-19",
    "price_history": [
     {
      "date": "2026-11-07",
      "price": 150000
     }
    ],
-   "status": "gone"
+   "status": "active"
   },
   "1226-e-570-n-spanish-fork": {
    "data": {
@@ -241,7 +246,7 @@
     "year_built": 1938
    },
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-19",
    "price_history": [
     {
      "date": "2026-11-07",
@@ -349,7 +354,7 @@
     "year_built": 1947
    },
    "first_seen": "2026-11-10",
-   "last_seen": "2026-11-16",
+   "last_seen": "2026-11-19",
    "price_history": [
     {
      "date": "2026-11-10",
@@ -446,7 +451,7 @@
     "year_built": 1947
    },
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-16",
+   "last_seen": "2026-11-19",
    "price_history": [
     {
      "date": "2026-11-07",
@@ -511,7 +516,7 @@
     "year_built": 2007
    },
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-16",
+   "last_seen": "2026-11-19",
    "price_history": [
     {
      "date": "2026-11-07",
@@ -686,7 +691,7 @@
     "year_built": 2000
    },
    "first_seen": "2026-11-10",
-   "last_seen": "2026-11-16",
+   "last_seen": "2026-11-19",
    "price_history": [
     {
      "date": "2026-11-10",
@@ -750,7 +755,7 @@
     "year_built": 1973
    },
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-19",
    "price_history": [
     {
      "date": "2026-11-07",
@@ -934,7 +939,7 @@
     "year_built": 1906
    },
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-19",
    "price_history": [
     {
      "date": "2026-11-07",
@@ -1032,7 +1037,7 @@
     "year_built": 1937
    },
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-16",
+   "last_seen": "2026-11-19",
    "price_history": [
     {
      "date": "2026-11-07",
@@ -1162,29 +1167,34 @@
     "address": "380 E 200 S",
     "baths": 2,
     "beds": 3,
+    "cb_url": "https://www.coldwellbankerhomes.com/ut/spanish-fork/380-e-200-s/pid_74579620/",
     "city": "Spanish Fork",
-    "days_on_market": 3,
-    "description": "Central Spanish Fork near downtown. Basement entrance could work as a mother-in-law apartment. Oversized 2-car garage with workshop, sprinklers. Possible seller financing.",
+    "days_on_market": 15,
+    "description": "Rambler near historic downtown Spanish Fork with separate basement entrance suited to a mother-in-law apartment, oversized two-car garage with workshop, cold storage room, seller financing listed as available.",
     "garage": true,
     "hoa_monthly": 0,
     "lot_acres": 0.13,
     "mls": "2194322",
     "photo": "https://images-listings.century21.com/SL/21/94/32/2/_P/2194322_P00.jpg?format=webp&quality=70&width=800",
-    "photo_count": 27,
-    "price": 385000,
+    "photo_count": 28,
+    "price": 375000,
     "property_type": "single_family",
-    "source": "Century21",
+    "source": "Coldwell Banker",
     "sqft": 1844,
     "status": "active",
-    "url": "https://www.century21.com/homes/detail/ut/spanish-fork/380-e-200-s/lid-P00800000HJsctdZmy372sYkE8i1Ek1EXPHAqTwV",
+    "url": "https://www.coldwellbankerhomes.com/ut/spanish-fork/380-e-200-s/pid_74579620/",
     "year_built": 1951
    },
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-19",
    "price_history": [
     {
      "date": "2026-11-07",
      "price": 385000
+    },
+    {
+     "date": "2026-11-19",
+     "price": 375000
     }
    ],
    "status": "active"
@@ -1276,7 +1286,7 @@
     "year_built": 1967
    },
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-16",
+   "last_seen": "2026-11-19",
    "price_history": [
     {
      "date": "2026-11-07",
@@ -1340,7 +1350,7 @@
     "year_built": 2001
    },
    "first_seen": "2026-11-13",
-   "last_seen": "2026-11-16",
+   "last_seen": "2026-11-19",
    "price_history": [
     {
      "date": "2026-11-13",
@@ -1515,25 +1525,37 @@
     "address": "456 E 400 S",
     "baths": 1,
     "beds": 2,
+    "cb_url": "https://www.coldwellbankerhomes.com/ut/provo/456-e-400-s/pid_74211275/",
     "city": "Provo",
+    "days_on_market": 39,
+    "description": "1894 single-story Provo home marketed for restoration; original hardwood floors, 11-foot ceilings, new asphalt roof, carport, near FrontRunner and BYU.",
+    "garage": true,
+    "hoa_monthly": 0,
+    "lot_acres": 0.14,
+    "mls": "2190536",
     "photo": "https://images-listings.century21.com/SL/21/90/53/6/_P/2190536_P00.jpg?format=webp&quality=70&width=800",
     "photo_count": 24,
-    "price": 305000,
+    "price": 283000,
     "property_type": "single_family",
-    "source": "Century21",
+    "source": "Coldwell Banker",
     "sqft": 1218,
-    "status": "pending",
-    "url": "https://www.century21.com/homes/detail/ut/provo/456-e-400-s/lid-P00800000HIdvJTPxeeudV06zue6Ajwazrjl6wj9"
+    "status": "active",
+    "url": "https://www.coldwellbankerhomes.com/ut/provo/456-e-400-s/pid_74211275/",
+    "year_built": 1894
    },
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-14",
+   "last_seen": "2026-11-19",
    "price_history": [
     {
      "date": "2026-11-07",
      "price": 305000
+    },
+    {
+     "date": "2026-11-19",
+     "price": 283000
     }
    ],
-   "status": "pending"
+   "status": "active"
   },
   "47-e-100-s-goshen": {
    "data": {
@@ -1557,7 +1579,7 @@
     "year_built": 1916
    },
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-19",
    "price_history": [
     {
      "date": "2026-11-07",
@@ -1589,7 +1611,7 @@
     "year_built": 1944
    },
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-14",
+   "last_seen": "2026-11-19",
    "price_history": [
     {
      "date": "2026-11-07",
@@ -1695,7 +1717,7 @@
     "year_built": 1947
    },
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-16",
+   "last_seen": "2026-11-19",
    "price_history": [
     {
      "date": "2026-11-07",
@@ -1728,7 +1750,7 @@
     "year_built": 2027
    },
    "first_seen": "2026-11-10",
-   "last_seen": "2026-11-16",
+   "last_seen": "2026-11-19",
    "price_history": [
     {
      "date": "2026-11-10",
@@ -1848,7 +1870,7 @@
     "year_built": 2027
    },
    "first_seen": "2026-11-10",
-   "last_seen": "2026-11-16",
+   "last_seen": "2026-11-19",
    "price_history": [
     {
      "date": "2026-11-10",
@@ -1913,7 +1935,7 @@
     "year_built": 1903
    },
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-19",
    "price_history": [
     {
      "date": "2026-11-07",
@@ -1979,7 +2001,7 @@
     "year_built": 2027
    },
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-18",
+   "last_seen": "2026-11-19",
    "price_history": [
     {
      "date": "2026-11-07",
@@ -2045,7 +2067,7 @@
     "year_built": 2027
    },
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-16",
+   "last_seen": "2026-11-19",
    "price_history": [
     {
      "date": "2026-11-07",
@@ -2076,7 +2098,7 @@
     "year_built": 1940
    },
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-16",
+   "last_seen": "2026-11-19",
    "price_history": [
     {
      "date": "2026-11-07",
@@ -2247,7 +2269,7 @@
     "year_built": 1943
    },
    "first_seen": "2026-11-13",
-   "last_seen": "2026-11-16",
+   "last_seen": "2026-11-19",
    "price_history": [
     {
      "date": "2026-11-13",
@@ -2343,7 +2365,7 @@
     "year_built": 1950
    },
    "first_seen": "2026-11-18",
-   "last_seen": "2026-11-18",
+   "last_seen": "2026-11-19",
    "price_history": [
     {
      "date": "2026-11-18",
@@ -2353,5 +2375,5 @@
    "status": "active"
   }
  },
- "updated": "2026-11-18"
+ "updated": "2026-11-19"
 }

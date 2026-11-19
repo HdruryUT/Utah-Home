@@ -38,7 +38,7 @@
  "/ut/lindon/364-w-lakeview-rd-n/pid_74461259/": {
   "address": "364 W Lakeview Rd N",
   "city": "Lindon",
-  "price": 424900,
+  "price": 419900,
   "first_seen": "2026-11-07"
  },
  "/ut/provo/1051-e-620-n/pid_74599226/": {
@@ -62,7 +62,7 @@
  "/ut/orem/853-n-235-e/pid_74554996/": {
   "address": "853 N 235 E",
   "city": "Orem",
-  "price": 410000,
+  "price": 405000,
   "first_seen": "2026-11-07"
  },
  "/ut/eagle-mountain/2369-e-prairie-ln/pid_74503985/": {
@@ -586,5 +586,29 @@
   "city": "Eagle Mountain",
   "price": 431900,
   "first_seen": "2026-11-18"
+ },
+ "/ut/eagle-mountain/2075-e-revere-way/pid_74816650/": {
+  "address": "2075 E Revere Way",
+  "city": "Eagle Mountain",
+  "price": 450000,
+  "first_seen": "2026-11-19"
+ },
+ "/ut/spanish-fork/419-s-540-w/pid_74820997/": {
+  "address": "419 S 540 W",
+  "city": "Spanish Fork",
+  "price": 439900,
+  "first_seen": "2026-11-19"
+ },
+ "/ut/salem/467-e-590-n-50/pid_74366582/": {
+  "address": "467 E 590 N #50",
+  "city": "Salem",
+  "price": 399800,
+  "first_seen": "2026-11-19"
+ },
+ "/ut/santaquin/85-e-100-n/pid_74364285/": {
+  "address": "85 E 100 N",
+  "city": "Santaquin",
+  "price": 420000,
+  "first_seen": "2026-11-19"
  }
 }
