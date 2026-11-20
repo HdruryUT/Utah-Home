@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-19",
+ "updated": "2026-11-20",
  "plan": {
   "closing_cost_pct": 0.03,
   "mortgage_rate": 0.0711,
@@ -215,7 +215,7 @@
    "cash_ok": true,
    "status": "active",
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-20",
    "price_history": [
     {
      "date": "2026-11-07",
@@ -295,7 +295,7 @@
    "cash_ok": true,
    "status": "active",
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-20",
    "price_history": [
     {
      "date": "2026-11-07",
@@ -539,7 +539,7 @@
    "cash_ok": true,
    "status": "pending",
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-20",
    "price_history": [
     {
      "date": "2026-11-07",
@@ -616,7 +616,7 @@
    "cash_ok": true,
    "status": "pending",
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-18",
+   "last_seen": "2026-11-20",
    "price_history": [
     {
      "date": "2026-11-07",
@@ -938,7 +938,7 @@
    "cash_ok": true,
    "status": "active",
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-20",
    "price_history": [
     {
      "date": "2026-11-07",
@@ -1018,7 +1018,7 @@
    "cash_ok": true,
    "status": "active",
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-18",
+   "last_seen": "2026-11-20",
    "price_history": [
     {
      "date": "2026-11-07",
@@ -1586,7 +1586,7 @@
    "cash_ok": true,
    "status": "active",
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-14",
+   "last_seen": "2026-11-20",
    "price_history": [
     {
      "date": "2026-11-07",
@@ -1900,94 +1900,11 @@
    "cash_ok": true,
    "status": "pending",
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-14",
+   "last_seen": "2026-11-20",
    "price_history": [
     {
      "date": "2026-11-07",
      "price": 385000
-    }
-   ],
-   "price_drop": 0
-  },
-  {
-   "id": "742-w-400-s-payson",
-   "address": "742 W 400 S",
-   "city": "Payson",
-   "region": "South",
-   "price": 375000,
-   "beds": 4,
-   "baths": 2,
-   "sqft": 1966,
-   "price_per_sqft": 191,
-   "lot_acres": 0.18,
-   "year_built": 1940,
-   "garage": true,
-   "hoa_monthly": 0,
-   "days_on_market": 262,
-   "url": "https://www.coldwellbankerhomes.com/ut/payson/742-w-400-s/pid_69680488/",
-   "photo": "https://images-listings.century21.com/SL/21/37/67/5/_P/2137675_P00.jpg?format=webp&quality=70&width=800",
-   "photo_count": 26,
-   "description": "Single-level ranch, 4 bed 2 bath on main plus finished basement. Evaporative cooling, fenced yard, patio, shed. Short sale requiring third-party approval, sold as is.",
-   "mls": "2137675",
-   "source": "Century21",
-   "stretch": false,
-   "fit_score": 52,
-   "score_breakdown": {
-    "profit": 19.6,
-    "affordability": 1.1,
-    "resale_layout": 15.0,
-    "value_vs_market": 8.6,
-    "condition": 3.5,
-    "price": 0.7,
-    "lot_garage": 4.0,
-    "hoa": 3.0,
-    "days_on_market": 2.0,
-    "dealbreakers": -6
-   },
-   "pros": [
-    "Roomy: 1,966 sqft",
-    "Has a garage",
-    "On market 262 days: room to negotiate",
-    "Strong profit potential: ~$65k after fixing up and selling in 3 yrs",
-    "Clears ~$40k profit even at asking price",
-    "3+ bed / 2 bath: the layout most buyers want when you sell"
-   ],
-   "cons": [
-    "Built 1940: check for lead paint, the electrical, and the sewer line",
-    "Heavy fixer: may be hard to live in or finance while you work on it",
-    "Short sale: needs bank approval, which can take months",
-    "Payment ~$2,904/mo: likely more than you'd want to carry",
-    "Needs ~$131k cash to buy and fix: more than your cash budget"
-   ],
-   "rehab_tier": "heavy",
-   "market_value": 410894,
-   "arv": 537195,
-   "rehab_cost": 108130,
-   "selling_costs": 32232,
-   "buy_hold_costs": 11250,
-   "flip_profit": 10583,
-   "flip_roi_pct": 2.1,
-   "live_in_years": 3,
-   "live_in_value": 595598,
-   "live_in_gain": 65482,
-   "live_in_roi_pct": 50,
-   "max_offer": 400000,
-   "buy_closing": 11250,
-   "sale_costs": 35736,
-   "target_profit": 40000,
-   "monthly_payment": 2904,
-   "payment_level": "high",
-   "down_pct": 0.03,
-   "pmi_monthly": 197,
-   "cash_needed": 130630,
-   "cash_ok": false,
-   "status": "active",
-   "first_seen": "2026-11-07",
-   "last_seen": "2026-11-15",
-   "price_history": [
-    {
-     "date": "2026-11-07",
-     "price": 375000
     }
    ],
    "price_drop": 0
@@ -2218,7 +2135,7 @@
    "cash_ok": true,
    "status": "pending",
    "first_seen": "2026-11-11",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-20",
    "price_history": [
     {
      "date": "2026-11-11",
@@ -2297,7 +2214,7 @@
    "cash_ok": true,
    "status": "active",
    "first_seen": "2026-11-11",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-20",
    "price_history": [
     {
      "date": "2026-11-11",
@@ -2376,7 +2293,7 @@
    "cash_ok": true,
    "status": "active",
    "first_seen": "2026-11-11",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-20",
    "price_history": [
     {
      "date": "2026-11-11",
@@ -2631,6 +2548,89 @@
    "price_drop": 0
   },
   {
+   "id": "311-w-1610-s-provo",
+   "address": "311 W 1610 S",
+   "city": "Provo",
+   "region": "Central",
+   "price": 370000,
+   "beds": 3,
+   "baths": 1,
+   "sqft": 1181,
+   "price_per_sqft": 313,
+   "lot_acres": 0.19,
+   "year_built": 1986,
+   "garage": false,
+   "hoa_monthly": 0,
+   "days_on_market": 33,
+   "url": "https://www.century21.com/homes/detail/ut/provo/311-w-1610-s/lid-P00800000HILk5gd7DkcCIhaaV5kvY5aAP7Lh9c2",
+   "photo": "https://images-listings.century21.com/SL/21/89/23/7/_P/2189237_P00.jpg?format=webp&quality=70&width=800",
+   "photo_count": 36,
+   "description": "Open-concept 3 bed on a quiet cul-de-sac near freeways, shopping, parks and schools.",
+   "mls": "2189237",
+   "source": "Century21",
+   "stretch": false,
+   "fit_score": 49,
+   "score_breakdown": {
+    "profit": 7.3,
+    "affordability": 11.7,
+    "resale_layout": 11.2,
+    "value_vs_market": 2.3,
+    "condition": 10.0,
+    "price": 0.9,
+    "lot_garage": 1.5,
+    "hoa": 3.0,
+    "days_on_market": 1.0
+   },
+   "pros": [
+    "Price dropped $5k",
+    "Offer $355k or less to clear ~$40k profit",
+    "Dated but livable: room to add value with cosmetic updates",
+    "Trim the fix-up by ~$7k to reach 15% down and lower PMI"
+   ],
+   "cons": [
+    "$313/sqft is above the ~$279 Provo median",
+    "Only 1 bathroom: adding a second is a common value-add",
+    "No garage",
+    "Payment ~$2,526/mo: doable but tight"
+   ],
+   "rehab_tier": "medium",
+   "market_value": 329499,
+   "arv": 417240,
+   "rehab_cost": 29525,
+   "selling_costs": 25034,
+   "buy_hold_costs": 11100,
+   "flip_profit": -18419,
+   "flip_roi_pct": -4.5,
+   "live_in_years": 3,
+   "live_in_value": 462601,
+   "live_in_gain": 24220,
+   "live_in_roi_pct": 27,
+   "max_offer": 355000,
+   "buy_closing": 11100,
+   "sale_costs": 27756,
+   "target_profit": 40000,
+   "monthly_payment": 2526,
+   "payment_level": "tight",
+   "down_pct": 0.13,
+   "pmi_monthly": 102,
+   "cash_needed": 88725,
+   "cash_ok": true,
+   "status": "active",
+   "first_seen": "2026-11-07",
+   "last_seen": "2026-11-20",
+   "price_history": [
+    {
+     "date": "2026-11-07",
+     "price": 374999
+    },
+    {
+     "date": "2026-11-20",
+     "price": 370000
+    }
+   ],
+   "price_drop": 4999
+  },
+  {
    "id": "4027-o-fallons-way-eagle-mountain",
    "address": "4027 O Fallons Way",
    "city": "Eagle Mountain",
@@ -2705,84 +2705,6 @@
     {
      "date": "2026-11-13",
      "price": 379000
-    }
-   ],
-   "price_drop": 0
-  },
-  {
-   "id": "311-w-1610-s-provo",
-   "address": "311 W 1610 S",
-   "city": "Provo",
-   "region": "Central",
-   "price": 374999,
-   "beds": 3,
-   "baths": 1,
-   "sqft": 1181,
-   "price_per_sqft": 318,
-   "lot_acres": 0.19,
-   "year_built": 1986,
-   "garage": false,
-   "hoa_monthly": 0,
-   "days_on_market": 33,
-   "url": "https://www.century21.com/homes/detail/ut/provo/311-w-1610-s/lid-P00800000HILk5gd7DkcCIhaaV5kvY5aAP7Lh9c2",
-   "photo": "https://images-listings.century21.com/SL/21/89/23/7/_P/2189237_P00.jpg?format=webp&quality=70&width=800",
-   "photo_count": 36,
-   "description": "Open-concept 3 bed on a quiet cul-de-sac near freeways, shopping, parks and schools.",
-   "mls": "2189237",
-   "source": "Century21",
-   "stretch": false,
-   "fit_score": 48,
-   "score_breakdown": {
-    "profit": 7.3,
-    "affordability": 11.3,
-    "resale_layout": 11.2,
-    "value_vs_market": 1.9,
-    "condition": 10.0,
-    "price": 0.7,
-    "lot_garage": 1.5,
-    "hoa": 3.0,
-    "days_on_market": 1.0
-   },
-   "pros": [
-    "Offer $360k or less to clear ~$40k profit",
-    "Dated but livable: room to add value with cosmetic updates",
-    "Trim the fix-up by ~$7k to reach 15% down and lower PMI"
-   ],
-   "cons": [
-    "$318/sqft is above the ~$279 Provo median",
-    "Only 1 bathroom: adding a second is a common value-add",
-    "No garage",
-    "Payment ~$2,558/mo: doable but tight"
-   ],
-   "rehab_tier": "medium",
-   "market_value": 329499,
-   "arv": 422239,
-   "rehab_cost": 29525,
-   "selling_costs": 25334,
-   "buy_hold_costs": 11250,
-   "flip_profit": -18869,
-   "flip_roi_pct": -4.5,
-   "live_in_years": 3,
-   "live_in_value": 468144,
-   "live_in_gain": 24281,
-   "live_in_roi_pct": 27,
-   "max_offer": 360000,
-   "buy_closing": 11250,
-   "sale_costs": 28089,
-   "target_profit": 40000,
-   "monthly_payment": 2558,
-   "payment_level": "tight",
-   "down_pct": 0.13,
-   "pmi_monthly": 103,
-   "cash_needed": 89525,
-   "cash_ok": true,
-   "status": "active",
-   "first_seen": "2026-11-07",
-   "last_seen": "2026-11-14",
-   "price_history": [
-    {
-     "date": "2026-11-07",
-     "price": 374999
     }
    ],
    "price_drop": 0
@@ -3099,7 +3021,7 @@
    "cash_ok": true,
    "status": "active",
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-20",
    "price_history": [
     {
      "date": "2026-11-07",
@@ -3653,7 +3575,7 @@
    "cash_ok": true,
    "status": "active",
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-14",
+   "last_seen": "2026-11-20",
    "price_history": [
     {
      "date": "2026-11-07",
@@ -3734,7 +3656,7 @@
    "cash_ok": true,
    "status": "active",
    "first_seen": "2026-11-08",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-20",
    "price_history": [
     {
      "date": "2026-11-08",
@@ -3983,7 +3905,7 @@
    "cash_ok": true,
    "status": "active",
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-20",
    "price_history": [
     {
      "date": "2026-11-07",
@@ -4466,7 +4388,7 @@
    "cash_ok": true,
    "status": "active",
    "first_seen": "2026-11-12",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-20",
    "price_history": [
     {
      "date": "2026-11-12",
@@ -4623,7 +4545,7 @@
    "cash_ok": true,
    "status": "pending",
    "first_seen": "2026-11-11",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-20",
    "price_history": [
     {
      "date": "2026-11-11",
@@ -4700,7 +4622,7 @@
    "cash_ok": true,
    "status": "pending",
    "first_seen": "2026-11-11",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-20",
    "price_history": [
     {
      "date": "2026-11-11",
@@ -4784,7 +4706,7 @@
    "cash_ok": true,
    "status": "active",
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-18",
+   "last_seen": "2026-11-20",
    "price_history": [
     {
      "date": "2026-11-07",
@@ -4861,7 +4783,7 @@
    "cash_ok": true,
    "status": "pending",
    "first_seen": "2026-11-11",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-20",
    "price_history": [
     {
      "date": "2026-11-11",

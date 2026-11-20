@@ -610,5 +610,35 @@
   "city": "Santaquin",
   "price": 420000,
   "first_seen": "2026-11-19"
+ },
+ "/ut/santaquin/76-w-770-n/pid_74840847/": {
+  "address": "76 W 770 N",
+  "city": "Santaquin",
+  "price": 440000,
+  "first_seen": "2026-11-20"
+ },
+ "/ut/springville/896-w-huntington-river-dr-102/pid_74840830/": {
+  "address": "896 W Huntington River Dr #102",
+  "city": "Springville",
+  "price": 429000,
+  "first_seen": "2026-11-20"
+ },
+ "/ut/mapleton/1571-n-1200-w/pid_74831830/": {
+  "address": "1571 N 1200 W",
+  "city": "Mapleton",
+  "price": 435000,
+  "first_seen": "2026-11-20"
+ },
+ "/ut/american-fork/224-w-pacific-dr/pid_74837442/": {
+  "address": "224 W Pacific Dr",
+  "city": "American Fork",
+  "price": 407000,
+  "first_seen": "2026-11-20"
+ },
+ "/ut/provo/256-n-300-w/pid_74234756/": {
+  "address": "256 N 300 W",
+  "city": "Provo",
+  "price": 449900,
+  "first_seen": "2026-11-20"
  }
 }

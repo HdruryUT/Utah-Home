@@ -124,7 +124,7 @@
     "year_built": 2000
    },
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-14",
+   "last_seen": "2026-11-20",
    "price_history": [
     {
      "date": "2026-11-07",
@@ -189,7 +189,7 @@
     "year_built": 1941
    },
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-20",
    "price_history": [
     {
      "date": "2026-11-07",
@@ -271,7 +271,7 @@
     "url": "https://www.century21.com/homes/detail/ut/springville/146-w-200-n/lid-P00800000HHosrUNwx7uNJp8PFckMmP1EnPueSyo"
    },
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-14",
+   "last_seen": "2026-11-20",
    "price_history": [
     {
      "date": "2026-11-07",
@@ -295,7 +295,7 @@
     "url": "https://www.coldwellbankerhomes.com/ut/saratoga-springs/15-n-jordan-river-way-373/pid_71929982/"
    },
    "first_seen": "2026-11-11",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-20",
    "price_history": [
     {
      "date": "2026-11-11",
@@ -322,7 +322,7 @@
     "url": "https://www.coldwellbankerhomes.com/ut/springville/1563-s-600-e/pid_72346076/"
    },
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-20",
    "price_history": [
     {
      "date": "2026-11-07",
@@ -387,7 +387,7 @@
     "year_built": 2021
    },
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-18",
+   "last_seen": "2026-11-20",
    "price_history": [
     {
      "date": "2026-11-07",
@@ -658,7 +658,7 @@
     "year_built": 1942
    },
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-18",
+   "last_seen": "2026-11-20",
    "price_history": [
     {
      "date": "2026-11-07",
@@ -882,7 +882,7 @@
     "year_built": 1906
    },
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-14",
+   "last_seen": "2026-11-20",
    "price_history": [
     {
      "date": "2026-11-07",
@@ -1060,7 +1060,7 @@
     "mls": "2189237",
     "photo": "https://images-listings.century21.com/SL/21/89/23/7/_P/2189237_P00.jpg?format=webp&quality=70&width=800",
     "photo_count": 36,
-    "price": 374999,
+    "price": 370000,
     "property_type": "single_family",
     "source": "Century21",
     "sqft": 1181,
@@ -1069,11 +1069,15 @@
     "year_built": 1986
    },
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-14",
+   "last_seen": "2026-11-20",
    "price_history": [
     {
      "date": "2026-11-07",
      "price": 374999
+    },
+    {
+     "date": "2026-11-20",
+     "price": 370000
     }
    ],
    "status": "active"
@@ -1253,7 +1257,7 @@
     "year_built": 1923
    },
    "first_seen": "2026-11-08",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-20",
    "price_history": [
     {
      "date": "2026-11-08",
@@ -1374,7 +1378,7 @@
     "url": "https://www.coldwellbankerhomes.com/ut/saratoga-springs/41-n-jordan-river-way-365/pid_72177617/"
    },
    "first_seen": "2026-11-11",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-20",
    "price_history": [
     {
      "date": "2026-11-11",
@@ -1405,7 +1409,7 @@
     "year_built": 1896
    },
    "first_seen": "2026-11-08",
-   "last_seen": "2026-11-14",
+   "last_seen": "2026-11-20",
    "price_history": [
     {
      "date": "2026-11-08",
@@ -1461,7 +1465,7 @@
     "year_built": 1947
    },
    "first_seen": "2026-11-11",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-20",
    "price_history": [
     {
      "date": "2026-11-11",
@@ -1544,7 +1548,7 @@
     "year_built": 1894
    },
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-20",
    "price_history": [
     {
      "date": "2026-11-07",
@@ -1611,7 +1615,7 @@
     "year_built": 1944
    },
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-20",
    "price_history": [
     {
      "date": "2026-11-07",
@@ -1635,7 +1639,7 @@
     "url": "https://www.coldwellbankerhomes.com/ut/saratoga-springs/49-n-jordan-river-way-363/pid_72176268/"
    },
    "first_seen": "2026-11-11",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-20",
    "price_history": [
     {
      "date": "2026-11-11",
@@ -1807,7 +1811,7 @@
     "year_built": 1931
    },
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-20",
    "price_history": [
     {
      "date": "2026-11-07",
@@ -1837,7 +1841,7 @@
     "year_built": 1882
    },
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-18",
+   "last_seen": "2026-11-20",
    "price_history": [
     {
      "date": "2026-11-07",
@@ -1903,7 +1907,7 @@
     "year_built": 1916
    },
    "first_seen": "2026-11-11",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-20",
    "price_history": [
     {
      "date": "2026-11-11",
@@ -1968,7 +1972,7 @@
     "year_built": 1913
    },
    "first_seen": "2026-11-12",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-20",
    "price_history": [
     {
      "date": "2026-11-12",
@@ -2034,14 +2038,14 @@
     "year_built": 1940
    },
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-15",
+   "last_seen": "2026-11-20",
    "price_history": [
     {
      "date": "2026-11-07",
      "price": 375000
     }
    ],
-   "status": "active"
+   "status": "gone"
   },
   "83-n-jordan-river-way-saratoga-springs": {
    "data": {
@@ -2135,7 +2139,7 @@
     "year_built": 1908
    },
    "first_seen": "2026-11-11",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-20",
    "price_history": [
     {
      "date": "2026-11-11",
@@ -2205,7 +2209,7 @@
     "year_built": 1949
    },
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-20",
    "price_history": [
     {
      "date": "2026-11-07",
@@ -2375,5 +2379,5 @@
    "status": "active"
   }
  },
- "updated": "2026-11-19"
+ "updated": "2026-11-20"
 }
