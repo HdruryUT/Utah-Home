@@ -640,5 +640,29 @@
   "city": "Provo",
   "price": 449900,
   "first_seen": "2026-11-20"
+ },
+ "/ut/provo/82-s-1530-w/pid_74848548/": {
+  "address": "82 S 1530 W",
+  "city": "Provo",
+  "price": 415000,
+  "first_seen": "2026-11-21"
+ },
+ "/ut/eagle-mountain/4326-e-angie-s-aly/pid_74848559/": {
+  "address": "4326 E Angie's Aly",
+  "city": "Eagle Mountain",
+  "price": 399999,
+  "first_seen": "2026-11-21"
+ },
+ "/ut/payson/1713-n-1260-e-133/pid_74847273/": {
+  "address": "1713 N 1260 E #133",
+  "city": "Payson",
+  "price": 396900,
+  "first_seen": "2026-11-21"
+ },
+ "/ut/eagle-mountain/7065-n-cherokee-st/pid_73095131/": {
+  "address": "7065 N Cherokee St",
+  "city": "Eagle Mountain",
+  "price": 399900,
+  "first_seen": "2026-11-21"
  }
 }

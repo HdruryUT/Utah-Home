@@ -157,7 +157,7 @@
     "year_built": 2026
    },
    "first_seen": "2026-11-12",
-   "last_seen": "2026-11-18",
+   "last_seen": "2026-11-21",
    "price_history": [
     {
      "date": "2026-11-12",
@@ -625,7 +625,7 @@
     "year_built": 1934
    },
    "first_seen": "2026-11-09",
-   "last_seen": "2026-11-18",
+   "last_seen": "2026-11-21",
    "price_history": [
     {
      "date": "2026-11-09",
@@ -723,7 +723,7 @@
     "year_built": 1934
    },
    "first_seen": "2026-11-15",
-   "last_seen": "2026-11-18",
+   "last_seen": "2026-11-21",
    "price_history": [
     {
      "date": "2026-11-15",
@@ -788,7 +788,7 @@
     "year_built": 1939
    },
    "first_seen": "2026-11-09",
-   "last_seen": "2026-11-18",
+   "last_seen": "2026-11-21",
    "price_history": [
     {
      "date": "2026-11-09",
@@ -907,7 +907,7 @@
     "url": "https://www.century21.com/homes/detail/ut/provo/2775-w-1390/lid-P00800000HF6fPENYgxoxs863S6xp3PZj9ZHl3o7"
    },
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-15",
+   "last_seen": "2026-11-21",
    "price_history": [
     {
      "date": "2026-11-07",
@@ -1004,7 +1004,7 @@
     "year_built": 1943
    },
    "first_seen": "2026-11-09",
-   "last_seen": "2026-11-18",
+   "last_seen": "2026-11-21",
    "price_history": [
     {
      "date": "2026-11-09",
@@ -1106,7 +1106,7 @@
     "year_built": 1913
    },
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-18",
+   "last_seen": "2026-11-21",
    "price_history": [
     {
      "date": "2026-11-07",
@@ -1131,7 +1131,7 @@
     "url": "https://www.century21.com/homes/detail/ut/provo/341-e-200-s/lid-P00800000HIF4yl7LlfqsqLjYEOeh079eGwPtBZ2"
    },
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-15",
+   "last_seen": "2026-11-21",
    "price_history": [
     {
      "date": "2026-11-07",
@@ -1157,7 +1157,7 @@
     "url": "https://www.century21.com/homes/detail/ut/payson/368-s-1000-w/lid-P00800000H7NbbykKe3MFZOnS2zqXyYafLZQQB2V"
    },
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-18",
+   "last_seen": "2026-11-21",
    "price_history": [
     {
      "date": "2026-11-07",
@@ -1225,7 +1225,7 @@
     "year_built": 1951
    },
    "first_seen": "2026-11-12",
-   "last_seen": "2026-11-18",
+   "last_seen": "2026-11-21",
    "price_history": [
     {
      "date": "2026-11-12",
@@ -1721,7 +1721,7 @@
     "year_built": 1947
    },
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-21",
    "price_history": [
     {
      "date": "2026-11-07",
@@ -2172,7 +2172,7 @@
     "year_built": 1918
    },
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-18",
+   "last_seen": "2026-11-21",
    "price_history": [
     {
      "date": "2026-11-07",
@@ -2305,7 +2305,7 @@
     "year_built": 1974
    },
    "first_seen": "2026-11-09",
-   "last_seen": "2026-11-18",
+   "last_seen": "2026-11-21",
    "price_history": [
     {
      "date": "2026-11-09",
@@ -2338,7 +2338,7 @@
     "year_built": 1958
    },
    "first_seen": "2026-11-15",
-   "last_seen": "2026-11-18",
+   "last_seen": "2026-11-21",
    "price_history": [
     {
      "date": "2026-11-15",
@@ -2379,5 +2379,5 @@
    "status": "active"
   }
  },
- "updated": "2026-11-20"
+ "updated": "2026-11-21"
 }
