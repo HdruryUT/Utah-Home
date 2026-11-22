@@ -55,7 +55,7 @@
     "year_built": 1956
    },
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-22",
    "price_history": [
     {
      "date": "2026-11-07",
@@ -75,15 +75,15 @@
     "beds": 4,
     "cb_url": "https://www.coldwellbankerhomes.com/ut/springville/1205-hillcrest-dr/pid_74527902/",
     "city": "Springville",
-    "days_on_market": 19,
-    "description": "As-is 1961 brick home needing a full renovation. Offers start at $150K, due November 18 at 5 PM, multiple offers expected. Finished basement with separate entrance, corner lot, mountain views.",
+    "days_on_market": 22,
+    "description": "Sold as-is on a 0.26-acre corner lot with mountain views, this 1961 brick home needs a full renovation. 3,456 sq ft over two levels, finished basement with own entrance, covered deck and patio. No HOA.",
     "garage": true,
     "hoa_monthly": 0,
     "lot_acres": 0.26,
     "mls": "2193900",
     "photo": "https://images-listings.century21.com/SL/21/93/90/0/_P/2193900_P00.jpg?format=webp&quality=70&width=800",
     "photo_count": 26,
-    "price": 150000,
+    "price": 395000,
     "property_type": "single_family",
     "source": "Coldwell Banker",
     "sqft": 3456,
@@ -92,11 +92,15 @@
     "year_built": 1961
    },
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-22",
    "price_history": [
     {
      "date": "2026-11-07",
      "price": 150000
+    },
+    {
+     "date": "2026-11-22",
+     "price": 395000
     }
    ],
    "status": "active"
@@ -322,7 +326,7 @@
     "url": "https://www.coldwellbankerhomes.com/ut/springville/1563-s-600-e/pid_72346076/"
    },
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-20",
+   "last_seen": "2026-11-22",
    "price_history": [
     {
      "date": "2026-11-07",
@@ -354,7 +358,7 @@
     "year_built": 1947
    },
    "first_seen": "2026-11-10",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-22",
    "price_history": [
     {
      "date": "2026-11-10",
@@ -418,7 +422,7 @@
     "year_built": 1957
    },
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-22",
    "price_history": [
     {
      "date": "2026-11-07",
@@ -451,7 +455,7 @@
     "year_built": 1947
    },
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-22",
    "price_history": [
     {
      "date": "2026-11-07",
@@ -483,7 +487,7 @@
     "year_built": 1914
    },
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-22",
    "price_history": [
     {
      "date": "2026-11-07",
@@ -516,7 +520,7 @@
     "year_built": 2007
    },
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-22",
    "price_history": [
     {
      "date": "2026-11-07",
@@ -691,7 +695,7 @@
     "year_built": 2000
    },
    "first_seen": "2026-11-10",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-22",
    "price_history": [
     {
      "date": "2026-11-10",
@@ -851,7 +855,7 @@
     "year_built": 1909
    },
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-22",
    "price_history": [
     {
      "date": "2026-11-07",
@@ -1037,7 +1041,7 @@
     "year_built": 1937
    },
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-22",
    "price_history": [
     {
      "date": "2026-11-07",
@@ -1190,7 +1194,7 @@
     "year_built": 1951
    },
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-22",
    "price_history": [
     {
      "date": "2026-11-07",
@@ -1290,7 +1294,7 @@
     "year_built": 1967
    },
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-22",
    "price_history": [
     {
      "date": "2026-11-07",
@@ -1354,7 +1358,7 @@
     "year_built": 2001
    },
    "first_seen": "2026-11-13",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-22",
    "price_history": [
     {
      "date": "2026-11-13",
@@ -1688,7 +1692,7 @@
     "url": "https://www.century21.com/homes/detail/ut/provo/542-e-3400/lid-P00800000HDqSzlOU08PfHrOKUGxTqIlP0X8Zjwq"
    },
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-22",
    "price_history": [
     {
      "date": "2026-11-07",
@@ -1754,7 +1758,7 @@
     "year_built": 2027
    },
    "first_seen": "2026-11-10",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-22",
    "price_history": [
     {
      "date": "2026-11-10",
@@ -1874,7 +1878,7 @@
     "year_built": 2027
    },
    "first_seen": "2026-11-10",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-22",
    "price_history": [
     {
      "date": "2026-11-10",
@@ -2005,7 +2009,7 @@
     "year_built": 2027
    },
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-22",
    "price_history": [
     {
      "date": "2026-11-07",
@@ -2071,7 +2075,7 @@
     "year_built": 2027
    },
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-22",
    "price_history": [
     {
      "date": "2026-11-07",
@@ -2102,7 +2106,7 @@
     "year_built": 1940
    },
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-22",
    "price_history": [
     {
      "date": "2026-11-07",
@@ -2223,6 +2227,7 @@
     "address": "964 E 200 N",
     "baths": 1,
     "beds": 3,
+    "cb_url": "https://www.coldwellbankerhomes.com/ut/provo/964-e-200-n/pid_71962328/",
     "city": "Provo",
     "days_on_market": 147,
     "description": "Single-level Provo rental with tenants in place through March 2027. 3-bed, 1-bath rambler with attached garage, covered patio, workshop area, landscaped yard. Near BYU and UVU; suits investors or owner-occupants.",
@@ -2241,7 +2246,7 @@
     "year_built": 1943
    },
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-22",
    "price_history": [
     {
      "date": "2026-11-07",
@@ -2273,7 +2278,7 @@
     "year_built": 1943
    },
    "first_seen": "2026-11-13",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-22",
    "price_history": [
     {
      "date": "2026-11-13",
@@ -2369,7 +2374,7 @@
     "year_built": 1950
    },
    "first_seen": "2026-11-18",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-22",
    "price_history": [
     {
      "date": "2026-11-18",
@@ -2379,5 +2384,5 @@
    "status": "active"
   }
  },
- "updated": "2026-11-21"
+ "updated": "2026-11-22"
 }

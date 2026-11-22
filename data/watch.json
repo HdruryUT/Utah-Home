@@ -664,5 +664,11 @@
   "city": "Eagle Mountain",
   "price": 399900,
   "first_seen": "2026-11-21"
+ },
+ "/ut/saratoga-springs/37-n-jordan-river-way/pid_72201488/": {
+  "address": "37 N Jordan River Way",
+  "city": "Saratoga Springs",
+  "price": 404990,
+  "first_seen": "2026-11-22"
  }
 }

@@ -1,5 +1,5 @@
 {
- "max_pid_seen": 74856488,
- "rolling_page": 107,
+ "max_pid_seen": 74863765,
+ "rolling_page": 137,
  "_note": "max_pid_seen: highest Coldwell Banker pid seen (newer listings have higher pids). rolling_page: where tomorrow's 30-page sweep starts."
 }
