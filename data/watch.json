@@ -670,5 +670,29 @@
   "city": "Saratoga Springs",
   "price": 404990,
   "first_seen": "2026-11-22"
+ },
+ "/ut/eagle-mountain/3529-n-sparrow-ln-215/pid_74865439/": {
+  "address": "3529 N Sparrow Ln #215",
+  "city": "Eagle Mountain",
+  "price": 439800,
+  "first_seen": "2026-11-23"
+ },
+ "/ut/provo/378-w-1570-s/pid_71521173/": {
+  "address": "378 W 1570 S",
+  "city": "Provo",
+  "price": 427500,
+  "first_seen": "2026-11-23"
+ },
+ "/ut/pleasant-grove/675-s-main-st/pid_71505949/": {
+  "address": "675 S Main St",
+  "city": "Pleasant Grove",
+  "price": 415000,
+  "first_seen": "2026-11-23"
+ },
+ "/ut/eagle-mountain/2794-e-crimson-ct-118/pid_70673080/": {
+  "address": "2794 E Crimson Ct #118",
+  "city": "Eagle Mountain",
+  "price": 440000,
+  "first_seen": "2026-11-23"
  }
 }

@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-22",
+ "updated": "2026-11-23",
  "plan": {
   "closing_cost_pct": 0.03,
   "mortgage_rate": 0.0728,
@@ -295,7 +295,7 @@
    "cash_ok": true,
    "status": "active",
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-20",
+   "last_seen": "2026-11-23",
    "price_history": [
     {
      "date": "2026-11-07",
@@ -702,7 +702,7 @@
    "cash_ok": true,
    "status": "pending",
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-20",
+   "last_seen": "2026-11-23",
    "price_history": [
     {
      "date": "2026-11-07",
@@ -779,7 +779,7 @@
    "cash_ok": true,
    "status": "pending",
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-21",
+   "last_seen": "2026-11-23",
    "price_history": [
     {
      "date": "2026-11-07",
@@ -1105,7 +1105,7 @@
    "cash_ok": true,
    "status": "active",
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-20",
+   "last_seen": "2026-11-23",
    "price_history": [
     {
      "date": "2026-11-07",
@@ -1680,83 +1680,6 @@
    "price_drop": 0
   },
   {
-   "id": "18534-wilson-ave-eagle-mountain",
-   "address": "18534 Wilson Ave",
-   "city": "Eagle Mountain",
-   "region": "North",
-   "price": 369900,
-   "beds": 3,
-   "baths": 3,
-   "sqft": 1824,
-   "price_per_sqft": 203,
-   "lot_acres": null,
-   "year_built": null,
-   "garage": null,
-   "hoa_monthly": 0,
-   "days_on_market": null,
-   "url": "https://www.century21.com/homes/detail/ut/eagle-mountain/18534-wilson-ave/lid-P00800000HIxycfhqgTzkVVM2E5zctrN4k6QFNSU",
-   "photo": "https://images-listings.century21.com/SL/21/91/68/2/_P/2191682_P00.jpg?format=webp&quality=70&width=800",
-   "photo_count": 30,
-   "description": null,
-   "mls": "2191682",
-   "source": "Century21",
-   "stretch": false,
-   "fit_score": 54,
-   "score_breakdown": {
-    "profit": 10.5,
-    "affordability": 9.6,
-    "resale_layout": 15.0,
-    "value_vs_market": 5.3,
-    "condition": 10.0,
-    "price": 0.9,
-    "lot_garage": 0,
-    "hoa": 3.0,
-    "days_on_market": 0
-   },
-   "pros": [
-    "Roomy: 1,824 sqft",
-    "Offer $365k or less to clear ~$40k profit",
-    "Dated but livable: room to add value with cosmetic updates",
-    "Trim the fix-up by ~$4k to reach 10% down and lower PMI",
-    "3+ bed / 2 bath: the layout most buyers want when you sell"
-   ],
-   "cons": [
-    "Payment ~$2,702/mo: doable but tight"
-   ],
-   "rehab_tier": "medium",
-   "market_value": 361152,
-   "arv": 442860,
-   "rehab_cost": 45600,
-   "selling_costs": 26572,
-   "buy_hold_costs": 11097,
-   "flip_profit": -10309,
-   "flip_roi_pct": -2.4,
-   "live_in_years": 3,
-   "live_in_value": 491007,
-   "live_in_gain": 34949,
-   "live_in_roi_pct": 39,
-   "max_offer": 365000,
-   "buy_closing": 11097,
-   "sale_costs": 29460,
-   "target_profit": 40000,
-   "monthly_payment": 2702,
-   "payment_level": "tight",
-   "down_pct": 0.09,
-   "pmi_monthly": 140,
-   "cash_needed": 89988,
-   "cash_ok": true,
-   "status": "pending",
-   "first_seen": "2026-11-07",
-   "last_seen": "2026-11-13",
-   "price_history": [
-    {
-     "date": "2026-11-07",
-     "price": 369900
-    }
-   ],
-   "price_drop": 0
-  },
-  {
    "id": "262-w-400-s-springville",
    "address": "262 W 400 S",
    "city": "Springville",
@@ -2060,7 +1983,7 @@
    "cash_ok": true,
    "status": "pending",
    "first_seen": "2026-11-11",
-   "last_seen": "2026-11-20",
+   "last_seen": "2026-11-23",
    "price_history": [
     {
      "date": "2026-11-11",
@@ -2139,7 +2062,7 @@
    "cash_ok": true,
    "status": "active",
    "first_seen": "2026-11-11",
-   "last_seen": "2026-11-20",
+   "last_seen": "2026-11-23",
    "price_history": [
     {
      "date": "2026-11-11",
@@ -2298,7 +2221,7 @@
    "cash_ok": true,
    "status": "active",
    "first_seen": "2026-11-11",
-   "last_seen": "2026-11-20",
+   "last_seen": "2026-11-23",
    "price_history": [
     {
      "date": "2026-11-11",
@@ -3026,7 +2949,7 @@
    "cash_ok": true,
    "status": "active",
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-20",
+   "last_seen": "2026-11-23",
    "price_history": [
     {
      "date": "2026-11-07",
@@ -3346,7 +3269,7 @@
    "cash_ok": true,
    "status": "active",
    "first_seen": "2026-11-08",
-   "last_seen": "2026-11-20",
+   "last_seen": "2026-11-23",
    "price_history": [
     {
      "date": "2026-11-08",
@@ -4072,7 +3995,7 @@
    "cash_ok": true,
    "status": "active",
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-22",
+   "last_seen": "2026-11-23",
    "price_history": [
     {
      "date": "2026-11-07",
@@ -4473,7 +4396,7 @@
    "cash_ok": true,
    "status": "active",
    "first_seen": "2026-11-12",
-   "last_seen": "2026-11-20",
+   "last_seen": "2026-11-23",
    "price_history": [
     {
      "date": "2026-11-12",
@@ -4557,7 +4480,7 @@
    "cash_ok": true,
    "status": "active",
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-20",
+   "last_seen": "2026-11-23",
    "price_history": [
     {
      "date": "2026-11-07",
@@ -4634,7 +4557,7 @@
    "cash_ok": true,
    "status": "pending",
    "first_seen": "2026-11-11",
-   "last_seen": "2026-11-20",
+   "last_seen": "2026-11-23",
    "price_history": [
     {
      "date": "2026-11-11",
@@ -4711,7 +4634,7 @@
    "cash_ok": true,
    "status": "pending",
    "first_seen": "2026-11-11",
-   "last_seen": "2026-11-20",
+   "last_seen": "2026-11-23",
    "price_history": [
     {
      "date": "2026-11-11",
@@ -4788,7 +4711,7 @@
    "cash_ok": true,
    "status": "pending",
    "first_seen": "2026-11-11",
-   "last_seen": "2026-11-20",
+   "last_seen": "2026-11-23",
    "price_history": [
     {
      "date": "2026-11-11",
@@ -4950,7 +4873,7 @@
    "cash_ok": true,
    "status": "pending",
    "first_seen": "2026-11-12",
-   "last_seen": "2026-11-21",
+   "last_seen": "2026-11-23",
    "price_history": [
     {
      "date": "2026-11-12",
