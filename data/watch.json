@@ -694,5 +694,11 @@
   "city": "Eagle Mountain",
   "price": 440000,
   "first_seen": "2026-11-23"
+ },
+ "/ut/provo/241-n-1080-e/pid_74882950/": {
+  "address": "241 N 1080 E",
+  "city": "Provo",
+  "price": 439000,
+  "first_seen": "2026-11-24"
  }
 }

@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-23",
+ "updated": "2026-11-24",
  "plan": {
   "closing_cost_pct": 0.03,
   "mortgage_rate": 0.0728,
@@ -65,83 +65,6 @@
   "target_max": 380000
  },
  "rows": [
-  {
-   "id": "1820-w-150-n-provo",
-   "address": "1820 W 150 N",
-   "city": "Provo",
-   "region": "Central",
-   "price": 315000,
-   "beds": 3,
-   "baths": 2,
-   "sqft": 1487,
-   "price_per_sqft": 212,
-   "lot_acres": null,
-   "year_built": null,
-   "garage": null,
-   "hoa_monthly": 0,
-   "days_on_market": null,
-   "url": "https://www.century21.com/homes/detail/ut/provo/1820-w-150-n/lid-P00800000HInHOPjA8nNI2um7tGJRMJjM1RXXIsl",
-   "photo": "https://images-listings.century21.com/SL/21/90/84/7/_P/2190847_P00.jpg?format=webp&quality=70&width=800",
-   "photo_count": 20,
-   "description": null,
-   "mls": null,
-   "source": "Century21",
-   "stretch": false,
-   "fit_score": 81,
-   "score_breakdown": {
-    "profit": 24.3,
-    "affordability": 15.0,
-    "resale_layout": 15.0,
-    "value_vs_market": 11.1,
-    "condition": 10.0,
-    "price": 2.8,
-    "lot_garage": 0,
-    "hoa": 3.0,
-    "days_on_market": 0
-   },
-   "pros": [
-    "$212/sqft vs ~$255 Provo median (17% below)",
-    "Strong profit potential: ~$81k after fixing up and selling in 3 yrs",
-    "Clears ~$40k profit even at asking price",
-    "Dated but livable: room to add value with cosmetic updates",
-    "Payment ~$2,188/mo: comfortable for your budget",
-    "Trim the fix-up by ~$5k to reach 15% down and lower PMI",
-    "3+ bed / 2 bath: the layout most buyers want when you sell"
-   ],
-   "cons": [],
-   "rehab_tier": "medium",
-   "market_value": 379185,
-   "arv": 424687,
-   "rehab_cost": 37175,
-   "selling_costs": 25481,
-   "buy_hold_costs": 9450,
-   "flip_profit": 37581,
-   "flip_roi_pct": 10.4,
-   "live_in_years": 3,
-   "live_in_value": 470858,
-   "live_in_gain": 80982,
-   "live_in_roi_pct": 91,
-   "max_offer": 355000,
-   "buy_closing": 9450,
-   "sale_costs": 28251,
-   "target_profit": 40000,
-   "monthly_payment": 2188,
-   "payment_level": "comfortable",
-   "down_pct": 0.135,
-   "pmi_monthly": 86,
-   "cash_needed": 89150,
-   "cash_ok": true,
-   "status": "pending",
-   "first_seen": "2026-11-07",
-   "last_seen": "2026-11-14",
-   "price_history": [
-    {
-     "date": "2026-11-07",
-     "price": 315000
-    }
-   ],
-   "price_drop": 0
-  },
   {
    "id": "130-w-600-n-spanish-fork",
    "address": "130 W 600 N",
@@ -380,7 +303,7 @@
    "cash_ok": true,
    "status": "active",
    "first_seen": "2026-11-15",
-   "last_seen": "2026-11-21",
+   "last_seen": "2026-11-24",
    "price_history": [
     {
      "date": "2026-11-15",
@@ -621,7 +544,7 @@
    "cash_ok": true,
    "status": "active",
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-22",
+   "last_seen": "2026-11-24",
    "price_history": [
     {
      "date": "2026-11-07",
@@ -1350,7 +1273,7 @@
    "cash_ok": true,
    "status": "active",
    "first_seen": "2026-11-09",
-   "last_seen": "2026-11-21",
+   "last_seen": "2026-11-24",
    "price_history": [
     {
      "date": "2026-11-09",
@@ -1670,7 +1593,7 @@
    "cash_ok": true,
    "status": "active",
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-21",
+   "last_seen": "2026-11-24",
    "price_history": [
     {
      "date": "2026-11-07",
@@ -2142,7 +2065,7 @@
    "cash_ok": true,
    "status": "active",
    "first_seen": "2026-11-09",
-   "last_seen": "2026-11-21",
+   "last_seen": "2026-11-24",
    "price_history": [
     {
      "date": "2026-11-09",
@@ -2304,7 +2227,7 @@
    "cash_ok": false,
    "status": "active",
    "first_seen": "2026-11-09",
-   "last_seen": "2026-11-21",
+   "last_seen": "2026-11-24",
    "price_history": [
     {
      "date": "2026-11-09",
@@ -2787,7 +2710,7 @@
    "cash_ok": true,
    "status": "active",
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-24",
    "price_history": [
     {
      "date": "2026-11-07",
@@ -3028,7 +2951,7 @@
    "cash_ok": true,
    "status": "active",
    "first_seen": "2026-11-09",
-   "last_seen": "2026-11-21",
+   "last_seen": "2026-11-24",
    "price_history": [
     {
      "date": "2026-11-09",
@@ -3188,7 +3111,7 @@
    "cash_ok": true,
    "status": "active",
    "first_seen": "2026-11-12",
-   "last_seen": "2026-11-21",
+   "last_seen": "2026-11-24",
    "price_history": [
     {
      "date": "2026-11-12",
@@ -3430,7 +3353,7 @@
    "cash_ok": true,
    "status": "active",
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-21",
+   "last_seen": "2026-11-24",
    "price_history": [
     {
      "date": "2026-11-07",
@@ -3515,7 +3438,7 @@
    "cash_ok": true,
    "status": "active",
    "first_seen": "2026-11-15",
-   "last_seen": "2026-11-21",
+   "last_seen": "2026-11-24",
    "price_history": [
     {
      "date": "2026-11-15",
@@ -3914,7 +3837,7 @@
    "cash_ok": true,
    "status": "active",
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-21",
+   "last_seen": "2026-11-24",
    "price_history": [
     {
      "date": "2026-11-07",
@@ -4076,7 +3999,7 @@
    "cash_ok": true,
    "status": "active",
    "first_seen": "2026-11-18",
-   "last_seen": "2026-11-22",
+   "last_seen": "2026-11-24",
    "price_history": [
     {
      "date": "2026-11-18",
@@ -5117,7 +5040,7 @@
    "cash_ok": true,
    "status": "active",
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-22",
+   "last_seen": "2026-11-24",
    "price_history": [
     {
      "date": "2026-11-07",
@@ -5198,7 +5121,7 @@
    "cash_ok": true,
    "status": "pending",
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-22",
+   "last_seen": "2026-11-24",
    "price_history": [
     {
      "date": "2026-11-07",

@@ -23,7 +23,7 @@
     "year_built": 1909
    },
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-24",
    "price_history": [
     {
      "date": "2026-11-07",
@@ -577,7 +577,7 @@
      "price": 315000
     }
    ],
-   "status": "pending"
+   "status": "gone"
   },
   "18534-wilson-ave-eagle-mountain": {
    "data": {
@@ -629,7 +629,7 @@
     "year_built": 1934
    },
    "first_seen": "2026-11-09",
-   "last_seen": "2026-11-21",
+   "last_seen": "2026-11-24",
    "price_history": [
     {
      "date": "2026-11-09",
@@ -727,7 +727,7 @@
     "year_built": 1934
    },
    "first_seen": "2026-11-15",
-   "last_seen": "2026-11-21",
+   "last_seen": "2026-11-24",
    "price_history": [
     {
      "date": "2026-11-15",
@@ -792,7 +792,7 @@
     "year_built": 1939
    },
    "first_seen": "2026-11-09",
-   "last_seen": "2026-11-21",
+   "last_seen": "2026-11-24",
    "price_history": [
     {
      "date": "2026-11-09",
@@ -1008,7 +1008,7 @@
     "year_built": 1943
    },
    "first_seen": "2026-11-09",
-   "last_seen": "2026-11-21",
+   "last_seen": "2026-11-24",
    "price_history": [
     {
      "date": "2026-11-09",
@@ -1110,7 +1110,7 @@
     "year_built": 1913
    },
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-21",
+   "last_seen": "2026-11-24",
    "price_history": [
     {
      "date": "2026-11-07",
@@ -1194,7 +1194,7 @@
     "year_built": 1951
    },
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-22",
+   "last_seen": "2026-11-24",
    "price_history": [
     {
      "date": "2026-11-07",
@@ -1229,7 +1229,7 @@
     "year_built": 1951
    },
    "first_seen": "2026-11-12",
-   "last_seen": "2026-11-21",
+   "last_seen": "2026-11-24",
    "price_history": [
     {
      "date": "2026-11-12",
@@ -1725,7 +1725,7 @@
     "year_built": 1947
    },
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-21",
+   "last_seen": "2026-11-24",
    "price_history": [
     {
      "date": "2026-11-07",
@@ -2009,7 +2009,7 @@
     "year_built": 2027
    },
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-22",
+   "last_seen": "2026-11-24",
    "price_history": [
     {
      "date": "2026-11-07",
@@ -2075,7 +2075,7 @@
     "year_built": 2027
    },
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-22",
+   "last_seen": "2026-11-24",
    "price_history": [
     {
      "date": "2026-11-07",
@@ -2176,7 +2176,7 @@
     "year_built": 1918
    },
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-21",
+   "last_seen": "2026-11-24",
    "price_history": [
     {
      "date": "2026-11-07",
@@ -2310,7 +2310,7 @@
     "year_built": 1974
    },
    "first_seen": "2026-11-09",
-   "last_seen": "2026-11-21",
+   "last_seen": "2026-11-24",
    "price_history": [
     {
      "date": "2026-11-09",
@@ -2343,7 +2343,7 @@
     "year_built": 1958
    },
    "first_seen": "2026-11-15",
-   "last_seen": "2026-11-21",
+   "last_seen": "2026-11-24",
    "price_history": [
     {
      "date": "2026-11-15",
@@ -2374,7 +2374,7 @@
     "year_built": 1950
    },
    "first_seen": "2026-11-18",
-   "last_seen": "2026-11-22",
+   "last_seen": "2026-11-24",
    "price_history": [
     {
      "date": "2026-11-18",
@@ -2384,5 +2384,5 @@
    "status": "active"
   }
  },
- "updated": "2026-11-23"
+ "updated": "2026-11-24"
 }
