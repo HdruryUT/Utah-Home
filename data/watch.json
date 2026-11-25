@@ -38,7 +38,7 @@
  "/ut/lindon/364-w-lakeview-rd-n/pid_74461259/": {
   "address": "364 W Lakeview Rd N",
   "city": "Lindon",
-  "price": 419900,
+  "price": 414900,
   "first_seen": "2026-11-07"
  },
  "/ut/provo/1051-e-620-n/pid_74599226/": {
@@ -140,7 +140,7 @@
  "/ut/lehi/153-e-600-n/pid_74092069/": {
   "address": "153 E 600 N",
   "city": "Lehi",
-  "price": 415000,
+  "price": 405000,
   "first_seen": "2026-11-08"
  },
  "/ut/pleasant-grove/125-n-100-w/pid_74092062/": {
@@ -700,5 +700,77 @@
   "city": "Provo",
   "price": 439000,
   "first_seen": "2026-11-24"
+ },
+ "/ut/eagle-mountain/3922-n-christopher-street-lot-149/pid_74490957/": {
+  "address": "3922 N Christopher Street Lot #149",
+  "city": "Eagle Mountain",
+  "price": 442615,
+  "first_seen": "2026-11-25"
+ },
+ "/ut/american-fork/290-s-300-e/pid_74419471/": {
+  "address": "290 S 300 E",
+  "city": "American Fork",
+  "price": 435000,
+  "first_seen": "2026-11-25"
+ },
+ "/ut/saratoga-springs/344-e-halls-creek-rd/pid_74390618/": {
+  "address": "344 E Halls Creek Rd",
+  "city": "Saratoga Springs",
+  "price": 439990,
+  "first_seen": "2026-11-25"
+ },
+ "/ut/saratoga-springs/348-e-halls-creek-rd-182/pid_74390614/": {
+  "address": "348 E Halls Creek Rd #182",
+  "city": "Saratoga Springs",
+  "price": 439990,
+  "first_seen": "2026-11-25"
+ },
+ "/ut/saratoga-springs/352-e-halls-creek-rd/pid_74401739/": {
+  "address": "352 E Halls Creek Rd",
+  "city": "Saratoga Springs",
+  "price": 434990,
+  "first_seen": "2026-11-25"
+ },
+ "/ut/spanish-fork/2963-e-1530-s/pid_74321792/": {
+  "address": "2963 E 1530 S",
+  "city": "Spanish Fork",
+  "price": 449900,
+  "first_seen": "2026-11-25"
+ },
+ "/ut/eagle-mountain/2329-e-sego-liliy-dr-491/pid_74272947/": {
+  "address": "2329 E Sego Liliy Dr #491",
+  "city": "Eagle Mountain",
+  "price": 429900,
+  "first_seen": "2026-11-25"
+ },
+ "/ut/eagle-mountain/3439-n-goldfinch-dr-5003/pid_74189863/": {
+  "address": "3439 N GoldFinch Dr #5003",
+  "city": "Eagle Mountain",
+  "price": 449900,
+  "first_seen": "2026-11-25"
+ },
+ "/ut/eagle-mountain/3949-n-calista-way-lot-156/pid_74200111/": {
+  "address": "3949 N Calista Way Lot #156",
+  "city": "Eagle Mountain",
+  "price": 449603,
+  "first_seen": "2026-11-25"
+ },
+ "/ut/orem/621-s-1000-w/pid_74178753/": {
+  "address": "621 S 1000 W",
+  "city": "Orem",
+  "price": 449900,
+  "first_seen": "2026-11-25"
+ },
+ "/ut/santaquin/1673-s-longview/pid_74061500/": {
+  "address": "1673 S Longview",
+  "city": "Santaquin",
+  "price": 449900,
+  "first_seen": "2026-11-25"
+ },
+ "/ut/springville/1205-hillcrest-dr/pid_74527902/": {
+  "address": "1205 Hillcrest Dr",
+  "city": "Springville",
+  "price": 410000,
+  "first_seen": "2026-11-25"
  }
 }

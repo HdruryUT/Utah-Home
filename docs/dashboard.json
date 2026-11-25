@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-24",
+ "updated": "2026-11-25",
  "plan": {
   "closing_cost_pct": 0.03,
   "mortgage_rate": 0.0728,
@@ -138,7 +138,7 @@
    "cash_ok": true,
    "status": "active",
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-20",
+   "last_seen": "2026-11-25",
    "price_history": [
     {
      "date": "2026-11-07",
@@ -218,7 +218,7 @@
    "cash_ok": true,
    "status": "active",
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-23",
+   "last_seen": "2026-11-25",
    "price_history": [
     {
      "date": "2026-11-07",
@@ -383,7 +383,7 @@
    "cash_ok": true,
    "status": "active",
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-25",
    "price_history": [
     {
      "date": "2026-11-07",
@@ -462,7 +462,7 @@
    "cash_ok": true,
    "status": "pending",
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-22",
+   "last_seen": "2026-11-25",
    "price_history": [
     {
      "date": "2026-11-07",
@@ -780,7 +780,7 @@
    "cash_ok": true,
    "status": "active",
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-20",
+   "last_seen": "2026-11-25",
    "price_history": [
     {
      "date": "2026-11-07",
@@ -861,7 +861,7 @@
    "cash_ok": true,
    "status": "active",
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-25",
    "price_history": [
     {
      "date": "2026-11-07",
@@ -1194,7 +1194,7 @@
    "cash_ok": false,
    "status": "pending",
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-22",
+   "last_seen": "2026-11-25",
    "price_history": [
     {
      "date": "2026-11-07",
@@ -1353,7 +1353,7 @@
    "cash_ok": false,
    "status": "active",
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-22",
+   "last_seen": "2026-11-25",
    "price_history": [
     {
      "date": "2026-11-07",
@@ -1433,7 +1433,7 @@
    "cash_ok": true,
    "status": "active",
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-22",
+   "last_seen": "2026-11-25",
    "price_history": [
     {
      "date": "2026-11-07",
@@ -1514,7 +1514,7 @@
    "cash_ok": true,
    "status": "active",
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-20",
+   "last_seen": "2026-11-25",
    "price_history": [
     {
      "date": "2026-11-07",
@@ -1598,6 +1598,83 @@
     {
      "date": "2026-11-07",
      "price": 379500
+    }
+   ],
+   "price_drop": 0
+  },
+  {
+   "id": "18534-wilson-ave-eagle-mountain",
+   "address": "18534 Wilson Ave",
+   "city": "Eagle Mountain",
+   "region": "North",
+   "price": 369900,
+   "beds": 3,
+   "baths": 3,
+   "sqft": 1824,
+   "price_per_sqft": 203,
+   "lot_acres": null,
+   "year_built": null,
+   "garage": null,
+   "hoa_monthly": 0,
+   "days_on_market": null,
+   "url": "https://www.century21.com/homes/detail/ut/eagle-mountain/18534-wilson-ave/lid-P00800000HIxycfhqgTzkVVM2E5zctrN4k6QFNSU",
+   "photo": "https://images-listings.century21.com/SL/21/91/68/2/_P/2191682_P00.jpg?format=webp&quality=70&width=800",
+   "photo_count": 30,
+   "description": null,
+   "mls": "2191682",
+   "source": "Century21",
+   "stretch": false,
+   "fit_score": 54,
+   "score_breakdown": {
+    "profit": 10.5,
+    "affordability": 9.6,
+    "resale_layout": 15.0,
+    "value_vs_market": 5.3,
+    "condition": 10.0,
+    "price": 0.9,
+    "lot_garage": 0,
+    "hoa": 3.0,
+    "days_on_market": 0
+   },
+   "pros": [
+    "Roomy: 1,824 sqft",
+    "Offer $365k or less to clear ~$40k profit",
+    "Dated but livable: room to add value with cosmetic updates",
+    "Trim the fix-up by ~$4k to reach 10% down and lower PMI",
+    "3+ bed / 2 bath: the layout most buyers want when you sell"
+   ],
+   "cons": [
+    "Payment ~$2,702/mo: doable but tight"
+   ],
+   "rehab_tier": "medium",
+   "market_value": 361152,
+   "arv": 442860,
+   "rehab_cost": 45600,
+   "selling_costs": 26572,
+   "buy_hold_costs": 11097,
+   "flip_profit": -10309,
+   "flip_roi_pct": -2.4,
+   "live_in_years": 3,
+   "live_in_value": 491007,
+   "live_in_gain": 34949,
+   "live_in_roi_pct": 39,
+   "max_offer": 365000,
+   "buy_closing": 11097,
+   "sale_costs": 29460,
+   "target_profit": 40000,
+   "monthly_payment": 2702,
+   "payment_level": "tight",
+   "down_pct": 0.09,
+   "pmi_monthly": 140,
+   "cash_needed": 89988,
+   "cash_ok": true,
+   "status": "pending",
+   "first_seen": "2026-11-07",
+   "last_seen": "2026-11-25",
+   "price_history": [
+    {
+     "date": "2026-11-07",
+     "price": 369900
     }
    ],
    "price_drop": 0
@@ -2306,7 +2383,7 @@
    "cash_ok": false,
    "status": "pending",
    "first_seen": "2026-11-13",
-   "last_seen": "2026-11-22",
+   "last_seen": "2026-11-25",
    "price_history": [
     {
      "date": "2026-11-13",
@@ -2385,7 +2462,7 @@
    "cash_ok": true,
    "status": "active",
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-22",
+   "last_seen": "2026-11-25",
    "price_history": [
     {
      "date": "2026-11-07",
@@ -2547,7 +2624,7 @@
    "cash_ok": true,
    "status": "active",
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-20",
+   "last_seen": "2026-11-25",
    "price_history": [
     {
      "date": "2026-11-07",
@@ -3032,7 +3109,7 @@
    "cash_ok": true,
    "status": "active",
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-22",
+   "last_seen": "2026-11-25",
    "price_history": [
     {
      "date": "2026-11-07",
@@ -3200,6 +3277,92 @@
     }
    ],
    "price_drop": 0
+  },
+  {
+   "id": "486-e-1000-s-springville",
+   "address": "486 E 1000 S",
+   "city": "Springville",
+   "region": "South",
+   "price": 370000,
+   "beds": 2,
+   "baths": 1,
+   "sqft": 1088,
+   "price_per_sqft": 340,
+   "lot_acres": 0.28,
+   "year_built": 1944,
+   "garage": true,
+   "hoa_monthly": 0,
+   "days_on_market": 45,
+   "url": "https://www.coldwellbankerhomes.com/ut/springville/486-e-1000-s/pid_74208678/",
+   "photo": "https://images-listings.century21.com/SL/21/90/50/7/_P/2190507_P00.jpg?format=webp&quality=70&width=800",
+   "photo_count": 26,
+   "description": "Rambler/Ranch, spacious fully fenced backyard. Refrigerator, washer and dryer included. Square footage from county records; buyer should verify.",
+   "mls": "2190507",
+   "source": "Coldwell Banker",
+   "stretch": false,
+   "fit_score": 44,
+   "score_breakdown": {
+    "profit": 6.8,
+    "affordability": 11.4,
+    "resale_layout": 5.2,
+    "value_vs_market": 0.0,
+    "condition": 10.0,
+    "price": 0.9,
+    "lot_garage": 5.0,
+    "hoa": 3.0,
+    "days_on_market": 2.0
+   },
+   "pros": [
+    "Big lot: 0.28 ac",
+    "Has a garage",
+    "On market 45 days: room to negotiate",
+    "Price dropped $5k",
+    "Offer $353k or less to clear ~$40k profit",
+    "Dated but livable: room to add value with cosmetic updates",
+    "Trim the fix-up by ~$6k to reach 15% down and lower PMI"
+   ],
+   "cons": [
+    "$340/sqft is above the ~$268 Springville median",
+    "Built 1944: check for lead paint, the electrical, and the sewer line",
+    "Payment ~$2,550/mo: doable but tight",
+    "2 bed / 1 bath: fewer buyers when you sell"
+   ],
+   "rehab_tier": "medium",
+   "market_value": 291584,
+   "arv": 413520,
+   "rehab_cost": 27200,
+   "selling_costs": 24811,
+   "buy_hold_costs": 11100,
+   "flip_profit": -19591,
+   "flip_roi_pct": -4.8,
+   "live_in_years": 3,
+   "live_in_value": 458477,
+   "live_in_gain": 22668,
+   "live_in_roi_pct": 26,
+   "max_offer": 353000,
+   "buy_closing": 11100,
+   "sale_costs": 27509,
+   "target_profit": 40000,
+   "monthly_payment": 2550,
+   "payment_level": "tight",
+   "down_pct": 0.135,
+   "pmi_monthly": 101,
+   "cash_needed": 88250,
+   "cash_ok": true,
+   "status": "active",
+   "first_seen": "2026-11-07",
+   "last_seen": "2026-11-25",
+   "price_history": [
+    {
+     "date": "2026-11-07",
+     "price": 375000
+    },
+    {
+     "date": "2026-11-25",
+     "price": 370000
+    }
+   ],
+   "price_drop": 5000
   },
   {
    "id": "542-e-3400-n-provo",
@@ -3520,7 +3683,7 @@
    "cash_ok": true,
    "status": "active",
    "first_seen": "2026-11-10",
-   "last_seen": "2026-11-22",
+   "last_seen": "2026-11-25",
    "price_history": [
     {
      "date": "2026-11-10",
@@ -3599,7 +3762,7 @@
    "cash_ok": true,
    "status": "active",
    "first_seen": "2026-11-10",
-   "last_seen": "2026-11-22",
+   "last_seen": "2026-11-25",
    "price_history": [
     {
      "date": "2026-11-10",
@@ -3681,86 +3844,6 @@
     {
      "date": "2026-11-07",
      "price": 374900
-    }
-   ],
-   "price_drop": 0
-  },
-  {
-   "id": "486-e-1000-s-springville",
-   "address": "486 E 1000 S",
-   "city": "Springville",
-   "region": "South",
-   "price": 375000,
-   "beds": 2,
-   "baths": 1,
-   "sqft": 1088,
-   "price_per_sqft": 345,
-   "lot_acres": 0.28,
-   "year_built": 1944,
-   "garage": true,
-   "hoa_monthly": 0,
-   "days_on_market": 27,
-   "url": "https://www.century21.com/homes/detail/ut/springville/486-e-1000-s/lid-P00800000HIdOZnDwamV5NjbJGc4ExffTdaEIHQh",
-   "photo": "https://images-listings.century21.com/SL/21/90/50/7/_P/2190507_P00.jpg?format=webp&quality=70&width=800",
-   "photo_count": 26,
-   "description": "Large fully fenced backyard. Fridge, washer and dryer included. Make the home your own.",
-   "mls": "2190507",
-   "source": "Century21",
-   "stretch": false,
-   "fit_score": 43,
-   "score_breakdown": {
-    "profit": 6.8,
-    "affordability": 11.0,
-    "resale_layout": 5.2,
-    "value_vs_market": 0.0,
-    "condition": 10.0,
-    "price": 0.7,
-    "lot_garage": 5.0,
-    "hoa": 3.0,
-    "days_on_market": 1.0
-   },
-   "pros": [
-    "Big lot: 0.28 ac",
-    "Has a garage",
-    "Offer $358k or less to clear ~$40k profit",
-    "Dated but livable: room to add value with cosmetic updates",
-    "Trim the fix-up by ~$6k to reach 15% down and lower PMI"
-   ],
-   "cons": [
-    "$345/sqft is above the ~$268 Springville median",
-    "Built 1944: check for lead paint, the electrical, and the sewer line",
-    "Payment ~$2,583/mo: doable but tight",
-    "2 bed / 1 bath: fewer buyers when you sell"
-   ],
-   "rehab_tier": "medium",
-   "market_value": 291584,
-   "arv": 418520,
-   "rehab_cost": 27200,
-   "selling_costs": 25111,
-   "buy_hold_costs": 11250,
-   "flip_profit": -20041,
-   "flip_roi_pct": -4.8,
-   "live_in_years": 3,
-   "live_in_value": 464021,
-   "live_in_gain": 22729,
-   "live_in_roi_pct": 26,
-   "max_offer": 358000,
-   "buy_closing": 11250,
-   "sale_costs": 27841,
-   "target_profit": 40000,
-   "monthly_payment": 2583,
-   "payment_level": "tight",
-   "down_pct": 0.135,
-   "pmi_monthly": 103,
-   "cash_needed": 89075,
-   "cash_ok": true,
-   "status": "active",
-   "first_seen": "2026-11-07",
-   "last_seen": "2026-11-20",
-   "price_history": [
-    {
-     "date": "2026-11-07",
-     "price": 375000
     }
    ],
    "price_drop": 0
@@ -4080,7 +4163,7 @@
    "cash_ok": true,
    "status": "active",
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-22",
+   "last_seen": "2026-11-25",
    "price_history": [
     {
      "date": "2026-11-07",
@@ -4236,7 +4319,7 @@
    "cash_ok": true,
    "status": "active",
    "first_seen": "2026-11-13",
-   "last_seen": "2026-11-22",
+   "last_seen": "2026-11-25",
    "price_history": [
     {
      "date": "2026-11-13",
@@ -4715,7 +4798,7 @@
    "cash_ok": false,
    "status": "active",
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-25",
    "price_history": [
     {
      "date": "2026-11-07",
@@ -4878,7 +4961,7 @@
    "cash_ok": true,
    "status": "active",
    "first_seen": "2026-11-10",
-   "last_seen": "2026-11-22",
+   "last_seen": "2026-11-25",
    "price_history": [
     {
      "date": "2026-11-10",
@@ -4959,7 +5042,7 @@
    "cash_ok": true,
    "status": "pending",
    "first_seen": "2026-11-10",
-   "last_seen": "2026-11-22",
+   "last_seen": "2026-11-25",
    "price_history": [
     {
      "date": "2026-11-10",
