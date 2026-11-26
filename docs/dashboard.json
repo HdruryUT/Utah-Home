@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-25",
+ "updated": "2026-11-26",
  "plan": {
   "closing_cost_pct": 0.03,
   "mortgage_rate": 0.0728,
@@ -138,7 +138,7 @@
    "cash_ok": true,
    "status": "active",
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-25",
+   "last_seen": "2026-11-26",
    "price_history": [
     {
      "date": "2026-11-07",
@@ -625,7 +625,7 @@
    "cash_ok": true,
    "status": "pending",
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-23",
+   "last_seen": "2026-11-26",
    "price_history": [
     {
      "date": "2026-11-07",
@@ -702,7 +702,7 @@
    "cash_ok": true,
    "status": "pending",
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-23",
+   "last_seen": "2026-11-26",
    "price_history": [
     {
      "date": "2026-11-07",
@@ -780,7 +780,7 @@
    "cash_ok": true,
    "status": "active",
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-25",
+   "last_seen": "2026-11-26",
    "price_history": [
     {
      "date": "2026-11-07",
@@ -1028,7 +1028,7 @@
    "cash_ok": true,
    "status": "active",
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-23",
+   "last_seen": "2026-11-26",
    "price_history": [
     {
      "date": "2026-11-07",
@@ -1273,7 +1273,7 @@
    "cash_ok": true,
    "status": "active",
    "first_seen": "2026-11-09",
-   "last_seen": "2026-11-24",
+   "last_seen": "2026-11-26",
    "price_history": [
     {
      "date": "2026-11-09",
@@ -1593,7 +1593,7 @@
    "cash_ok": true,
    "status": "active",
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-24",
+   "last_seen": "2026-11-26",
    "price_history": [
     {
      "date": "2026-11-07",
@@ -1904,7 +1904,7 @@
    "cash_ok": true,
    "status": "pending",
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-21",
+   "last_seen": "2026-11-26",
    "price_history": [
     {
      "date": "2026-11-07",
@@ -1983,7 +1983,7 @@
    "cash_ok": true,
    "status": "pending",
    "first_seen": "2026-11-11",
-   "last_seen": "2026-11-23",
+   "last_seen": "2026-11-26",
    "price_history": [
     {
      "date": "2026-11-11",
@@ -2062,7 +2062,7 @@
    "cash_ok": true,
    "status": "active",
    "first_seen": "2026-11-11",
-   "last_seen": "2026-11-23",
+   "last_seen": "2026-11-26",
    "price_history": [
     {
      "date": "2026-11-11",
@@ -2221,7 +2221,7 @@
    "cash_ok": true,
    "status": "active",
    "first_seen": "2026-11-11",
-   "last_seen": "2026-11-23",
+   "last_seen": "2026-11-26",
    "price_history": [
     {
      "date": "2026-11-11",
@@ -2304,7 +2304,7 @@
    "cash_ok": false,
    "status": "active",
    "first_seen": "2026-11-09",
-   "last_seen": "2026-11-24",
+   "last_seen": "2026-11-26",
    "price_history": [
     {
      "date": "2026-11-09",
@@ -2949,7 +2949,7 @@
    "cash_ok": true,
    "status": "active",
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-23",
+   "last_seen": "2026-11-26",
    "price_history": [
     {
      "date": "2026-11-07",
@@ -3028,7 +3028,7 @@
    "cash_ok": true,
    "status": "active",
    "first_seen": "2026-11-09",
-   "last_seen": "2026-11-24",
+   "last_seen": "2026-11-26",
    "price_history": [
     {
      "date": "2026-11-09",
@@ -3269,7 +3269,7 @@
    "cash_ok": true,
    "status": "active",
    "first_seen": "2026-11-08",
-   "last_seen": "2026-11-23",
+   "last_seen": "2026-11-26",
    "price_history": [
     {
      "date": "2026-11-08",
@@ -3516,7 +3516,7 @@
    "cash_ok": true,
    "status": "active",
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-24",
+   "last_seen": "2026-11-26",
    "price_history": [
     {
      "date": "2026-11-07",
@@ -3601,7 +3601,7 @@
    "cash_ok": true,
    "status": "active",
    "first_seen": "2026-11-15",
-   "last_seen": "2026-11-24",
+   "last_seen": "2026-11-26",
    "price_history": [
     {
      "date": "2026-11-15",
@@ -3839,7 +3839,7 @@
    "cash_ok": true,
    "status": "active",
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-20",
+   "last_seen": "2026-11-26",
    "price_history": [
     {
      "date": "2026-11-07",
@@ -4001,7 +4001,7 @@
    "cash_ok": true,
    "status": "active",
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-23",
+   "last_seen": "2026-11-26",
    "price_history": [
     {
      "date": "2026-11-07",
@@ -4239,7 +4239,7 @@
    "cash_ok": true,
    "status": "pending",
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-21",
+   "last_seen": "2026-11-26",
    "price_history": [
     {
      "date": "2026-11-07",
@@ -4247,6 +4247,93 @@
     }
    ],
    "price_drop": 0
+  },
+  {
+   "id": "694-e-100-s-spanish-fork",
+   "address": "694 E 100 S",
+   "city": "Spanish Fork",
+   "region": "South",
+   "price": 379000,
+   "beds": 3,
+   "baths": 1,
+   "sqft": 920,
+   "price_per_sqft": 412,
+   "lot_acres": 0.23,
+   "year_built": 1913,
+   "garage": true,
+   "hoa_monthly": 0,
+   "days_on_market": 191,
+   "url": "https://www.coldwellbankerhomes.com/ut/spanish-fork/694-e-100-s/pid_71048029/",
+   "photo": "https://images-listings.century21.com/SL/21/55/23/1/_P/2155231_P00.jpg?format=webp&quality=70&width=800",
+   "photo_count": 27,
+   "description": "Remodeled 3-bed, 1-bath home on 0.23-acre corner lot. Heated kitchen floors, RV parking with 50-amp hookup, new paver patio, shed, two one-car garages. Lot may allow a detached ADU. No HOA.",
+   "mls": "2155231",
+   "source": "Coldwell Banker",
+   "stretch": false,
+   "fit_score": 40,
+   "score_breakdown": {
+    "profit": 1.5,
+    "affordability": 12.7,
+    "resale_layout": 11.2,
+    "value_vs_market": 0.0,
+    "condition": 4.5,
+    "price": 0.6,
+    "lot_garage": 5.0,
+    "hoa": 3.0,
+    "days_on_market": 2.0
+   },
+   "pros": [
+    "Big lot: 0.23 ac",
+    "Has a garage",
+    "On market 191 days: room to negotiate",
+    "Price dropped $10k",
+    "RV parking",
+    "Offer $345k or less to clear ~$40k profit"
+   ],
+   "cons": [
+    "$412/sqft is above the ~$294 Spanish Fork median",
+    "Only 1 bathroom: adding a second is a common value-add",
+    "Built 1913: check for lead paint, the electrical, and the sewer line",
+    "Thin profit: only ~$5k after fixing up and selling in 3 yrs",
+    "Already updated: little left for you to add value",
+    "Payment ~$2,445/mo: doable but tight"
+   ],
+   "rehab_tier": "light",
+   "market_value": 270480,
+   "arv": 388200,
+   "rehab_cost": 9200,
+   "selling_costs": 23292,
+   "buy_hold_costs": 11370,
+   "flip_profit": -34662,
+   "flip_roi_pct": -8.7,
+   "live_in_years": 3,
+   "live_in_value": 430404,
+   "live_in_gain": 5010,
+   "live_in_roi_pct": 6,
+   "max_offer": 345000,
+   "buy_closing": 11370,
+   "sale_costs": 25824,
+   "target_profit": 40000,
+   "monthly_payment": 2445,
+   "payment_level": "tight",
+   "down_pct": 0.18,
+   "pmi_monthly": 57,
+   "cash_needed": 88790,
+   "cash_ok": true,
+   "status": "active",
+   "first_seen": "2026-11-12",
+   "last_seen": "2026-11-26",
+   "price_history": [
+    {
+     "date": "2026-11-12",
+     "price": 389000
+    },
+    {
+     "date": "2026-11-26",
+     "price": 379000
+    }
+   ],
+   "price_drop": 10000
   },
   {
    "id": "964-e-300-n-provo",
@@ -4329,89 +4416,6 @@
    "price_drop": 0
   },
   {
-   "id": "694-e-100-s-spanish-fork",
-   "address": "694 E 100 S",
-   "city": "Spanish Fork",
-   "region": "South",
-   "price": 389000,
-   "beds": 3,
-   "baths": 1,
-   "sqft": 920,
-   "price_per_sqft": 423,
-   "lot_acres": 0.23,
-   "year_built": 1913,
-   "garage": true,
-   "hoa_monthly": 0,
-   "days_on_market": 191,
-   "url": "https://www.coldwellbankerhomes.com/ut/spanish-fork/694-e-100-s/pid_71048029/",
-   "photo": "https://images-listings.century21.com/SL/21/55/23/1/_P/2155231_P00.jpg?format=webp&quality=70&width=800",
-   "photo_count": 27,
-   "description": "Remodeled 3-bed, 1-bath home on 0.23-acre corner lot. Heated kitchen floors, RV parking with 50-amp hookup, new paver patio, shed, two one-car garages. Lot may allow a detached ADU. No HOA.",
-   "mls": "2155231",
-   "source": "Coldwell Banker",
-   "stretch": true,
-   "fit_score": 39,
-   "score_breakdown": {
-    "profit": 1.5,
-    "affordability": 11.7,
-    "resale_layout": 11.2,
-    "value_vs_market": 0.0,
-    "condition": 4.5,
-    "price": 0.2,
-    "lot_garage": 5.0,
-    "hoa": 3.0,
-    "days_on_market": 2.0
-   },
-   "pros": [
-    "Big lot: 0.23 ac",
-    "Has a garage",
-    "On market 191 days: room to negotiate",
-    "RV parking",
-    "Offer $355k or less to clear ~$40k profit"
-   ],
-   "cons": [
-    "Stretch: $9k over your $380k target",
-    "$423/sqft is above the ~$294 Spanish Fork median",
-    "Only 1 bathroom: adding a second is a common value-add",
-    "Built 1913: check for lead paint, the electrical, and the sewer line",
-    "Thin profit: only ~$5k after fixing up and selling in 3 yrs",
-    "Already updated: little left for you to add value",
-    "Payment ~$2,520/mo: doable but tight"
-   ],
-   "rehab_tier": "light",
-   "market_value": 270480,
-   "arv": 398200,
-   "rehab_cost": 9200,
-   "selling_costs": 23892,
-   "buy_hold_costs": 11670,
-   "flip_profit": -35562,
-   "flip_roi_pct": -8.7,
-   "live_in_years": 3,
-   "live_in_value": 441491,
-   "live_in_gain": 5132,
-   "live_in_roi_pct": 6,
-   "max_offer": 355000,
-   "buy_closing": 11670,
-   "sale_costs": 26489,
-   "target_profit": 40000,
-   "monthly_payment": 2520,
-   "payment_level": "tight",
-   "down_pct": 0.175,
-   "pmi_monthly": 59,
-   "cash_needed": 88945,
-   "cash_ok": true,
-   "status": "active",
-   "first_seen": "2026-11-12",
-   "last_seen": "2026-11-23",
-   "price_history": [
-    {
-     "date": "2026-11-12",
-     "price": 389000
-    }
-   ],
-   "price_drop": 0
-  },
-  {
    "id": "1716-n-1230-e-payson",
    "address": "1716 N 1230 E",
    "city": "Payson",
@@ -4484,9 +4488,9 @@
    "pmi_monthly": 58,
    "cash_needed": 89541,
    "cash_ok": true,
-   "status": "active",
+   "status": "pending",
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-23",
+   "last_seen": "2026-11-26",
    "price_history": [
     {
      "date": "2026-11-07",
@@ -4563,7 +4567,7 @@
    "cash_ok": true,
    "status": "pending",
    "first_seen": "2026-11-11",
-   "last_seen": "2026-11-23",
+   "last_seen": "2026-11-26",
    "price_history": [
     {
      "date": "2026-11-11",
@@ -4640,7 +4644,7 @@
    "cash_ok": true,
    "status": "pending",
    "first_seen": "2026-11-11",
-   "last_seen": "2026-11-23",
+   "last_seen": "2026-11-26",
    "price_history": [
     {
      "date": "2026-11-11",
@@ -4717,7 +4721,7 @@
    "cash_ok": true,
    "status": "pending",
    "first_seen": "2026-11-11",
-   "last_seen": "2026-11-23",
+   "last_seen": "2026-11-26",
    "price_history": [
     {
      "date": "2026-11-11",
@@ -4879,7 +4883,7 @@
    "cash_ok": true,
    "status": "pending",
    "first_seen": "2026-11-12",
-   "last_seen": "2026-11-23",
+   "last_seen": "2026-11-26",
    "price_history": [
     {
      "date": "2026-11-12",

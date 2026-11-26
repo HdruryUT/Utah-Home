@@ -161,7 +161,7 @@
     "year_built": 2026
    },
    "first_seen": "2026-11-12",
-   "last_seen": "2026-11-23",
+   "last_seen": "2026-11-26",
    "price_history": [
     {
      "date": "2026-11-12",
@@ -193,7 +193,7 @@
     "year_built": 1941
    },
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-25",
+   "last_seen": "2026-11-26",
    "price_history": [
     {
      "date": "2026-11-07",
@@ -299,7 +299,7 @@
     "url": "https://www.coldwellbankerhomes.com/ut/saratoga-springs/15-n-jordan-river-way-373/pid_71929982/"
    },
    "first_seen": "2026-11-11",
-   "last_seen": "2026-11-23",
+   "last_seen": "2026-11-26",
    "price_history": [
     {
      "date": "2026-11-11",
@@ -386,19 +386,19 @@
     "property_type": "single_family",
     "source": "Century21",
     "sqft": 1554,
-    "status": "active",
+    "status": "pending",
     "url": "https://www.coldwellbankerhomes.com/ut/payson/1716-n-1230-e/pid_73750906/",
     "year_built": 2021
    },
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-23",
+   "last_seen": "2026-11-26",
    "price_history": [
     {
      "date": "2026-11-07",
      "price": 379490
     }
    ],
-   "status": "active"
+   "status": "pending"
   },
   "175-n-700-e-springville": {
    "data": {
@@ -629,7 +629,7 @@
     "year_built": 1934
    },
    "first_seen": "2026-11-09",
-   "last_seen": "2026-11-24",
+   "last_seen": "2026-11-26",
    "price_history": [
     {
      "date": "2026-11-09",
@@ -662,7 +662,7 @@
     "year_built": 1942
    },
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-23",
+   "last_seen": "2026-11-26",
    "price_history": [
     {
      "date": "2026-11-07",
@@ -886,7 +886,7 @@
     "year_built": 1906
    },
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-20",
+   "last_seen": "2026-11-26",
    "price_history": [
     {
      "date": "2026-11-07",
@@ -911,7 +911,7 @@
     "url": "https://www.century21.com/homes/detail/ut/provo/2775-w-1390/lid-P00800000HF6fPENYgxoxs863S6xp3PZj9ZHl3o7"
    },
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-21",
+   "last_seen": "2026-11-26",
    "price_history": [
     {
      "date": "2026-11-07",
@@ -1008,7 +1008,7 @@
     "year_built": 1943
    },
    "first_seen": "2026-11-09",
-   "last_seen": "2026-11-24",
+   "last_seen": "2026-11-26",
    "price_history": [
     {
      "date": "2026-11-09",
@@ -1110,7 +1110,7 @@
     "year_built": 1913
    },
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-24",
+   "last_seen": "2026-11-26",
    "price_history": [
     {
      "date": "2026-11-07",
@@ -1135,7 +1135,7 @@
     "url": "https://www.century21.com/homes/detail/ut/provo/341-e-200-s/lid-P00800000HIF4yl7LlfqsqLjYEOeh079eGwPtBZ2"
    },
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-21",
+   "last_seen": "2026-11-26",
    "price_history": [
     {
      "date": "2026-11-07",
@@ -1161,7 +1161,7 @@
     "url": "https://www.century21.com/homes/detail/ut/payson/368-s-1000-w/lid-P00800000H7NbbykKe3MFZOnS2zqXyYafLZQQB2V"
    },
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-23",
+   "last_seen": "2026-11-26",
    "price_history": [
     {
      "date": "2026-11-07",
@@ -1261,7 +1261,7 @@
     "year_built": 1923
    },
    "first_seen": "2026-11-08",
-   "last_seen": "2026-11-23",
+   "last_seen": "2026-11-26",
    "price_history": [
     {
      "date": "2026-11-08",
@@ -1382,7 +1382,7 @@
     "url": "https://www.coldwellbankerhomes.com/ut/saratoga-springs/41-n-jordan-river-way-365/pid_72177617/"
    },
    "first_seen": "2026-11-11",
-   "last_seen": "2026-11-23",
+   "last_seen": "2026-11-26",
    "price_history": [
     {
      "date": "2026-11-11",
@@ -1469,7 +1469,7 @@
     "year_built": 1947
    },
    "first_seen": "2026-11-11",
-   "last_seen": "2026-11-23",
+   "last_seen": "2026-11-26",
    "price_history": [
     {
      "date": "2026-11-11",
@@ -1648,7 +1648,7 @@
     "url": "https://www.coldwellbankerhomes.com/ut/saratoga-springs/49-n-jordan-river-way-363/pid_72176268/"
    },
    "first_seen": "2026-11-11",
-   "last_seen": "2026-11-23",
+   "last_seen": "2026-11-26",
    "price_history": [
     {
      "date": "2026-11-11",
@@ -1820,7 +1820,7 @@
     "year_built": 1931
    },
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-25",
+   "last_seen": "2026-11-26",
    "price_history": [
     {
      "date": "2026-11-07",
@@ -1850,7 +1850,7 @@
     "year_built": 1882
    },
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-23",
+   "last_seen": "2026-11-26",
    "price_history": [
     {
      "date": "2026-11-07",
@@ -1916,7 +1916,7 @@
     "year_built": 1916
    },
    "first_seen": "2026-11-11",
-   "last_seen": "2026-11-23",
+   "last_seen": "2026-11-26",
    "price_history": [
     {
      "date": "2026-11-11",
@@ -1972,7 +1972,7 @@
     "mls": "2155231",
     "photo": "https://images-listings.century21.com/SL/21/55/23/1/_P/2155231_P00.jpg?format=webp&quality=70&width=800",
     "photo_count": 27,
-    "price": 389000,
+    "price": 379000,
     "property_type": "single_family",
     "source": "Coldwell Banker",
     "sqft": 920,
@@ -1981,11 +1981,15 @@
     "year_built": 1913
    },
    "first_seen": "2026-11-12",
-   "last_seen": "2026-11-23",
+   "last_seen": "2026-11-26",
    "price_history": [
     {
      "date": "2026-11-12",
      "price": 389000
+    },
+    {
+     "date": "2026-11-26",
+     "price": 379000
     }
    ],
    "status": "active"
@@ -2148,7 +2152,7 @@
     "year_built": 1908
    },
    "first_seen": "2026-11-11",
-   "last_seen": "2026-11-23",
+   "last_seen": "2026-11-26",
    "price_history": [
     {
      "date": "2026-11-11",
@@ -2181,7 +2185,7 @@
     "year_built": 1918
    },
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-24",
+   "last_seen": "2026-11-26",
    "price_history": [
     {
      "date": "2026-11-07",
@@ -2218,7 +2222,7 @@
     "year_built": 1949
    },
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-23",
+   "last_seen": "2026-11-26",
    "price_history": [
     {
      "date": "2026-11-07",
@@ -2251,7 +2255,7 @@
     "year_built": 1943
    },
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-23",
+   "last_seen": "2026-11-26",
    "price_history": [
     {
      "date": "2026-11-07",
@@ -2315,7 +2319,7 @@
     "year_built": 1974
    },
    "first_seen": "2026-11-09",
-   "last_seen": "2026-11-24",
+   "last_seen": "2026-11-26",
    "price_history": [
     {
      "date": "2026-11-09",
@@ -2348,7 +2352,7 @@
     "year_built": 1958
    },
    "first_seen": "2026-11-15",
-   "last_seen": "2026-11-24",
+   "last_seen": "2026-11-26",
    "price_history": [
     {
      "date": "2026-11-15",
@@ -2389,5 +2393,5 @@
    "status": "active"
   }
  },
- "updated": "2026-11-25"
+ "updated": "2026-11-26"
 }

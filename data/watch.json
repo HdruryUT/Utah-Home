@@ -209,12 +209,6 @@
   "price": 399388,
   "first_seen": "2026-11-09"
  },
- "/ut/springville/978-e-40-n/pid_73643854/": {
-  "address": "978 E 40 N",
-  "city": "Springville",
-  "price": 400000,
-  "first_seen": "2026-11-09"
- },
  "/ut/provo/1106-w-450-n/pid_73323168/": {
   "address": "1106 W 450 N",
   "city": "Provo",
@@ -236,7 +230,7 @@
  "/ut/santaquin/1563-s-deerbrook-spec-sr-267/pid_73629002/": {
   "address": "1563 S Deerbrook Spec #SR 267",
   "city": "Santaquin",
-  "price": 419900,
+  "price": 420000,
   "first_seen": "2026-11-09"
  },
  "/ut/american-fork/93-s-100-w/pid_73783621/": {
@@ -772,5 +766,83 @@
   "city": "Springville",
   "price": 410000,
   "first_seen": "2026-11-25"
+ },
+ "/ut/orem/852-w-530-n/pid_74025583/": {
+  "address": "852 W 530 N",
+  "city": "Orem",
+  "price": 449900,
+  "first_seen": "2026-11-26"
+ },
+ "/ut/provo/1695-s-450-w/pid_73731245/": {
+  "address": "1695 S 450 W",
+  "city": "Provo",
+  "price": 444900,
+  "first_seen": "2026-11-26"
+ },
+ "/ut/eagle-mountain/2048-e-juniper-dr/pid_73721413/": {
+  "address": "2048 E Juniper Dr",
+  "city": "Eagle Mountain",
+  "price": 435000,
+  "first_seen": "2026-11-26"
+ },
+ "/ut/payson/799-w-1150-s/pid_73668287/": {
+  "address": "799 W 1150 S",
+  "city": "Payson",
+  "price": 439900,
+  "first_seen": "2026-11-26"
+ },
+ "/ut/spanish-fork/859-w-60-n/pid_73541070/": {
+  "address": "859 W 60 N",
+  "city": "Spanish Fork",
+  "price": 441900,
+  "first_seen": "2026-11-26"
+ },
+ "/ut/eagle-mountain/5044-n-folkstone-dr/pid_73777643/": {
+  "address": "5044 N Folkstone Dr",
+  "city": "Eagle Mountain",
+  "price": 448900,
+  "first_seen": "2026-11-26"
+ },
+ "/ut/eagle-mountain/1357-e-reichert-st/pid_73795408/": {
+  "address": "1357 E Reichert St",
+  "city": "Eagle Mountain",
+  "price": 443900,
+  "first_seen": "2026-11-26"
+ },
+ "/ut/saratoga-springs/3083-s-red-pine-dr-w/pid_73777635/": {
+  "address": "3083 S Red Pine Dr W",
+  "city": "Saratoga Springs",
+  "price": 430000,
+  "first_seen": "2026-11-26"
+ },
+ "/ut/santaquin/1558-s-sageberry-dr-w-sr-tbb/pid_73659368/": {
+  "address": "1558 S Sageberry Dr W",
+  "city": "Santaquin",
+  "price": 445000,
+  "first_seen": "2026-11-26"
+ },
+ "/ut/santaquin/1550-s-sageberry-dr-w-sr-tbb/pid_73659370/": {
+  "address": "1550 S Sageberry Dr W",
+  "city": "Santaquin",
+  "price": 415000,
+  "first_seen": "2026-11-26"
+ },
+ "/ut/santaquin/1552-s-sageberry-dr-w-sr-tbb/pid_73481686/": {
+  "address": "1552 S Sageberry Dr W",
+  "city": "Santaquin",
+  "price": 430000,
+  "first_seen": "2026-11-26"
+ },
+ "/ut/orem/235-e-300-n/pid_73925811/": {
+  "address": "235 E 300 N",
+  "city": "Orem",
+  "price": 450000,
+  "first_seen": "2026-11-26"
+ },
+ "/ut/provo/1660-w-150-n/pid_73911887/": {
+  "address": "1660 W 150 N",
+  "city": "Provo",
+  "price": 450000,
+  "first_seen": "2026-11-26"
  }
 }
