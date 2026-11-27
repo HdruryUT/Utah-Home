@@ -695,7 +695,7 @@
     "year_built": 2000
    },
    "first_seen": "2026-11-10",
-   "last_seen": "2026-11-25",
+   "last_seen": "2026-11-27",
    "price_history": [
     {
      "date": "2026-11-10",
@@ -727,7 +727,7 @@
     "year_built": 1934
    },
    "first_seen": "2026-11-15",
-   "last_seen": "2026-11-24",
+   "last_seen": "2026-11-27",
    "price_history": [
     {
      "date": "2026-11-15",
@@ -792,7 +792,7 @@
     "year_built": 1939
    },
    "first_seen": "2026-11-09",
-   "last_seen": "2026-11-24",
+   "last_seen": "2026-11-27",
    "price_history": [
     {
      "date": "2026-11-09",
@@ -1144,6 +1144,39 @@
    ],
    "status": "pending"
   },
+  "348-n-orchard-ln-santaquin": {
+   "data": {
+    "address": "348 N Orchard Ln",
+    "baths": 1.5,
+    "beds": 2,
+    "cb_url": "https://www.coldwellbankerhomes.com/ut/santaquin/348-n-orchard-ln/pid_73424861/",
+    "city": "Santaquin",
+    "days_on_market": 84,
+    "description": "Top deal in Santaquin, no HOA. Two-bedroom home for first-time buyers, investors or sweat-equity projects. Spacious yard, mountain views, storage shed, room for improvement. Sold as-is.",
+    "garage": true,
+    "hoa_monthly": 0,
+    "lot_acres": 0.12,
+    "mls": "2183045",
+    "photo": "https://images-listings.century21.com/SL/21/83/04/5/_P/2183045_P00.jpg?format=webp&quality=70&width=800",
+    "photo_count": 33,
+    "price": 265000,
+    "property_type": "single_family",
+    "source": "Coldwell Banker",
+    "sqft": 1117,
+    "status": "active",
+    "url": "https://www.coldwellbankerhomes.com/ut/santaquin/348-n-orchard-ln/pid_73424861/",
+    "year_built": 1998
+   },
+   "first_seen": "2026-11-27",
+   "last_seen": "2026-11-27",
+   "price_history": [
+    {
+     "date": "2026-11-27",
+     "price": 265000
+    }
+   ],
+   "status": "active"
+  },
   "368-s-1000-w-payson": {
    "data": {
     "address": "368 S 1000 W",
@@ -1189,12 +1222,12 @@
     "property_type": "single_family",
     "source": "Coldwell Banker",
     "sqft": 1844,
-    "status": "active",
+    "status": "pending",
     "url": "https://www.coldwellbankerhomes.com/ut/spanish-fork/380-e-200-s/pid_74579620/",
     "year_built": 1951
    },
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-24",
+   "last_seen": "2026-11-27",
    "price_history": [
     {
      "date": "2026-11-07",
@@ -1205,7 +1238,7 @@
      "price": 375000
     }
    ],
-   "status": "active"
+   "status": "pending"
   },
   "380-e-300-s-pleasant-grove": {
    "data": {
@@ -1229,7 +1262,7 @@
     "year_built": 1951
    },
    "first_seen": "2026-11-12",
-   "last_seen": "2026-11-24",
+   "last_seen": "2026-11-27",
    "price_history": [
     {
      "date": "2026-11-12",
@@ -1730,7 +1763,7 @@
     "year_built": 1947
    },
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-24",
+   "last_seen": "2026-11-27",
    "price_history": [
     {
      "date": "2026-11-07",
@@ -1763,7 +1796,7 @@
     "year_built": 2027
    },
    "first_seen": "2026-11-10",
-   "last_seen": "2026-11-25",
+   "last_seen": "2026-11-27",
    "price_history": [
     {
      "date": "2026-11-10",
@@ -1883,7 +1916,7 @@
     "year_built": 2027
    },
    "first_seen": "2026-11-10",
-   "last_seen": "2026-11-25",
+   "last_seen": "2026-11-27",
    "price_history": [
     {
      "date": "2026-11-10",
@@ -2018,7 +2051,7 @@
     "year_built": 2027
    },
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-24",
+   "last_seen": "2026-11-27",
    "price_history": [
     {
      "date": "2026-11-07",
@@ -2084,7 +2117,7 @@
     "year_built": 2027
    },
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-24",
+   "last_seen": "2026-11-27",
    "price_history": [
     {
      "date": "2026-11-07",
@@ -2383,7 +2416,7 @@
     "year_built": 1950
    },
    "first_seen": "2026-11-18",
-   "last_seen": "2026-11-24",
+   "last_seen": "2026-11-27",
    "price_history": [
     {
      "date": "2026-11-18",
@@ -2393,5 +2426,5 @@
    "status": "active"
   }
  },
- "updated": "2026-11-26"
+ "updated": "2026-11-27"
 }

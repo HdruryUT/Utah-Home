@@ -844,5 +844,11 @@
   "city": "Provo",
   "price": 450000,
   "first_seen": "2026-11-26"
+ },
+ "/ut/provo/2755-n-edgewood-dr-e/pid_73304613/": {
+  "address": "2755 N Edgewood Dr E",
+  "city": "Provo",
+  "price": 399000,
+  "first_seen": "2026-11-27"
  }
 }
