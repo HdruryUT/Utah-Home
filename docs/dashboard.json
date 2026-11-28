@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-27",
+ "updated": "2026-11-28",
  "plan": {
   "closing_cost_pct": 0.03,
   "mortgage_rate": 0.0728,
@@ -218,7 +218,7 @@
    "cash_ok": true,
    "status": "active",
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-25",
+   "last_seen": "2026-11-28",
    "price_history": [
     {
      "date": "2026-11-07",
@@ -462,7 +462,7 @@
    "cash_ok": true,
    "status": "pending",
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-25",
+   "last_seen": "2026-11-28",
    "price_history": [
     {
      "date": "2026-11-07",
@@ -1194,11 +1194,87 @@
    "cash_ok": false,
    "status": "pending",
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-25",
+   "last_seen": "2026-11-28",
    "price_history": [
     {
      "date": "2026-11-07",
      "price": 275000
+    }
+   ],
+   "price_drop": 0
+  },
+  {
+   "id": "348-n-orchard-ln-santaquin",
+   "address": "348 N Orchard Ln",
+   "city": "Santaquin",
+   "region": "South",
+   "price": 265000,
+   "beds": 2,
+   "baths": 1.5,
+   "sqft": 1117,
+   "price_per_sqft": 237,
+   "lot_acres": 0.12,
+   "year_built": 1998,
+   "garage": true,
+   "hoa_monthly": 0,
+   "days_on_market": 84,
+   "url": "https://www.coldwellbankerhomes.com/ut/santaquin/348-n-orchard-ln/pid_73424861/",
+   "photo": "https://images-listings.century21.com/SL/21/83/04/5/_P/2183045_P00.jpg?format=webp&quality=70&width=800",
+   "photo_count": 33,
+   "description": "Top deal in Santaquin, no HOA. Two-bedroom home for first-time buyers, investors or sweat-equity projects. Spacious yard, mountain views, storage shed, room for improvement. Sold as-is.",
+   "mls": "2183045",
+   "source": "Coldwell Banker",
+   "stretch": false,
+   "fit_score": 59,
+   "score_breakdown": {
+    "profit": 11.4,
+    "affordability": 15.0,
+    "resale_layout": 7.5,
+    "value_vs_market": 8.4,
+    "condition": 3.5,
+    "price": 4.5,
+    "lot_garage": 4.0,
+    "hoa": 3.0,
+    "days_on_market": 2.0
+   },
+   "pros": [
+    "Has a garage",
+    "On market 84 days: room to negotiate",
+    "Offer $263k or less to clear ~$40k profit",
+    "Payment ~$1,998/mo: comfortable for your budget"
+   ],
+   "cons": [
+    "Heavy fixer: may be hard to live in or finance while you work on it"
+   ],
+   "rehab_tier": "heavy",
+   "market_value": 288186,
+   "arv": 357152,
+   "rehab_cost": 61435,
+   "selling_costs": 21429,
+   "buy_hold_costs": 7950,
+   "flip_profit": 1338,
+   "flip_roi_pct": 0.4,
+   "live_in_years": 3,
+   "live_in_value": 395981,
+   "live_in_gain": 37837,
+   "live_in_roi_pct": 42,
+   "max_offer": 263000,
+   "buy_closing": 7950,
+   "sale_costs": 23759,
+   "target_profit": 40000,
+   "monthly_payment": 1998,
+   "payment_level": "comfortable",
+   "down_pct": 0.075,
+   "pmi_monthly": 102,
+   "cash_needed": 89260,
+   "cash_ok": true,
+   "status": "active",
+   "first_seen": "2026-11-27",
+   "last_seen": "2026-11-27",
+   "price_history": [
+    {
+     "date": "2026-11-27",
+     "price": 265000
     }
    ],
    "price_drop": 0
@@ -1283,82 +1359,6 @@
    "price_drop": 0
   },
   {
-   "id": "348-n-orchard-ln-santaquin",
-   "address": "348 N Orchard Ln",
-   "city": "Santaquin",
-   "region": "South",
-   "price": 265000,
-   "beds": 2,
-   "baths": 1.5,
-   "sqft": 1117,
-   "price_per_sqft": 237,
-   "lot_acres": 0.12,
-   "year_built": 1998,
-   "garage": true,
-   "hoa_monthly": 0,
-   "days_on_market": 84,
-   "url": "https://www.coldwellbankerhomes.com/ut/santaquin/348-n-orchard-ln/pid_73424861/",
-   "photo": "https://images-listings.century21.com/SL/21/83/04/5/_P/2183045_P00.jpg?format=webp&quality=70&width=800",
-   "photo_count": 33,
-   "description": "Top deal in Santaquin, no HOA. Two-bedroom home for first-time buyers, investors or sweat-equity projects. Spacious yard, mountain views, storage shed, room for improvement. Sold as-is.",
-   "mls": "2183045",
-   "source": "Coldwell Banker",
-   "stretch": false,
-   "fit_score": 59,
-   "score_breakdown": {
-    "profit": 11.4,
-    "affordability": 15.0,
-    "resale_layout": 7.5,
-    "value_vs_market": 8.4,
-    "condition": 3.5,
-    "price": 4.5,
-    "lot_garage": 4.0,
-    "hoa": 3.0,
-    "days_on_market": 2.0
-   },
-   "pros": [
-    "Has a garage",
-    "On market 84 days: room to negotiate",
-    "Offer $263k or less to clear ~$40k profit",
-    "Payment ~$1,998/mo: comfortable for your budget"
-   ],
-   "cons": [
-    "Heavy fixer: may be hard to live in or finance while you work on it"
-   ],
-   "rehab_tier": "heavy",
-   "market_value": 288186,
-   "arv": 357152,
-   "rehab_cost": 61435,
-   "selling_costs": 21429,
-   "buy_hold_costs": 7950,
-   "flip_profit": 1338,
-   "flip_roi_pct": 0.4,
-   "live_in_years": 3,
-   "live_in_value": 395981,
-   "live_in_gain": 37837,
-   "live_in_roi_pct": 42,
-   "max_offer": 263000,
-   "buy_closing": 7950,
-   "sale_costs": 23759,
-   "target_profit": 40000,
-   "monthly_payment": 1998,
-   "payment_level": "comfortable",
-   "down_pct": 0.075,
-   "pmi_monthly": 102,
-   "cash_needed": 89260,
-   "cash_ok": true,
-   "status": "active",
-   "first_seen": "2026-11-27",
-   "last_seen": "2026-11-27",
-   "price_history": [
-    {
-     "date": "2026-11-27",
-     "price": 265000
-    }
-   ],
-   "price_drop": 0
-  },
-  {
    "id": "393-n-900-e-payson",
    "address": "393 N 900 E",
    "city": "Payson",
@@ -1429,7 +1429,7 @@
    "cash_ok": false,
    "status": "active",
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-25",
+   "last_seen": "2026-11-28",
    "price_history": [
     {
      "date": "2026-11-07",
@@ -1509,7 +1509,7 @@
    "cash_ok": true,
    "status": "active",
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-25",
+   "last_seen": "2026-11-28",
    "price_history": [
     {
      "date": "2026-11-07",
@@ -1825,9 +1825,9 @@
    "pmi_monthly": 117,
    "cash_needed": 89545,
    "cash_ok": true,
-   "status": "active",
+   "status": "pending",
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-22",
+   "last_seen": "2026-11-28",
    "price_history": [
     {
      "date": "2026-11-07",
@@ -2059,7 +2059,7 @@
    "cash_ok": true,
    "status": "pending",
    "first_seen": "2026-11-11",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-28",
    "price_history": [
     {
      "date": "2026-11-11",
@@ -2138,7 +2138,7 @@
    "cash_ok": true,
    "status": "active",
    "first_seen": "2026-11-11",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-28",
    "price_history": [
     {
      "date": "2026-11-11",
@@ -2297,7 +2297,7 @@
    "cash_ok": true,
    "status": "active",
    "first_seen": "2026-11-11",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-28",
    "price_history": [
     {
      "date": "2026-11-11",
@@ -2459,7 +2459,7 @@
    "cash_ok": false,
    "status": "pending",
    "first_seen": "2026-11-13",
-   "last_seen": "2026-11-25",
+   "last_seen": "2026-11-28",
    "price_history": [
     {
      "date": "2026-11-13",
@@ -2538,7 +2538,7 @@
    "cash_ok": true,
    "status": "active",
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-25",
+   "last_seen": "2026-11-28",
    "price_history": [
     {
      "date": "2026-11-07",
@@ -2621,7 +2621,7 @@
    "cash_ok": true,
    "status": "active",
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-22",
+   "last_seen": "2026-11-28",
    "price_history": [
     {
      "date": "2026-11-07",
@@ -2943,9 +2943,9 @@
    "pmi_monthly": 109,
    "cash_needed": 89160,
    "cash_ok": true,
-   "status": "active",
+   "status": "pending",
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-22",
+   "last_seen": "2026-11-28",
    "price_history": [
     {
      "date": "2026-11-07",
@@ -3025,7 +3025,7 @@
    "cash_ok": true,
    "status": "active",
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-28",
    "price_history": [
     {
      "date": "2026-11-07",
@@ -3185,7 +3185,7 @@
    "cash_ok": true,
    "status": "active",
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-25",
+   "last_seen": "2026-11-28",
    "price_history": [
     {
      "date": "2026-11-07",
@@ -3427,7 +3427,7 @@
    "cash_ok": true,
    "status": "active",
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-25",
+   "last_seen": "2026-11-28",
    "price_history": [
     {
      "date": "2026-11-07",
@@ -3509,7 +3509,7 @@
    "cash_ok": true,
    "status": "pending",
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-22",
+   "last_seen": "2026-11-28",
    "price_history": [
     {
      "date": "2026-11-07",
@@ -3759,7 +3759,7 @@
    "cash_ok": true,
    "status": "active",
    "first_seen": "2026-11-10",
-   "last_seen": "2026-11-25",
+   "last_seen": "2026-11-28",
    "price_history": [
     {
      "date": "2026-11-10",
@@ -4239,7 +4239,7 @@
    "cash_ok": true,
    "status": "active",
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-25",
+   "last_seen": "2026-11-28",
    "price_history": [
     {
      "date": "2026-11-07",
@@ -4482,7 +4482,7 @@
    "cash_ok": true,
    "status": "active",
    "first_seen": "2026-11-13",
-   "last_seen": "2026-11-25",
+   "last_seen": "2026-11-28",
    "price_history": [
     {
      "date": "2026-11-13",
@@ -4643,7 +4643,7 @@
    "cash_ok": true,
    "status": "pending",
    "first_seen": "2026-11-11",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-28",
    "price_history": [
     {
      "date": "2026-11-11",
@@ -4797,7 +4797,7 @@
    "cash_ok": true,
    "status": "pending",
    "first_seen": "2026-11-11",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-28",
    "price_history": [
     {
      "date": "2026-11-11",

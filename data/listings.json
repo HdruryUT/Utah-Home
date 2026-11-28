@@ -55,7 +55,7 @@
     "year_built": 1956
    },
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-25",
+   "last_seen": "2026-11-28",
    "price_history": [
     {
      "date": "2026-11-07",
@@ -326,7 +326,7 @@
     "url": "https://www.coldwellbankerhomes.com/ut/springville/1563-s-600-e/pid_72346076/"
    },
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-25",
+   "last_seen": "2026-11-28",
    "price_history": [
     {
      "date": "2026-11-07",
@@ -358,7 +358,7 @@
     "year_built": 1947
    },
    "first_seen": "2026-11-10",
-   "last_seen": "2026-11-25",
+   "last_seen": "2026-11-28",
    "price_history": [
     {
      "date": "2026-11-10",
@@ -405,6 +405,7 @@
     "address": "175 N 700 E",
     "baths": 2,
     "beds": 3,
+    "cb_url": "https://www.coldwellbankerhomes.com/ut/springville/175-n-700-e/pid_72257085/",
     "city": "Springville",
     "days_on_market": 129,
     "description": "Well-kept 3-bed, 2-bath rambler, fenced yard, mature shade tree, rear lounge area. Kitchen updated with new countertops.",
@@ -422,7 +423,7 @@
     "year_built": 1957
    },
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-22",
+   "last_seen": "2026-11-28",
    "price_history": [
     {
      "date": "2026-11-07",
@@ -455,7 +456,7 @@
     "year_built": 1947
    },
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-25",
+   "last_seen": "2026-11-28",
    "price_history": [
     {
      "date": "2026-11-07",
@@ -469,6 +470,7 @@
     "address": "1757 N 1600 W",
     "baths": 1,
     "beds": 3,
+    "cb_url": "https://www.coldwellbankerhomes.com/ut/mapleton/1757-n-1600-w/pid_72361824/",
     "city": "Mapleton",
     "days_on_market": 123,
     "description": "Price recently reduced significantly. Fenced 0.43-acre lot, RV parking. Updated kitchen with gas range, remodeled bathroom. Needs some repairs and updating.",
@@ -482,19 +484,19 @@
     "property_type": "single_family",
     "source": "Century21",
     "sqft": 1227,
-    "status": "active",
+    "status": "pending",
     "url": "https://www.century21.com/homes/detail/ut/mapleton/1757-n-1600-w/lid-P00800000HDhFUJxrJbxADdPHFRXyAf39cPhPI70",
     "year_built": 1914
    },
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-22",
+   "last_seen": "2026-11-28",
    "price_history": [
     {
      "date": "2026-11-07",
      "price": 389900
     }
    ],
-   "status": "active"
+   "status": "pending"
   },
   "1758-e-american-way-4-eagle-mountain": {
    "data": {
@@ -520,7 +522,7 @@
     "year_built": 2007
    },
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-25",
+   "last_seen": "2026-11-28",
    "price_history": [
     {
      "date": "2026-11-07",
@@ -838,6 +840,7 @@
     "address": "262 W 400 S",
     "baths": 1,
     "beds": 3,
+    "cb_url": "https://www.coldwellbankerhomes.com/ut/springville/262-w-400-s/pid_72222441/",
     "city": "Springville",
     "days_on_market": 132,
     "description": "Back on market. 1909 home needs updates, sold as-is, may not qualify for FHA. 0.38-acre lot with room to expand, shed, RV parking.",
@@ -850,19 +853,19 @@
     "property_type": "single_family",
     "source": "Century21",
     "sqft": 1138,
-    "status": "active",
+    "status": "pending",
     "url": "https://www.century21.com/homes/detail/ut/springville/262-w-400-s/lid-P00800000HDCev7CAGjBBzT4LoeoBNlsRbKPQr0T",
     "year_built": 1909
    },
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-22",
+   "last_seen": "2026-11-28",
    "price_history": [
     {
      "date": "2026-11-07",
      "price": 299500
     }
    ],
-   "status": "active"
+   "status": "pending"
   },
   "268-n-300-w-provo": {
    "data": {
@@ -1041,7 +1044,7 @@
     "year_built": 1937
    },
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-25",
+   "last_seen": "2026-11-28",
    "price_history": [
     {
      "date": "2026-11-07",
@@ -1327,7 +1330,7 @@
     "year_built": 1967
    },
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-25",
+   "last_seen": "2026-11-28",
    "price_history": [
     {
      "date": "2026-11-07",
@@ -1391,7 +1394,7 @@
     "year_built": 2001
    },
    "first_seen": "2026-11-13",
-   "last_seen": "2026-11-25",
+   "last_seen": "2026-11-28",
    "price_history": [
     {
      "date": "2026-11-13",
@@ -1415,7 +1418,7 @@
     "url": "https://www.coldwellbankerhomes.com/ut/saratoga-springs/41-n-jordan-river-way-365/pid_72177617/"
    },
    "first_seen": "2026-11-11",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-28",
    "price_history": [
     {
      "date": "2026-11-11",
@@ -1502,7 +1505,7 @@
     "year_built": 1947
    },
    "first_seen": "2026-11-11",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-28",
    "price_history": [
     {
      "date": "2026-11-11",
@@ -1585,7 +1588,7 @@
     "year_built": 1894
    },
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-25",
+   "last_seen": "2026-11-28",
    "price_history": [
     {
      "date": "2026-11-07",
@@ -1653,7 +1656,7 @@
     "year_built": 1944
    },
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-25",
+   "last_seen": "2026-11-28",
    "price_history": [
     {
      "date": "2026-11-07",
@@ -1681,7 +1684,7 @@
     "url": "https://www.coldwellbankerhomes.com/ut/saratoga-springs/49-n-jordan-river-way-363/pid_72176268/"
    },
    "first_seen": "2026-11-11",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-28",
    "price_history": [
     {
      "date": "2026-11-11",
@@ -1718,6 +1721,7 @@
     "address": "542 E 3400 N",
     "baths": 2,
     "beds": 3,
+    "cb_url": "https://www.coldwellbankerhomes.com/ut/provo/542-e-3400-n/pid_72428750/",
     "city": "Provo",
     "mls": "2170906",
     "photo": "https://images-listings.century21.com/SL/21/70/90/6/_P/2170906_P00.jpg?format=webp&quality=70&width=800",
@@ -1730,7 +1734,7 @@
     "url": "https://www.century21.com/homes/detail/ut/provo/542-e-3400/lid-P00800000HDqSzlOU08PfHrOKUGxTqIlP0X8Zjwq"
    },
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-22",
+   "last_seen": "2026-11-28",
    "price_history": [
     {
      "date": "2026-11-07",
@@ -1949,7 +1953,7 @@
     "year_built": 1916
    },
    "first_seen": "2026-11-11",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-28",
    "price_history": [
     {
      "date": "2026-11-11",
@@ -2148,7 +2152,7 @@
     "year_built": 1940
    },
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-25",
+   "last_seen": "2026-11-28",
    "price_history": [
     {
      "date": "2026-11-07",
@@ -2185,7 +2189,7 @@
     "year_built": 1908
    },
    "first_seen": "2026-11-11",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-28",
    "price_history": [
     {
      "date": "2026-11-11",
@@ -2255,7 +2259,7 @@
     "year_built": 1949
    },
    "first_seen": "2026-11-07",
-   "last_seen": "2026-11-26",
+   "last_seen": "2026-11-28",
    "price_history": [
     {
      "date": "2026-11-07",
@@ -2320,7 +2324,7 @@
     "year_built": 1943
    },
    "first_seen": "2026-11-13",
-   "last_seen": "2026-11-25",
+   "last_seen": "2026-11-28",
    "price_history": [
     {
      "date": "2026-11-13",
@@ -2426,5 +2430,5 @@
    "status": "active"
   }
  },
- "updated": "2026-11-27"
+ "updated": "2026-11-28"
 }

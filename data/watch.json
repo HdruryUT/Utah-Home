@@ -850,5 +850,23 @@
   "city": "Provo",
   "price": 399000,
   "first_seen": "2026-11-27"
+ },
+ "/ut/orem/530-n-680-w/pid_74914233/": {
+  "address": "530 N 680 W",
+  "city": "Orem",
+  "price": 420000,
+  "first_seen": "2026-11-28"
+ },
+ "/ut/eagle-mountain/888-e-eden-st-1688/pid_72422912/": {
+  "address": "888 E Eden St #1688",
+  "city": "Eagle Mountain",
+  "price": 419990,
+  "first_seen": "2026-11-28"
+ },
+ "/ut/eagle-mountain/932-e-eden-st-1693/pid_72417227/": {
+  "address": "932 E Eden St #1693",
+  "city": "Eagle Mountain",
+  "price": 419490,
+  "first_seen": "2026-11-28"
  }
 }
